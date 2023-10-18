@@ -16,6 +16,13 @@
 		932024142AE00AA8008A0E06 /* P1.json in Resources */ = {isa = PBXBuildFile; fileRef = 932024122AE00AA8008A0E06 /* P1.json */; };
 		932024152AE00AA8008A0E06 /* P2.json in Resources */ = {isa = PBXBuildFile; fileRef = 932024132AE00AA8008A0E06 /* P2.json */; };
 		932024182AE01149008A0E06 /* LessonsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024172AE01149008A0E06 /* LessonsListView.swift */; };
+		9320241A2AE01572008A0E06 /* VocabDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024192AE01572008A0E06 /* VocabDetailsView.swift */; };
+		932024222AE01649008A0E06 /* PinyinFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320241C2AE01649008A0E06 /* PinyinFormatter.swift */; };
+		932024232AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9320241D2AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt */; };
+		932024242AE01649008A0E06 /* String+HanziPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320241E2AE01649008A0E06 /* String+HanziPinyin.swift */; };
+		932024252AE01649008A0E06 /* HanziPinyinResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320241F2AE01649008A0E06 /* HanziPinyinResource.swift */; };
+		932024262AE01649008A0E06 /* HanziPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024202AE01649008A0E06 /* HanziPinyin.swift */; };
+		932024272AE01649008A0E06 /* PinyinOutputFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024212AE01649008A0E06 /* PinyinOutputFormat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +37,13 @@
 		932024132AE00AA8008A0E06 /* P2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P2.json; sourceTree = "<group>"; };
 		932024162AE00AB7008A0E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		932024172AE01149008A0E06 /* LessonsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsListView.swift; sourceTree = "<group>"; };
+		932024192AE01572008A0E06 /* VocabDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabDetailsView.swift; sourceTree = "<group>"; };
+		9320241C2AE01649008A0E06 /* PinyinFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinyinFormatter.swift; sourceTree = "<group>"; };
+		9320241D2AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		9320241E2AE01649008A0E06 /* String+HanziPinyin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HanziPinyin.swift"; sourceTree = "<group>"; };
+		9320241F2AE01649008A0E06 /* HanziPinyinResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanziPinyinResource.swift; sourceTree = "<group>"; };
+		932024202AE01649008A0E06 /* HanziPinyin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanziPinyin.swift; sourceTree = "<group>"; };
+		932024212AE01649008A0E06 /* PinyinOutputFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinyinOutputFormat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +60,7 @@
 		932023F32AE00681008A0E06 = {
 			isa = PBXGroup;
 			children = (
+				9320241B2AE01649008A0E06 /* PinYin */,
 				932023FE2AE00681008A0E06 /* ChineseWordSearchTest */,
 				932023FD2AE00681008A0E06 /* Products */,
 			);
@@ -67,6 +82,7 @@
 				932023FF2AE00681008A0E06 /* ChineseWordSearchTestApp.swift */,
 				932024012AE00681008A0E06 /* ContentView.swift */,
 				932024172AE01149008A0E06 /* LessonsListView.swift */,
+				932024192AE01572008A0E06 /* VocabDetailsView.swift */,
 				9320240D2AE008D2008A0E06 /* YearLevelDataManager.swift */,
 				9320240F2AE008D9008A0E06 /* YearLevel.swift */,
 				932024032AE00682008A0E06 /* Assets.xcassets */,
@@ -90,6 +106,19 @@
 				932024132AE00AA8008A0E06 /* P2.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		9320241B2AE01649008A0E06 /* PinYin */ = {
+			isa = PBXGroup;
+			children = (
+				9320241C2AE01649008A0E06 /* PinyinFormatter.swift */,
+				9320241D2AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt */,
+				9320241E2AE01649008A0E06 /* String+HanziPinyin.swift */,
+				9320241F2AE01649008A0E06 /* HanziPinyinResource.swift */,
+				932024202AE01649008A0E06 /* HanziPinyin.swift */,
+				932024212AE01649008A0E06 /* PinyinOutputFormat.swift */,
+			);
+			path = PinYin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +183,7 @@
 				932024152AE00AA8008A0E06 /* P2.json in Resources */,
 				932024072AE00682008A0E06 /* Preview Assets.xcassets in Resources */,
 				932024042AE00682008A0E06 /* Assets.xcassets in Resources */,
+				932024232AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,8 +197,14 @@
 				9320240E2AE008D2008A0E06 /* YearLevelDataManager.swift in Sources */,
 				932024022AE00681008A0E06 /* ContentView.swift in Sources */,
 				932024002AE00681008A0E06 /* ChineseWordSearchTestApp.swift in Sources */,
+				932024252AE01649008A0E06 /* HanziPinyinResource.swift in Sources */,
 				932024182AE01149008A0E06 /* LessonsListView.swift in Sources */,
+				932024272AE01649008A0E06 /* PinyinOutputFormat.swift in Sources */,
+				932024262AE01649008A0E06 /* HanziPinyin.swift in Sources */,
+				932024222AE01649008A0E06 /* PinyinFormatter.swift in Sources */,
 				932024102AE008D9008A0E06 /* YearLevel.swift in Sources */,
+				932024242AE01649008A0E06 /* String+HanziPinyin.swift in Sources */,
+				9320241A2AE01572008A0E06 /* VocabDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

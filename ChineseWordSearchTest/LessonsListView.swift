@@ -14,41 +14,15 @@ struct LessonsListView: View {
         List {
             ForEach(lesson.vocab, id: \.hashValue) { vocab in
                 NavigationLink(value: vocab) {
-                    Text(vocab.word)
+                    HStack {
+                        Text(vocab.word)
+                        Spacer()
+                        Text(vocab.word.toPinyin())
+                            .foregroundStyle(Color.gray)
+                    }
                 }
             }
         }
         .navigationTitle(lesson.name)
-        .navigationDestination(for: Vocab.self) { vocab in
-            List {
-                Section {
-                    HStack {
-                        Spacer()
-                        Text(vocab.word)
-                            .font(.largeTitle)
-                            .bold()
-                        Spacer()
-                    }
-                    .listRowBackground(Color.clear)
-                }
-
-                if !vocab.sentences.isEmpty {
-                    Section("Example Sentences") {
-                        ForEach(Array(vocab.sentences.enumerated()), id: \.offset) { (_, sentence) in
-                            Text(sentence)
-                        }
-                    }
-                }
-
-                if !vocab.wordBuilding.isEmpty {
-                    Section("Example Words") {
-                        ForEach(Array(vocab.wordBuilding.enumerated()), id: \.offset) { (_, wordBuilding) in
-                            Text(wordBuilding)
-                        }
-                    }
-                }
-            }
-            .navigationBarTitleDisplayMode(.inline)
-        }
     }
 }
