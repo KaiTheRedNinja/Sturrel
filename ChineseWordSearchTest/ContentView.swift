@@ -46,8 +46,10 @@ struct ContentView: View {
             .searchable(text: $searchText, isPresented: $showSearch)
         }
         .onAppear {
-            manager.loadYearLevel(named: "P1")
-            manager.loadYearLevel(named: "P2")
+            let levels = ["P1", "P2", "P3", "P4", "P5", "P6"]
+            for level in levels {
+                manager.loadYearLevel(named: level)
+            }
         }
     }
 
