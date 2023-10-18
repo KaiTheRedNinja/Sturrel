@@ -11,6 +11,11 @@
 		932024022AE00681008A0E06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024012AE00681008A0E06 /* ContentView.swift */; };
 		932024042AE00682008A0E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932024032AE00682008A0E06 /* Assets.xcassets */; };
 		932024072AE00682008A0E06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932024062AE00682008A0E06 /* Preview Assets.xcassets */; };
+		9320240E2AE008D2008A0E06 /* YearLevelDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320240D2AE008D2008A0E06 /* YearLevelDataManager.swift */; };
+		932024102AE008D9008A0E06 /* YearLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320240F2AE008D9008A0E06 /* YearLevel.swift */; };
+		932024142AE00AA8008A0E06 /* P1.json in Resources */ = {isa = PBXBuildFile; fileRef = 932024122AE00AA8008A0E06 /* P1.json */; };
+		932024152AE00AA8008A0E06 /* P2.json in Resources */ = {isa = PBXBuildFile; fileRef = 932024132AE00AA8008A0E06 /* P2.json */; };
+		932024182AE01149008A0E06 /* LessonsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024172AE01149008A0E06 /* LessonsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		932024012AE00681008A0E06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		932024032AE00682008A0E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		932024062AE00682008A0E06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9320240D2AE008D2008A0E06 /* YearLevelDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearLevelDataManager.swift; sourceTree = "<group>"; };
+		9320240F2AE008D9008A0E06 /* YearLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearLevel.swift; sourceTree = "<group>"; };
+		932024122AE00AA8008A0E06 /* P1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P1.json; sourceTree = "<group>"; };
+		932024132AE00AA8008A0E06 /* P2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P2.json; sourceTree = "<group>"; };
+		932024162AE00AB7008A0E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		932024172AE01149008A0E06 /* LessonsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +62,13 @@
 		932023FE2AE00681008A0E06 /* ChineseWordSearchTest */ = {
 			isa = PBXGroup;
 			children = (
+				932024162AE00AB7008A0E06 /* Info.plist */,
+				932024112AE00A8D008A0E06 /* Data */,
 				932023FF2AE00681008A0E06 /* ChineseWordSearchTestApp.swift */,
 				932024012AE00681008A0E06 /* ContentView.swift */,
+				932024172AE01149008A0E06 /* LessonsListView.swift */,
+				9320240D2AE008D2008A0E06 /* YearLevelDataManager.swift */,
+				9320240F2AE008D9008A0E06 /* YearLevel.swift */,
 				932024032AE00682008A0E06 /* Assets.xcassets */,
 				932024052AE00682008A0E06 /* Preview Content */,
 			);
@@ -65,6 +81,15 @@
 				932024062AE00682008A0E06 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		932024112AE00A8D008A0E06 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				932024122AE00AA8008A0E06 /* P1.json */,
+				932024132AE00AA8008A0E06 /* P2.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +150,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				932024142AE00AA8008A0E06 /* P1.json in Resources */,
+				932024152AE00AA8008A0E06 /* P2.json in Resources */,
 				932024072AE00682008A0E06 /* Preview Assets.xcassets in Resources */,
 				932024042AE00682008A0E06 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9320240E2AE008D2008A0E06 /* YearLevelDataManager.swift in Sources */,
 				932024022AE00681008A0E06 /* ContentView.swift in Sources */,
 				932024002AE00681008A0E06 /* ChineseWordSearchTestApp.swift in Sources */,
+				932024182AE01149008A0E06 /* LessonsListView.swift in Sources */,
+				932024102AE008D9008A0E06 /* YearLevel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +305,7 @@
 				DEVELOPMENT_TEAM = Z88Z98GRZQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChineseWordSearchTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +335,7 @@
 				DEVELOPMENT_TEAM = Z88Z98GRZQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChineseWordSearchTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
