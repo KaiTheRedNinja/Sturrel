@@ -27,6 +27,9 @@
 		93DD69A72AE01E1600439BA9 /* P3.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69A32AE01E1500439BA9 /* P3.json */; };
 		93DD69A82AE01E1600439BA9 /* P6.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69A42AE01E1500439BA9 /* P6.json */; };
 		93DD69A92AE01E1600439BA9 /* P4.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69A52AE01E1600439BA9 /* P4.json */; };
+		93DD69AD2AE09D9200439BA9 /* S1.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69AA2AE09D9200439BA9 /* S1.json */; };
+		93DD69AE2AE09D9200439BA9 /* S2.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69AB2AE09D9200439BA9 /* S2.json */; };
+		93DD69AF2AE09D9200439BA9 /* S3.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69AC2AE09D9200439BA9 /* S3.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,9 @@
 		93DD69A32AE01E1500439BA9 /* P3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P3.json; sourceTree = "<group>"; };
 		93DD69A42AE01E1500439BA9 /* P6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P6.json; sourceTree = "<group>"; };
 		93DD69A52AE01E1600439BA9 /* P4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P4.json; sourceTree = "<group>"; };
+		93DD69AA2AE09D9200439BA9 /* S1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = S1.json; sourceTree = "<group>"; };
+		93DD69AB2AE09D9200439BA9 /* S2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = S2.json; sourceTree = "<group>"; };
+		93DD69AC2AE09D9200439BA9 /* S3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = S3.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,9 @@
 				93DD69A52AE01E1600439BA9 /* P4.json */,
 				93DD69A22AE01E1500439BA9 /* P5.json */,
 				93DD69A42AE01E1500439BA9 /* P6.json */,
+				93DD69AA2AE09D9200439BA9 /* S1.json */,
+				93DD69AB2AE09D9200439BA9 /* S2.json */,
+				93DD69AC2AE09D9200439BA9 /* S3.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -194,12 +203,15 @@
 				93DD69A72AE01E1600439BA9 /* P3.json in Resources */,
 				93DD69A62AE01E1600439BA9 /* P5.json in Resources */,
 				932024142AE00AA8008A0E06 /* P1.json in Resources */,
+				93DD69AE2AE09D9200439BA9 /* S2.json in Resources */,
 				93DD69A92AE01E1600439BA9 /* P4.json in Resources */,
 				932024152AE00AA8008A0E06 /* P2.json in Resources */,
 				932024072AE00682008A0E06 /* Preview Assets.xcassets in Resources */,
 				93DD69A82AE01E1600439BA9 /* P6.json in Resources */,
 				932024042AE00682008A0E06 /* Assets.xcassets in Resources */,
+				93DD69AF2AE09D9200439BA9 /* S3.json in Resources */,
 				932024232AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt in Resources */,
+				93DD69AD2AE09D9200439BA9 /* S1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,127 +1,151 @@
 
-{
-  "name": "P2",
-  "lessons": [
     {
+    "name": "P2",
+    "lessons": [
+        {
       "name": "\u5c0f\u4e8c\u9ad8\u7ea7\u534e\u65872A\u7b2c1\u8bfe",
       "vocab": [
         {
           "word": "\u8bf7\u95ee",
+          "definition": "",
           "sentences": ["\u8bf7\u95ee\uff0c\u660e\u534e\u5728\u5bb6\u5417\uff1f"],
           "wordBuilding": []
         },
         {
           "word": "\u600e\u4e48\u6837",
+          "definition": "",
           "sentences": ["\u8fd9\u4ef6\u7ea2\u8272\u7684\u4e0a\u8863\u600e\u4e48\u6837\uff1f"],
           "wordBuilding": []
         },
         {
           "word": "\u963f\u59e8",
+          "definition": "",
           "sentences": ["\u6211\u7684\u90bb\u5c45\u738b\u963f\u59e8\u662f\u4e00\u4f4d\u534e\u6587\u8001\u5e08\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u591a\u5c11\u94b1",
+          "definition": "",
           "sentences": ["\u8fd9\u672c\u6545\u4e8b\u4e66\u591a\u5c11\u94b1\uff1f"],
           "wordBuilding": []
         },
         {
           "word": "\u6709\u70b9\u513f",
+          "definition": "",
           "sentences": ["\u8fd9\u53cc\u978b\u5b50\u6709\u70b9\u513f\u5927\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5f88",
+          "definition": "",
           "sentences": ["\u6211\u5f88\u52c7\u6562\uff0c\u8dcc\u5012\u4e86\u81ea\u5df1\u722c\u8d77\u6765\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5408\u9002",
+          "definition": "",
           "sentences": ["\u8fd9\u53cc\u978b\u5b50\u4e0d\u5927\u4e0d\u5c0f\u6b63\u5408\u9002\u3002"],
           "wordBuilding": ["\u975e\u5e38\u5408\u9002", "\u5408\u9002\u6781\u4e86"]
         },
         {
           "word": "\u670b\u53cb",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u88ab\u5b50",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u8bd5",
+          "definition": "",
           "sentences": ["\u8fd9\u662f\u5988\u5988\u7ed9\u4f60\u65b0\u4e70\u7684\u8863\u670d\uff0c\u4f60\u5feb\u53bb\u8bd5\u4e00\u8bd5\u5427\u3002"],
           "wordBuilding": ["\u5c1d\u8bd5", "\u8bd5\u4e00\u8bd5", "\u8003\u8bd5"]
         },
         {
           "word": "\u8fd9\u4e9b",
+          "definition": "",
           "sentences": ["\u8fd9\u4e9b\u84dd\u8272\u7684\u94c5\u7b14\u662f\u8c01\u7684\uff1f"],
           "wordBuilding": []
         },
         {
           "word": "\u73b0\u5728",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u4e8c\u5e74\u7ea7",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u8fd8\u4f1a",
+          "definition": "",
           "sentences": ["\u5728\u5bb6\u91cc\uff0c\u6211\u4f1a\u6253\u626b\u623f\u95f4\uff0c\u8fd8\u4f1a\u7167\u987e\u5f1f\u5f1f\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u4e13\u5fc3",
+          "definition": "",
           "sentences": ["\u4e0a\u8bfe\u65f6\uff0c\u6211\u4f1a\u4e13\u5fc3\u542c\u8001\u5e08\u8bb2\u8bfe\u3002"],
           "wordBuilding": ["\u4e13\u5fc3\u542c\u8bb2", "\u4e13\u5fc3\u4e0a\u8bfe"]
         },
         {
           "word": "\u7167\u987e",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u7167\u987e\u82b1\u8349", "\u7167\u987e\u59b9\u59b9", "\u7167\u987e\u540c\u5b66"]
         },
         {
           "word": "\u8fd0\u52a8\u8863",
+          "definition": "",
           "sentences": ["\u770b\u4f60\u6ee1\u5934\u5927\u6c57\uff0c\u5feb\u628a\u8eab\u4e0a\u7684\u8fd0\u52a8\u8863\u8131\u4e0b\u6765\u53bb\u51b2\u51c9\u5427\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u80cc\u5fc3",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u5916\u5957",
+          "definition": "",
           "sentences": ["\u6559\u5ba4\u91cc\u9762\u592a\u51b7\u4e86\uff0c\u6211\u4eec\u8fd8\u662f\u628a\u5916\u5957\u7a7f\u4e0a\u5427\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u886c\u886b",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u725b\u4ed4\u88e4",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u8fde\u8863\u88d9",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u62d6\u978b\u51c9\u978b",
+          "definition": "",
           "sentences": ["\u978b\u5e97\u91cc\u9762\u6709\u5404\u5f0f\u5404\u6837\u7684\u978b\uff0c\u6709\u62d6\u978b\u3001\u51c9\u978b\u3001\u76ae\u978b\uff0c\u8fd8\u6709\u8fd0\u52a8\u978b\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u76ae\u5e26",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         }
@@ -132,131 +156,157 @@
       "vocab": [
         {
           "word": "\u65b0\u5e74",
+          "definition": "",
           "sentences": ["\u65b0\u5e74\u8981\u5230\u4e86\uff0c\u725b\u8f66\u6c34\u771f\u70ed\u95f9\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u4e70\u5e74\u8d27",
+          "definition": "",
           "sentences": ["\u65b0\u5e74\u5feb\u5230\u4e86\uff0c\u7238\u7238\u5988\u5988\u4f1a\u5e26\u6211\u4eec\u53bb\u725b\u8f66\u6c34\u4e70\u5e74\u8d27\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u62dc\u5e74",
+          "definition": "",
           "sentences": ["\u65b0\u5e74\u7684\u65f6\u5019\uff0c\u7238\u7238\u5988\u5988\u4f1a\u5e26\u6211\u4eec\u53bb\u62dc\u5e74\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5e74\u82b1",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u8d3a\u5e74\u5361",
+          "definition": "",
           "sentences": ["\u4eca\u5e74\u8fc7\u5e74\u7684\u65f6\u5019\uff0c\u6211\u5bc4\u4e86\u4e00\u5f20\u8d3a\u5e74\u5361\u7ed9\u5c0f\u806a\u3002"],
           "wordBuilding": ["\u4e00\u5f20\u8d3a\u5e74\u5361", "\u9001\u8d3a\u5e74\u5361", "\u6536\u5230\u8d3a\u5e74\u5361"]
         },
         {
           "word": "\u5e74\u7cd5",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u97ad\u70ae",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u653e\u97ad\u70ae", "\u4e00\u4e32\u97ad\u70ae"]
         },
         {
           "word": "\u5927\u626b\u9664",
+          "definition": "",
           "sentences": ["\u4eca\u5929\u662f\u5468\u672b\uff0c\u6211\u4eec\u5168\u5bb6\u4eba\u51b3\u5b9a\u4e00\u8d77\u6765\u4e2a\u5927\u626b\u9664\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u8d34\u6625\u8054",
+          "definition": "",
           "sentences": ["\u6211\u5e2e\u7238\u7238\u628a\u6625\u8054\uff08ch8nliEn\uff09\u8d34\u5728\u5927\u95e8\u7684\u4e24\u8fb9\u3002"],
           "wordBuilding": ["\u8d34\u4e00\u8d34", "\u8d34\u7eb8"]
         },
         {
           "word": "\u8868\u6f14",
+          "definition": "",
           "sentences": ["\u9b54\u672f\u5e08\u7684\u8868\u6f14\u592a\u7cbe\u5f69\u4e86\uff0c\u5927\u5bb6\u5fcd\u4e0d\u4f4f\u4e00\u8d77\u62cd\u624b\u53eb\u597d\u3002"],
           "wordBuilding": ["\u8868\u6f14\u7cbe\u5f69", "\u7cbe\u5f69\u7684\u8868\u6f14"]
         },
         {
           "word": "\u65f6\u5019",
+          "definition": "",
           "sentences": ["\u653e\u5b66\u7684\u65f6\u5019\uff0c\u5916\u9762\u7a81\u7136\u4e0b\u8d77\u4e86\u503e\u76c6\u5927\u96e8\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u821e\u9f99\u821e\u72ee",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u65d7\u888d",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u5510\u88c5",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u7ea2\u5305",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u8089\u5e72\u9e21\u86cb\u5377",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u795d",
+          "definition": "",
           "sentences": ["\u65b0\u5e74\u5230\u4e86\uff0c\u6211\u795d\u540c\u5b66\u4eec\u201c\u65b0\u5e74\u5feb\u4e50\u201d\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5b66\u4e1a",
+          "definition": "",
           "sentences": ["\u6211\u5728\u8d3a\u5361\u4e0a\u5199\u4e86\u201c\u5b66\u4e1a\u8fdb\u6b65\u201d\u56db\u4e2a\u5b57\u9001\u7ed9\u5c0f\u7f8e\u3002"],
           "wordBuilding": ["\u5b66\u4e1a\u8fdb\u6b65"]
         },
         {
           "word": "\u534e",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u534e\u6587", "\u534e\u4eba"]
         },
         {
           "word": "\u62ff\u7740",
+          "definition": "",
           "sentences": ["\u6211\u624b\u4e0a\u4e1c\u897f\u592a\u591a\u4e86\uff0c\u4f60\u80fd\u5e2e\u6211\u62ff\u7740\u8fd9\u4e2a\u5417\uff1f"],
           "wordBuilding": []
         },
         {
           "word": "\u5bf9",
+          "definition": "",
           "sentences": ["\u7761\u89c9\u524d\uff0c\u6211\u5bf9\u5988\u5988\u8bf4\uff1a\u201c\u665a\u5b89\u3002\u201d"],
           "wordBuilding": ["\u4e0d\u5bf9", "\u5bf9\u4e0d\u8d77"]
         },
         {
           "word": "\u8bf4",
+          "definition": "",
           "sentences": ["\u8001\u5e08\u5bf9\u540c\u5b66\u4eec\u8bf4\uff1a\u201c\u8bf7\u628a\u8bfe\u672c\u6253\u5f00\u3002\u201d"],
           "wordBuilding": ["\u8bf4\u8bdd", "\u8bf4\u4e00\u8bf4"]
         },
         {
           "word": "\u7ed9",
+          "definition": "",
           "sentences": ["\u5c0f\u4e3d\u9001\u7ed9\u6211\u4e00\u672c\u597d\u770b\u7684\u6545\u4e8b\u4e66\uff0c\u6211\u5f88\u559c\u6b22\u3002"],
           "wordBuilding": ["\u9001\u7ed9", "\u4ea4\u7ed9"]
         },
         {
           "word": "\u63a5",
+          "definition": "",
           "sentences": ["\u6211\u63a5\u8fc7\u59d0\u59d0\u9012\u6765\u7684\u82f9\u679c\u3002"],
           "wordBuilding": ["\u63a5\u8fc7"]
         },
         {
           "word": "\u5c81",
+          "definition": "",
           "sentences": ["\u5f1f\u5f1f\u4eca\u5e74\u4e09\u5c81\uff0c\u660e\u5e74\u5c31\u56db\u5c81\u4e86\u3002"],
           "wordBuilding": ["\u51e0\u5c81"]
         },
         {
           "word": "\u60a8",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u60a8\u597d"]
         }
@@ -267,66 +317,79 @@
       "vocab": [
         {
           "word": "\u4e3b",
+          "definition": "",
           "sentences": ["\u4e3b\u4eba\u7ed9\u5ba2\u4eba\u5012\u4e86\u4e00\u676f\u6a59\u6c41\u3002"],
           "wordBuilding": ["\u4e3b\u4eba", "\u4e3b\u8981"]
         },
         {
           "word": "\u5ba2",
+          "definition": "",
           "sentences": ["\u4f60\u6765\u6211\u5bb6\u505a\u5ba2\uff0c\u5c31\u662f\u6211\u7684\u5ba2\u4eba\u3002"],
           "wordBuilding": ["\u5ba2\u4eba", "\u505a\u5ba2"]
         },
         {
           "word": "\u628a",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u7eb8",
+          "definition": "",
           "sentences": ["\u53ef\u4ee5\u628a\u90a3\u4e2a\u7eb8\u5dfe\u76d2\u9012\uff08d\\\uff09\u7ed9\u6211\u5417\uff1f"],
           "wordBuilding": ["\u7eb8\u5dfe", "\u7eb8\u5f20", "\u4e00\u5f20\u7eb8"]
         },
         {
           "word": "\u539f\u6765",
+          "definition": "",
           "sentences": ["\u5c0f\u7f8e\u4eca\u5929\u6ca1\u6709\u6765\u4e0a\u5b66\uff0c\u539f\u6765\u5979\u751f\u75c5\u4e86\u3002"],
           "wordBuilding": ["\u539f\u6765\u5982\u6b64", "\u539f\u6765\u662f\u8fd9\u6837"]
         },
         {
           "word": "\u5fd9",
+          "definition": "",
           "sentences": ["\u7238\u7238\u8bf4\u4ed6\u8981\u628a\u5de5\u4f5c\u5fd9\u5b8c\u4e86\u624d\u5403\u665a\u9910\u3002"],
           "wordBuilding": ["\u5e2e\u5fd9", "\u8fde\u5fd9", "\u6025\u5fd9"]
         },
         {
           "word": "\u8349",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u9752\u8349", "\u8349\u539f", "\u8349\u5730"]
         },
         {
           "word": "\u6ca1",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u6ca1\u6709", "\u6ca1\u5403"]
         },
         {
           "word": "\u975e\u5e38",
+          "definition": "",
           "sentences": ["\u542c\u5230\u5f1f\u5f1f\u6253\u67b6\u7684\u6d88\u606f\uff0c\u7238\u7238\u975e\u5e38\u751f\u6c14\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u7b2c",
+          "definition": "",
           "sentences": ["\u59b9\u59b9\u4eca\u5929\u7b2c\u4e00\u5929\u4e0a\u5b66\uff0c\u5979\u5341\u5206\u5f00\u5fc3\u3002"],
           "wordBuilding": ["\u7b2c\u4e00\u6b21", "\u7b2c\u4e00\u5929"]
         },
         {
           "word": "\u4e00\u5b9a",
+          "definition": "",
           "sentences": ["\u7761\u89c9\u524d\uff0c\u4e00\u5b9a\u8981\u8bb0\u5f97\u5237\u7259\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5f97",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u5427",
+          "definition": "",
           "sentences": ["\u5929\u9ed1\u4e86\uff0c\u6211\u4eec\u5feb\u56de\u5bb6\u5427\uff01"],
           "wordBuilding": []
         }
@@ -337,106 +400,127 @@
       "vocab": [
         {
           "word": "\u53d8\u5316",
+          "definition": "",
           "sentences": ["\u548c\u4e94\u5341\u5e74\u524d\u6bd4\u8d77\u6765\uff0c\u65b0\u52a0\u5761\u53d1\u751f\u4e86\u5f88\u5927\u7684\u53d8\u5316\u3002"],
           "wordBuilding": ["\u53d8\u5316\u4e07\u5343", "\u53d8\u5316\u591a\u7aef"]
         },
         {
           "word": "\u53d1\u82bd",
+          "definition": "",
           "sentences": ["\u4e50\u4e50\u53d1\u73b0\uff0c\u5988\u5988\u653e\u5728\u53a8\u623f\u7684\u7eff\u8c46\u53d1\u82bd\u4e86\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6811\u6839",
+          "definition": "",
           "sentences": ["\u5927\u98ce\u628a\u8def\u8fb9\u7684\u6811\u522e\u5012\u4e86\uff0c\u5730\u4e0b\u7684\u6811\u6839\u4e5f\u9732\u4e86\u51fa\u6765\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u8d8a\u6765\u8d8a",
+          "definition": "",
           "sentences": ["\u601d\u6069\u8ba4\u8bc6\u7684\u534e\u6587\u5b57\u8d8a\u6765\u8d8a\u591a\uff0c\u5df2\u7ecf\u53ef\u4ee5\u8bfb\u61c2\u534e\u6587\u6545\u4e8b\u4e66\u4e86\u3002"],
           "wordBuilding": ["\u8d8a\u6765\u8d8a\u597d", "\u8d8a\u6765\u8d8a\u591a", "\u8d8a\u6765\u8d8a\u9ad8"]
         },
         {
           "word": "\u7ec6",
+          "definition": "",
           "sentences": ["\u8fd9\u4e2a\u65b0\u6c34\u58f6\u7684\u5e26\u5b50\u592a\u7ec6\u4e86\uff0c\u6211\u624d\u80cc\u4e86\u51e0\u5929\u5b83\u5c31\u65ad\u4e86\u3002"],
           "wordBuilding": ["\u7ec6\u5fc3", "\u4ed4\u7ec6", "\u7ec6\u7ec6\u7684"]
         },
         {
           "word": "\u7c97",
+          "definition": "",
           "sentences": ["\u5927\u6811\u7684\u6811\u679d\u5f88\u7ec6\uff0c\u53ef\u662f\u6811\u5e72\u5374\u5f88\u7c97\u3002"],
           "wordBuilding": ["\u7c97\u5fc3", "\u7c97\u7cd9"]
         },
         {
           "word": "\u5065\u5eb7",
+          "definition": "",
           "sentences": ["\u53ea\u6709\u6309\u65f6\u7ed9\u690d\u7269\u6d47\u6c34\uff0c\u5b83\u4eec\u624d\u80fd\u5065\u5eb7\u5730\u751f\u957f\u3002"],
           "wordBuilding": ["\u8eab\u4f53\u5065\u5eb7", "\u5065\u5eb7\u6210\u957f"]
         },
         {
           "word": "\u817f",
+          "definition": "",
           "sentences": ["\u5c0f\u660e\u7684\u817f\u53d7\u4f24\u4e86\uff0c\u6700\u8fd1\u4e00\u6bb5\u65f6\u95f4\u90fd\u4e0d\u80fd\u4e0a\u4f53\u80b2\u8bfe\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6446\u52a8",
+          "definition": "",
           "sentences": ["\u9c7c\u513f\u6446\u52a8\u7740\u5c3e\u5df4\uff0c\u6b22\u5feb\u5730\u5728\u6c34\u91cc\u6e38\u6765\u6e38\u53bb\u3002"],
           "wordBuilding": ["\u6446\u52a8\u5c3e\u5df4", "\u6765\u56de\u6446\u52a8"]
         },
         {
           "word": "\u8fde\u5fd9",
+          "definition": "",
           "sentences": ["\u7ad9\u5728\u524d\u9762\u7684\u5976\u5976\u5dee\u70b9\u8dcc\u5012\uff0c\u5c0f\u4e3d\u8fde\u5fd9\u8d70\u4e0a\u524d\u6276\u4f4f\u5979\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u62ab\u7740",
+          "definition": "",
           "sentences": ["\u4e0a\u8bfe\u65f6\uff0c\u738b\u8001\u5e08\u603b\u662f\u62ab\u7740\u4e00\u4ef6\u9ed1\u8272\u7684\u5916\u5957\u3002"],
           "wordBuilding": ["\u62ab\u7740\u5916\u5957", "\u62ab\u7740\u5934\u53d1"]
         },
         {
           "word": "\u773c\u775b",
+          "definition": "\u4fdd\u62a4\u773c\u775b\uff0c\u773c\u775b\u660e\u4eae",
           "sentences": ["\u9752\u86d9\u7684\u773c\u775b\u53c8\u5706\u53c8\u5927\uff0c\u5c31\u50cf\u4e00\u4e2a\u5c0f\u706f\u6ce1\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u627e\u5230",
+          "definition": "",
           "sentences": ["\u6211\u628a\u4e66\u684c\u7ffb\u4e86\u4e2a\u904d\uff0c\u7ec8\u4e8e\u627e\u5230\u4e86\u5377\u7b14\u5200\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u77ed",
+          "definition": "",
           "sentences": ["\u94c5\u7b14\u4e00\u5929\u5929\u8d8a\u6765\u8d8a\u77ed\uff0c\u90a3\u662f\u56e0\u4e3a\u5b83\u53d8\u6210\u4e86\u6211\u5199\u7684\u5b57\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u558a",
+          "definition": "",
           "sentences": ["\u4e00\u53ea\u871c\u8702\u98de\u8fdb\u4e86\u8bfe\u5ba4\uff0c\u5c0f\u9633\u8eb2\u5728\u684c\u5b50\u4e0b\u9762\u5927\u558a\u6551\u547d\u3002"],
           "wordBuilding": ["\u5927\u558a", "\u558a\u53eb", "\u5927\u558a\u5927\u53eb"]
         },
         {
           "word": "\u54ea\u91cc",
+          "definition": "",
           "sentences": ["\u5c0f\u660e\u5728\u516c\u56ed\u91cc\u8ff7\u8def\u4e86\uff0c\u4e0d\u77e5\u9053\u81ea\u5df1\u5230\u5e95\u5728\u54ea\u91cc\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u4e4c\u9f9f",
+          "definition": "",
           "sentences": ["\u4e4c\u9f9f\u662f\u4e00\u79cd\u722c\u884c\u52a8\u7269\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u7eff\u8272",
+          "definition": "",
           "sentences": ["\u6211\u6709\u4e00\u4e2a\u7f8e\u597d\u613f\u671b\uff0c\u8ba9\u6c99\u6f20\u53d8\u6210\u7eff\u8272\u7684\u6d77\u6d0b\u3002"],
           "wordBuilding": ["\u7eff\u8272\u98df\u54c1", "\u5c71\u9752\u6c34\u7eff", "\u7eff\u6cb9\u6cb9"]
         },
         {
           "word": "\u9ed1",
+          "definition": "",
           "sentences": ["\u6211\u7684\u5ba0\u7269\u72d7\u5168\u8eab\u96ea\u767d\uff0c\u53ea\u6709\u4e00\u53cc\u773c\u775b\u53c8\u9ed1\u53c8\u4eae\uff0c\u975e\u5e38\u53ef\u7231\u3002"],
           "wordBuilding": ["\u9ed1\u8272", "\u9ed1\u591c"]
         },
         {
           "word": "\u5c3e\u5df4",
+          "definition": "",
           "sentences": ["\u9a6c\u548c\u725b\u90fd\u7528\u5c3e\u5df4\u8d76\u8d70\u868a\u866b\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5b69\u5b50",
+          "definition": "",
           "sentences": ["\u6211\u4eec\u90fd\u8981\u505a\u61c2\u4e8b\u542c\u8bdd\u7684\u597d\u5b69\u5b50\u3002"],
           "wordBuilding": []
         }
@@ -447,86 +531,103 @@
       "vocab": [
         {
           "word": "\u6811\u6797",
+          "definition": "",
           "sentences": ["\u5f88\u591a\u52a8\u7269\u90fd\u751f\u6d3b\u5728\u6811\u6797\u91cc\uff0c\u90a3\u91cc\u662f\u5b83\u4eec\u7684\u5bb6\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6392",
+          "definition": "",
           "sentences": ["\u6211\u4eec\u8981\u6392\u961f\u4e70\u4e1c\u897f\uff0c\u5343\u4e07\u4e0d\u80fd\u4e89(zh$ng)\u5148\u6050(k5ng)\u540e\u3002"],
           "wordBuilding": ["\u6392\u961f", "\u4e00\u6392\u6811"]
         },
         {
           "word": "\u5148\u518d\u7136\u540e",
+          "definition": "",
           "sentences": ["\u6211\u5148\u6d17\u624b\uff0c\u518d\u5403\u996d\uff0c\u7136\u540e\u53bb\u505a\u529f\u8bfe\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u51fa",
+          "definition": "",
           "sentences": ["\u5927\u96e8\u8fc7\u540e\uff0c\u592a\u9633\u51fa\u6765\u4e86\u3002"],
           "wordBuilding": ["\u51fa\u6765", "\u51fa\u73b0", "\u51fa\u53bb", "\u753b\u51fa", "\u526a\u51fa"]
         },
         {
           "word": "\u9001\u7ed9",
+          "definition": "",
           "sentences": ["\u8fd9\u652f\u6bdb\u7b14\u662f\u7237\u7237\u9001\u7ed9\u6211\u7684\u751f\u65e5\u793c\u7269\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6735",
+          "definition": "",
           "sentences": ["\u6211\u5728\u7eb8\u4e0a\u753b\u4e86\u4e00\u6735\u7f8e\u4e3d\u7684\u82b1\u3002"],
           "wordBuilding": ["\u4e91\u6735", "\u82b1\u6735", "\u4e00\u6735\u4e91", "\u4e00\u6735\u82b1"]
         },
         {
           "word": "\u7a7a",
+          "definition": "",
           "sentences": ["\u84dd\u84dd\u7684\u5929\u7a7a\u4e2d\u98d8(piCo)\u7740\u51e0\u6735\u767d\u767d\u7684\u4e91\u3002"],
           "wordBuilding": ["\u5929\u7a7a", "\u7a7a\u6c14"]
         },
         {
           "word": "\u8def",
+          "definition": "",
           "sentences": ["\u9a6c\u8def\u4e0a\u8f66\u6c34\u9a6c\u9f99\uff0c\u771f\u70ed\u95f9\u3002"],
           "wordBuilding": ["\u9a6c\u8def", "\u8d70\u8def"]
         },
         {
           "word": "\u5462",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u989c\u8272",
+          "definition": "",
           "sentences": ["\u5f69\u8679\u6709\u54ea\u4e03\u79cd\u989c\u8272\u5462\uff1f"],
           "wordBuilding": []
         },
         {
           "word": "\u7ea2\u8272\u9ec4\u8272\u84dd\u8272",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u65c1\u8fb9",
+          "definition": "",
           "sentences": ["\u6211\u5bb6\u65c1\u8fb9\u5c31\u662f\u4e00\u4e2a\u8d2d\u7269\u4e2d\u5fc3\uff0c\u91cc\u9762\u7684\u4e1c\u897f\u5e94\u6709\u5c3d\u6709\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u54ea",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u54ea\u91cc"]
         },
         {
           "word": "\u652f",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u51e0\u652f\u5f69\u8272\u7b14", "\u4e00\u652f\u94c5\u7b14\u540c\u97f3\u5b57\u53ea\uff1a\u4e00\u53ea\u732b \u77e5\uff1a\u77e5\u9053 \u679d\uff1a\u6811\u679d"]
         },
         {
           "word": "\u62c9",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u62c9\u5f00", "\u62c9\u95e8", "\u624b\u62c9\u624b"]
         },
         {
           "word": "\u9633",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u592a\u9633", "\u9633\u5149"]
         },
         {
           "word": "\u5f62\u72b6",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         }
@@ -537,76 +638,91 @@
       "vocab": [
         {
           "word": "\u5411",
+          "definition": "",
           "sentences": ["\u4f60\u5411\u524d\u76f4\u8d70\uff0c\u5c31\u80fd\u770b\u5230\u90a3\u4e2a\u516c\u56ed\u4e86\u3002"],
           "wordBuilding": ["\u65b9\u5411", "\u5411\u524d\u25cb\u6bd4\u4e00\u25cb\u6bd4\uf0f0\u25cb\u95ee\uff1a\u95ee\u597d", "\u95ee\u9898"]
         },
         {
           "word": "\u8f6c",
+          "definition": "",
           "sentences": ["\u524d\u9762\u90a3\u4e2a\u8def\u53e3\u5de6\u8f6c\uff0c\u5c31\u662f\u6211\u7684\u5bb6\u4e86\u3002"],
           "wordBuilding": ["\u8f6c\u8eab", "\u5de6\u8f6c", "\u53f3\u8f6c"]
         },
         {
           "word": "\u7537\u751f",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u8fd0\u52a8",
+          "definition": "",
           "sentences": ["\u6211\u6700\u559c\u6b22\u7684\u8fd0\u52a8\u5c31\u662f\u8e22\u8db3\u7403\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u8fdc",
+          "definition": "",
           "sentences": ["\u5976\u5976\u5bb6\u79bb\u6211\u5bb6\u5f88\u8fdc\uff0c\u6211\u4eec\u8981\u5750\u4e00\u4e2a\u5c0f\u65f6\u7684\u8f66\u624d\u80fd\u5230\u3002\u505a\u8fd0\u52a8"],
           "wordBuilding": []
         },
         {
           "word": "\u8ff7\u8def",
+          "definition": "",
           "sentences": ["\u5c0f\u5f1f\u5f1f\u8ff7\u8def\u4e86\uff0c\u4ed6\u7ad9\u5728\u8def\u8fb9\u54c7\u54c7\u5927\u54ed\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u4ece",
+          "definition": "",
           "sentences": ["\u4ece\u4e8c\u5e74\u7ea7\u5f00\u59cb\uff0c\u6bcf\u5929\u665a\u4e0a\u6211\u90fd\u4f1a\u8bfb\u5341\u5206\u949f\u534e\u6587\u4e66\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5c71\u5761",
+          "definition": "",
           "sentences": ["\u4e00\u6761\u6e05\u6f88\uff08ch1\uff09\u7684\u5c0f\u6cb3\u4ece\u5c71\u5761\u4e0b\u7f13\uff08huKn\uff09\u7f13\u6d41\u8fc7\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5f88\u4e45",
+          "definition": "",
           "sentences": ["\u6211\u4eec\u8d70\u4e86\u5f88\u4e45\uff0c\u4e5f\u6ca1\u627e\u5230\u90a3\u5bb6\u9762\u5305\u5e97\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u56de\u7b54",
+          "definition": "",
           "sentences": ["\u8001\u5e08\u51fa\u7684\u9898\u76ee\u592a\u96be\u4e86\uff0c\u6ca1\u6709\u4e00\u4e2a\u540c\u5b66\u80fd\u56de\u7b54\u51fa\u6765\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5df2\u7ecf",
+          "definition": "",
           "sentences": ["\u592a\u9633\u5df2\u7ecf\u4e0b\u5c71\u4e86\uff0c\u6211\u4eec\u8d76\u5feb\u56de\u5bb6\u5427\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u8bf7\u95ee",
+          "definition": "",
           "sentences": ["\u8bf7\u95ee\uff0c\u7f8e\u829d\uff08zhI\uff09\u8def\u600e\u4e48\u8d70\uff1f"],
           "wordBuilding": []
         },
         {
           "word": "\u76f4\u8d70",
+          "definition": "",
           "sentences": ["\u987a\uff08sh=n\uff09\u7740\u8fd9\u6761\u8def\u76f4\u8d70\uff0c\u4e0b\u4e00\u4e2a\u8def\u53e3\u5de6\u8f6c\u5c31\u662f\u7f8e\u829d\u8def\u4e86\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u697c\u4e0a",
+          "definition": "",
           "sentences": ["\u5c0f\u72d7\u4f4f\u5728\u697c\u4e0b\uff0c\u5c0f\u5154\u4f4f\u5728\u697c\u4e0a\uff0c\u5c0f\u7334\u5b50\u4f4f\u5728\u9876\u697c\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u7535\u68af",
+          "definition": "",
           "sentences": ["\u4f60\u559c\u6b22\u5750\u7535\u68af\u8fd8\u662f\u8d70\u697c\u68af\uff1f"],
           "wordBuilding": []
         }
@@ -617,96 +733,115 @@
       "vocab": [
         {
           "word": "\u73ed",
+          "definition": "",
           "sentences": ["\u7238\u7238\u6bcf\u5929\u5750\u5df4\u58eb\u53bb\u4e0a\u73ed\u3002"],
           "wordBuilding": ["\u4e0a\u73ed", "\u73ed\u7ea7\u540c\u97f3\u5b57\u6591\u9a6c\u7ebf"]
         },
         {
           "word": "\u4e92\u76f8",
+          "definition": "",
           "sentences": ["\u540c\u5b66\u4e4b\u95f4\u5e94\u8be5\u4e92\u76f8\u5e2e\u52a9\u3001\u76f8\u4eb2\u76f8\u7231\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5e94\u8be5",
+          "definition": "",
           "sentences": ["\u5403\u996d\u524d\uff0c\u5e94\u8be5\u5148\u6d17\u624b\uff1b\u5403\u5b8c\u996d\uff0c\u4e5f\u5e94\u8be5\u6f31\uff08sh=\uff09\u53e3\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u7f8e\u4e3d",
+          "definition": "",
           "sentences": ["\u6625\u5929\u5230\u4e86\uff0c\u516c\u56ed\u91cc\u5f00\u6ee1\u4e86\u4e94\u989c\u516d\u8272\u7684\u82b1\uff0c\u5341\u5206\u7f8e\u4e3d\u3002\u4e92\u76f8\u5e2e\u52a9"],
           "wordBuilding": []
         },
         {
           "word": "\u8fc7",
+          "definition": "",
           "sentences": ["\u8fc7\u9a6c\u8def\u7684\u65f6\u5019\uff0c\u6211\u4eec\u8981\u8d70\u6591\u9a6c\u7ebf\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u624d",
+          "definition": "",
           "sentences": ["\u8ddf\u5988\u5988\u8bf4\u4e86\u665a\u5b89\uff0c\u6211\u624d\u5173\u706f\u4e0a\u5e8a\u7761\u89c9\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u4eae",
+          "definition": "",
           "sentences": ["\u5929\u4eae\u4e86\uff0c\u592a\u9633\u516c\u516c\u51fa\u6765\u4e86\uff0c\u5c0f\u9e1f\u4eec\u4e5f\u98de\u51fa\u6765\u627e\u866b\u5403\u3002"],
           "wordBuilding": ["\u6708\u4eae\uff08", "\u706f\u4eae\u4e86", "\u5929\u4eae\u4e86"]
         },
         {
           "word": "\u5b89\u5168",
+          "definition": "",
           "sentences": ["\u4e3a\u4e86\u786e\u4fdd\u5b89\u5168\uff0c\u6211\u4eec\u9a91\u811a\u8f66\u7684\u65f6\u5019\u8981\u6234\u4e0a\u5b89\u5168\u5e3d\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u65c1",
+          "definition": "",
           "sentences": ["\u9053\u8def\u4e24\u65c1\u662f\u4e00\u6392\u6392\u90c1\uff08y=\uff09\u90c1\u8471\uff08c3ng\uff09\u8471\u7684\u5c0f\u6811\u3002"],
           "wordBuilding": ["\u65c1\u8fb9", "\u4e24\u65c1"]
         },
         {
           "word": "\u8dd1",
+          "definition": "",
           "sentences": ["\u5730\u94c1\u6708\u53f0\u4e0a\u6709\u5f88\u591a\u4eba\uff0c\u6211\u4eec\u4e0d\u53ef\u4ee5\u8dd1\u6765\u8dd1\u53bb\u3002"],
           "wordBuilding": ["\u8dd1\u6b65", "\u8dd1\u8dd1\u8df3\u8df3"]
         },
         {
           "word": "\u7b49",
+          "definition": "",
           "sentences": ["\u7b49\u7b49\u6211\uff0c\u6211\u9a6c\u4e0a\u5c31\u505a\u597d\u4e86\u3002"],
           "wordBuilding": ["\u7b49\u4e00\u7b49", "\u7b49\u4e00\u4e0b"]
         },
         {
           "word": "\u505c",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u505c\u8f66", "\u505c\u4e0b\u8fc7\u9a6c\u8def\u884c\u9053\u8bcd\u8bed\u9020\u53e5\u7b49\u96e8\u505c\u4e86\uff0c\u6211\u4eec\u518d\u8d70\u5427\u3002"]
         },
         {
           "word": "\u6781",
+          "definition": "",
           "sentences": ["\u516c\u56ed\u91cc\u5f00\u6ee1\u4e86\u4e94\u989c\u516d\u8272\u7684\u82b1\uff0c\u7f8e\u4e3d\u6781\u4e86\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u70ed\u95f9",
+          "definition": "",
           "sentences": ["\u8fc7\u5e74\u7684\u65f6\u5019\uff0c\u725b\u8f66\u6c34\u4eba\u5c71\u4eba\u6d77\uff0c\u771f\u70ed\u95f9\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u9a91",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u9a91\u811a\u8e0f\u8f66", "\u9a91\u9a6c"]
         },
         {
           "word": "\u884c\u4eba",
+          "definition": "",
           "sentences": ["\u8fc7\u9a6c\u8def\u7684\u65f6\u5019\uff0c\u884c\u4eba\u8981\u4f7f\u7528\u4eba\u884c\u9053\u6216\u8005\u884c\u4eba\u5929\u6865\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u4eba\u884c\u9053",
+          "definition": "",
           "sentences": ["\u9a6c\u8def\u4e0a\u6709\u4eba\u884c\u9053\u3001\u811a\u8e0f\u8f66\u9053\u548c\u5730\u4e0b\u901a\u9053\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u7ea2\u7eff\u706f",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u5341\u5b57\u8def\u53e3\u7f8e\u4e3d\u6781\u4e86",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         }
@@ -717,76 +852,91 @@
       "vocab": [
         {
           "word": "\u7279\u522b",
+          "definition": "",
           "sentences": ["\u8fd9\u4e2a\u5706\u5f62\u7684\u676f\u5b50\u5341\u5206\u7279\u522b\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6536\u62fe",
+          "definition": "",
           "sentences": ["\u6bcf\u5929\u665a\u4e0a\uff0c\u6211\u90fd\u4f1a\u628a\u4e66\u5305\u6536\u62fe\u597d\u4e86\u624d\u7761\u89c9\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5ea7\u4f4d",
+          "definition": "",
           "sentences": ["\u90a3\u8fb9\u8fd8\u6709\u5ea7\u4f4d\uff0c\u6211\u4eec\u53bb\u5750\u5427\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u61c2\u4e8b",
+          "definition": "",
           "sentences": ["\u5988\u5988\u5938\u5f1f\u5f1f\u957f\u5927\u4e86\uff0c\u53d8\uff08biPn\uff09\u5f97\u61c2\u4e8b\u4e86\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u627e",
+          "definition": "",
           "sentences": ["\u6211\u7684\u94b1\u5305\u4e0d\u89c1\u4e86\uff0c\u4f60\u80fd\u5e2e\u6211\u627e\u4e00\u627e\u5417\uff1f\u53d8\u5f97\u61c2\u4e8b\u975e\u5e38\u7279\u522b \u7279\u522b\u597d\u5403\u6536\u62fe\u6574\u9f50 \u6536\u62fe\u5e72\u51c0"],
           "wordBuilding": ["\u627e\u5230", "\u627e\u4e00\u627e"]
         },
         {
           "word": "\u95fb",
+          "definition": "",
           "sentences": ["\u4f60\u6709\u6ca1\u6709\u95fb\u5230\u4e00\u80a1\u5947\u602a\u7684\u5473\u9053\uff1f"],
           "wordBuilding": ["\u95fb\u4e00\u95fb", "\u95fb\u5230"]
         },
         {
           "word": "\u9999\u5473",
+          "definition": "",
           "sentences": ["\u4e00\u8d70\u8fdb\u82b1\u56ed\uff0c\u5c31\u80fd\u95fb\u5230\u82b1\u6735\u7684\u9999\u5473\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5206\u5de5",
+          "definition": "",
           "sentences": ["\u8fd9\u9879\uff08xiPng\uff09\u5de5\u4f5c\u6211\u4eec\u8981\u5206\u5de5\u5408\u4f5c\u624d\u53ef\u4ee5\u5b8c\u6210\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5b8c",
+          "definition": "",
           "sentences": ["\u6211\u53bb\u627e\u5c0f\u98de\u73a9\u7684\u65f6\u5019\uff0c\u4ed6\u521a\u5199\u5b8c\u529f\u8bfe\u3002"],
           "wordBuilding": ["\u5403\u5b8c", "\u5199\u5b8c", "\u5b8c\u6210", "\u5b8c\u5168"]
         },
         {
           "word": "\u7b11",
+          "definition": "",
           "sentences": ["\u53ef\u7231\u7684\u5c0f\u5f1f\u5f1f\u628a\u5927\u5bb6\u9017\uff08d6u\uff09\u5f97\u54c8\u54c8\u5927\u7b11\u3002"],
           "wordBuilding": ["\u7b11\u563b\u563b", "\u7b11\u8138", "\u7b11\u4e00\u7b11", "\u5f00\u73a9\u7b11"]
         },
         {
           "word": "\u7092\u996d",
+          "definition": "",
           "sentences": ["\u6211\u559c\u6b22\u5403\u5988\u5988\u505a\u7684\u7092\u996d\u3002\u95fb\u5230\u9999\u5473\u5206\u5de5\u5408\u4f5c\u4e00\u9635\u9999\u5473"],
           "wordBuilding": []
         },
         {
           "word": "\u6cb9",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u5c11\u6cb9", "\u52a0\u6cb9"]
         },
         {
           "word": "\u70b8\u9e21",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u8fdb",
+          "definition": "",
           "sentences": ["\u6211\u4e00\u8d70\u8fdb\u5496\u5561\u5e97\uff0c\u5c31\u95fb\u5230\u4e86\u5496\u5561\u7684\u9999\u5473\u3002"],
           "wordBuilding": ["\u8d70\u8fdb", "\u8fdb\u6765", "\u8fdb\u6b65"]
         },
         {
           "word": "\u6392\u961f",
+          "definition": "",
           "sentences": ["\u54e5\u54e5\u53bb\u6392\u961f\u4e70\u65e9\u9910\uff0c\u6211\u53bb\u627e\u5ea7\u4f4d\u3002"],
           "wordBuilding": []
         }
@@ -797,96 +947,115 @@
       "vocab": [
         {
           "word": "\u5356",
+          "definition": "",
           "sentences": ["\u524d\u9762\u8def\u53e3\u90a3\u5bb6\u5c0f\u5e97\u5356\u7684\u6c34\u679c\u7279\u522b\u65b0\u9c9c\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u533b",
+          "definition": "",
           "sentences": ["\u6211\u7684\u7238\u7238\u662f\u4e2d\u592e\u533b\u9662\u7684\u533b\u751f\u3002"],
           "wordBuilding": ["\u533b\u751f", "\u533b\u9662"]
         },
         {
           "word": "\u75c5",
+          "definition": "",
           "sentences": ["\u5544(zhu4)\u6728\u9e1f\u5929\u5929\u5e2e\u5927\u6811\u6349\u5bb3\u866b\uff0c\u4fdd\u62a4\u5927\u6811\uff0c\u4e0d\u8ba9\u5927\u6811\u751f\u75c5\u3002"],
           "wordBuilding": ["\u751f\u75c5", "\u75c5\u4eba", "\u770b\u75c5"]
         },
         {
           "word": "\u62a4",
+          "definition": "",
           "sentences": ["\u6211\u4eec\u8981\u5e38\u5e38\u505a\u773c\u4fdd\u5065\u64cd\uff0c\u624d\u80fd\u66f4\u597d\u5730\u4fdd\u62a4\u773c\u775b\u3002"],
           "wordBuilding": ["\u4fdd\u62a4", "\u7231\u62a4", "\u62a4\u58eb"]
         },
         {
           "word": "\u6559",
+          "definition": "",
           "sentences": ["\u6211\u7684\u5988\u5988\u662f\u6559\u5e08\uff0c\u5979\u5728\u5b66\u6821\u91cc\u6559\u4e66\u3002"],
           "wordBuilding": ["\u6559\u4e66", "\u6559\u8bfe"]
         },
         {
           "word": "\u56ed\u4e01",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u79cd",
+          "definition": "",
           "sentences": ["\u519c\u592b\u628a\u79cd(zh5ng)\u5b50\u79cd(zh6ng)\u5728\u5730\u91cc\u3002"],
           "wordBuilding": ["\u79cd\u82b1", "\u79cd\u83dc"]
         },
         {
           "word": "\u6f14\u5458",
+          "definition": "",
           "sentences": ["\u6211\u7684\u59d0\u59d0\u559c\u6b22\u6f14\u620f\uff0c\u5979\u957f\u5927\u540e\u60f3\u505a\u4e00\u540d\u6f14\u5458\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u573a",
+          "definition": "",
           "sentences": ["\u4e00\u573a\u96e8\u8fc7\u540e\uff0c\u7a7a\u6c14\u6e05\u65b0\u6781\u4e86\u3002"],
           "wordBuilding": ["\u6e38\u4e50\u573a", "\u64cd\u573a", "\u4e00\u573a\u96e8"]
         },
         {
           "word": "\u8c08",
+          "definition": "",
           "sentences": ["\u5403\u5b8c\u996d\uff0c\u6211\u548c\u7238\u7238\u5750\u5728\u6c99\u53d1\u4e0a\u8c08\u5929\u3002"],
           "wordBuilding": ["\u8c08\u5929", "\u8c08\u8bdd"]
         },
         {
           "word": "\u706b\u707e",
+          "definition": "",
           "sentences": ["\u6628\u5929\u4e0b\u5348\uff0c\u4e4c\u8282\u8def\u53d1\u751f\u4e86\u4e00\u573a\u706b\u707e\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u706d\u706b",
+          "definition": "",
           "sentences": ["\u5c0f\u5929\u95ee\u7238\u7238\uff1a\u201c\u4f60\u7684\u5de5\u4f5c\u662f\u4ec0\u4e48\uff1f\u201d\u7238\u7238\u8bf4\uff1a\u201c\u6211\u662f\u6d88\u9632\u5458\uff0c\u6211\u7684\u5de5\u4f5c\u662f\u706d\u706b\u3002\u201d"],
           "wordBuilding": []
         },
         {
           "word": "\u4fdd\u62a4",
+          "definition": "",
           "sentences": ["\u6211\u4eec\u4e00\u5b9a\u8981\u4fdd\u62a4\u597d\u81ea\u5df1\u7684\u7259\u9f7f\uff0c\u5c11\u5403\u96f6\u98df\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u574f",
+          "definition": "",
           "sentences": ["\u90a3\u628a\u84dd\u8272\u7684\u96e8\u4f1e\u574f\u4e86\uff0c\u4f60\u7528\u522b\u7684\u5427\u3002"],
           "wordBuilding": ["\u574f\u4eba", "\u574f\u4e86"]
         },
         {
           "word": "\u5168\u90fd",
+          "definition": "",
           "sentences": ["\u8fd9\u4e9b\u5bb6\u52a1\u5168\u90fd\u662f\u6211\u4e00\u4e2a\u4eba\u505a\u7684\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6293",
+          "definition": "",
           "sentences": ["\u5c0f\u732b\u7684\u672c\u9886\u662f\u6293\u8001\u9f20\u3002"],
           "wordBuilding": ["\u6293\u4f4f", "\u6293\u8d77\u6765\u25cb\u6bd4\u4e00\u25cb\u6bd4\uf0f0\u25cb\u722a\uff1a\u722a\u5b50\u25cb\u722c\uff1a\u722c\u6765\u722c\u53bb"]
         },
         {
           "word": "\u5efa",
+          "definition": "",
           "sentences": ["\u5de5\u4eba\u53d4\u53d4\u5728\u5de5\u5730\u4e0a\u5efa\u623f\u5b50\u3002"],
           "wordBuilding": ["\u5efa\u623f\u5b50", "\u5efa\u9020\u7ec4\u5c4b", "\u5efa\u7b51\uff08"]
         },
         {
           "word": "\u8ba9",
+          "definition": "",
           "sentences": ["\u7238\u7238\u8f9b\u82e6\u5de5\u4f5c\uff0c\u5c31\u662f\u4e3a\u4e86\u80fd\u8ba9\u6211\u4eec\u6709\u66f4\u597d\u7684\u751f\u6d3b\u3002"],
           "wordBuilding": ["\u793c\u8ba9"]
         },
         {
           "word": "\u4f4f",
+          "definition": "",
           "sentences": ["\u6211\u5bb6\u4f4f\u5728\u65b0\u52a0\u5761\uff0c\u6211\u662f\u65b0\u52a0\u5761\u4eba\u3002"],
           "wordBuilding": []
         }
@@ -897,91 +1066,109 @@
       "vocab": [
         {
           "word": "\u70ed",
+          "definition": "",
           "sentences": ["\u6628\u5929\u7684\u5929\u6c14\u7279\u522b\u70ed\uff0c\u53ef\u662f\u4e0b\u8fc7\u4e00\u573a\u5927\u96e8\u540e\uff0c\u5c31\u597d\u591a\u4e86\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u51c9\u5feb",
+          "definition": "",
           "sentences": ["\u4e0b\u8fc7\u96e8\u4e4b\u540e\uff0c\u5929\u6c14\u51c9\u5feb\u591a\u4e86\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6674",
+          "definition": "",
           "sentences": ["\u4eca\u5929\u5929\u6c14\u6674\u6717\uff0c\u84dd\u84dd\u7684\u5929\u7a7a\u98d8\u7740\u51e0\u6735\u767d\u767d\u7684\u4e91\u3002"],
           "wordBuilding": ["\u6674\u5929", "\u6674\u6717\u25cb\u6bd4\u4e00\u25cb\u6bd4\uf0f0\u25cb\u775b\uff1a\u773c\u775b"]
         },
         {
           "word": "\u9634",
+          "definition": "",
           "sentences": ["\u5916\u9762\u9634\u6c89\u6c89\u7684\uff0c\u5e94\u8be5\u5feb\u8981\u4e0b\u96e8\u4e86\u3002\u771f\u51c9\u5feb"],
           "wordBuilding": ["\u9634\u5929", "\u9634\u6c89\u6c89"]
         },
         {
           "word": "\u6015",
+          "definition": "",
           "sentences": ["\u5c0f\u4e3d\u9192(x*ng)\u6765\u7684\u65f6\u5019\u53d1\u73b0\u5988\u5988\u4e0d\u5728\u8eab\u8fb9\uff0c\u5979\u975e\u5e38\u5bb3\u6015\u3002"],
           "wordBuilding": ["\u5bb3\u6015", "\u53ef\u6015"]
         },
         {
           "word": "\u96f7",
+          "definition": "",
           "sentences": ["\u5916\u9762\u6253\u96f7\u95ea\u7535\uff0c\u5feb\u628a\u7a97\u6237(chuCnghu)\u5173\u4e0a\u5427\uff01"],
           "wordBuilding": ["\u6253\u96f7", "\u96f7\u96e8", "\u96f7\u9635", "\u96e8"]
         },
         {
           "word": "\u96e8\u4f1e",
+          "definition": "",
           "sentences": ["\u5929\u6c14\u9884\u62a5(y=bPo)\u8bf4\uff0c\u4eca\u5929\u4f1a\u4e0b\u96e8\uff0c\u4f60\u4eec\u522b\u5fd8\u4e86\u5e26\u96e8\u4f1e\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u522e\u98ce",
+          "definition": "",
           "sentences": ["\u5916\u9762\u522e\u98ce\u4e86\uff0c\u5feb\u628a\u8863\u670d\u6536\u56de\u6765\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5fd8\u8bb0",
+          "definition": "",
           "sentences": ["\u5c0f\u6587\u53c8\u5fd8\u8bb0\u5e26\u8bfe\u672c\u4e86\uff0c\u4ed6\u771f\u662f\u592a\u7c97(c8)\u5fc3\u5927\u610f\u4e86\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6025",
+          "definition": "",
           "sentences": ["\u5c0f\u6d77\u8fd9\u4e48\u665a\u4e86\u8fd8\u6ca1\u5230\u5bb6\uff0c\u7238\u7238\u5988\u5988\u5f88\u7740\u6025\u3002"],
           "wordBuilding": ["\u7740\u6025", "\u6025\u5fd9"]
         },
         {
           "word": "\u94c3",
+          "definition": "",
           "sentences": ["\u4e0b\u8bfe\u94c3\u58f0\u54cd\u4e86\uff0c\u540c\u5b66\u4eec\u4e00\u7a9d\u8702(w3f$ng)\u5730\u51b2\u51fa\u6559\u5ba4\u3002\u522e\u98ce\u4e0b\u96e8\u6253\u5f00\u96e8\u4f1e"],
           "wordBuilding": ["\u95e8\u94c3", "\u94c3\u58f0"]
         },
         {
           "word": "\u54cd",
+          "definition": "",
           "sentences": ["\u542c\u5230\u95f9\u949f\u54cd\u4e86\uff0c\u5c0f\u660e\u7acb\u523b\u4ece\u5e8a\u4e0a\u722c\u8d77\u6765\u3002"],
           "wordBuilding": ["\u54cd\u4eae", "\u54cd\u4e86"]
         },
         {
           "word": "\u6dcb\u6e7f",
+          "definition": "",
           "sentences": ["\u4eca\u5929\u6211\u5fd8\u8bb0\u5e26\u96e8\u4f1e\u4e86\uff0c\u7ed3\u679c\u4e0b\u96e8\u88ab\u96e8\u6dcb\u6e7f\u4e86\uff01"],
           "wordBuilding": []
         },
         {
           "word": "\u8863\u670d",
+          "definition": "",
           "sentences": ["\u5feb\u4e0b\u96e8\u4e86\uff0c\u6211\u4eec\u5feb\u628a\u8863\u670d\u6536\u56de\u6765\uff01"],
           "wordBuilding": []
         },
         {
           "word": "\u600e\u4e48",
+          "definition": "",
           "sentences": ["\u6559\u5ba4\u91cc\u4e71\u4e03\u516b\u7cdf(zCo)\u7684\uff0c\u4f60\u77e5\u9053\u662f\u600e\u4e48\u56de\u4e8b\u5417\uff1f"],
           "wordBuilding": []
         },
         {
           "word": "\u8eab\u4f53",
+          "definition": "",
           "sentences": ["\u7238\u7238\u544a\u8bc9\u6211\u4eec\uff0c\u591a\u505a\u8fd0\u52a8\u8eab\u4f53\u597d\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6210",
+          "definition": "",
           "sentences": ["\u6bdb\u6bdb\u866b\u957f\u5927\u540e\u4f1a\u53d8\u6210\u8774\u8776\u3002"],
           "wordBuilding": ["\u6210\u957f", "\u6210\u4e3a", "\u53d8\u6210"]
         },
         {
           "word": "\u5171",
+          "definition": "",
           "sentences": ["\u4eca\u5929\u6211\u4e00\u5171\u7528\u6389\u4e86\u5341\u5757\u94b1\u3002\u6dcb\u6e7f\u8eab\u4f53\u8863\u670d\u6e7f\u4e86\u7a7f\u8863\u670d\u600e\u4e48\u529e \u600e\u4e48\u505a\u953b\u70bc\u8eab\u4f53 \u8eab\u4f53\u5065\u5eb7"],
           "wordBuilding": ["\u5171\u7528", "\u4e00\u5171"]
         }
@@ -992,91 +1179,109 @@
       "vocab": [
         {
           "word": "\u6b63\u5728",
+          "definition": "",
           "sentences": ["\u5988\u5988\u56de\u6765\u7684\u65f6\u5019\uff0c\u5f1f\u5f1f\u6b63\u5728\u623f\u95f4\u91cc\u505a\u529f\u8bfe\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u7f51",
+          "definition": "",
           "sentences": ["\u4f60\u770b\uff0c\u8718\u86db\u6b63\u5728\u5899\u89d2\u7ec7\u7f51\u5462\u3002"],
           "wordBuilding": ["\u7ec7\u7f51", "\u8718\u86db\u7f51", "\u4e0a\u7f51"]
         },
         {
           "word": "\u6349",
+          "definition": "",
           "sentences": ["\u6211\u5bb6\u7684\u5c0f\u72d7\u5f88\u5947\u602a\uff0c\u559c\u6b22\u6349\u8001\u9f20\u3002"],
           "wordBuilding": ["\u6349\u9c7c", "\u6349\u866b\u5b50\u8fd1\u4e49\u5b57\u6293"]
         },
         {
           "word": "\u91c7",
+          "definition": "",
           "sentences": ["\u5c0f\u871c\u8702\u5728\u82b1\u56ed\u91cc\u8f9b\u52e4\u5730\u91c7\u871c\u3002"],
           "wordBuilding": ["\u91c7\u6458\uff08", "\u91c7\u679c\u5b50"]
         },
         {
           "word": "\u722c",
+          "definition": "",
           "sentences": ["\u4eca\u5929\u5929\u6c14\u51c9\u723d\uff0c\u597d\u591a\u4eba\u90fd\u53bb\u9644\u8fd1\u7684\u6b66\u5409\u77e5\u9a6c\u5c71\u722c\u5c71\u3002"],
           "wordBuilding": ["\u722c\u5c71", "\u722c\u6765\u722c\u53bb"]
         },
         {
           "word": "\u8df3",
+          "definition": "",
           "sentences": ["\u8fd9\u6b21\u7684\u5b66\u6821\u8fd0\u52a8\u4f1a\uff0c\u6211\u62a5\u540d\u53c2\u52a0\u4e86\u8df3\u9ad8\u7684\u9879\u76ee\u3002"],
           "wordBuilding": ["\u8df3\u821e", "\u8df3\u7ef3", "\u8df3\u9ad8"]
         },
         {
           "word": "\u6c60",
+          "definition": "",
           "sentences": ["\u6c60\u5858\u91cc\u6709\u5f88\u591a\u53ef\u7231\u7684\u5c0f\u9752\u86d9\u5728\u8df3\u6765\u8df3\u53bb\u3002"],
           "wordBuilding": ["\u6c60\u5858", "\u6c34\u6c60", "\u6d17\u624b\u6c60"]
         },
         {
           "word": "\u53f6",
+          "definition": "",
           "sentences": ["\u79cb\u5929\u5230\u4e86\uff0c\u6811\u53f6\u4ece\u6811\u4e0a\u4e00\u7247\u4e00\u7247\u5730\u98d8\u843d\u4e0b\u6765\u3002"],
           "wordBuilding": ["\u53f6\u5b50", "\u6811\u53f6"]
         },
         {
           "word": "\u50cf",
+          "definition": "",
           "sentences": ["\u6811\u53f6\u98d8\u843d\u5728\u6cb3\u9762\u4e0a\uff0c\u770b\u8d77\u6765\u597d\u50cf\u4e00\u8258\u8258\u5c0f\u8239\u3002"],
           "wordBuilding": ["\u597d\u50cf\u25cb\u6bd4\u4e00\u25cb\u6bd4\uf0f0\u25cb\u8c61\uff1a\u5927\u8c61"]
         },
         {
           "word": "\u5e2e",
+          "definition": "",
           "sentences": ["\u6211\u5e2e\u5988\u5988\u505a\u4e8b\uff0c\u5988\u5988\u8bf4\u6211\u662f\u5979\u7684\u597d\u5e2e\u624b\u3002"],
           "wordBuilding": ["\u5e2e\u5fd9", "\u5e2e\u624b", "\u5e2e\u52a9"]
         },
         {
           "word": "\u5bb3",
+          "definition": "",
           "sentences": ["\u5544\u6728\u9e1f\u662f\u6811\u6797\u533b\u751f\uff0c\u4f1a\u5e2e\u5927\u6811\u6349\u5bb3\u866b\u3002"],
           "wordBuilding": ["\u5bb3\u6015", "\u5bb3\u866b", "\u4f24\u5bb3"]
         },
         {
           "word": "\u7ed3",
+          "definition": "",
           "sentences": ["\u5988\u5988\u79cd\u7684\u82f9\u679c\u6811\u957f\u5927\u4e86\uff0c\u7ed3\u51fa\u4e86\u5f88\u591a\u53c8\u7ea2\u53c8\u5927\u7684\u82f9\u679c\u3002"],
           "wordBuilding": ["\u5f00\u82b1\u7ed3\u679c", "\u7ed3\u5b9e"]
         },
         {
           "word": "\u751c",
+          "definition": "",
           "sentences": ["\u59b9\u59b9\u7684\u58f0\u97f3\u5f88\u751c\uff0c\u5531\u8d77\u6b4c\u6765\u5341\u5206\u597d\u542c\u3002"],
           "wordBuilding": ["\u53c8\u9999\u53c8\u751c", "\u751c\u7f8e"]
         },
         {
           "word": "\u559c\u6b22",
+          "definition": "",
           "sentences": ["\u8fd9\u53ea\u5c0f\u72d7\u592a\u53ef\u7231\u4e86\uff0c\u5927\u5bb6\u90fd\u5f88\u559c\u6b22\u5b83\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6389",
+          "definition": "",
           "sentences": ["\u8fd9\u4e2a\u73a9\u5177\u718a\u592a\u65e7\u4e86\uff0c\u6211\u4eec\u4e22\u6389\u518d\u4e70\u4e00\u4e2a\u5427\u3002"],
           "wordBuilding": ["\u4e22\u6389", "\u6389\u4e86"]
         },
         {
           "word": "\u9971",
+          "definition": "",
           "sentences": ["\u5f1f\u5f1f\u5f88\u8d2a\u5403\uff0c\u6bcf\u5929\u90fd\u5403\u5f97\u5f88\u9971\u3002"],
           "wordBuilding": ["\u5403\u9971\u4e86\u25cb\u6bd4\u4e00\u25cb\u6bd4\uf0f0\u25cb\u62b1\uff1a\u62b1\u4e00\u62b1"]
         },
         {
           "word": "\u522b",
+          "definition": "",
           "sentences": ["\u522b\u54ed\u4e86\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u5988\u5988\u5427\uff01"],
           "wordBuilding": ["\u522b\u4eba", "\u522b\u7684"]
         },
         {
           "word": "\u6811\u679d",
+          "definition": "",
           "sentences": ["\u4f60\u770b\uff0c\u5c0f\u9e1f\u5728\u6811\u679d\u4e0a\u5f00\u5fc3\u5730\u5531\u7740\u6b4c\u3002"],
           "wordBuilding": []
         }
@@ -1087,71 +1292,85 @@
       "vocab": [
         {
           "word": "\u8e22\u7403",
+          "definition": "",
           "sentences": ["\u6bcf\u4e2a\u661f\u671f\u5929\uff0c\u6211\u90fd\u4f1a\u548c\u54e5\u54e5\u5728\u697c\u4e0b\u7684\u64cd\u573a\u8e22\u7403\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u62fc\u56fe",
+          "definition": "",
           "sentences": ["\u8fd9\u662f\u6211\u65b0\u4e70\u7684\u62fc\u56fe\uff0c\u6211\u4eec\u4e00\u8d77\u6765\u73a9\u5427\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u8ddf",
+          "definition": "",
           "sentences": ["\u5f1f\u5f1f\u6bcf\u5929\u90fd\u8ddf\u5728\u6211\u8eab\u540e\uff0c\u6211\u53bb\u54ea\uff0c\u4ed6\u53bb\u54ea\u3002"],
           "wordBuilding": ["\u8ddf\u7740", "\u8ddf\u5728\u8eab\u540e"]
         },
         {
           "word": "\u5427",
+          "definition": "",
           "sentences": ["\u6211\u4eec\u660e\u5929\u4e00\u8d77\u53bb\u56fe\u4e66\u9986\u770b\u4e66\u5427\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u8df3\u68cb",
+          "definition": "",
           "sentences": ["\u6211\u6700\u8fd1\u521a\u5b66\u4f1a\u73a9\u8df3\u68cb\uff0c\u6211\u4eec\u4e00\u8d77\u73a9\u5427\uff01"],
           "wordBuilding": []
         },
         {
           "word": "\u642d\u79ef\u6728",
+          "definition": "",
           "sentences": ["\u665a\u9910\u540e\uff0c\u6211\u548c\u5f1f\u5f1f\u5750\u5728\u5ba2\u5385\u7684\u5730\u677f\u4e0a\u642d\u79ef\u6728\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u526a\u5200\u77f3\u5934\u5e03",
+          "definition": "",
           "sentences": ["\u59b9\u59b9\u6700\u559c\u6b22\u73a9\u201c\u526a\u5200\u77f3\u5934\u5e03\u201d\u7684\u6e38\u620f\u4e86\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u8bb8\u591a",
+          "definition": "",
           "sentences": ["\u5929\u4e0a\u7684\u661f\u661f\u4eae\u6676\u6676\uff0c\u597d\u50cf\u8bb8\u591a\u5c0f\u773c\u775b\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6298\u7eb8\u8239",
+          "definition": "",
           "sentences": ["\u4eca\u5929\u624b\u5de5\u8bfe\u4e0a\uff0c\u8001\u5e08\u6559\u6211\u4eec\u6298\u7eb8\u8239\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6700",
+          "definition": "",
           "sentences": ["\u5c0f\u4e50\u5f88\u559c\u6b22\u8d56\u5e8a\uff0c\u6bcf\u6b21\u90fd\u662f\u7761\u5230\u6700\u540e\u4e00\u5206\u949f\u624d\u8d77\u5e8a\u3002lPigKn11\uff0e\u771fzh$n\u25cb\u6bd4\u4e00\u25cb\u6bd4\uf0f0\u25cb\u5177\uff1a\u6587\u5177\u25cb\u76f4\uff1a\u4e00\u76f4", "\u8fd9\u4ef6\u4e8b\u60c5\u771f\u7684\u4e0d\u662f\u6211\u505a\u7684\uff0c\u4f60\u8bef\u4f1a\u6211\u4e86\u3002"],
           "wordBuilding": ["\u6700\u597d", "\u6700\u540e", "\u771f\u6b63", "\u771f\u7684"]
         },
         {
           "word": "\u66f4",
+          "definition": "",
           "sentences": ["\u6821\u56ed\u91cc\u7684\u82b1\u5f00\u4e86\uff0c\u628a\u6821\u56ed\u88c5\u626e\u5f97\u66f4\u52a0\u7f8e\u4e3d\u3002"],
           "wordBuilding": ["\u66f4\u52a0", "\u66f4\u597d"]
         },
         {
           "word": "\u8ffd",
+          "definition": "",
           "sentences": ["\u4e24\u4e2a\u987d\u76ae\u7684\u7537\u540c\u5b66\u5728\u98df\u5802\u91cc\u4f60\u8ffd\u6211\u8dd1\uff0c\u5341\u5206\u5371\u9669\u3002"],
           "wordBuilding": ["\u8ffd\u8d76", "\u4f60\u8ffd\u6211\u8dd1"]
         },
         {
           "word": "\u563b\u563b\u54c8\u54c8",
+          "definition": "",
           "sentences": ["\u508d\u665a\uff0c\u5b69\u5b50\u4eec\u4e09\u4e94\u6210\u7fa4\u5730\u8eba\u5728\u8349\u5730\u4e0a\uff0c\u770b\u7740\u5929\u4e0a\u7684\u661f\u661f\uff0c\u563b\u563b\u54c8\u54c8\u5730\u95f9\u4e2a\u4e0d\u505c\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u611f\u60c5",
+          "definition": "",
           "sentences": ["\u867d\u7136\u6211\u4eec\u5df2\u7ecf\u5f88\u591a\u5e74\u6ca1\u6709\u89c1\u9762\u4e86\uff0c\u4f46\u662f\u6211\u4eec\u7684\u611f\u60c5\u4f9d\u7136\u5f88\u597d\uff0c\u6c38\u8fdc\u662f\u771f\u5fc3\u7684\u670b\u53cb\u3002\u6ca1\u6709\u611f\u60c5 \u611f\u60c5\u6df1\u539a"],
           "wordBuilding": []
         }
@@ -1162,91 +1381,109 @@
       "vocab": [
         {
           "word": "\u53d4\u53d4",
+          "definition": "",
           "sentences": ["\u6211\u7684\u53d4\u53d4\u662f\u4e00\u540d\u52c7\u6562\u7684\u8b66\u5bdf\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u793c",
+          "definition": "",
           "sentences": ["\u89c1\u5230\u8001\u5e08\u8981\u884c\u793c\u95ee\u597d\uff0c\u8fd9\u662f\u6709\u793c\u8c8c\u7684\u8868\u73b0\u3002"],
           "wordBuilding": ["\u793c\u7269", "\u793c\u8c8c", "\u884c\u793c"]
         },
         {
           "word": "\u7535\u5f71\u9662",
+          "definition": "",
           "sentences": ["\u8fd9\u4e2a\u661f\u671f\u5929\uff0c\u7238\u7238\u4f1a\u5e26\u6211\u4eec\u53bb\u7535\u5f71\u9662\u770b\u7535\u5f71\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u63d0\u706f\u7b3c",
+          "definition": "",
           "sentences": ["\u6bcf\u5e74\u7684\u4e2d\u79cb\u8282\uff0c\u6211\u4eec\u90fd\u4f1a\u53bb\u63d0\u706f\u7b3c\u6e38\u73a9\uff01"],
           "wordBuilding": []
         },
         {
           "word": "\u5165\u53e3\u5904",
+          "definition": "",
           "sentences": ["\u6211\u4eec\u661f\u671f\u516d\u65e9\u4e0a\u5728\u52a8\u7269\u56ed\u7684\u5165\u53e3\u5904\u89c1\u9762\u5427\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u95e8\u7968",
+          "definition": "",
           "sentences": ["\u4f60\u77e5\u9053\u56fd\u5bb6\u79d1\u6280\u9986\u7684\u95e8\u7968\u591a\u5c11\u94b1\u4e00\u5f20\u5417\uff1f"],
           "wordBuilding": []
         },
         {
           "word": "\u5385",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u684c",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u4fe1\u5c01",
+          "definition": "",
           "sentences": ["\u5bb6\u91cc\u7684\u4fe1\u5c01\u7528\u5b8c\u4e86\uff0c\u6211\u53bb\u4e70\u4e00\u4e9b\u65b0\u7684\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u7740",
+          "definition": "",
           "sentences": ["\u8fd9\u4e9b\u9762\u5305\u6211\u5403\u4e0d\u5b8c\u4e86\uff0c\u7559\u7740\u6211\u660e\u5929\u518d\u5403\u5427\u3002"],
           "wordBuilding": ["\u770b\u7740", "\u542c\u7740"]
         },
         {
           "word": "\u505a",
+          "definition": "",
           "sentences": ["\u4e1c\u4e1c\u662f\u4e2a\u987d\u76ae\u7684\u5b69\u5b50\uff0c\u4e0d\u4ec5\u5e38\u5e38\u8fdf\u5230\uff0c\u8fd8\u4e0d\u505a\u4f5c\u4e1a\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u90a3",
+          "definition": "",
           "sentences": ["\u8fd9\u4e2a\u76d2\u5b50\u592a\u5c0f\u4e86\uff0c\u653e\u4e0d\u4e0b\u90a3\u4e48\u591a\u73a9\u5177\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5947\u602a",
+          "definition": "",
           "sentences": ["\u6700\u8fd1\u4ed6\u7684\u8a00\u884c\u8ba9\u4eba\u89c9\u5f97\u5f88\u5947\u602a\u3002"],
           "wordBuilding": ["\u89c9\u5f97\u5947\u602a"]
         },
         {
           "word": "\u60f3",
+          "definition": "",
           "sentences": ["\u660e\u5929\u662f\u5468\u516d\uff0c\u6211\u60f3\u548c\u7238\u7238\u53bb\u516c\u56ed\u73a9\u7403\u3002"],
           "wordBuilding": ["\u60f3\u4e00\u60f3", "\u5fc3\u60f3"]
         },
         {
           "word": "\u9009",
+          "definition": "",
           "sentences": ["\u6587\u5177\u5e97\u91cc\u7684\u94c5\u7b14\u79cd\u7c7b\u592a\u591a\u4e86\uff0c\u6211\u8981\u597d\u597d\u9009\u4e00\u9009\u3002"],
           "wordBuilding": ["\u6311\u9009", "\u9009\u4e00\u9009", "\u9009\u624b"]
         },
         {
           "word": "\u6d3b\u52a8",
+          "definition": "",
           "sentences": ["\u4f11\u606f\u7684\u65f6\u5019\uff0c\u6211\u4f1a\u8bfb\u8bfb\u4e66\uff0c\u542c\u542c\u97f3\u4e50\uff0c\u53c2\u52a0\u4e00\u4e9b\u6709\u8da3\u7684\u6d3b\u52a8\u3002"],
           "wordBuilding": ["\u53c2\u52a0\u6d3b\u52a8"]
         },
         {
           "word": "\u5e86\u795d",
+          "definition": "",
           "sentences": ["\u6211\u4eec\u5168\u5bb6\u4eba\u4e00\u8d77\u5f00\u5fc3\u5730\u5e86\u795d\u59d0\u59d0\u8003\u4e0a\u54c8\u4f5b\u5927\u5b66\u3002"],
           "wordBuilding": ["\u5e86\u795d\u751f\u65e5"]
         },
         {
           "word": "\u6478",
+          "definition": "",
           "sentences": ["\u5988\u5988\u6478\u4e86\u6211\u7684\u989d\u5934\uff0c\u53d1\u73b0\u6211\u53d1\u70e7\u4e86\u3002"],
           "wordBuilding": ["\u6478\u7740", "\u6478\u5934", "\u6478\u4e00\u6478"]
         }
@@ -1257,101 +1494,121 @@
       "vocab": [
         {
           "word": "\u5e73",
+          "definition": "",
           "sentences": ["\u5e73\u65f6\uff0c\u6211\u90fd\u662f\u8d70\u8fd9\u6761\u5c0f\u8def\u56de\u5bb6\u3002"],
           "wordBuilding": ["\u5e73\u65f6", "\u5e73\u5e38"]
         },
         {
           "word": "\u4e56",
+          "definition": "",
           "sentences": ["\u6211\u7684\u59b9\u59b9\u4e56\u5de7\u53ef\u7231\uff0c\u5927\u5bb6\u90fd\u5f88\u559c\u6b22\u5979\u3002"],
           "wordBuilding": ["\u4e56\u5de7", "\u4e56\u4e56\u7684"]
         },
         {
           "word": "\u806a\u660e",
+          "definition": "",
           "sentences": ["\u5c0f\u4e50\u806a\u660e\u4f36\u4fd0\uff0c\u53ef\u662f\u592a\u4efb\u6027\u4e86\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u7fbd\u6bdb",
+          "definition": "",
           "sentences": ["\u5f69\u4e91\u50cf\u4e00\u6735\u6735\u6d01\u767d\u7684\u7fbd\u6bdb\uff0c\u8f7b\u8f7b\u5730\u98d8\u6d6e\u5728\u7a7a\u4e2d\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5410",
+          "definition": "",
           "sentences": ["\u59b9\u59b9\u4eca\u5929\u5f88\u4e0d\u8212\u670d\uff0c\u5403\u7684\u996d\u5168\u5410\u4e86\u3002"],
           "wordBuilding": ["\u5455\u5410", "\u5410\u8840"]
         },
         {
           "word": "\u517d\u533b",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u53c2\u52a0",
+          "definition": "",
           "sentences": ["\u8fd9\u6b21\u7684\u5b66\u6821\u8fd0\u52a8\u4f1a\uff0c\u6211\u62a5\u540d\u53c2\u52a0\u4e86\u56db\u4eba\u63a5\u529b\u6bd4\u8d5b\u3002\u53c2\u52a0\u6bd4\u8d5b\u4e56\u5de7\u806a\u660e"],
           "wordBuilding": []
         },
         {
           "word": "\u6bd4\u8d5b",
+          "definition": "",
           "sentences": ["\u5728\u8fd9\u6b21\u7684\u5168\u56fd\u8df3\u6c34\u6bd4\u8d5b\u4e2d\uff0c\u5c0f\u660e\u8d62\u5f97\u4e86\u51a0\u519b\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u554a",
+          "definition": "",
           "sentences": ["\u4eca\u5929\u7684\u5929\u6c14\u771f\u597d\u554a\uff01"],
           "wordBuilding": []
         },
         {
           "word": "\u5c9b",
+          "definition": "",
           "sentences": ["\u4eca\u5e74\u7684\u5723\u8bde\u8282\uff0c\u7238\u7238\u4f1a\u5e26\u6211\u4eec\u53bb\u5df4\u5398\u5c9b\u6e38\u73a9\u3002"],
           "wordBuilding": ["\u5c0f\u5c9b", "\u6d77\u5c9b"]
         },
         {
           "word": "\u811a",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u4e22",
+          "definition": "",
           "sentences": ["\u6211\u4e0d\u5c0f\u5fc3\u628a\u5bb6\u91cc\u7684\u94a5\u5319\u5f04\u4e22\u4e86\u3002"],
           "wordBuilding": ["\u4e22\u5931", "\u5f04\u4e22"]
         },
         {
           "word": "\u7231\u62a4",
+          "definition": "",
           "sentences": ["\u6211\u4eec\u4e0d\u53ef\u4ee5\u6b3a\u8d1f\u5c0f\u52a8\u7269\uff0c\u8981\u7231\u62a4\u5b83\u4eec\u3002\u7231\u62a4\u52a8\u7269\u6e38\u6cf3\u6bd4\u8d5b"],
           "wordBuilding": []
         },
         {
           "word": "\u591c",
+          "definition": "",
           "sentences": ["\u6628\u5929\u591c\u91cc\u4e0b\u4e86\u597d\u5927\u7684\u96e8\u3002"],
           "wordBuilding": ["\u591c\u665a", "\u591c\u91cc"]
         },
         {
           "word": "\u68a6",
+          "definition": "",
           "sentences": ["\u8981\u60f3\u5b9e\u73b0\u68a6\u60f3\uff0c\u4ece\u5c0f\u5c31\u8981\u52aa\u529b\u5b66\u4e60\u3002"],
           "wordBuilding": ["\u505a\u68a6", "\u767d\u65e5\u68a6", "\u68a6\u60f3"]
         },
         {
           "word": "\u56f4",
+          "definition": "",
           "sentences": ["\u4e0b\u8bfe\u4e86\uff0c\u540c\u5b66\u4eec\u56f4\u7740\u8001\u5e08\uff0c\u8bf7\u8001\u5e08\u5e2e\u5fd9\u89e3\u7b54\u95ee\u9898\u3002"],
           "wordBuilding": ["\u5468\u56f4", "\u56f4\u89c2", "\u56f4\u4e86\u8fc7\u6765"]
         },
         {
           "word": "\u8ba4\u8bc6",
+          "definition": "",
           "sentences": ["\u4ed6\u4eec\u4fe9\u8ba4\u8bc6\u4e4b\u540e\uff0c\u5c31\u6210\u4e86\u5f88\u8981\u597d\u7684\u670b\u53cb\u3002"],
           "wordBuilding": ["\u8ba4\u8bc6\u65b0\u670b\u53cb"]
         },
         {
           "word": "\u89c9\u5f97",
+          "definition": "",
           "sentences": ["\u6211\u89c9\u5f97\u90a3\u53ea\u5c0f\u767d\u732b\u53ef\u7231\u6781\u4e86\uff01"],
           "wordBuilding": []
         },
         {
           "word": "\u603b\u662f",
+          "definition": "",
           "sentences": ["\u4e0d\u7ba1\u662f\u522e\u98ce\u8fd8\u662f\u4e0b\u96e8\uff0c\u5c0f\u660e\u603b\u662f\u51c6\u65f6\u4e0a\u5b66\uff0c\u4ece\u6765\u4e0d\u8fdf\u5230\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u90fd",
+          "definition": "",
           "sentences": ["\u540c\u5b66\u4eec\u90fd\u5f88\u559c\u6b22\u738b\u8001\u5e08\uff0c\u56e0\u4e3a\u4ed6\u4e0a\u8bfe\u5f88\u6709\u8da3\u3002\u89c9\u5f97\u4f24\u5fc3j\\ng ju+21\uff0e\u5e26dPi", "\u8fd9\u4e2a\u5468\u672b\uff0c\u7238\u7238\u5988\u5988\u4f1a\u5e26\u6211\u4eec\u53bb\u6d77\u8fb9\u9a91\u811a\u8e0f\u8f66\u3002"],
           "wordBuilding": []
         }
@@ -1362,106 +1619,127 @@
       "vocab": [
         {
           "word": "\u76f8\u4eb2\u76f8\u7231",
+          "definition": "",
           "sentences": ["\u540c\u5b66\u4e4b\u95f4\u5e94\u8be5\u76f8\u4eb2\u76f8\u7231\uff0c\u4e92\u76f8\u5e2e\u52a9\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5e94\u8be5",
+          "definition": "",
           "sentences": ["\u5728\u56fe\u4e66\u9986\u91cc\uff0c\u6211\u4eec\u5e94\u8be5\u5b89\u9759\u770b\u4e66\uff0c\u4e0d\u80fd\u5f71\u54cd\u5176\u4ed6\u4eba\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u4e89\u5435",
+          "definition": "",
           "sentences": ["\u56e0\u4e3a\u4e89\u5435\uff0c\u8fd9\u4e24\u4e2a\u597d\u670b\u53cb\u7adf\u7136\u7edd\u4ea4\u4e86\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5bb9\u6613",
+          "definition": "",
           "sentences": ["\u770b\u7740\u5c0f\u660e\u6ed1\u7a3d\u7684\u6837\u5b50\uff0c\u5927\u5bb6\u597d\u4e0d\u5bb9\u6613\u624d\u5fcd\u4f4f\u4e86\u7b11\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5e2e\u52a9",
+          "definition": "",
           "sentences": ["\u5728\u8001\u5e08\u7684\u5e2e\u52a9\u4e0b\uff0c\u6211\u7684\u5b66\u4e60\u6709\u4e86\u5f88\u5927\u7684\u8fdb\u6b65\u3002\u4e92\u76f8\u5e2e\u52a9\u89c9\u5f97\u5bb9\u6613\u975e\u5e38\u5bb9\u6613"],
           "wordBuilding": []
         },
         {
           "word": "\u73ed",
+          "definition": "",
           "sentences": ["\u5c0f\u4e3d\u4e0d\u4ec5\u662f\u6211\u7684\u540c\u73ed\u540c\u5b66\uff0c\u8fd8\u662f\u6211\u7684\u90bb\u5c45\u3002"],
           "wordBuilding": ["\u73ed\u7ea7", "\u73ed\u957f"]
         },
         {
           "word": "\u62a2",
+          "definition": "",
           "sentences": ["\u4f60\u662f\u54e5\u54e5\uff0c\u600e\u4e48\u62a2\u5f1f\u5f1f\u7684\u73a9\u5177\u5462\uff1f"],
           "wordBuilding": ["\u4e89\u62a2"]
         },
         {
           "word": "\u4f24\u5fc3",
+          "definition": "",
           "sentences": ["\u5c0f\u7c73\u7684\u5c0f\u72d7\u6b7b\u4e86\uff0c\u4ed6\u4f24\u5fc3\u5730\u54ed\u4e86\u8d77\u6765\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u96be",
+          "definition": "",
           "sentences": ["\u6bcf\u5f53\u6211\u4eec\u5728\u5b66\u4e60\u4e0a\u9047\u5230\u56f0\u96be\uff0c\u8001\u5e08\u603b\u4f1a\u8010\u5fc3\u5730\u5e2e\u52a9\u6211\u4eec\u3002"],
           "wordBuilding": ["\u96be\u8fc7", "\u56f0\u96be"]
         },
         {
           "word": "\u5a03\u5a03",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u80fd",
+          "definition": "",
           "sentences": ["\u4f60\u80fd\u7ed9\u6211\u770b\u4e00\u4e0b\u4f60\u7684\u65b0\u6587\u5177\u76d2\u5417\uff1f"],
           "wordBuilding": ["\u80fd\u591f", "\u80fd\u4e0d\u80fd"]
         },
         {
           "word": "\u5f2f\u5f2f\u7684",
+          "definition": "",
           "sentences": ["\u665a\u996d\u540e\uff0c\u6211\u4eec\u6cbf\u7740\u5f2f\u5f2f\u7684\u5c0f\u6cb3\u6563\u6b65\u3002\u62a2\u4f24\u5fc3\u96be\u8fc7"],
           "wordBuilding": ["\u5f2f\u5f2f\u7684\u6708\u4eae"]
         },
         {
           "word": "\u4eae\u6676\u6676",
+          "definition": "",
           "sentences": ["\u6211\u4eec\u8eba\u5728\u8349\u5730\u4e0a\u770b\u7740\u6ee1\u5929\u4eae\u6676\u6676\u7684\u661f\u661f\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u68ee\u6797",
+          "definition": "",
           "sentences": ["\u70ed\u5e26\u68ee\u6797\u91cc\u6709\u5f88\u591a\u53ef\u7231\u7684\u52a8\u7269\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u661f\u661f",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u6865",
+          "definition": "",
           "sentences": ["\u4ed6\u4eec\u780d\u4e86\u4e00\u68f5\u6811\uff0c\u5728\u5c0f\u6cb3\u4e0a\u67b6\u8d77\u4e86\u4e00\u5ea7\u5c0f\u6728\u6865\u3002"],
           "wordBuilding": ["\u5c0f\u6865", "\u6728\u6865"]
         },
         {
           "word": "\u6bd4",
+          "definition": "",
           "sentences": ["\u6211\u4eec\u6765\u6bd4\u4e00\u6bd4\uff0c\u770b\u8c01\u8df3\u5f97\u6bd4\u8f83\u9ad8\u3002"],
           "wordBuilding": ["\u6bd4\u4e00\u6bd4", "\u6bd4\u8f83"]
         },
         {
           "word": "\u6f02\u4eae",
+          "definition": "",
           "sentences": ["\u8fd9\u6761\u6f02\u4eae\u7684\u88d9\u5b50\u662f\u5988\u5988\u9001\u7ed9\u6211\u7684\u751f\u65e5\u793c\u7269\u3002"],
           "wordBuilding": ["\u6f02\u4eae\u6781\u4e86"]
         },
         {
           "word": "\u5f69\u8679",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u6781\u4e86",
+          "definition": "",
           "sentences": ["\u4eca\u5929\u7684\u5929\u6c14\u771f\u662f\u5947\u602a\u6781\u4e86\uff0c\u4e00\u4f1a\u513f\u4e0b\u96e8\uff0c\u4e00\u4f1a\u513f\u51fa\u5927\u592a\u9633\u3002"],
           "wordBuilding": ["\u5f00\u5fc3\u6781\u4e86"]
         },
         {
           "word": "\u52a0",
+          "definition": "",
           "sentences": ["\u98ce\u58f0\u3001\u96e8\u58f0\u3001\u96f7\u58f0\uff0c\u518d\u52a0\u4e0a\u95ea\u7535\uff0c\u611f\u89c9\u771f\u662f\u53ef\u6015\u6781\u4e86\u3002"],
           "wordBuilding": ["\u66f4\u52a0", "\u52a0\u4e0a"]
         }
@@ -1472,96 +1750,115 @@
       "vocab": [
         {
           "word": "\u716e",
+          "definition": "",
           "sentences": ["\u5988\u5988\u5728\u53a8\u623f\u716e\u996d\uff0c\u7238\u7238\u5728\u6c99\u53d1\u4e0a\u770b\u62a5\u7eb8\u3002"],
           "wordBuilding": ["\u716e\u996d"]
         },
         {
           "word": "\u6bd4\u8f83",
+          "definition": "",
           "sentences": ["\u82f9\u679c\u548c\u68a8\u6bd4\u8f83\u8d77\u6765\uff0c\u6211\u66f4\u559c\u6b22\u5403\u82f9\u679c\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u7389\u7c73",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u5473\u9053",
+          "definition": "",
           "sentences": ["\u628a\u897f\u74dc\u653e\u8fdb\u51b0\u7bb1\u91cc\u51b0\u4e00\u4e0b\uff0c\u5473\u9053\u4f1a\u66f4\u597d\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u767d\u83dc",
+          "definition": "",
           "sentences": ["\u5976\u5976\u716e\u7684\u767d\u83dc\u6c64\u597d\u559d\u6781\u4e86\uff01"],
           "wordBuilding": []
         },
         {
           "word": "\u8001\u9f20",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u4f2f\u4f2f",
+          "definition": "",
           "sentences": ["\u90bb\u5c45\u738b\u4f2f\u4f2f\u662f\u4e00\u4e2a\u70ed\u5fc3\u52a9\u4eba\u7684\u4eba\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6559",
+          "definition": "",
           "sentences": ["\u6bcf\u5f53\u6211\u9047\u5230\u4e0d\u4f1a\u505a\u7684\u9898\u76ee\uff0c\u54e5\u54e5\u90fd\u4f1a\u8010\u5fc3\u5730\u6559\u6211\u3002"],
           "wordBuilding": ["\u6559\u4e66"]
         },
         {
           "word": "\u62d4",
+          "definition": "",
           "sentences": ["\u59b9\u59b9\u56e0\u4e3a\u4e0d\u7231\u5237\u7259\uff0c\u9700\u8981\u62d4\u6389\u4e00\u9897\u574f\u6389\u7684\u7259\u9f7f\u3002"],
           "wordBuilding": ["\u62d4\u841d\u535c", "\u62d4\u7259"]
         },
         {
           "word": "\u6458",
+          "definition": "",
           "sentences": ["\u516c\u56ed\u91cc\u7684\u82b1\u662f\u7528\u6765\u6b23\u8d4f\u7684\uff0c\u4e0d\u53ef\u4ee5\u6458\u3002"],
           "wordBuilding": ["\u6458\u82b1", "\u6458\u679c\u5b50"]
         },
         {
           "word": "\u9999",
+          "definition": "",
           "sentences": ["\u4ece\u53a8\u623f\u91cc\u98d8\u6765\u98df\u7269\u7684\u9999\u5473\u3002"],
           "wordBuilding": ["\u9999\u6c34", "\u9999\u5473", "\u9999\u9999\u7684"]
         },
         {
           "word": "\u544a\u8bc9",
+          "definition": "",
           "sentences": ["\u6211\u544a\u8bc9\u4f60\u4e00\u4e2a\u5c0f\u79d8\u5bc6\uff0c\u4f60\u53ef\u5343\u4e07\u522b\u8ddf\u522b\u4eba\u8bf4\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u8eb2",
+          "definition": "",
           "sentences": ["\u4f60\u5feb\u8eb2\u8d77\u6765\uff0c\u522b\u8ba9\u54e5\u54e5\u627e\u5230\u4f60\u3002"],
           "wordBuilding": ["\u8eb2\u5f00", "\u8eb2\u732b\u732b"]
         },
         {
           "word": "\u6ce5",
+          "definition": "",
           "sentences": ["\u516c\u56ed\u91cc\u7a7a\u6c14\u65b0\u9c9c\uff0c\u5145\u6ee1\u7740\u82b1\u9999\u548c\u6ce5\u571f\u7684\u6c14\u606f\u3002"],
           "wordBuilding": ["\u6ce5\u571f"]
         },
         {
           "word": "\u6316",
+          "definition": "",
           "sentences": ["\u6211\u4eec\u4e00\u8d77\u628a\u57cb\u5728\u5730\u91cc\u7684\u82b1\u751f\u6316\u51fa\u6765\u5427\u3002"],
           "wordBuilding": ["\u6316\u51fa\u6765"]
         },
         {
           "word": "\u7bee\u5b50",
+          "definition": "",
           "sentences": [],
           "wordBuilding": []
         },
         {
           "word": "\u54ed",
+          "definition": "",
           "sentences": ["\u59b9\u59b9\u4e0d\u5c0f\u5fc3\u8dcc\u5012\u4e86\uff0c\u54c7\u54c7\u5927\u54ed\u4e86\u8d77\u6765\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5e2e",
+          "definition": "",
           "sentences": ["\u5c0f\u7ea2\u662f\u4e2a\u4e50\u4e8e\u52a9\u4eba\u7684\u597d\u5b69\u5b50\uff0c\u559c\u6b22\u5e2e\u52a9\u522b\u4eba\u3002"],
           "wordBuilding": ["\u5e2e\u5fd9", "\u5e2e\u52a9", "\u5e2e\u624b"]
         },
         {
           "word": "\u74dc",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u82e6\u74dc", "\u9ec4\u74dc", "\u5357\u74dc", "\u6728\u74dc", "\u897f\u74dc"]
         }
@@ -1572,96 +1869,115 @@
       "vocab": [
         {
           "word": "\u501f",
+          "definition": "",
           "sentences": ["\u6bcf\u4e2a\u661f\u671f\u6211\u90fd\u548c\u5988\u5988\u53bb\u56fe\u4e66\u9986\u501f\u4e66\u3002"],
           "wordBuilding": ["\u501f\u4e66", "\u501f\u94b1\u53cd\u4e49\u8bcd\u8fd8\uff08"]
         },
         {
           "word": "\u7ae5\u8bdd\u6545\u4e8b",
+          "definition": "",
           "sentences": ["\u300a\u4e09\u53ea\u5c0f\u732a\u300b\u548c\u300a\u7070\u59d1\u5a18\u300b\u8fd9\u4e24\u4e2a\u7ae5\u8bdd\u6545\u4e8b\u6211\u90fd\u8bfb\u8fc7\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u53e5",
+          "definition": "",
           "sentences": ["\u6211\u4e0d\u660e\u767d\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u3002"],
           "wordBuilding": ["\u4e00\u53e5\u8bdd", "\u53e5\u5b50", "\u53e5\u53f7"]
         },
         {
           "word": "\u4e00\u9996\u6b4c",
+          "definition": "",
           "sentences": ["\u8fd9\u9996\u597d\u542c\u7684\u534e\u8bed\u6b4c\u5979\u5531\u4e86\u4e24\u904d\u3002"],
           "wordBuilding": ["\u9996\uff1a\u9996\u5148\u6b4c\uff1a\u5531\u6b4c", "\u513f\u6b4c"]
         },
         {
           "word": "\u6b21",
+          "definition": "",
           "sentences": ["\u8fd9\u5bb6\u5496\u5561\u5e97\u6211\u53bb\u8fc7\u5f88\u591a\u6b21\u3002"],
           "wordBuilding": ["\u4e00\u6b21", "\u591a\u6b21", "\u6b21\u6570"]
         },
         {
           "word": "\u82f1\u8bed",
+          "definition": "",
           "sentences": ["\u4eca\u5929\u7684\u82f1\u8bed\u8bfe\u5f88\u6709\u8da3\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u4e66\u67b6",
+          "definition": "",
           "sentences": ["\u4ed6\u628a\u770b\u5b8c\u7684\u4e66\u653e\u56de\u4e66\u67b6\u4e0a\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u76d2",
+          "definition": "",
           "sentences": ["\u6211\u628a\u6d3b\u52a8\u7eb8\u653e\u5728\u4e00\u4e2a\u76d2\u5b50\u91cc\u3002"],
           "wordBuilding": ["\u76d2\u5b50", "\u6587\u5177\u76d2"]
         },
         {
           "word": "\u904d",
+          "definition": "",
           "sentences": ["\u8001\u5e08\u8ba9\u6211\u4eec\u628a\u8bfe\u6587\u518d\u8bfb\u4e00\u904d\u3002"],
           "wordBuilding": ["\u770b\u4e00\u904d", "\u8bfb\u4e00\u904d"]
         },
         {
           "word": "\u7b54\u6848",
+          "definition": "",
           "sentences": ["\u8bf7\u4f60\u628a\u8fd9\u9053\u9898\u7684\u7b54\u6848\u5199\u51fa\u6765\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5468\u672b",
+          "definition": "",
           "sentences": ["\u8fd9\u4e2a\u5468\u672b\uff0c\u7236\u6bcd\u8981\u5e26\u6211\u53bb\u4e1c\u6d77\u5cb8\u516c\u56ed\u9a91\u811a\u8e0f\u8f66\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u56fe\u4e66\u9986",
+          "definition": "",
           "sentences": ["\u6211\u559c\u6b22\u53bb\u56fe\u4e66\u9986\u542c\u5f20\u963f\u59e8\u8bb2\u6545\u4e8b\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u542c",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u542c\u89c1", "\u542c\u7740", "\u542c\u8bdd", "\u542c\u6545\u4e8b", "\u542c\u8bf4"]
         },
         {
           "word": "\u4e00\u5c31",
+          "definition": "",
           "sentences": ["\u8bb2\u6545\u4e8b\u7684\u65f6\u95f4\u4e00\u5230\uff0c\u9605\u8bfb\u89d2\u843d\u5c31\u5750\u6ee1\u4e86\u5c0f\u670b\u53cb\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6ee1",
+          "definition": "",
           "sentences": ["\u793c\u5802\u91cc\u5750\u6ee1\u4e86\u5b66\u751f\u3002"],
           "wordBuilding": ["\u5750\u6ee1", "\u653e\u6ee1", "\u6ee1\u610f"]
         },
         {
           "word": "\u5f00\u59cb",
+          "definition": "",
           "sentences": ["\uff1a\u8868\u6f14\u5c31\u8981\u5f00\u59cb\u4e86\uff0c\u6211\u4eec\u5feb\u8fdb\u53bb\u5427\uff01"],
           "wordBuilding": []
         },
         {
           "word": "\u65f6\u5019",
+          "definition": "",
           "sentences": ["\u6545\u4e8b\u91cc\u7684\u4eba\u7269\u7b11\u7684\u65f6\u5019\uff0c\u6211\u4eec\u4e5f\u8ddf\u7740\u5f00\u5fc3\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u77e5\u9053",
+          "definition": "",
           "sentences": ["\u8fd9\u9053\u6570\u5b66\u9898\u6211\u4e0d\u77e5\u9053\u505a\u7684\u5bf9\u4e0d\u5bf9\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6307",
+          "definition": "",
           "sentences": ["\u6211\u6307\u7740\u524d\u9762\u8bf4\uff1a\u201c\u4f60\u5411\u524d\u76f4\u8d70\u5c31\u5230\u6d77\u8fb9\u4e86\u201d\u3002"],
           "wordBuilding": []
         }
@@ -1672,106 +1988,127 @@
       "vocab": [
         {
           "word": "\u591c\u5e02",
+          "definition": "",
           "sentences": ["\u6bcf\u4e2a\u5468\u4e94\u665a\u4e0a\uff0c\u5988\u5988\u90fd\u4f1a\u5e26\u6211\u53bb\u591c\u5e02\u901b\u4e00\u901b\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u4ea4\u529f\u8bfe",
+          "definition": "",
           "sentences": ["\u5f1f\u5f1f\u7c97\u5fc3\u5927\u610f\uff0c\u53c8\u5fd8\u8bb0\u4ea4\u529f\u8bfe\u4e86\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u64cd\u573a",
+          "definition": "",
           "sentences": ["\u4f11\u606f\u65f6\u95f4\uff0c\u540c\u5b66\u4eec\u559c\u6b22\u53bb\u64cd\u573a\u73a9\u800d\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u524d",
+          "definition": "",
           "sentences": ["\u5403\u996d\u524d\uff0c\u8bb0\u5f97\u8981\u6d17\u624b\u3002"],
           "wordBuilding": ["\u524d\u9762", "\u524d\u540e", "\u8d70\u4e0a\u524d"]
         },
         {
           "word": "\u6e38\u620f",
+          "definition": "",
           "sentences": ["\u6d77\u8fb9\u6709\u5f88\u591a\u5c0f\u670b\u53cb\uff0c\u6709\u7684\u5728\u91ce\u9910\uff0c\u6709\u7684\u5728\u9a91\u811a\u8e0f\u8f66\uff0c\u8fd8\u6709\u7684\u5728\u73a9\u6e38\u620f\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u4e32",
+          "definition": "",
           "sentences": ["\u54e5\u54e5\u6700\u7231\u5403\u5c0f\u5403\u644a\u4e0a\u7684\u70e4\u8089\u4e32\u4e86\u3002"],
           "wordBuilding": ["\u70e4\u8089\u4e32", "\u4e00\u4e32\u9879\u94fe", "\u4e00\u4e32\u9c7c\u4e38"]
         },
         {
           "word": "\u9664\u4e86",
+          "definition": "",
           "sentences": ["\u59d0\u59d0\u9664\u4e86\u529f\u8bfe\u597d\u4e4b\u5916\uff0c\u8fd8\u662f\u8001\u5e08\u7684\u597d\u5e2e\u624b\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u706f\u7b3c",
+          "definition": "",
           "sentences": ["\u4e2d\u79cb\u8282\u7684\u65f6\u5019\uff0c\u6211\u559c\u6b22\u63d0\u7740\u706f\u7b3c\uff0c\u548c\u5c0f\u670b\u53cb\u4eec\u4e00\u8d77\u73a9\u800d\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u997c",
+          "definition": "",
           "sentences": ["\u8fd9\u5757\u6708\u997c\u592a\u597d\u5403\u4e86\uff0c\u6211\u80fd\u518d\u5403\u4e00\u5757\u5417\uff1f"],
           "wordBuilding": ["\u997c\u5e72", "\u6708\u997c"]
         },
         {
           "word": "\u5b89\u9759",
+          "definition": "",
           "sentences": ["\u5728\u56fe\u4e66\u9986\u91cc\uff0c\u6211\u4eec\u8981\u4fdd\u6301\u5b89\u9759\u3002"],
           "wordBuilding": ["\u4fdd\u6301\u5b89\u9759\u73a9\u6e38\u620f \u505a\u6e38\u620f"]
         },
         {
           "word": "\u70ed\u95f9",
+          "definition": "",
           "sentences": ["\u5468\u672b\uff0c\u8d2d\u7269\u4e2d\u5fc3\u91cc\u4eba\u5c71\u4eba\u6d77\uff0c\u975e\u5e38\u70ed\u95f9\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u591c\u665a",
+          "definition": "",
           "sentences": ["\u5468\u672b\uff0c\u6211\u4eec\u4e00\u5bb6\u4eba\u5728\u6d77\u8fb9\u8fc7\u4e86\u4e00\u4e2a\u6109\u5feb\u7684\u591c\u665a\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u5149",
+          "definition": "",
           "sentences": ["\u590f\u5929\u7684\u65f6\u5019\uff0c\u6211\u559c\u6b22\u5750\u5728\u9633\u53f0\u4e0a\u4eab\u53d7\u9633\u5149\u3002"],
           "wordBuilding": ["\u9633\u5149", "\u706f\u5149"]
         },
         {
           "word": "\u9635",
+          "definition": "",
           "sentences": ["\u4e0b\u8bfe\u4e86\uff0c\u64cd\u573a\u4e0a\u4f20\u6765\u4e00\u9635\u9635\u723d\u6717\u7684\u7b11\u58f0\u3002"],
           "wordBuilding": ["\u4e00\u9635", "\u4e00\u9635\u9635", "\u9635\u96e8"]
         },
         {
           "word": "\u58f0",
+          "definition": "",
           "sentences": ["\u5c0f\u58f0\u70b9\uff0c\u59b9\u59b9\u5728\u623f\u95f4\u91cc\u7761\u89c9\u3002"],
           "wordBuilding": ["\u53eb\u5356\u58f0", "\u7b11\u58f0", "\u58f0\u97f3"]
         },
         {
           "word": "\u4f46\u662f",
+          "definition": "",
           "sentences": ["\u867d\u7136\u5929\u4e0b\u7740\u96e8\uff0c\u4f46\u662f\u73ed\u4e0a\u6ca1\u6709\u4e00\u4e2a\u540c\u5b66\u8fdf\u5230\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u7fa4",
+          "definition": "",
           "sentences": ["\u5927\u70ed\u5356\u5230\u4e86\uff0c\u5546\u573a\u95e8\u53e3\u6324\u6ee1\u4e86\u524d\u6765\u8d2d\u7269\u7684\u4eba\u7fa4\u3002"],
           "wordBuilding": ["\u4e00\u7fa4", "\u4e00\u7fa4\u7fa4", "\u4eba\u7fa4"]
         },
         {
           "word": "\u70e4\u9999\u80a0",
+          "definition": "",
           "sentences": ["\u201c\u4f60\u8981\u5403\u70e4\u9999\u80a0\u8fd8\u662f\u70e4\u8089\u4e32\uff1f\u201d\u54e5\u54e5\u95ee\u6211\u3002\u975e\u5e38\u70ed\u95f9"],
           "wordBuilding": []
         },
         {
           "word": "\u70b8\u9e21\u7fc5",
+          "definition": "",
           "sentences": ["\u5c0f\u65f6\u5019\uff0c\u6211\u6700\u559c\u6b22\u5403\u5988\u5988\u505a\u7684\u70b8\u9e21\u7fc5\u4e86\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u7f8e\u98df",
+          "definition": "",
           "sentences": ["\u5c0f\u5403\u644a\u7684\u7f8e\u98df\u592a\u591a\u4e86\uff0c\u6211\u90fd\u5403\u4e0d\u8fc7\u6765\u4e86\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6905\u5b50",
+          "definition": "",
           "sentences": ["\u5bb6\u91cc\u7684\u6905\u5b50\u592a\u65e7\u4e86\uff0c\u7238\u7238\u4e70\u4e86\u4e00\u628a\u65b0\u7684\u3002"],
           "wordBuilding": []
         }
@@ -1782,86 +2119,103 @@
       "vocab": [
         {
           "word": "\u65b0\u52a0\u5761",
+          "definition": "",
           "sentences": ["\u65b0\u52a0\u5761\u662f\u6211\u7684\u56fd\u5bb6\uff0c\u6211\u7231\u65b0\u52a0\u5761\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u57ce\u5e02",
+          "definition": "",
           "sentences": ["\u65b0\u52a0\u5761\u662f\u4e2a\u7f8e\u4e3d\u7684\u82b1\u56ed\u57ce\u5e02\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u79bb",
+          "definition": "",
           "sentences": ["\u7238\u7238\u8bf4\u5b8c\u8bdd\u540e\uff0c\u8f6c\u8eab\u79bb\u5f00\u4e86\u623f\u95f4\u3002"],
           "wordBuilding": ["\u79bb\u5f00", "\u5206\u79bb", "\u79bb\u522b"]
         },
         {
           "word": "\u5e02\u533a",
+          "definition": "",
           "sentences": ["\u8fd9\u6761\u8def\u662f\u901a\u5f80\u5e02\u533a\u7684\u552f\u4e00\u9053\u8def\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6574\u9f50",
+          "definition": "",
           "sentences": ["\u5c0f\u4e3d\u5f88\u7231\u7b11\uff0c\u4e00\u7b11\u5c31\u9732\u51fa\u4e86\u5979\u96ea\u767d\u6574\u9f50\u7684\u7259\u9f7f\uff0c\u771f\u597d\u770b\u3002\u54c1\u5c1d\u7f8e\u98df"],
           "wordBuilding": ["\u6392\u5217\u6574\u9f50\u6574\u6574\u9f50\u9f50"]
         },
         {
           "word": "\u697c\u623f",
+          "definition": "",
           "sentences": ["\u5916\u9762\u4e0b\u8d77\u4e86\u5c0f\u96e8\uff0c\u8fdc\u5904\u7684\u697c\u623f\u770b\u8d77\u6765\u6726\u6726\u80e7\u80e7\u7684\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u8857\u9053",
+          "definition": "",
           "sentences": ["\u665a\u996d\u540e\uff0c\u6211\u4eec\u6cbf\u7740\u6574\u6d01\u7684\u8857\u9053\u6563\u6b65\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u690d\u7269",
+          "definition": "",
           "sentences": ["\u8fd9\u4e2a\u5468\u672b\uff0c\u6211\u4eec\u4e00\u5bb6\u4eba\u4f1a\u53bb\u690d\u7269\u56ed\u73a9\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6361",
+          "definition": "",
           "sentences": ["\u59b9\u59b9\u628a\u6361\u5230\u7684\u94b1\u5305\u4ea4\u7ed9\u4e86\u8001\u5e08\u3002"],
           "wordBuilding": ["\u6361\u4e1c\u897f", "\u6361\u5230"]
         },
         {
           "word": "\u8d1d\u58f3",
+          "definition": "",
           "sentences": ["\u4f60\u770b\uff0c\u8fd9\u4e32\u8d1d\u58f3\u9879\u94fe\u662f\u6211\u4eb2\u624b\u505a\u7684\uff0c\u9001\u7ed9\u4f60\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u53c2\u89c2",
+          "definition": "",
           "sentences": ["\u4eca\u5929\u662f\u5b66\u6821\u7684\u5f00\u653e\u65e5\uff0c\u5f88\u591a\u65b0\u751f\u6765\u5b66\u6821\u53c2\u89c2\u3002"],
           "wordBuilding": ["\u53c2\u89c2\u5b66\u6821"]
         },
         {
           "word": "\u6e38\u6cf3",
+          "definition": "",
           "sentences": ["\u6211\u7684\u54e5\u54e5\u662f\u4e2a\u6e38\u6cf3\u5065\u5c06\uff0c\u5728\u5168\u56fd\u6e38\u6cf3\u6bd4\u8d5b\u4e2d\u5f97\u4e86\u7b2c\u4e00\u540d\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u73a9\u6ce5\u6c99",
+          "definition": "",
           "sentences": ["\u5c0f\u670b\u53cb\u6700\u559c\u6b22\u5728\u6c99\u6ee9\u4e0a\u73a9\u6ce5\u6c99\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u56fd\u5bb6",
+          "definition": "",
           "sentences": ["\u4e0b\u4e2a\u6708\u56fd\u5bb6\u7f8e\u672f\u9986\u4f1a\u4e3e\u529e\u4e00\u573a\u753b\u5c55\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u770b\u770b\u5427\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u7f8e\u672f",
+          "definition": "",
           "sentences": ["\u660e\u5929\u6709\u7f8e\u672f\u8bfe\uff0c\u8bb0\u5f97\u5e26\u753b\u7b14\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u9910",
+          "definition": "",
           "sentences": ["\u8fd9\u4e2a\u5468\u672b\uff0c\u6211\u4eec\u5168\u5bb6\u4eba\u4f1a\u53bb\u6d77\u8fb9\u91ce\u9910\u3002"],
           "wordBuilding": ["\u9910\u9986", "\u91ce\u9910", "\u9910\u5385"]
         },
         {
           "word": "\u6d77\u8fb9",
+          "definition": "",
           "sentences": ["\u5929\u6c14\u592a\u70ed\u4e86\uff0c\u6211\u4eec\u53bb\u6d77\u8fb9\u6e38\u6cf3\u3002"],
           "wordBuilding": []
         }
@@ -1872,121 +2226,145 @@
       "vocab": [
         {
           "word": "\u6d47",
+          "definition": "",
           "sentences": ["\u4eca\u5929\u6211\u53bb\u9633\u53f0\u6d47\u82b1\u65f6\uff0c\u53d1\u73b0\u6211\u79cd\u7684\u592a\u9633\u82b1\u5f00\u82b1\u4e86\u3002"],
           "wordBuilding": ["\u6d47\u82b1", "\u6d47\u6c34"]
         },
         {
           "word": "\u6876",
+          "definition": "",
           "sentences": ["\u5c0f\u7f8e\u4e0d\u5c0f\u5fc3\u6454\u5012\u4e86\uff0c\u624b\u91cc\u7684\u6c34\u6876\u6389\u5728\u5730\u4e0a\uff0c\u6c34\u6d12\u4e86\u4e00\u5730\u3002"],
           "wordBuilding": ["\u6c34\u6876", "\u9a6c\u6876", "\u5783\u573e\u6876"]
         },
         {
           "word": "\u65e7",
+          "definition": "",
           "sentences": ["\u5976\u5976\u4f1a\u7528\u65e7\u62a5\u7eb8\u505a\u624b\u5de5\uff0c\u771f\u73af\u4fdd\u3002"],
           "wordBuilding": ["\u65e7\u8863\u670d", "\u65e7\u62a5\u7eb8"]
         },
         {
           "word": "\u62a5\u7eb8",
+          "definition": "",
           "sentences": ["\u7237\u7237\u4e60\u60ef\u6bcf\u5929\u5403\u65e9\u9910\u7684\u65f6\u5019\u770b\u62a5\u7eb8\u3002"],
           "wordBuilding": ["\u770b\u62a5\u7eb8"]
         },
         {
           "word": "\u7a97",
+          "definition": "",
           "sentences": ["\u5feb\u4e0b\u96e8\u4e86\uff0c\u6211\u4eec\u8d76\u5feb\u628a\u7a97\u6237\u5173\u4e0a\u5427\u3002"],
           "wordBuilding": ["\u7a97\u6237", "\u95e8\u7a97"]
         },
         {
           "word": "\u6742\u5fd7",
+          "definition": "",
           "sentences": ["\u5988\u5988\u4e00\u8fb9\u559d\u5496\u5561\uff0c\u4e00\u8fb9\u7ffb\u770b\u7740\u6742\u5fd7\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u53d8\u6210",
+          "definition": "",
           "sentences": ["\u6bdb\u6bdb\u866b\u957f\u5927\u540e\uff0c\u5c31\u53d8\u6210\u4e86h\u00fa\u8774di\u00e9\u8776\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6d17",
+          "definition": "",
           "sentences": ["\u8981\u5403\u665a\u9910\u5566\uff0c\u4f60\u5feb\u53bb\u628a\u624b\u6d17\u4e00\u6d17\u5427\u3002"],
           "wordBuilding": ["\u6d17\u624b", "\u6d17\u8863\u670d", "\u6d17\u6fa1"]
         },
         {
           "word": "\u62b9",
+          "definition": "",
           "sentences": ["\u684c\u5b50\u810f\u4e86\uff0c\u4f60\u5e2e\u5fd9\u62b9\u4e00\u62b9\u5427\u3002"],
           "wordBuilding": ["\u62b9\u5e03", "\u62b9\u684c\u5b50"]
         },
         {
           "word": "\u51b0",
+          "definition": "",
           "sentences": ["\u8bf7\u7ed9\u6211\u4e00\u676f\u51b0\u6c34\uff0c\u8c22\u8c22\u3002"],
           "wordBuilding": ["\u51b0\u5757", "\u51b0\u6c34", "\u51b0\u7bb1"]
         },
         {
           "word": "\u5916\u5a46",
+          "definition": "",
           "sentences": ["\u5916\u5a46\u751f\u65e5\u7684\u65f6\u5019\uff0c\u6211\u60f3\u9001\u7ed9\u5979\u4e00\u5f20\u6211\u4eb2\u624b\u505a\u7684\u751f\u65e5\u5361\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u6d41",
+          "definition": "",
           "sentences": ["\u5929\u6c14\u592a\u70ed\u4e86\uff0c\u6211\u4e00\u76f4\u4e0d\u505c\u5730\u6d41\u6c57\u3002"],
           "wordBuilding": ["\u6d41\u6c57", "\u6d41\u773c\u6cea"]
         },
         {
           "word": "\u8fde\u5fd9",
+          "definition": "",
           "sentences": ["\u5f1f\u5f1f\u505a\u9519\u4e86\u4e8b\uff0c\u4ed6\u8fde\u5fd9\u5411\u5988\u5988\u9053\u6b49\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u8003",
+          "definition": "",
           "sentences": ["\u8fd9\u6b21\u8003\u8bd5\uff0c\u5c0f\u5f3a\u5f97\u4e86\u6ee1\u5206\uff0c\u4ed6\u5fc3\u91cc\u5341\u5206\u9ad8\u5174\u3002"],
           "wordBuilding": ["\u8003\u8bd5", "\u8003\u5377", "\u8003\u4e00\u8003"]
         },
         {
           "word": "\u731c",
+          "definition": "",
           "sentences": ["\u4eca\u5929\u8001\u5e08\u51fa\u4e86\u4e00\u4e2a\u8c1c\u8bed\uff0c\u6211\u4eec\u90fd\u6ca1\u6709\u731c\u51fa\u7b54\u6848\u6765\u3002"],
           "wordBuilding": ["\u731c\u5b57\u8c1c", "\u731c\u4e00\u731c"]
         },
         {
           "word": "\u6447",
+          "definition": "",
           "sentences": ["\u4ed6\u6447\u4e86\u6447\u5934\uff0c\u8868\u793a\u4e0d\u540c\u610f\u3002"],
           "wordBuilding": ["\u6447\u5934"]
         },
         {
           "word": "\u559d",
+          "definition": "",
           "sentences": ["\u6211\u53e3\u6e34\u4e86\uff0c\u6211\u8981\u559d\u6c34\u3002"],
           "wordBuilding": ["\u559d\u6c34"]
         },
         {
           "word": "\u6e34",
+          "definition": "",
           "sentences": [],
           "wordBuilding": ["\u53e3\u6e34"]
         },
         {
           "word": "\u7136\u540e",
+          "definition": "",
           "sentences": ["\u653e\u5b66\u56de\u5bb6\uff0c\u6211\u5148\u505a\u529f\u8bfe\uff0c\u7136\u540e\u518d\u770b\u7535\u89c6\u3002"],
           "wordBuilding": []
         },
         {
           "word": "\u91cd",
+          "definition": "",
           "sentences": ["\u6c34\u662f\u975e\u5e38\u91cd\u8981\u7684\u8d44\u6e90\uff0c\u6211\u4eec\u5e94\u8be5\u73cd\u60dc\u3002"],
           "wordBuilding": ["\u91cd\u8981", "\u8f7b\u91cd"]
         },
         {
           "word": "\u4f4e",
+          "definition": "",
           "sentences": ["\u542c\u4e86\u8001\u5e08\u7684\u8bdd\uff0c\u5c0f\u660e\u7ea2\u7740\u8138\uff0c\u4f4e\u4e0b\u4e86\u5934\u3002"],
           "wordBuilding": ["\u4f4e\u5934", "\u4f4e\u58f0"]
         },
         {
           "word": "\u51c9",
+          "definition": "",
           "sentences": ["\u5f1f\u5f1f\u8dd1\u5f97\u6ee1\u5934\u5927\u6c57\uff0c\u5988\u5988\u8ba9\u4ed6\u8d76\u5feb\u53bb\u51b2\u51c9\u3002"],
           "wordBuilding": ["\u51b2\u51c9", "\u51c9\u6c34"]
         },
         {
           "word": "\u8138",
+          "definition": "",
           "sentences": ["\u6211\u957f\u5927\u4e86\uff0c\u6211\u4f1a\u81ea\u5df1\u5237\u7259\u6d17\u8138\u3002"],
           "wordBuilding": ["\u7b11\u8138", "\u8138\u7ea2", "\u6d17\u8138"]
         }
       ]
     }
 
-  ]
-}
+    ]
+    }
+    

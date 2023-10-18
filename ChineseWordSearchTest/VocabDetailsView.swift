@@ -34,6 +34,12 @@ struct VocabDetailsView: View {
                 .listRowBackground(Color.clear)
             }
 
+            if !vocab.definition.isEmpty {
+                Section("Definition") {
+                    Text(vocab.definition)
+                }
+            }
+
             if !vocab.sentences.isEmpty {
                 Section("Example Sentences") {
                     ForEach(Array(vocab.sentences.enumerated()), id: \.offset) { (_, sentence) in

@@ -46,7 +46,8 @@ struct ContentView: View {
             .searchable(text: $searchText, isPresented: $showSearch)
         }
         .onAppear {
-            let levels = ["P1", "P2", "P3", "P4", "P5", "P6"]
+            let levels = (1...6).map({ "P\($0)" }) + // P1-P6
+                         (1...3).map({ "S\($0)" })   // S1-S3
             for level in levels {
                 manager.loadYearLevel(named: level)
             }

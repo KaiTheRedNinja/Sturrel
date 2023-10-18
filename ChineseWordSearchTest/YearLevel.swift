@@ -19,6 +19,7 @@ struct Lesson: Codable, Hashable {
 
 struct Vocab: Codable, Hashable {
     var word: String
+    var definition: String
     var sentences: [String]
     var wordBuilding: [String]
 }
