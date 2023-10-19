@@ -21,9 +21,7 @@
 		932024222AE01649008A0E06 /* PinyinFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320241C2AE01649008A0E06 /* PinyinFormatter.swift */; };
 		932024232AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9320241D2AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt */; };
 		932024242AE01649008A0E06 /* String+HanziPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320241E2AE01649008A0E06 /* String+HanziPinyin.swift */; };
-		932024252AE01649008A0E06 /* HanziPinyinResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320241F2AE01649008A0E06 /* HanziPinyinResource.swift */; };
 		932024262AE01649008A0E06 /* HanziPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024202AE01649008A0E06 /* HanziPinyin.swift */; };
-		932024272AE01649008A0E06 /* PinyinOutputFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024212AE01649008A0E06 /* PinyinOutputFormat.swift */; };
 		93DD69A62AE01E1600439BA9 /* P5.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69A22AE01E1500439BA9 /* P5.json */; };
 		93DD69A72AE01E1600439BA9 /* P3.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69A32AE01E1500439BA9 /* P3.json */; };
 		93DD69A82AE01E1600439BA9 /* P6.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69A42AE01E1500439BA9 /* P6.json */; };
@@ -50,9 +48,7 @@
 		9320241C2AE01649008A0E06 /* PinyinFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinyinFormatter.swift; sourceTree = "<group>"; };
 		9320241D2AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
 		9320241E2AE01649008A0E06 /* String+HanziPinyin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HanziPinyin.swift"; sourceTree = "<group>"; };
-		9320241F2AE01649008A0E06 /* HanziPinyinResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanziPinyinResource.swift; sourceTree = "<group>"; };
 		932024202AE01649008A0E06 /* HanziPinyin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanziPinyin.swift; sourceTree = "<group>"; };
-		932024212AE01649008A0E06 /* PinyinOutputFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinyinOutputFormat.swift; sourceTree = "<group>"; };
 		93DD69A22AE01E1500439BA9 /* P5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P5.json; sourceTree = "<group>"; };
 		93DD69A32AE01E1500439BA9 /* P3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P3.json; sourceTree = "<group>"; };
 		93DD69A42AE01E1500439BA9 /* P6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P6.json; sourceTree = "<group>"; };
@@ -138,9 +134,7 @@
 				9320241C2AE01649008A0E06 /* PinyinFormatter.swift */,
 				9320241D2AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt */,
 				9320241E2AE01649008A0E06 /* String+HanziPinyin.swift */,
-				9320241F2AE01649008A0E06 /* HanziPinyinResource.swift */,
 				932024202AE01649008A0E06 /* HanziPinyin.swift */,
-				932024212AE01649008A0E06 /* PinyinOutputFormat.swift */,
 			);
 			path = PinYin;
 			sourceTree = "<group>";
@@ -228,10 +222,8 @@
 				9320240E2AE008D2008A0E06 /* VocabDataManager.swift in Sources */,
 				932024022AE00681008A0E06 /* ContentView.swift in Sources */,
 				932024002AE00681008A0E06 /* ChineseWordSearchTestApp.swift in Sources */,
-				932024252AE01649008A0E06 /* HanziPinyinResource.swift in Sources */,
 				931BFBA52AE0F22500FB1005 /* HierarchicalSearchResultView.swift in Sources */,
 				932024182AE01149008A0E06 /* FolderListView.swift in Sources */,
-				932024272AE01649008A0E06 /* PinyinOutputFormat.swift in Sources */,
 				932024262AE01649008A0E06 /* HanziPinyin.swift in Sources */,
 				932024222AE01649008A0E06 /* PinyinFormatter.swift in Sources */,
 				932024102AE008D9008A0E06 /* Vocab.swift in Sources */,

@@ -18,42 +18,27 @@ let characterMap: [String: [String]] = [
 ]
 
 internal struct PinyinFormatter {
-    internal static func format(_ pinyin: String, withOutputFormat format: PinyinOutputFormat) -> String {
+    internal static func format(_ pinyin: String) -> String {
         var formattedPinyin = pinyin
 
-        switch format.toneType {
-        case .none:
-            formattedPinyin = formattedPinyin.replacingOccurrences(of: "[1-5]", with: "", options: .regularExpression, range: formattedPinyin.startIndex..<formattedPinyin.endIndex)
-        case .toneNumber:
-            break
-        case .toneIndicator:
-            guard let lastChar = formattedPinyin.last, let tone = Int(String(lastChar)) else { break }
+        // turn tone indicator into unicode tone indicator
+        if let lastChar = formattedPinyin.last, let tone = Int(String(lastChar)) {
             for (char, alts) in characterMap {
                 if pinyin.contains(char) {
                     formattedPinyin = formattedPinyin.replacingOccurrences(of: char, with: alts[tone-1])
                     break
                 }
             }
-            formattedPinyin = formattedPinyin.replacingOccurrences(of: "[1-5]", with: "", options: .regularExpression, range: formattedPinyin.startIndex..<formattedPinyin.endIndex)
+            formattedPinyin = formattedPinyin.replacingOccurrences(
+                of: "[1-5]",
+                with: "",
+                options: .regularExpression,
+                range: formattedPinyin.startIndex..<formattedPinyin.endIndex
+            )
         }
 
-        switch format.vCharType {
-        case .vCharacter:
-            formattedPinyin = formattedPinyin.replacingOccurrences(of: "u:", with: "v")
-        case .uUnicode:
-            formattedPinyin = formattedPinyin.replacingOccurrences(of: "u:", with: "ü")
-        case .uAndColon:
-            break
-        }
-
-        switch format.caseType {
-        case .lowercased:
-            formattedPinyin = formattedPinyin.lowercased()
-        case .uppercased:
-            formattedPinyin = formattedPinyin.uppercased()
-        case .capitalized:
-            formattedPinyin = formattedPinyin.capitalized
-        }
+        // capitalise
+        formattedPinyin = formattedPinyin.lowercased()
 
         return formattedPinyin
     }

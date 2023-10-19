@@ -9,11 +9,11 @@
 import Foundation
 
 public extension String {
-    func toPinyin(withFormat outputFormat: PinyinOutputFormat = .default, separator: String = " ") -> String {
+    func toPinyin(separator: String = " ") -> String {
         var pinyinStrings = [String]()
         for unicodeScalar in unicodeScalars {
             let charCodePoint = unicodeScalar.value
-            let pinyinArray = HanziPinyin.pinyinArray(withCharCodePoint: charCodePoint, outputFormat: outputFormat)
+            let pinyinArray = HanziPinyin.pinyinArray(withCharCodePoint: charCodePoint)
 
             if pinyinArray.count > 0 {
                 pinyinStrings.append(pinyinArray.first! + separator)
@@ -28,46 +28,6 @@ public extension String {
         }
 
         return pinyin
-    }
-
-    func toPinyin(withFormat outputFormat: PinyinOutputFormat = .default, separator: String = " ", completion: @escaping ((_ pinyin: String) -> ())) {
-        DispatchQueue.global(qos: .default).async {
-            let pinyin = self.toPinyin(withFormat: outputFormat, separator: separator)
-            DispatchQueue.main.async {
-                completion(pinyin)
-            }
-        }
-    }
-
-    func toPinyinAcronym(withFormat outputFormat: PinyinOutputFormat = .default, separator: String = "") -> String {
-        var pinyinStrings = [String]()
-        for unicodeScalar in unicodeScalars {
-            let charCodePoint = unicodeScalar.value
-            let pinyinArray = HanziPinyin.pinyinArray(withCharCodePoint: charCodePoint, outputFormat: outputFormat)
-
-            if pinyinArray.count > 0 {
-                let acronym = pinyinArray.first!.first!
-                pinyinStrings.append(String(acronym) + separator)
-            } else {
-                pinyinStrings.append(String(unicodeScalar))
-            }
-        }
-
-        var pinyinAcronym = pinyinStrings.joined(separator: "")
-        if !pinyinAcronym.isEmpty && String(pinyinAcronym.suffix(from: pinyinAcronym.index(pinyinAcronym.endIndex, offsetBy: -1))) == separator {
-            pinyinAcronym.remove(at: pinyinAcronym.index(pinyinAcronym.endIndex, offsetBy: -1))
-        }
-
-        return pinyinAcronym
-    }
-
-    func toPinyinAcronym(withFormat outputFormat: PinyinOutputFormat = .default, separator: String = "", completion: @escaping ((_ pinyinAcronym: String) -> ())) {
-        DispatchQueue.global(qos: .default).async {
-            let pinyinAcronym = self.toPinyinAcronym(withFormat: outputFormat, separator: separator)
-            DispatchQueue.main.async {
-                completion(pinyinAcronym)
-            }
-        }
     }
 
     var hasChineseCharacter: Bool {

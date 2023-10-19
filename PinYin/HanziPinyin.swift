@@ -14,16 +14,15 @@ internal struct HanziCodePoint {
 }
 
 internal struct HanziPinyin {
-    internal class WhateverClass { }
-
     internal static let sharedInstance = HanziPinyin()
     internal fileprivate(set) var unicodeToPinyinTable = [String: String]()
 
     init() {
         unicodeToPinyinTable = initializeResource()
+        print("Table size: \(unicodeToPinyinTable.count)")
     }
 
-    internal static func pinyinArray(withCharCodePoint charCodePoint: UInt32, outputFormat: PinyinOutputFormat = .default) -> [String] {
+    internal static func pinyinArray(withCharCodePoint charCodePoint: UInt32) -> [String] {
         func isValidPinyin(_ pinyin: String) -> Bool {
             return pinyin != "(none0)" && pinyin.hasPrefix("(") && pinyin.hasSuffix(")")
         }
@@ -39,12 +38,47 @@ internal struct HanziPinyin {
         let pinyinArray = processedPinyin.components(separatedBy: ",")
 
         let formattedPinyinArray = pinyinArray.map { (pinyin) -> String in
-            return PinyinFormatter.format(pinyin, withOutputFormat: outputFormat)
+            return PinyinFormatter.format(pinyin)
         }
         return formattedPinyinArray
     }
 
     internal static func isHanzi(ofCharCodePoint charCodePoint: UInt32) -> Bool {
         return charCodePoint >= HanziCodePoint.start && charCodePoint <= HanziCodePoint.end
+    }
+
+    private class EmptyClass: NSObject {}
+
+    private var podResourceBundle: Bundle? {
+        guard let bundleURL = Bundle(for: EmptyClass.self).url(forResource: "HanziPinyin", withExtension: "bundle") else {
+            return nil
+        }
+        print("Pod resource found")
+        return Bundle(url: bundleURL)
+    }
+
+    func initializeResource() -> [String: String] {
+        let resourceBundle = podResourceBundle ?? Bundle(for: EmptyClass.self)
+        guard let resourcePath = resourceBundle.path(forResource: "unicode_to_hanyu_pinyin", ofType: "txt") else {
+            return [:]
+        }
+
+        do {
+            let unicodeToPinyinText = try String(contentsOf: URL(fileURLWithPath: resourcePath))
+            let textComponents = unicodeToPinyinText.components(separatedBy: "\r\n")
+
+            var pinyinTable = [String: String]()
+            for pinyin in textComponents {
+                let components = pinyin.components(separatedBy: .whitespaces)
+                guard components.count > 1 else {
+                    continue
+                }
+                pinyinTable.updateValue(components[1], forKey: components[0])
+            }
+
+            return pinyinTable
+        } catch _ {
+            return [:]
+        }
     }
 }
