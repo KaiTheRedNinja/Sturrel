@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var manager: YearLevelDataManager = .init()
+    @ObservedObject var manager: VocabDataManager = .init()
 
     @State var expansionState: [String: Bool] = [:]
 
@@ -17,9 +17,9 @@ struct ContentView: View {
 
     var body: some View {
         NavigationStack {
-            List {
+            VStack {
                 if !showSearch {
-                    defaultListView
+                    FolderListView(folder: manager.root)
                 } else {
                     if searchText.isEmpty {
                         HStack {
@@ -31,14 +31,18 @@ struct ContentView: View {
                         .font(.subheadline)
                         .listRowBackground(Color.clear)
                     } else {
-                        searchView
+                        List {
+                            HierarchicalSearchResultView(
+                                searchText: searchText,
+                                folder: manager.root
+                            )
+                        }
                     }
                 }
             }
             .listStyle(.sidebar)
-            .navigationTitle("Year Levels")
-            .navigationDestination(for: Lesson.self) { lesson in
-                LessonsListView(lesson: lesson)
+            .navigationDestination(for: VocabFolder.self) { folder in
+                FolderListView(folder: folder)
             }
             .navigationDestination(for: Vocab.self) { vocab in
                 VocabDetailsView(vocab: vocab)
@@ -52,63 +56,6 @@ struct ContentView: View {
                 manager.loadYearLevel(named: level)
             }
         }
-    }
-
-    var defaultListView: some View {
-        ForEach(manager.yearLevels, id: \.hashValue) { level in
-            Section(level.name, isExpanded: .init(get: {
-                return expansionState[level.name] ?? true
-            }, set: { newValue in
-                expansionState[level.name] = newValue
-            })) {
-                ForEach(level.lessons, id: \.hashValue) { lesson in
-                    NavigationLink(value: lesson) {
-                        Text(lesson.name)
-                    }
-                }
-            }
-        }
-    }
-
-    var searchView: some View {
-        ForEach(manager.yearLevels, id: \.hashValue) { (level: YearLevel) in
-            if levelContainsSearch(level: level, term: searchText) {
-                Section(level.name, isExpanded: .init(get: {
-                    return expansionState[level.name] ?? true
-                }, set: { newValue in
-                    expansionState[level.name] = newValue
-                })) {
-                    ForEach(level.lessons, id: \.hashValue) { (lesson: Lesson) in
-                        if lessonContainsSearch(lesson: lesson, term: searchText) {
-                            NavigationLink(value: lesson) {
-                                Text(lesson.name)
-                            }
-                            ForEach(lesson.vocab, id: \.hashValue) { (vocab: Vocab) in
-                                if vocab.word.lowercased().contains(searchText) {
-                                    NavigationLink(value: vocab) {
-                                        Text(vocab.word).padding(.leading, 20)
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    func levelContainsSearch(level: YearLevel, term: String) -> Bool {
-        let lowerterm = term.lowercased()
-        if level.name.lowercased().contains(lowerterm) { return true }
-        if level.lessons.contains(where: { lessonContainsSearch(lesson: $0, term: term) }) { return true }
-        return false
-    }
-
-    func lessonContainsSearch(lesson: Lesson, term: String) -> Bool {
-        let lowerterm = term.lowercased()
-        if lesson.name.lowercased().contains(lowerterm) { return true }
-        if lesson.vocab.contains(where: { $0.word.lowercased().contains(term) }) { return true }
-        return false
     }
 }
 

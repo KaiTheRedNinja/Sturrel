@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931BFBA52AE0F22500FB1005 /* HierarchicalSearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931BFBA42AE0F22500FB1005 /* HierarchicalSearchResultView.swift */; };
 		932024002AE00681008A0E06 /* ChineseWordSearchTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932023FF2AE00681008A0E06 /* ChineseWordSearchTestApp.swift */; };
 		932024022AE00681008A0E06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024012AE00681008A0E06 /* ContentView.swift */; };
 		932024042AE00682008A0E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932024032AE00682008A0E06 /* Assets.xcassets */; };
 		932024072AE00682008A0E06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932024062AE00682008A0E06 /* Preview Assets.xcassets */; };
-		9320240E2AE008D2008A0E06 /* YearLevelDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320240D2AE008D2008A0E06 /* YearLevelDataManager.swift */; };
-		932024102AE008D9008A0E06 /* YearLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320240F2AE008D9008A0E06 /* YearLevel.swift */; };
+		9320240E2AE008D2008A0E06 /* VocabDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320240D2AE008D2008A0E06 /* VocabDataManager.swift */; };
+		932024102AE008D9008A0E06 /* Vocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320240F2AE008D9008A0E06 /* Vocab.swift */; };
 		932024142AE00AA8008A0E06 /* P1.json in Resources */ = {isa = PBXBuildFile; fileRef = 932024122AE00AA8008A0E06 /* P1.json */; };
 		932024152AE00AA8008A0E06 /* P2.json in Resources */ = {isa = PBXBuildFile; fileRef = 932024132AE00AA8008A0E06 /* P2.json */; };
-		932024182AE01149008A0E06 /* LessonsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024172AE01149008A0E06 /* LessonsListView.swift */; };
+		932024182AE01149008A0E06 /* FolderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024172AE01149008A0E06 /* FolderListView.swift */; };
 		9320241A2AE01572008A0E06 /* VocabDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024192AE01572008A0E06 /* VocabDetailsView.swift */; };
 		932024222AE01649008A0E06 /* PinyinFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320241C2AE01649008A0E06 /* PinyinFormatter.swift */; };
 		932024232AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9320241D2AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt */; };
@@ -33,17 +34,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		931BFBA42AE0F22500FB1005 /* HierarchicalSearchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalSearchResultView.swift; sourceTree = "<group>"; };
 		932023FC2AE00681008A0E06 /* ChineseWordSearchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseWordSearchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		932023FF2AE00681008A0E06 /* ChineseWordSearchTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseWordSearchTestApp.swift; sourceTree = "<group>"; };
 		932024012AE00681008A0E06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		932024032AE00682008A0E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		932024062AE00682008A0E06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9320240D2AE008D2008A0E06 /* YearLevelDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearLevelDataManager.swift; sourceTree = "<group>"; };
-		9320240F2AE008D9008A0E06 /* YearLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearLevel.swift; sourceTree = "<group>"; };
+		9320240D2AE008D2008A0E06 /* VocabDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabDataManager.swift; sourceTree = "<group>"; };
+		9320240F2AE008D9008A0E06 /* Vocab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocab.swift; sourceTree = "<group>"; };
 		932024122AE00AA8008A0E06 /* P1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P1.json; sourceTree = "<group>"; };
 		932024132AE00AA8008A0E06 /* P2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P2.json; sourceTree = "<group>"; };
 		932024162AE00AB7008A0E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		932024172AE01149008A0E06 /* LessonsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsListView.swift; sourceTree = "<group>"; };
+		932024172AE01149008A0E06 /* FolderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderListView.swift; sourceTree = "<group>"; };
 		932024192AE01572008A0E06 /* VocabDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabDetailsView.swift; sourceTree = "<group>"; };
 		9320241C2AE01649008A0E06 /* PinyinFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinyinFormatter.swift; sourceTree = "<group>"; };
 		9320241D2AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
@@ -95,10 +97,11 @@
 				932024112AE00A8D008A0E06 /* Data */,
 				932023FF2AE00681008A0E06 /* ChineseWordSearchTestApp.swift */,
 				932024012AE00681008A0E06 /* ContentView.swift */,
-				932024172AE01149008A0E06 /* LessonsListView.swift */,
+				931BFBA42AE0F22500FB1005 /* HierarchicalSearchResultView.swift */,
+				932024172AE01149008A0E06 /* FolderListView.swift */,
 				932024192AE01572008A0E06 /* VocabDetailsView.swift */,
-				9320240D2AE008D2008A0E06 /* YearLevelDataManager.swift */,
-				9320240F2AE008D9008A0E06 /* YearLevel.swift */,
+				9320240D2AE008D2008A0E06 /* VocabDataManager.swift */,
+				9320240F2AE008D9008A0E06 /* Vocab.swift */,
 				932024032AE00682008A0E06 /* Assets.xcassets */,
 				932024052AE00682008A0E06 /* Preview Content */,
 			);
@@ -222,15 +225,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9320240E2AE008D2008A0E06 /* YearLevelDataManager.swift in Sources */,
+				9320240E2AE008D2008A0E06 /* VocabDataManager.swift in Sources */,
 				932024022AE00681008A0E06 /* ContentView.swift in Sources */,
 				932024002AE00681008A0E06 /* ChineseWordSearchTestApp.swift in Sources */,
 				932024252AE01649008A0E06 /* HanziPinyinResource.swift in Sources */,
-				932024182AE01149008A0E06 /* LessonsListView.swift in Sources */,
+				931BFBA52AE0F22500FB1005 /* HierarchicalSearchResultView.swift in Sources */,
+				932024182AE01149008A0E06 /* FolderListView.swift in Sources */,
 				932024272AE01649008A0E06 /* PinyinOutputFormat.swift in Sources */,
 				932024262AE01649008A0E06 /* HanziPinyin.swift in Sources */,
 				932024222AE01649008A0E06 /* PinyinFormatter.swift in Sources */,
-				932024102AE008D9008A0E06 /* YearLevel.swift in Sources */,
+				932024102AE008D9008A0E06 /* Vocab.swift in Sources */,
 				932024242AE01649008A0E06 /* String+HanziPinyin.swift in Sources */,
 				9320241A2AE01572008A0E06 /* VocabDetailsView.swift in Sources */,
 			);
