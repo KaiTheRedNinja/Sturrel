@@ -22,6 +22,7 @@
 		932024232AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9320241D2AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt */; };
 		932024242AE01649008A0E06 /* String+HanziPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9320241E2AE01649008A0E06 /* String+HanziPinyin.swift */; };
 		932024262AE01649008A0E06 /* HanziPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024202AE01649008A0E06 /* HanziPinyin.swift */; };
+		9395981B2AE1EAF100DC1DDD /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9395981A2AE1EAF100DC1DDD /* FileSystem.swift */; };
 		93DD69A62AE01E1600439BA9 /* DEFAULT_P5.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69A22AE01E1500439BA9 /* DEFAULT_P5.json */; };
 		93DD69A72AE01E1600439BA9 /* DEFAULT_P3.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69A32AE01E1500439BA9 /* DEFAULT_P3.json */; };
 		93DD69A82AE01E1600439BA9 /* DEFAULT_P6.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69A42AE01E1500439BA9 /* DEFAULT_P6.json */; };
@@ -49,6 +50,7 @@
 		9320241D2AE01649008A0E06 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
 		9320241E2AE01649008A0E06 /* String+HanziPinyin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HanziPinyin.swift"; sourceTree = "<group>"; };
 		932024202AE01649008A0E06 /* HanziPinyin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanziPinyin.swift; sourceTree = "<group>"; };
+		9395981A2AE1EAF100DC1DDD /* FileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
 		93DD69A22AE01E1500439BA9 /* DEFAULT_P5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P5.json; sourceTree = "<group>"; };
 		93DD69A32AE01E1500439BA9 /* DEFAULT_P3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P3.json; sourceTree = "<group>"; };
 		93DD69A42AE01E1500439BA9 /* DEFAULT_P6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P6.json; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				932024172AE01149008A0E06 /* FolderListView.swift */,
 				932024192AE01572008A0E06 /* VocabDetailsView.swift */,
 				9320240D2AE008D2008A0E06 /* VocabDataManager.swift */,
+				9395981A2AE1EAF100DC1DDD /* FileSystem.swift */,
 				9320240F2AE008D9008A0E06 /* Vocab.swift */,
 				932024032AE00682008A0E06 /* Assets.xcassets */,
 				932024052AE00682008A0E06 /* Preview Content */,
@@ -226,6 +229,7 @@
 				932024182AE01149008A0E06 /* FolderListView.swift in Sources */,
 				932024262AE01649008A0E06 /* HanziPinyin.swift in Sources */,
 				932024222AE01649008A0E06 /* PinyinFormatter.swift in Sources */,
+				9395981B2AE1EAF100DC1DDD /* FileSystem.swift in Sources */,
 				932024102AE008D9008A0E06 /* Vocab.swift in Sources */,
 				932024242AE01649008A0E06 /* String+HanziPinyin.swift in Sources */,
 				9320241A2AE01572008A0E06 /* VocabDetailsView.swift in Sources */,

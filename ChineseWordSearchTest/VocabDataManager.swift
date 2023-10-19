@@ -10,33 +10,42 @@ import Foundation
 class VocabDataManager: ObservableObject {
     @Published var root: VocabFolder = .init(name: "Folders", subfolders: [], vocab: [])
 
-    let defaultYears: [String] = [
-        "DEFAULT_P1",
-        "DEFAULT_P2",
-        "DEFAULT_P3",
-        "DEFAULT_P4",
-        "DEFAULT_P5",
-        "DEFAULT_P6",
-        "DEFAULT_S1",
-        "DEFAULT_S2",
-        "DEFAULT_S3"
-    ]
-
-    func loadDefaultFolders() {
-        for defaultYear in defaultYears {
-            loadFolder(named: defaultYear)
+    @Published var vocabConfiguration: VocabConfiguration! {
+        didSet {
+            if let vocabConfiguration {
+                FileSystem.write(vocabConfiguration, to: .config)
+            }
         }
     }
 
-    func loadFolder(named filename: String) {
-        if defaultYears.contains(filename) {
-            loadDefaultFile(named: filename)
-            return
+    func loadFromVocabConfiguration() {
+        print("Loading from config at \(FileSystem.getDocumentsDirectory().absoluteString)")
+        getVocabConfiguration()
+
+        for folder in vocabConfiguration.folders {
+            switch folder {
+            case .builtin(let string):
+                loadDefaultFolder(named: string)
+            case .custom(let string):
+                loadCustomFolder(named: string)
+            }
         }
     }
 
-    private func loadDefaultFile(named filename: String) {
-        guard let path = Bundle.main.path(forResource: filename, ofType: "json") else { return }
+    private func getVocabConfiguration() {
+        if let config = FileSystem.read(VocabConfiguration.self, from: .config) {
+            print("Loaded config! \(config)")
+            self.vocabConfiguration = config
+        } else {
+            // P1-P6 and S1-S3
+            let config = VocabConfiguration(folders: VocabConfiguration.builtins)
+            print("Created config! \(config)")
+            self.vocabConfiguration = config
+        }
+    }
+
+    private func loadDefaultFolder(named filename: String) {
+        guard let path = Bundle.main.path(forResource: "DEFAULT_" + filename, ofType: "json") else { return }
         do {
             let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
             let jsonResult = try JSONDecoder().decode(VocabFolder.self, from: data)
@@ -45,4 +54,30 @@ class VocabDataManager: ObservableObject {
             print("Oh no error: \(error)")
         }
     }
+
+    private func loadCustomFolder(named filename: String) {
+        guard let result = FileSystem.read(VocabFolder.self, from: .customFolder(filename)) else { return }
+        root.subfolders.append(result)
+    }
+}
+
+struct VocabConfiguration: Codable {
+    var folders: [FolderRepresentation]
+
+    static let builtins: [FolderRepresentation] = [
+        .builtin("P1"),
+        .builtin("P2"),
+        .builtin("P3"),
+        .builtin("P4"),
+        .builtin("P5"),
+        .builtin("P6"),
+        .builtin("S1"),
+        .builtin("S2"),
+        .builtin("S3")
+    ]
+}
+
+enum FolderRepresentation: Codable {
+    case builtin(String)
+    case custom(String)
 }

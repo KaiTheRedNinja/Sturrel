@@ -50,7 +50,7 @@ struct ContentView: View {
             .searchable(text: $searchText, isPresented: $showSearch)
         }
         .onAppear {
-            manager.loadDefaultFolders()
+            manager.loadFromVocabConfiguration()
         }
     }
 }
