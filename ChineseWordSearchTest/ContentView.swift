@@ -48,6 +48,9 @@ struct ContentView: View {
                 VocabDetailsView(vocab: vocab)
             }
             .searchable(text: $searchText, isPresented: $showSearch)
+            .onChange(of: manager.root) { _, _ in
+                manager.reconcileVocabConfigurationToRoot()
+            }
         }
         .onAppear {
             manager.loadFromVocabConfiguration()

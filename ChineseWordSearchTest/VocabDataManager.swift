@@ -25,8 +25,29 @@ class VocabDataManager: ObservableObject {
     func loadFromVocabConfiguration() {
         print("Loading from config at \(FileSystem.getDocumentsDirectory().absoluteString)")
         getVocabConfiguration()
+        reconcileRootToVocabConfiguration()
+    }
 
-        root.subfolders = vocabConfiguration.folders.compactMap({ loadCustomFolder(named: $0) })
+    /// Modify `root` to match `vocabConfiguration`
+    func reconcileRootToVocabConfiguration() {
+        var newFolders = [VocabFolder]()
+        for folder in vocabConfiguration.folders {
+            if let match = root.subfolders.first(where: { $0.id == folder }) {
+                newFolders.append(match)
+            } else if let loadedFolder = loadCustomFolder(id: folder) {
+                newFolders.append(loadedFolder)
+            }
+        }
+        root.subfolders = newFolders
+    }
+
+    /// Modify `vocabConfiguration` to match `root`
+    func reconcileVocabConfigurationToRoot() {
+        var newConfiguration = VocabConfiguration(folders: [])
+        for subfolder in root.subfolders {
+            newConfiguration.folders.append(subfolder.id)
+        }
+        vocabConfiguration = newConfiguration
     }
 
     private func getVocabConfiguration() {
@@ -35,10 +56,11 @@ class VocabDataManager: ObservableObject {
         } else {
             // initialise all the data
             // transfer P1-P6 and S1-S3 files
-            let config = VocabConfiguration(folders: VocabConfiguration.builtins)
+            var config = VocabConfiguration(folders: [])
             for filename in VocabConfiguration.builtins {
                 guard let builtin = loadDefaultFolder(named: filename) else { continue }
-                FileSystem.write(builtin, to: .customFolder(filename))
+                FileSystem.write(builtin, to: .customFolder(builtin.id))
+                config.folders.append(builtin.id)
             }
             self.vocabConfiguration = config
         }
@@ -57,14 +79,14 @@ class VocabDataManager: ObservableObject {
         return nil
     }
 
-    private func loadCustomFolder(named filename: String) -> VocabFolder? {
-        guard let result = FileSystem.read(VocabFolder.self, from: .customFolder(filename)) else { return nil }
+    private func loadCustomFolder(id: UUID) -> VocabFolder? {
+        guard let result = FileSystem.read(VocabFolder.self, from: .customFolder(id)) else { return nil }
         return result
     }
 }
 
 struct VocabConfiguration: Codable {
-    var folders: [String]
+    var folders: [UUID]
 
     static let builtins: [String] = ["P1", "P2", "P3", "P4", "P5", "P6", "S1", "S2", "S3"]
 }
