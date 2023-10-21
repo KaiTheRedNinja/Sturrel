@@ -47,31 +47,10 @@ struct FolderListView: View {
                 prototypeNewFolder = nil
             }
         }), content: {
-            NavigationStack {
-                FolderListView(
-                    folder: .init(
-                        get: {
-                            prototypeNewFolder!
-                        },
-                        set: { newValue in
-                            prototypeNewFolder = newValue
-                        }
-                    )
-                )
-                .toolbar {
-                    ToolbarItem(placement: .topBarLeading) {
-                        Button("Cancel") {
-                            prototypeNewFolder = nil
-                        }
-                    }
-                }
-                .environment(\.editMode, .init(get: { .active }, set: { newMode in
-                    if newMode == .inactive {
-                        folder.subfolders.append(prototypeNewFolder!)
-                        prototypeNewFolder = nil
-                    }
-                }))
-            }
+            NewFolderView(
+                folder: $folder,
+                prototypeNewFolder: $prototypeNewFolder
+            )
             .interactiveDismissDisabled(true)
         })
         .sheet(isPresented: .init(get: {
@@ -81,31 +60,10 @@ struct FolderListView: View {
                 prototypeNewVocab = nil
             }
         })) {
-            NavigationStack {
-                VocabDetailsView(
-                    vocab: .init(
-                        get: {
-                            prototypeNewVocab!
-                        },
-                        set: { newValue in
-                            prototypeNewVocab = newValue
-                        }
-                    )
-                )
-                .toolbar {
-                    ToolbarItem(placement: .topBarLeading) {
-                        Button("Cancel") {
-                            prototypeNewVocab = nil
-                        }
-                    }
-                }
-                .environment(\.editMode, .init(get: { .active }, set: { newMode in
-                    if newMode == .inactive {
-                        folder.vocab.append(prototypeNewVocab!)
-                        prototypeNewVocab = nil
-                    }
-                }))
-            }
+            NewVocabView(
+                folder: $folder,
+                prototypeNewVocab: $prototypeNewVocab
+            )
             .interactiveDismissDisabled(true)
         }
     }
