@@ -10,10 +10,54 @@ import SwiftUI
 struct FolderListView: View {
     @Binding var folder: VocabFolder
 
+    var isTopLevel: Bool = false
+
     var body: some View {
         List {
-            ForEach(folder.subfolders, id: \.hashValue) { folder in
-                viewForFolder(folder)
+            if !folder.subfolders.isEmpty {
+                folderSection
+            }
+
+            if !folder.vocab.isEmpty && !isTopLevel {
+                vocabSection
+            }
+        }
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Menu {
+                    Section {
+                        Button("New Folder") {
+                            newFolder()
+                        }
+                        if isTopLevel {
+                            Button("Copy Built-in Folder") {
+                                copyBuiltInFolder()
+                            }
+                        }
+                    }
+                    if !isTopLevel {
+                        Section {
+                            Button("New Vocab") {
+                                newVocab()
+                            }
+                        }
+                    }
+                } label: {
+                    Image(systemName: "plus")
+                }
+            }
+
+            ToolbarItem(placement: .topBarTrailing) {
+                EditButton()
+            }
+        }
+        .navigationTitle(folder.name)
+    }
+
+    var folderSection: some View {
+        Section("Folders") {
+            ForEach($folder.subfolders, id: \.hashValue) { $folder in
+                viewForFolder($folder)
             }
             .onMove { indices, newOffset in
                 folder.subfolders.move(fromOffsets: indices, toOffset: newOffset)
@@ -21,6 +65,11 @@ struct FolderListView: View {
             .onDelete { indexSet in
                 folder.subfolders.remove(atOffsets: indexSet)
             }
+        }
+    }
+
+    var vocabSection: some View {
+        Section("Vocab") {
             ForEach(folder.vocab, id: \.hashValue) { vocab in
                 viewForVocab(vocab)
             }
@@ -31,19 +80,17 @@ struct FolderListView: View {
                 folder.vocab.remove(atOffsets: indexSet)
             }
         }
-        .toolbar {
-            EditButton()
-        }
-        .navigationTitle(folder.name)
     }
 
-    func viewForFolder(_ folder: VocabFolder) -> some View {
-        NavigationLink(value: folder) {
+    func viewForFolder(_ folder: Binding<VocabFolder>) -> some View {
+        NavigationLink {
+            FolderListView(folder: $folder)
+        } label: {
             HStack {
                 Image(systemName: "folder")
                     .frame(width: 26, height: 22)
                     .foregroundStyle(Color.accentColor)
-                Text(folder.name)
+                Text(folder.wrappedValue.name)
             }
         }
     }
@@ -57,5 +104,25 @@ struct FolderListView: View {
                     .foregroundStyle(Color.gray)
             }
         }
+    }
+
+    func newFolder() {
+        var name = "New Folder"
+        if folder.subfolders.contains(where: { $0.name == name }) {
+            var counter = 2
+            while folder.subfolders.contains(where: { $0.name == "\(name) \(counter)" }) {
+                counter += 1
+            }
+            name += " \(counter)"
+        }
+        folder.subfolders.append(.init(name: name, subfolders: [], vocab: []))
+    }
+
+    func copyBuiltInFolder() {
+        // TODO: show a sheet for this
+    }
+
+    func newVocab() {
+        // TODO: Add new vocab
     }
 }

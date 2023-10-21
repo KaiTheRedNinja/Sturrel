@@ -22,10 +22,6 @@ class VocabDataManager: ObservableObject {
         }
     }
 
-    // TODO: Update `root` when vocabConfiguration changed
-    // TODO: Allow for VocabConfiguration editing
-    // TODO: Save *CUSTOM* folders *IN THEIR OWN FILE* when edited
-
     func loadFromVocabConfiguration() {
         print("Loading from config at \(FileSystem.getDocumentsDirectory().absoluteString)")
         getVocabConfiguration()

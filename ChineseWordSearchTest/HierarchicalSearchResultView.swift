@@ -9,27 +9,29 @@ import SwiftUI
 
 struct HierarchicalSearchResultView: View {
     var searchText: String
-    var folder: VocabFolder
+    var folder: Binding<VocabFolder>
 
     var body: some View {
-        ForEach(folder.subfolders, id: \.hashValue) { folder in
-            if folderContainsSearch(folder: folder, term: searchText) {
-                NavigationLink(value: folder) {
+        ForEach(folder.subfolders, id: \.hashValue) { $subFolder in
+            if folderContainsSearch(folder: subFolder, term: searchText) {
+                NavigationLink {
+                    FolderListView(folder: $subFolder)
+                } label: {
                     HStack {
                         Image(systemName: "folder")
                             .frame(width: 26, height: 22)
                             .foregroundStyle(Color.accentColor)
-                        HighlightedText(.init(folder.name), highlight: searchText)
+                        HighlightedText(.init(subFolder.name), highlight: searchText)
                     }
                 }
                 HierarchicalSearchResultView(
                     searchText: searchText,
-                    folder: folder
+                    folder: $subFolder
                 )
                 .padding(.leading, 16)
             }
         }
-        ForEach(folder.vocab, id: \.hashValue) { vocab in
+        ForEach(folder.vocab, id: \.hashValue) { $vocab in
             if vocab.word.lowercased().contains(searchText.lowercased()) {
                 NavigationLink(value: vocab) {
                     HStack {

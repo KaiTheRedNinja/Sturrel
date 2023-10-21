@@ -19,7 +19,7 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 if !showSearch {
-                    FolderListView(folder: $manager.root)
+                    FolderListView(folder: $manager.root, isTopLevel: true)
                 } else {
                     if searchText.isEmpty {
                         HStack {
@@ -34,16 +34,13 @@ struct ContentView: View {
                         List {
                             HierarchicalSearchResultView(
                                 searchText: searchText,
-                                folder: manager.root
+                                folder: $manager.root
                             )
                         }
                     }
                 }
             }
             .listStyle(.sidebar)
-            .navigationDestination(for: Binding<VocabFolder>.self) { folder in
-                FolderListView(folder: folder)
-            }
             .navigationDestination(for: Vocab.self) { vocab in
                 VocabDetailsView(vocab: vocab)
             }
@@ -61,16 +58,4 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-}
-
-extension Binding: Equatable where Value: Equatable {
-    public static func == (lhs: Binding<Value>, rhs: Binding<Value>) -> Bool {
-        lhs.wrappedValue == rhs.wrappedValue
-    }
-}
-
-extension Binding: Hashable where Value: Hashable {
-    public func hash(into hasher: inout Hasher) {
-        hasher.combine(wrappedValue)
-    }
 }
