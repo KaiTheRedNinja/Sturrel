@@ -8,6 +8,10 @@
 import Foundation
 
 class VocabDataManager: ObservableObject {
+    static var shared: VocabDataManager = .init()
+
+    private init() {}
+
     @Published var root: VocabFolder = .init(name: "Folders", subfolders: [], vocab: [])
 
     @Published var vocabConfiguration: VocabConfiguration! {
@@ -48,6 +52,13 @@ class VocabDataManager: ObservableObject {
             newConfiguration.folders.append(subfolder.id)
         }
         vocabConfiguration = newConfiguration
+    }
+
+    func saveRoot() {
+        // save the files in Root. Should only be called once the app is about to quit.
+        for subfolder in root.subfolders {
+            FileSystem.write(subfolder, to: .customFolder(subfolder.id))
+        }
     }
 
     private func getVocabConfiguration() {

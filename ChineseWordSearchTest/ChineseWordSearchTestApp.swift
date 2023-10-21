@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func applicationWillTerminate(_ application: UIApplication) {
+        VocabDataManager.shared.saveRoot()
+    }
+}
+
 @main
 struct ChineseWordSearchTestApp: App {
     var body: some Scene {

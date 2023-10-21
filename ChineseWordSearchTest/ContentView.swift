@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var manager: VocabDataManager = .init()
+    @ObservedObject var manager: VocabDataManager = .shared
 
     @State var expansionState: [String: Bool] = [:]
 
@@ -19,7 +19,7 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 if !showSearch {
-                    FolderListView(folder: manager.root)
+                    FolderListView(folder: $manager.root)
                 } else {
                     if searchText.isEmpty {
                         HStack {
@@ -41,7 +41,7 @@ struct ContentView: View {
                 }
             }
             .listStyle(.sidebar)
-            .navigationDestination(for: VocabFolder.self) { folder in
+            .navigationDestination(for: Binding<VocabFolder>.self) { folder in
                 FolderListView(folder: folder)
             }
             .navigationDestination(for: Vocab.self) { vocab in
@@ -50,6 +50,7 @@ struct ContentView: View {
             .searchable(text: $searchText, isPresented: $showSearch)
             .onChange(of: manager.root) { _, _ in
                 manager.reconcileVocabConfigurationToRoot()
+                manager.saveRoot()
             }
         }
         .onAppear {
@@ -60,4 +61,16 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+}
+
+extension Binding: Equatable where Value: Equatable {
+    public static func == (lhs: Binding<Value>, rhs: Binding<Value>) -> Bool {
+        lhs.wrappedValue == rhs.wrappedValue
+    }
+}
+
+extension Binding: Hashable where Value: Hashable {
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(wrappedValue)
+    }
 }
