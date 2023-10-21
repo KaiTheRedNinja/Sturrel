@@ -27,25 +27,38 @@ private struct VocabDetailsContentsView: View {
 
     @Environment(\.editMode) var rawEditMode
 
-    var editMode: EditMode {
-        rawEditMode?.wrappedValue ?? .inactive
+    var isEditing: Bool {
+        rawEditMode?.wrappedValue.isEditing ?? false
     }
 
     var body: some View {
         Section {
             HStack {
                 Spacer()
-                HStack {
-                    let pinyin = vocab.word.toPinyin().split(separator: " ")
-                    ForEach(0..<vocab.word.count, id: \.self) { index in
-                        VStack(alignment: .center) {
-                            let vocabIndex = vocab.word.index(vocab.word.startIndex, offsetBy: index)
-                            Text(vocab.word[vocabIndex...vocabIndex])
-                                .font(.largeTitle)
-                                .bold()
-                            Text(pinyin[index])
-                                .font(.subheadline)
-                                .foregroundStyle(Color.gray)
+                if isEditing {
+                    VStack {
+                        let pinyin = vocab.word.toPinyin()
+                        TextField("", text: $vocab.word)
+                            .font(.largeTitle)
+                            .bold()
+                            .multilineTextAlignment(.center)
+                        Text(pinyin)
+                            .font(.subheadline)
+                            .foregroundStyle(Color.gray)
+                    }
+                } else {
+                    HStack {
+                        let pinyin = vocab.word.toPinyin().split(separator: " ")
+                        ForEach(0..<vocab.word.count, id: \.self) { index in
+                            VStack(alignment: .center) {
+                                let vocabIndex = vocab.word.index(vocab.word.startIndex, offsetBy: index)
+                                Text(vocab.word[vocabIndex...vocabIndex])
+                                    .font(.largeTitle)
+                                    .bold()
+                                Text(pinyin[index])
+                                    .font(.subheadline)
+                                    .foregroundStyle(Color.gray)
+                            }
                         }
                     }
                 }
@@ -54,24 +67,60 @@ private struct VocabDetailsContentsView: View {
             .listRowBackground(Color.clear)
         }
 
-        if !vocab.definition.isEmpty {
+        if !vocab.definition.isEmpty || isEditing {
             Section("Definition") {
-                Text(vocab.definition)
-            }
-        }
-
-        if !vocab.sentences.isEmpty {
-            Section("Example Sentences") {
-                ForEach(Array(vocab.sentences.enumerated()), id: \.offset) { (_, sentence) in
-                    Text(sentence)
+                if isEditing {
+                    TextField("", text: $vocab.definition)
+                } else {
+                    Text(vocab.definition)
                 }
             }
         }
 
-        if !vocab.wordBuilding.isEmpty {
+        if !vocab.sentences.isEmpty || isEditing {
+            Section("Example Sentences") {
+                ForEach(Array(vocab.sentences.enumerated()), id: \.offset) { (_, sentence) in
+                    Text(sentence)
+                }
+                .onMove { indices, newOffset in
+                    vocab.sentences.move(fromOffsets: indices, toOffset: newOffset)
+                }
+                .onDelete { indexSet in
+                    vocab.sentences.remove(atOffsets: indexSet)
+                }
+
+                HStack {
+                    Spacer()
+                    Button {
+                        vocab.sentences.append("New Sentence")
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+                    Spacer()
+                }
+            }
+        }
+
+        if !vocab.wordBuilding.isEmpty || isEditing {
             Section("Example Words") {
                 ForEach(Array(vocab.wordBuilding.enumerated()), id: \.offset) { (_, wordBuilding) in
                     Text(wordBuilding)
+                }
+                .onMove { indices, newOffset in
+                    vocab.wordBuilding.move(fromOffsets: indices, toOffset: newOffset)
+                }
+                .onDelete { indexSet in
+                    vocab.wordBuilding.remove(atOffsets: indexSet)
+                }
+
+                HStack {
+                    Spacer()
+                    Button {
+                        vocab.wordBuilding.append("New Phrase")
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+                    Spacer()
                 }
             }
         }
@@ -84,7 +133,7 @@ private struct VocabDetailsContentsView: View {
                         if vocab.definition.isEmpty || vocab.sentences.isEmpty || vocab.wordBuilding.isEmpty {
                             Text("No Details.")
                         }
-                        if editMode == .inactive {
+                        if !isEditing {
                             if vocab.definition.isEmpty {
                                 if vocab.sentences.isEmpty {
                                     Text("Press Edit to add a definition or example sentences")
