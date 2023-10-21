@@ -41,9 +41,6 @@ struct ContentView: View {
                 }
             }
             .listStyle(.sidebar)
-            .navigationDestination(for: Vocab.self) { vocab in
-                VocabDetailsView(vocab: vocab)
-            }
             .searchable(text: $searchText, isPresented: $showSearch)
             .onChange(of: manager.root) { _, _ in
                 manager.reconcileVocabConfigurationToRoot()

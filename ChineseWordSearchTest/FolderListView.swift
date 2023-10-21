@@ -12,8 +12,22 @@ struct FolderListView: View {
 
     var isTopLevel: Bool = false
 
+    @State var prototypeNewFolder: VocabFolder?
+    @State var prototypeNewVocab: Vocab?
+
     var body: some View {
         List {
+            if folder.subfolders.isEmpty && folder.vocab.isEmpty {
+                HStack {
+                    Spacer()
+                    Text("Empty Folder.\nPress + to add subfolders or vocab")
+                        .foregroundStyle(Color.gray)
+                        .multilineTextAlignment(.center)
+                    Spacer()
+                }
+                .listRowBackground(Color.clear)
+            }
+
             if !folder.subfolders.isEmpty {
                 folderSection
             }
@@ -23,35 +37,77 @@ struct FolderListView: View {
             }
         }
         .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
-                Menu {
-                    Section {
-                        Button("New Folder") {
-                            newFolder()
-                        }
-                        if isTopLevel {
-                            Button("Copy Built-in Folder") {
-                                copyBuiltInFolder()
-                            }
-                        }
-                    }
-                    if !isTopLevel {
-                        Section {
-                            Button("New Vocab") {
-                                newVocab()
-                            }
-                        }
-                    }
-                } label: {
-                    Image(systemName: "plus")
-                }
-            }
-
-            ToolbarItem(placement: .topBarTrailing) {
-                EditButton()
-            }
+            toolbarContent
         }
         .navigationTitle(folder.name)
+        .sheet(isPresented: .init(get: {
+            prototypeNewFolder != nil
+        }, set: { isShown in
+            if !isShown {
+                prototypeNewFolder = nil
+            }
+        }), content: {
+            NavigationStack {
+                FolderListView(
+                    folder: .init(
+                        get: {
+                            prototypeNewFolder!
+                        },
+                        set: { newValue in
+                            prototypeNewFolder = newValue
+                        }
+                    )
+                )
+                .toolbar {
+                    ToolbarItem(placement: .topBarLeading) {
+                        Button("Cancel") {
+                            prototypeNewFolder = nil
+                        }
+                    }
+                }
+                .environment(\.editMode, .init(get: { .active }, set: { newMode in
+                    if newMode == .inactive {
+                        folder.subfolders.append(prototypeNewFolder!)
+                        prototypeNewFolder = nil
+                    }
+                }))
+            }
+            .interactiveDismissDisabled(true)
+        })
+        .sheet(isPresented: .init(get: {
+            prototypeNewVocab != nil
+        }, set: { isShown in
+            if !isShown {
+                prototypeNewVocab = nil
+            }
+        })) {
+            NavigationStack {
+                VocabDetailsView(
+                    vocab: .init(
+                        get: {
+                            prototypeNewVocab!
+                        },
+                        set: { newValue in
+                            prototypeNewVocab = newValue
+                        }
+                    )
+                )
+                .toolbar {
+                    ToolbarItem(placement: .topBarLeading) {
+                        Button("Cancel") {
+                            prototypeNewVocab = nil
+                        }
+                    }
+                }
+                .environment(\.editMode, .init(get: { .active }, set: { newMode in
+                    if newMode == .inactive {
+                        folder.vocab.append(prototypeNewVocab!)
+                        prototypeNewVocab = nil
+                    }
+                }))
+            }
+            .interactiveDismissDisabled(true)
+        }
     }
 
     var folderSection: some View {
@@ -70,8 +126,8 @@ struct FolderListView: View {
 
     var vocabSection: some View {
         Section("Vocab") {
-            ForEach(folder.vocab, id: \.hashValue) { vocab in
-                viewForVocab(vocab)
+            ForEach($folder.vocab, id: \.hashValue) { $vocab in
+                viewForVocab($vocab)
             }
             .onMove { indices, newOffset in
                 folder.vocab.move(fromOffsets: indices, toOffset: newOffset)
@@ -82,9 +138,40 @@ struct FolderListView: View {
         }
     }
 
+    @ToolbarContentBuilder
+    var toolbarContent: some ToolbarContent {
+        ToolbarItem(placement: .topBarTrailing) {
+            Menu {
+                Section {
+                    Button("New Folder") {
+                        newFolder()
+                    }
+                    if isTopLevel {
+                        Button("Copy Built-in Folder") {
+                            copyBuiltInFolder()
+                        }
+                    }
+                }
+                if !isTopLevel {
+                    Section {
+                        Button("New Vocab") {
+                            newVocab()
+                        }
+                    }
+                }
+            } label: {
+                Image(systemName: "plus")
+            }
+        }
+
+        ToolbarItem(placement: .topBarTrailing) {
+            EditButton()
+        }
+    }
+
     func viewForFolder(_ folder: Binding<VocabFolder>) -> some View {
         NavigationLink {
-            FolderListView(folder: $folder)
+            FolderListView(folder: folder)
         } label: {
             HStack {
                 Image(systemName: "folder")
@@ -95,12 +182,14 @@ struct FolderListView: View {
         }
     }
 
-    func viewForVocab(_ vocab: Vocab) -> some View {
-        NavigationLink(value: vocab) {
+    func viewForVocab(_ vocab: Binding<Vocab>) -> some View {
+        NavigationLink {
+            VocabDetailsView(vocab: vocab)
+        } label: {
             HStack {
-                Text(vocab.word)
+                Text(vocab.wrappedValue.word)
                 Spacer()
-                Text(vocab.word.toPinyin())
+                Text(vocab.wrappedValue.word.toPinyin())
                     .foregroundStyle(Color.gray)
             }
         }
@@ -115,7 +204,7 @@ struct FolderListView: View {
             }
             name += " \(counter)"
         }
-        folder.subfolders.append(.init(name: name, subfolders: [], vocab: []))
+        prototypeNewFolder = .init(name: name, subfolders: [], vocab: [])
     }
 
     func copyBuiltInFolder() {
@@ -123,6 +212,6 @@ struct FolderListView: View {
     }
 
     func newVocab() {
-        // TODO: Add new vocab
+        prototypeNewVocab = .init(word: "无标题", definition: "", sentences: [], wordBuilding: [])
     }
 }

@@ -33,7 +33,9 @@ struct HierarchicalSearchResultView: View {
         }
         ForEach(folder.vocab, id: \.hashValue) { $vocab in
             if vocab.word.lowercased().contains(searchText.lowercased()) {
-                NavigationLink(value: vocab) {
+                NavigationLink {
+                    VocabDetailsView(vocab: $vocab)
+                } label: {
                     HStack {
                         HighlightedText(.init(vocab.word), highlight: searchText)
                         Spacer()
