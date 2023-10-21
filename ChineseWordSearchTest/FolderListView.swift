@@ -105,8 +105,12 @@ struct FolderListView: View {
                         newFolder()
                     }
                     if isTopLevel {
-                        Button("Copy Built-in Folder") {
-                            copyBuiltInFolder()
+                        Menu("Copy Built-in Folder") {
+                            ForEach(VocabConfiguration.builtins, id: \.self) { filename in
+                                Button(filename) {
+                                    VocabDataManager.shared.copyBuiltinFolder(named: filename)
+                                }
+                            }
                         }
                     }
                 }
@@ -163,10 +167,6 @@ struct FolderListView: View {
             name += " \(counter)"
         }
         prototypeNewFolder = .init(name: name, subfolders: [], vocab: [])
-    }
-
-    func copyBuiltInFolder() {
-        // TODO: show a sheet for this
     }
 
     func newVocab() {

@@ -65,9 +65,7 @@ class VocabDataManager: ObservableObject {
             // transfer P1-P6 and S1-S3 files
             var config = VocabConfiguration(folders: [])
             for filename in VocabConfiguration.builtins {
-                guard let builtin = loadDefaultFolder(named: filename) else { continue }
-                FileSystem.write(builtin, to: .customFolder(builtin.id))
-                config.folders.append(builtin.id)
+                copyBuiltinFolder(named: filename)
             }
             self.vocabConfiguration = config
         }
@@ -89,6 +87,24 @@ class VocabDataManager: ObservableObject {
     private func loadCustomFolder(id: UUID) -> VocabFolder? {
         guard let result = FileSystem.read(VocabFolder.self, from: .customFolder(id)) else { return nil }
         return result
+    }
+
+    func copyBuiltinFolder(named filename: String) {
+        guard var builtin = loadDefaultFolder(named: filename) else { return }
+
+        // change the name so that theres no conflicts
+        var name = builtin.name
+        if root.subfolders.contains(where: { $0.name == name }) {
+            var counter = 2
+            while root.subfolders.contains(where: { $0.name == "\(name) \(counter)" }) {
+                counter += 1
+            }
+            name += " \(counter)"
+        }
+        builtin.name = name
+
+        FileSystem.write(builtin, to: .customFolder(builtin.id))
+        vocabConfiguration.folders.append(builtin.id)
     }
 }
 
