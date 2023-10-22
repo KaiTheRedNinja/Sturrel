@@ -16,7 +16,6 @@ struct MainView: View {
     @State var searchText: String = ""
     @State var showSearch: Bool = false
 
-
     var body: some View {
         NavigationStack {
             VStack {

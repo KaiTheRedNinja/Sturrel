@@ -46,7 +46,7 @@
 		9320240F2AE008D9008A0E06 /* Vocab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocab.swift; sourceTree = "<group>"; };
 		932024122AE00AA8008A0E06 /* DEFAULT_P1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P1.json; sourceTree = "<group>"; };
 		932024132AE00AA8008A0E06 /* DEFAULT_P2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P2.json; sourceTree = "<group>"; };
-		932024162AE00AB7008A0E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		932024162AE00AB7008A0E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		932024172AE01149008A0E06 /* FolderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderListView.swift; sourceTree = "<group>"; };
 		932024192AE01572008A0E06 /* VocabDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabDetailsView.swift; sourceTree = "<group>"; };
 		9320241C2AE01649008A0E06 /* PinyinFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinyinFormatter.swift; sourceTree = "<group>"; };
@@ -97,20 +97,10 @@
 		932023FE2AE00681008A0E06 /* ChineseWordSearchTest */ = {
 			isa = PBXGroup;
 			children = (
-				932024162AE00AB7008A0E06 /* Info.plist */,
+				93D40C1F2AE5149A0091BD34 /* App */,
+				93D40C1C2AE5146E0091BD34 /* Model */,
+				93D40C1D2AE514820091BD34 /* UI */,
 				932024112AE00A8D008A0E06 /* Data */,
-				932023FF2AE00681008A0E06 /* ChineseWordSearchTestApp.swift */,
-				932024012AE00681008A0E06 /* ContentView.swift */,
-				934C922B2AE4CE71005B495E /* MainView.swift */,
-				931BFBA42AE0F22500FB1005 /* HierarchicalSearchResultView.swift */,
-				932024172AE01149008A0E06 /* FolderListView.swift */,
-				934C92252AE41A18005B495E /* NewFolderView.swift */,
-				934C92272AE41A5E005B495E /* NewVocabView.swift */,
-				932024192AE01572008A0E06 /* VocabDetailsView.swift */,
-				9320240D2AE008D2008A0E06 /* VocabDataManager.swift */,
-				9395981A2AE1EAF100DC1DDD /* FileSystem.swift */,
-				9320240F2AE008D9008A0E06 /* Vocab.swift */,
-				932024032AE00682008A0E06 /* Assets.xcassets */,
 				932024052AE00682008A0E06 /* Preview Content */,
 			);
 			path = ChineseWordSearchTest;
@@ -149,6 +139,48 @@
 				932024202AE01649008A0E06 /* HanziPinyin.swift */,
 			);
 			path = PinYin;
+			sourceTree = "<group>";
+		};
+		93D40C1C2AE5146E0091BD34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9320240D2AE008D2008A0E06 /* VocabDataManager.swift */,
+				9395981A2AE1EAF100DC1DDD /* FileSystem.swift */,
+				9320240F2AE008D9008A0E06 /* Vocab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93D40C1D2AE514820091BD34 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				934C922B2AE4CE71005B495E /* MainView.swift */,
+				931BFBA42AE0F22500FB1005 /* HierarchicalSearchResultView.swift */,
+				932024172AE01149008A0E06 /* FolderListView.swift */,
+				932024192AE01572008A0E06 /* VocabDetailsView.swift */,
+				93D40C1E2AE514870091BD34 /* Adding */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		93D40C1E2AE514870091BD34 /* Adding */ = {
+			isa = PBXGroup;
+			children = (
+				934C92252AE41A18005B495E /* NewFolderView.swift */,
+				934C92272AE41A5E005B495E /* NewVocabView.swift */,
+			);
+			path = Adding;
+			sourceTree = "<group>";
+		};
+		93D40C1F2AE5149A0091BD34 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				932023FF2AE00681008A0E06 /* ChineseWordSearchTestApp.swift */,
+				932024012AE00681008A0E06 /* ContentView.swift */,
+				932024032AE00682008A0E06 /* Assets.xcassets */,
+				932024162AE00AB7008A0E06 /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,7 +413,7 @@
 				DEVELOPMENT_TEAM = Z88Z98GRZQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChineseWordSearchTest/Info.plist;
+				INFOPLIST_FILE = ChineseWordSearchTest/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -411,7 +443,7 @@
 				DEVELOPMENT_TEAM = Z88Z98GRZQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChineseWordSearchTest/Info.plist;
+				INFOPLIST_FILE = ChineseWordSearchTest/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
