@@ -21,8 +21,17 @@ final class VocabDataManager: ObservableObject {
         return vocabs[id]
     }
 
+    var lastCall: Date = .now
     func saveVocab(_ vocab: Vocab) {
         vocabs[vocab.id] = vocab
+
+        let now = Date.now
+        lastCall = now
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [weak self] in
+            guard let self, lastCall == now else { return }
+            save()
+        }
     }
 
     func bindingVocab(for id: Vocab.ID) -> Binding<Vocab> {
@@ -35,6 +44,7 @@ final class VocabDataManager: ObservableObject {
 
     func removeVocab(_ id: Vocab.ID) {
         vocabs.removeValue(forKey: id)
+        save()
     }
 
     func save() {

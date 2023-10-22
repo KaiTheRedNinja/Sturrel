@@ -22,7 +22,9 @@ final class FoldersDataManager: ObservableObject {
         if let folder = self.folders[id] {
             return folder
         } else if let folder = self.loadCustomFolder(id: id) {
-            self.folders[id] = folder
+            DispatchQueue.main.async {
+                self.folders[id] = folder
+            }
             return folder
         }
         return nil
@@ -31,14 +33,18 @@ final class FoldersDataManager: ObservableObject {
     func saveFolder(_ folder: VocabFolder) {
         if folder.id == RootDataManager.shared.root.id {
             RootDataManager.shared.root = folder
+            RootDataManager.shared.save()
             return
         }
 
         folders[folder.id] = folder
+
+        FileSystem.write(folder, to: .customFolder(folder.id))
     }
 
     func removeFolder(_ id: VocabFolder.ID) {
         folders.removeValue(forKey: id)
+        FileSystem.remove(file: .customFolder(id))
     }
 
     /// Creates a binding to a folder. The binding will create the folder if needed.

@@ -8,9 +8,11 @@
 import SwiftUI
 
 class AppDelegate: NSObject, UIApplicationDelegate {
-    func applicationWillTerminate(_ application: UIApplication) {
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        print("Entered background, saving")
         RootDataManager.shared.save()
         FoldersDataManager.shared.save()
+        VocabDataManager.shared.save()
     }
 }
 

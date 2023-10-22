@@ -68,6 +68,9 @@ struct FolderListView: View {
             )
             .interactiveDismissDisabled(true)
         }
+        .onChange(of: folder) { _, newValue in
+            folderDataManager.saveFolder(newValue)
+        }
     }
 
     func folderSection(subfolders: Binding<[VocabFolder.ID]>) -> some View {
@@ -79,6 +82,9 @@ struct FolderListView: View {
                 subfolders.wrappedValue.move(fromOffsets: indices, toOffset: newOffset)
             }
             .onDelete { indexSet in
+                for index in indexSet {
+                    folderDataManager.removeFolder(subfolders[index].wrappedValue)
+                }
                 subfolders.wrappedValue.remove(atOffsets: indexSet)
             }
         }
@@ -93,6 +99,9 @@ struct FolderListView: View {
                 vocab.wrappedValue.move(fromOffsets: indices, toOffset: newOffset)
             }
             .onDelete { indexSet in
+                for index in indexSet {
+                    vocabDataManager.removeVocab(vocab[index].wrappedValue)
+                }
                 vocab.wrappedValue.remove(atOffsets: indexSet)
             }
         }

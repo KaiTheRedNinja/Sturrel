@@ -11,6 +11,8 @@ final class RootDataManager: ObservableObject {
     static var shared: RootDataManager = .init()
 
     private init() {
+        print("Getting contents from \(FileSystem.getDocumentsDirectory())")
+
         if FileSystem.exists(file: .root), let root = FileSystem.read(VocabFolder.self, from: .root) {
             self.root = root
         } else {
@@ -24,7 +26,8 @@ final class RootDataManager: ObservableObject {
 
             for filename in Self.builtins {
                 guard let contents = loadDefaultFolder(named: filename) else { continue }
-                let file = VocabFolder(name: contents.name, subfolders: contents.folders.map({ $0.id }), vocab: contents.vocab.map({ $0.id }))
+//                let file = VocabFolder(name: contents.name, subfolders: contents.folders.map({ $0.id }), vocab: contents.vocab.map({ $0.id }))
+                let file = VocabFolder(name: contents.name, subfolders: contents.folders.map({ $0.id }), vocab: [])
 
                 folders.append(contentsOf: contents.folders)
                 vocabs.append(contentsOf: contents.vocab)
@@ -35,6 +38,8 @@ final class RootDataManager: ObservableObject {
 
             self.root.subfolders = subfolderIDs
 
+            // These have to happen async, because FoldersDataManager checks with RootDataManager
+            // and produces an access error if its called before or while RootDataManager is initialising
             DispatchQueue.main.async {
                 for folder in folders {
                     FoldersDataManager.shared.saveFolder(folder)
@@ -43,6 +48,7 @@ final class RootDataManager: ObservableObject {
                     VocabDataManager.shared.saveVocab(vocab)
                 }
             }
+            save()
         }
     }
 

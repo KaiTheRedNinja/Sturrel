@@ -63,6 +63,15 @@ public enum FileSystem {
         }
     }
 
+    /// Removes a file
+    public static func remove(file: FileName) {
+        do {
+            try FileManager.default.removeItem(at: getDocumentsDirectory().appendingPathComponent(file.fileName))
+        } catch {
+            print("Deleting error: \(error)")
+        }
+    }
+
     /// Checks if a file exists at a path
     public static func exists(file: FileName) -> Bool {
         let path = getDocumentsDirectory().appendingPathComponent(file.fileName)
