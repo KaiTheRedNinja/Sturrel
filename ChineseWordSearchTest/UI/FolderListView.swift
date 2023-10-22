@@ -125,9 +125,9 @@ struct FolderListView: View {
                     }
                     if isTopLevel {
                         Menu("Copy Built-in Folder") {
-                            ForEach(RootDataManager.builtins, id: \.self) { filename in
+                            ForEach(Root.builtins, id: \.self) { filename in
                                 Button(filename) {
-                                    RootDataManager.shared.copyBuiltinFolder(named: filename)
+                                    Root.copyBuiltinFolder(named: filename)
                                 }
                             }
                         }

@@ -8,9 +8,14 @@
 import SwiftUI
 
 class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        Root.load()
+        return true
+    }
+
     func applicationDidEnterBackground(_ application: UIApplication) {
         print("Entered background, saving")
-        RootDataManager.shared.save()
+        Root.save()
         FoldersDataManager.shared.save()
         VocabDataManager.shared.save()
     }
@@ -18,6 +23,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 @main
 struct ChineseWordSearchTestApp: App {
+    @UIApplicationDelegateAdaptor var appDelegate: AppDelegate
+
     var body: some Scene {
         WindowGroup {
             ContentView()

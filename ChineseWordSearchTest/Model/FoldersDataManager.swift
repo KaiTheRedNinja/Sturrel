@@ -15,10 +15,6 @@ final class FoldersDataManager: ObservableObject {
     @Published private var folders: [VocabFolder.ID: VocabFolder] = [:]
 
     func getFolder(for id: VocabFolder.ID) -> VocabFolder? {
-        if id == RootDataManager.shared.root.id {
-            return RootDataManager.shared.root
-        }
-
         if let folder = self.folders[id] {
             return folder
         } else if let folder = self.loadCustomFolder(id: id) {
@@ -31,15 +27,13 @@ final class FoldersDataManager: ObservableObject {
     }
 
     func saveFolder(_ folder: VocabFolder) {
-        if folder.id == RootDataManager.shared.root.id {
-            RootDataManager.shared.root = folder
-            RootDataManager.shared.save()
-            return
-        }
-
         folders[folder.id] = folder
 
-        FileSystem.write(folder, to: .customFolder(folder.id))
+        if folder.id == Root.id {
+            Root.save()
+        } else {
+            FileSystem.write(folder, to: .customFolder(folder.id))
+        }
     }
 
     func removeFolder(_ id: VocabFolder.ID) {
@@ -57,7 +51,7 @@ final class FoldersDataManager: ObservableObject {
     }
 
     func save() {
-        for (id, folder) in folders {
+        for (id, folder) in folders where id != Root.id {
             FileSystem.write(folder, to: .customFolder(id))
         }
     }

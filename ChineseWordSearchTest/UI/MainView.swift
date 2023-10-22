@@ -14,8 +14,6 @@ enum FolderOrVocabID {
 
 struct MainView: View {
 
-    @ObservedObject var manager: RootDataManager = .shared
-
     @State var expansionState: [String: Bool] = [:]
 
     @State var searchText: String = ""
@@ -25,7 +23,7 @@ struct MainView: View {
         NavigationStack {
             VStack {
                 if !showSearch {
-                    FolderListView(folderID: manager.root.id)
+                    FolderListView(folderID: Root.id)
                 } else {
                     if searchText.isEmpty {
                         HStack {
@@ -40,7 +38,7 @@ struct MainView: View {
                         List {
                             HierarchicalSearchResultView(
                                 searchText: searchText,
-                                folderID: manager.root.id
+                                folderID: Root.id
                             )
                         }
                     }
