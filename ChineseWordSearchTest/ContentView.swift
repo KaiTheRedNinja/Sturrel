@@ -23,20 +23,31 @@ struct ContentView: View {
                     }
 
                     Section {
-                        HStack {
-                            Spacer()
-                            VStack {
-                                Text("Vocabulary provided by\nXueLin Learning Hub")
-                                    .multilineTextAlignment(.center)
-                                Image("xuelinLogo")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(height: 100)
+                        NavigationLink {
+                            ScrollView {
+                                VStack(alignment: .center) {
+                                    VStack {
+                                        Text("Rewritten by Tay Kai Quan")
+                                            .padding(.bottom, 10)
+                                        Text("Originally written and designed by:\nTay Kai Quan\nNatalie Ruzsicska\nElyssa Yeo\nZara Rosman")
+                                    }
+                                    .padding(.bottom, 60)
+
+                                    VStack {
+                                        Text("Vocabulary provided by\nXueLin Learning Hub")
+                                        Image("xuelinLogo")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(height: 100)
+                                    }
+                                }
+                                .foregroundStyle(Color.gray)
+                                .listRowBackground(Color.clear)
+                                .multilineTextAlignment(.center)
                             }
-                            Spacer()
+                        } label: {
+                            Text("Credits")
                         }
-                        .foregroundStyle(Color.gray)
-                        .listRowBackground(Color.clear)
                     }
                 }
                 .navigationTitle("Settings")
