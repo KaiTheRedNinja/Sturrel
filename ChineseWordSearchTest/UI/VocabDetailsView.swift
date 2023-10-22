@@ -35,7 +35,7 @@ private struct VocabDetailsContentsView: View {
 
     var body: some View {
         let vocab = vocabDataManager.getVocab(for: vocabID)!
-        Section {
+        Section(vocab.isHCL ? "HCL" : "") {
             HStack {
                 Spacer()
                 if isEditing {
@@ -68,6 +68,10 @@ private struct VocabDetailsContentsView: View {
                 Spacer()
             }
             .listRowBackground(Color.clear)
+            if isEditing {
+                Toggle("Is Higher Chinese Word", isOn: vocabDataManager.bindingVocab(for: vocabID).isHCL)
+                    .listRowBackground(Color.clear)
+            }
         }
 
         if !vocab.definition.isEmpty || isEditing {

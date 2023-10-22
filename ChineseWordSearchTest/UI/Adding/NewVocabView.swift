@@ -42,7 +42,7 @@ struct NewVocabView: View {
             }
         }
         .onAppear {
-            let prototype = Vocab(word: "无标题", definition: "", sentences: [], wordBuilding: [])
+            let prototype = Vocab(word: "无标题")
             VocabDataManager.shared.saveVocab(prototype)
             prototypeNewVocabID = prototype.id
         }

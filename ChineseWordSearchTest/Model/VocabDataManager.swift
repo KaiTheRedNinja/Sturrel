@@ -36,7 +36,7 @@ final class VocabDataManager: ObservableObject {
 
     func bindingVocab(for id: Vocab.ID) -> Binding<Vocab> {
         .init {
-            self.getVocab(for: id) ?? .init(id: id, word: "Untitled", definition: "", sentences: [], wordBuilding: [])
+            self.getVocab(for: id) ?? .init(id: id, word: "Untitled")
         } set: { newValue in
             self.saveVocab(newValue)
         }

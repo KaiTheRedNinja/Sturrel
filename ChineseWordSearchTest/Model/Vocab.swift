@@ -46,26 +46,34 @@ struct Vocab: Identifiable, Codable, Hashable {
     let id: UUID
 
     var word: String
+    var isHCL: Bool
     var definition: String
     var sentences: [String]
     var wordBuilding: [String]
 
-    init(id: UUID = .init(), word: String, definition: String, sentences: [String], wordBuilding: [String]) {
+    init(id: UUID = .init(),
+         word: String,
+         isHCL: Bool = false,
+         definition: String = "",
+         sentences: [String] = [],
+         wordBuilding: [String] = []) {
         self.id = id
         self.word = word
+        self.isHCL = isHCL
         self.definition = definition
         self.sentences = sentences
         self.wordBuilding = wordBuilding
     }
 
     enum Keys: CodingKey {
-        case id, word, definition, model_sentences, word_building
+        case id, word, isHCL, definition, model_sentences, word_building
     }
 
     public func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: Keys.self)
         try container.encode(id, forKey: .id)
         try container.encode(word, forKey: .word)
+        try container.encode(isHCL, forKey: .isHCL)
         try container.encode(definition, forKey: .definition)
         try container.encode(sentences, forKey: .model_sentences)
         try container.encode(wordBuilding, forKey: .word_building)
@@ -75,6 +83,7 @@ struct Vocab: Identifiable, Codable, Hashable {
         let container = try decoder.container(keyedBy: Keys.self)
         self.id = (try? container.decode(UUID.self, forKey: .id)) ?? .init()
         self.word = try container.decode(String.self, forKey: .word)
+        self.isHCL = try container.decode(Bool.self, forKey: .isHCL)
         self.definition = try container.decode(String.self, forKey: .definition)
         self.sentences = try container.decode([String].self, forKey: .model_sentences)
         self.wordBuilding = try container.decode([String].self, forKey: .word_building)

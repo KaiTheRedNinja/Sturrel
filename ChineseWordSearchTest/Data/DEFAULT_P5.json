@@ -4,369 +4,369 @@
         "folders": [
             
             {
-                "id": "36538d9d-f05a-4ad1-8cae-09b61d4c4823",
+                "id": "f519bf0a-e862-4870-a9e1-ca9b9c8b8fed",
                 "name": "\u5c0f\u4e94\u9ad8\u7ea7\u534e\u65875A\u7b2c1\u8bfe",
                 "vocab": [
-                    "145bd6ce-4eb0-4928-a725-57efecbe3ca8",
-"f0819f6b-c63b-4e4b-89ee-34f174373818",
-"392c7d88-fd3a-4325-9530-959f2a0b96f9",
-"42682ef5-68b6-47bd-9394-0d21f7edb455",
-"b26d8a48-d7ec-47cb-8328-164568c36adc",
-"88063723-5641-4b25-a6c6-0d9962056364",
-"23d73b35-13c4-4c5e-8576-172820d5b8de",
-"f0b99f36-0694-4623-84d6-d37f78f484c3",
-"aa8f4803-2cc0-4d23-834f-caf230b9abe9",
-"f2f21dd4-7c02-46fa-8802-d660e0504a99",
-"4ac5741d-769a-49b1-b3c7-3fcf6e1a47e3",
-"25e22533-c964-42ff-90c2-7f669aa0e5a1",
-"4bf33ae1-0032-4ad2-b5dd-c5fadf1bee7e",
-"188cb892-3aae-455e-802f-16917fa93c0b",
-"985b076f-e877-46ff-b2ed-b9c64047a600",
-"4aba18d5-17b3-42c3-b1b4-aea5804615f2",
-"66a549f7-4e71-4e5b-8167-690f953d93c9",
-"9c23e83f-38e7-4653-a901-f2c7ec6722e1",
-"3a4436be-0288-41ef-8351-d0dd4b452015",
-"65f6b66f-eaf9-4d53-a268-0e65caa1d164"
+                    "a1d525ed-0a84-4fb5-83d9-8199121f2f11",
+"56e58e19-6065-4634-8c61-971304ab3d9f",
+"ee0e161e-ab7f-470a-b099-e24cee4bbfe1",
+"04e86ed1-9bc7-43ee-b47a-fca66972e4d1",
+"747ab4a0-253e-4ecb-ba12-4557428a1987",
+"4d6a64c6-69f6-4d63-852f-70db0649780c",
+"30973ab8-331e-49eb-8604-e95e0a04d087",
+"6cb0c210-f8f4-4dfd-a045-1cb9ab40417f",
+"38befc68-df46-4984-9213-4d7994713ea5",
+"e25a22a2-7c26-4d68-ab71-9877d630b3a3",
+"387f33c0-0950-4000-aadd-5941ef17546e",
+"ed22b38a-8c30-43c8-b184-5fdf545fed0f",
+"0b67297b-7636-4540-9d5b-b7214eabc35c",
+"91111ca9-b2d0-4e43-88df-1c951fd77f7d",
+"4943b020-90b4-4f02-9905-d5e0142f3b8f",
+"efe07699-bd40-435e-9dce-288e61e54ed8",
+"de5dc037-7928-4341-a98a-bff66bf07291",
+"7e8579bd-c6a0-4a0d-b446-40cfc810e0b4",
+"c28f0035-2e9b-45e7-9f1a-c2e2a9f24dff",
+"dc2220e1-253b-48c4-984f-9f79d53a1c6a"
                 ]
             }
             ,
 
             {
-                "id": "d18ec16e-de4c-4e93-b296-b8b527988513",
+                "id": "85acd61a-9e44-4026-8168-d6579b6b445f",
                 "name": "\u5c0f\u4e94\u9ad8\u7ea7\u534e\u65875A\u7b2c2\u8bfe",
                 "vocab": [
-                    "b6555903-e9f9-44cf-87de-715fb411db85",
-"0dff9257-6983-4f2a-99c3-12bced18cd89",
-"c71734ee-9205-485f-bba5-10b3759d281a",
-"f59dfcd0-7b28-4133-8000-72b57c8516cb",
-"78125e8c-d3ad-475f-a604-f71c8e55f015",
-"fa1d963a-fe42-4962-9188-df9e78f0d2cb",
-"bced7470-1540-4870-b6ce-e3c27d947036",
-"d7283fcd-1980-4808-bff3-d193779d99d4",
-"c1be56de-c7bb-4c97-957e-481378d80d03",
-"ce1acaf4-f498-4d19-998f-3b2e71b182f9",
-"ae79ff23-868c-4b81-81fe-42c7dd683c06",
-"bf6ae10e-06f6-43fc-bfb4-a98deae80da2",
-"eec8babc-0533-4c88-bcb2-c71f976358c0",
-"4f719e0e-4119-4efa-820c-d88913baf266",
-"74d9e9ca-854a-486d-a407-49e64975bf2d",
-"e73af85e-12b3-43f7-bf17-c572f1f973d1",
-"36b37a64-349b-4df4-a51c-8b7a766d6c31",
-"1145a6ee-3235-4757-b47f-3dc783756b16",
-"6289fd8b-d61e-4e0b-ac73-408221d9af57",
-"dbcf890d-622d-4d93-a4aa-25cc77275c5b"
+                    "1c192ca1-06b3-4f66-ad60-63d51747a427",
+"58b4b07d-c436-4f4b-8c55-c21ec98c1044",
+"3f33a731-44a8-4c7b-948b-9a71426eb494",
+"521a3cdd-598c-4cb2-9960-d772d79cab48",
+"4833c67a-be12-4b8e-94a9-c5a2f48ca432",
+"eb909b35-1f48-419d-895b-2e1d067e2db5",
+"67c3d85f-9820-493e-8c42-885606bd3e11",
+"36008962-564e-4a04-864f-6301f85cb90f",
+"4ce5a95d-c257-4d27-8662-062d2c5ce6f3",
+"9f85f717-a76f-4e5c-9b55-eee5e05b94a0",
+"e294db12-b68d-4817-ba55-ae59f1f5fc89",
+"3cd57e3b-19c5-4953-a159-104d1dc25f10",
+"4f0273e0-caeb-45dd-be81-1ebeff22996a",
+"a5dd81f9-98fc-482a-97bb-dca99076af15",
+"c789a2d8-d75b-4b86-ba83-cdde065390be",
+"45f25b55-ab0b-4ca9-acb0-355690a55570",
+"50ac142b-55f4-4c09-a2af-8c1e277d49e9",
+"8c582e27-2926-49a1-a711-364b1b6fc380",
+"baa742a9-bcc8-41fe-bad3-afe84aa989a8",
+"5d905287-3acd-4716-acc5-7497a3de6423"
                 ]
             }
             ,
 
             {
-                "id": "e3c289da-367c-496f-a381-ba4f278f792a",
+                "id": "01eb6a27-9d86-45e5-b06f-eb6da210ddd7",
                 "name": "\u5c0f\u4e94\u9ad8\u7ea7\u534e\u65875A\u7b2c3\u8bfe",
                 "vocab": [
-                    "41ac1181-3640-4d08-b188-7af685bf0c14",
-"1fb2df61-8ed0-40d8-85ac-271535fca27c",
-"89463e12-6528-408c-b94c-e3815a16d1ce",
-"62aeadd2-552d-4a4f-9093-3703b67a7fc8",
-"999a185a-36c9-4845-8906-097a7cf1d2e2",
-"5f0791cd-17fb-4796-a40a-ddd367a2be31",
-"21210408-6cb5-4d0d-a3ba-343d680a6328",
-"af16e855-379c-4ec6-9d09-3e66e1863460",
-"ece1bad6-d59e-4dc0-a5e4-501fc9608981",
-"f3088876-6561-4939-ad6a-8aba4706cddd",
-"b54dbea9-3155-4ed1-ab38-2733e007f228",
-"5e385f35-397e-4e63-a6ce-74b669d36556",
-"1047ba1e-8762-4c37-a24f-7e69e9302a38",
-"87da6cb3-c5eb-41c5-868c-81d50b26d434",
-"cfe76f31-39fd-421a-b90e-0128e1dacc3d",
-"29e60796-b6fa-4153-8a76-bbfd0dd875f3",
-"e9f333df-5d90-47a4-b3ce-da230b04dabb",
-"fa294818-f97d-46b0-b4aa-b774e5d1085f",
-"6f4da16b-2b4b-4219-b76a-cf4f1d1dbc47"
+                    "b8059d41-a016-4b73-8294-c6ae4db0dc29",
+"0bb0c23d-fd83-480d-9c85-9c6df169a9ff",
+"8bdc4690-8e5f-4dd2-9248-13e964765a62",
+"a3feaac9-4af6-4149-a18a-12e7318df1bd",
+"268f1e71-b162-40d3-9052-dc26811a37be",
+"27507b02-67d5-4fbd-8849-93fe1482ac65",
+"40682849-2266-469d-866a-b6504bf2889e",
+"feb13a95-e81b-4085-a91d-4be27d7d4ba7",
+"13730562-a6d9-40d1-be91-dbc76195d141",
+"20616f27-27cc-407d-8dd7-6305c5dccf21",
+"a7ad97a0-57ec-4c4f-8a1d-6322c51e464a",
+"4812c8ed-9b23-4179-b87a-34759911fcd1",
+"67a71351-892f-459f-9425-76a1b0b354f1",
+"d51b3d6e-c7d3-4e0e-9b2a-6fc817d40217",
+"037cd25c-4e43-4b9f-a3ea-b9fa97d2dd1f",
+"dc0b36d3-b1de-4833-8d21-4e27ac96779b",
+"20623d9c-5d4d-417d-969b-9eeeb4750893",
+"f81be611-267d-4645-bc01-04f5204ead14",
+"fda01a61-368a-4f23-8e20-aa62e82b6305"
                 ]
             }
             ,
 
             {
-                "id": "6dca525d-ae26-4f8b-9023-6d05fb873b2b",
+                "id": "c5112cb3-ed73-413d-8089-672363278504",
                 "name": "\u5c0f\u4e94\u9ad8\u7ea7\u534e\u65875A\u7b2c4\u8bfe",
                 "vocab": [
-                    "845e7944-2e90-4c45-b0e8-024d4960762a",
-"652d88ae-51a9-4aff-adb9-dfbfa332ffcf",
-"a441c552-ff19-4864-b05e-ad45ce8c0342",
-"9d6e1299-0fe4-417d-bfe5-568f3877ec85",
-"63fe4d0a-efad-4e50-95be-d799f74de6b5",
-"61d2c794-d182-473e-81b0-8756d64b787c",
-"f54ad8ae-d52c-46c3-80b9-e165fa6db4b3",
-"1d6ac4fc-1c18-44c6-9df2-3238e6d30677",
-"96fff19a-4e72-4bac-862d-3f1a9c60c0d2",
-"854ac410-c5e3-41fa-9482-3ed1d2ff5ba6",
-"383ae827-6247-4212-8586-c5f70874c3a2",
-"9ae12024-9765-4fed-bb06-fda503d7b83d",
-"8c621647-0eb4-462a-b254-a8af67c31ac5",
-"1fb3cfb0-a459-473f-a49a-7c0ca080804b",
-"5308bb40-72ab-4a83-8e77-460738dc26bd",
-"4847302d-84e2-4027-9b03-bf409139a157",
-"8da326d6-a5bd-4330-9b15-d0e0ac0b545f",
-"eae6ea5f-cc25-4166-82d0-9cbc63346260",
-"df3fde51-e8fb-49da-90ba-a847de0dacfc"
+                    "e214a040-85c4-4181-b84a-3fcbe8cb65cb",
+"dee91954-505c-44c3-ae0d-d4130c33b269",
+"d536a089-acc9-4581-b6a1-b883b006bcba",
+"adfaddc7-0ffa-4fb4-ad0e-394465e7dab5",
+"7f1008f9-6548-402b-8f83-d1a6efa2951f",
+"d193f9ef-5235-4515-accb-a37015b9b59c",
+"04da9fa6-f092-487f-a687-11bada9ba8db",
+"16e93378-13ec-42b4-89a0-ae7ce3f96648",
+"03ce74cf-475e-4e4e-bab2-9186ce547422",
+"3e93c9e3-06ab-47b8-a093-745821520239",
+"89ad4745-b9b4-4b2b-a1d6-9413cf9dc932",
+"7857f2c5-1b06-40fc-bfef-431207b459bf",
+"743d0dfe-75e5-4cb5-977b-3ec9ae077cde",
+"e5a1dde9-d7ee-4980-8738-193a83b786ae",
+"bea09869-427f-4990-b3a1-2af0041407ed",
+"5645d0a6-f37a-479b-9ced-210f0ccac21a",
+"bd1e711e-36b1-4809-9fe4-918a6bc3f3a1",
+"d2d7e2cb-6156-457c-be73-58cbd88d0eb8",
+"1b21d3cd-c728-40b6-b557-1609d26aa9d3"
                 ]
             }
             ,
 
             {
-                "id": "342f50a9-ef3d-4f44-a40c-27a7533488bd",
+                "id": "f8a09325-e656-4c9f-97b3-e3c62a033837",
                 "name": "\u5c0f\u4e94\u9ad8\u7ea7\u534e\u65875A\u7b2c5\u30016\u8bfe",
                 "vocab": [
-                    "bfe6afb2-deb6-4529-b5f2-94edda941dce",
-"dc469f84-d732-4ccf-914c-e339ad55fbb2",
-"8f6cd4c9-e3e5-4857-91e9-38f162841588",
-"3875f303-2481-4e87-8c4a-95410079b662",
-"6502cb5f-11df-4b7a-9ab6-9c3d12756221",
-"fcfc7c02-8813-4443-888f-b8308e3741d8",
-"951d1059-6c08-4008-a15d-91db47ee4449",
-"98bdfabc-760a-4550-a0d8-eab18f924971",
-"c7d7f435-77d3-49c5-95a2-7f65a81f7f4d",
-"14abe179-46ea-403a-b24c-8018c023b16a",
-"c06b4f37-492b-4b93-b387-cc983877bce2",
-"e42f0cc8-4b9a-4d41-a040-ef2179a41285",
-"0d4e4144-f01d-48e1-b7c4-b122366f12a8",
-"b040c9ac-7417-4555-871d-cd8fdf8fe408",
-"e264ab97-9a18-4205-ad09-c35eb800175b",
-"9283389a-8b7c-4faf-93a0-2c1eaec8943a",
-"4512cb3e-301c-42ed-99ba-4b0400c8d3e8",
-"c19be6a8-c06c-4b94-b3c9-12f7d3c3db82",
-"9b619092-e015-4a05-b41e-1c2453c7ed03",
-"d6b74cdd-f936-4e44-9053-181146cefb38",
-"853c77f2-207a-4f02-a41a-6a0ca9ae6e02",
-"4d5797af-51ee-44c5-8deb-384217c56924"
+                    "e59405ea-3f35-43f1-ba25-ba4df6ca7078",
+"0dd2006e-5227-40f7-9013-2d6ebd883f02",
+"0de88f2e-c19d-4c0b-a36f-c7dfcd574bab",
+"3f7da5a4-a2c6-4084-98af-c06f899f2beb",
+"52368442-0fa8-459b-af52-22b0afc714a2",
+"f518a134-e177-43d7-9664-83d8e075ae58",
+"9ab899a4-7a9c-42ab-8191-bab916d8e3ac",
+"3e182999-84eb-4628-b0a8-9f0eab82d4ea",
+"8cee6444-0156-46ea-b227-faa6bd400fad",
+"2d5ac658-88cd-4ef2-a446-753c7f3cf14a",
+"b8f19c57-f3f4-4628-911d-6f08f3158f07",
+"06944012-676d-40cc-b4e9-27cfdf6895de",
+"3938aefe-af9c-48ac-9880-9dd8a0f133f1",
+"f8718b54-7dfa-422d-835f-7c80364a82d6",
+"fcb9f50a-5fc9-4bc8-9f82-439dac81bb36",
+"a42d57e1-73ef-4cb4-8093-93cef2a75484",
+"9e958b0b-3d75-4be6-be83-cf999c29847b",
+"9abbdd34-7deb-4361-ba04-668021e8646b",
+"5f611e34-eb0e-4c95-b0cf-6c225a102dda",
+"af94322b-cd6d-430a-8e35-6ad97836932d",
+"bc7ad13c-153b-453e-a563-8671166c96ea",
+"18e5139e-b7a8-4154-86ea-4f76ccbf793a"
                 ]
             }
             ,
 
             {
-                "id": "009cd640-4a7d-4cc9-bd78-a9d4bd48ddad",
+                "id": "85267c63-e115-42aa-87cb-fa786e96a99a",
                 "name": "\u5c0f\u4e94\u9ad8\u7ea7\u534e\u65875A\u7b2c7\u8bfe",
                 "vocab": [
-                    "05e28747-349c-4cbc-8d7a-14177ea5d342",
-"99d1247c-c5a0-4a79-ba12-35c311049cba",
-"6b888656-c658-43cb-88a8-32d2f9349f05",
-"c4692b51-770d-425c-aea4-efeecc8198d1",
-"93c48003-3b2b-42dc-94b7-323fab8baa69",
-"5e423636-b65e-4d64-bcfc-5807702c5111",
-"93614cf3-7681-4800-b1a2-bfaa31a359af",
-"10303fd3-6d97-4da9-a302-8d9fbc0a8f1e",
-"7df94368-cb16-4046-85a7-bd78d57daa3f",
-"18374ada-ca1c-49ec-a3b9-b88104cc47e3",
-"4da59632-bf10-4edd-9250-536de9de6e89",
-"acfe7d3e-6585-4bd0-bca4-17b4ca7e8e5b",
-"2d8d32ca-6911-4b6e-bc33-28835b7dfc49",
-"d2507330-e00d-430f-a56f-f5db0b19ff3e",
-"99b2eec3-69db-4a16-9512-7b8e8381b1ef",
-"2b8a66e6-1476-4c49-94b5-65e1cac3f686"
+                    "b5a7240c-206d-4f3f-afd9-4d6e73e74031",
+"ab699bbb-5b8c-4c28-9f29-e722953580b6",
+"e13ff20e-f84e-4ac5-9cb8-d73789046096",
+"cc0a8c9a-4797-41c7-b1ae-0200b57616a0",
+"b607d101-682b-4993-b996-54553780439f",
+"ef1b0f31-5b56-4570-b5cb-4074b105ea99",
+"3e2362db-83df-46f9-90f4-a4788e63e093",
+"cd7f8cb6-623d-422b-9c42-d38a53ec0c49",
+"dd00936e-9749-46b4-9e96-49aaf79844d3",
+"3d39c6f6-829c-487e-b39f-ced4b19c92d7",
+"98594095-a06f-4d15-b306-4bcfdee03a57",
+"50de18e5-2c5d-4b2b-b032-a23a144abda7",
+"f1181d24-6a84-482c-8c91-8ec0cd37f10f",
+"d1d61a00-f99e-4330-8512-4e914179e41d",
+"3430fec5-dec9-4ff3-bcb3-123c554675d9",
+"e78e0fbc-b82c-4ed4-9fb8-9d40b1fbaa79"
                 ]
             }
             ,
 
             {
-                "id": "01973b69-3536-4c7e-a250-f28d2b7b2115",
+                "id": "e3852e5f-f1a1-4e19-924e-dd77c40928fe",
                 "name": "\u5c0f\u5b66\u9ad8\u7ea7\u534e\u65875A\u7b2c8\u8bfe",
                 "vocab": [
-                    "2f941789-83ac-43cb-886f-64a9f72c9d13",
-"ca4afff1-96ef-4416-8ac7-7610059bd125",
-"00fd6439-2f60-4444-86c1-5fc4192c08d2",
-"99edae74-33a7-4b94-b76f-1280b9680d3a",
-"734afc54-c383-4995-92e8-1f110f1c786b",
-"bb20bb78-5d5c-4efc-b80a-0743159708ec",
-"da1053d0-a3fa-4f4e-a1e6-d7ba516a7206",
-"d8498ab8-681a-45ac-86b6-47c2621cf1b7",
-"f895f3f2-0382-4cc9-8d00-cc9de8fef4fc",
-"d99cedf7-9928-4c40-a0d4-1f744db2d9e4",
-"9575d8d7-97f9-4360-add8-bdbe4d0b0f39",
-"99501476-29c1-4f9c-bf5e-dede05ec67fa",
-"69ec9e48-7696-498c-bacb-bd26885c7af2"
+                    "9f390b94-935f-4200-9282-a57794c6d8f6",
+"f4d7ba18-62db-4844-ac69-7d02da55d64d",
+"debed74d-d5bc-4252-b031-b07b6b836da3",
+"209fd3f3-d253-4742-99df-102a392d7d1b",
+"1e4f6591-e351-4c31-92b3-7777f1f34c94",
+"416c4b27-cd90-4078-b1a1-800da941a6f1",
+"a00181ee-244b-4e0e-9a24-c96221941a77",
+"1c58fe01-c156-4eda-80ca-1632a3976cc5",
+"1edd9f3a-f030-495d-afc0-11e1c15dc653",
+"6a9b8610-a15a-48e3-9467-37f3e1e3d627",
+"30999884-1ad9-49e7-8cdd-ccb8572a7bc3",
+"c29d1190-72d1-4d42-bf02-3c46f3489675",
+"5f02b969-9f00-49a2-a16a-21578ed5cc07"
                 ]
             }
             ,
 
             {
-                "id": "6002690d-6c0f-47c0-bbe8-110a0b8c3115",
+                "id": "a3ca8254-8e8b-4e3a-b7b6-58c23a2a89bc",
                 "name": "\u5c0f\u5b66\u9ad8\u7ea7\u534e\u65875A\u7b2c9\u8bfe",
                 "vocab": [
-                    "6f21f78e-ddf3-48b4-960d-a7dd623310d0",
-"10648845-9b80-49c4-858c-22682e04d3a8",
-"c7a8bd67-da31-4dd0-90cc-27d372ab5470",
-"906837e3-1e8c-41ed-965e-ba1278f2bea4",
-"48e62e6b-4b67-4d39-8bd5-9345725c6374",
-"56f6077a-935b-4455-851d-81879f1d4825",
-"74782bff-8894-47b7-90f0-51839e8ee694",
-"ae2aba03-c94d-434a-a923-a5ef553416a0",
-"b49f2fa0-c177-45f5-96d8-aa37eb6acb6a",
-"e12f04f6-6481-4aff-b9a9-e80f74e8af99",
-"73aa0b58-c570-4bd3-ae0d-d1728d6ae425",
-"9e14e591-924c-4f78-b636-9d2883d2530f",
-"c6e588f8-2f61-40d8-8cc7-7e9068ffb6cb",
-"6170f18d-6a1c-443e-b2a4-bfc13f76f5bf"
+                    "536efdbb-2393-4ec8-bbf5-c38e31da227a",
+"4484d0a0-0c14-422c-9d68-42303f7fbee6",
+"0e36de85-1bda-4f61-a444-588266f71dfc",
+"d487269a-b774-4cfe-bfa9-4d4fef752b75",
+"a9f1c60a-f2e8-490c-914f-23d56afafba2",
+"7cf1f1ad-be4a-4f8e-bf88-24f8a47aa202",
+"64ecc87f-9980-4326-bbc4-b1a6ae6031d6",
+"02d9f0ff-17c3-4ef2-ae7f-4db9d99f6757",
+"699d3ac0-e9a4-4f01-b98a-622e7676f8ce",
+"885afc53-2c2e-41d6-b4af-1b09a5ed98bc",
+"e6830cb0-81c4-4c17-a6bc-f1548874ce49",
+"15f55e28-54a0-43ba-b507-555cdadcbc2b",
+"20f780a0-8d38-4366-91e7-4dab909327d3",
+"89b28848-6688-4065-887b-7238812d94b3"
                 ]
             }
             ,
 
             {
-                "id": "9b6796cb-cb1f-41cb-ba86-a39920e2cf49",
+                "id": "93e6ab4d-0c54-46b7-bc67-632e564c83c6",
                 "name": "\u5c0f\u5b66\u9ad8\u7ea7\u534e\u65875B\u7b2c10\u8bfe",
                 "vocab": [
-                    "91cc714a-f291-43ac-a643-3c8b5db54118",
-"68dbcc84-3752-4a53-9787-e793186c92b0",
-"3a334dd4-cb8a-4acc-a0dc-82f9b8e99d39",
-"9839d90f-8138-4bd8-ba76-270e1398debf",
-"d83f35ac-3365-46c1-8335-8a4206204207",
-"d79f35fb-bd6b-4575-9bce-1ce5cf37dca0",
-"0eb3217e-749d-47fa-9224-8d52010c1997",
-"db1a8b31-f863-4567-929b-d751ce82be41",
-"effa364a-4329-481a-aea9-7465d3791fdd",
-"4924363f-a7a5-49b9-9049-d826823a769a",
-"a04e4f75-080d-446f-b053-c131a54b0b34",
-"c2d91ed5-c4e7-4723-92ab-b0a6492d4f8d",
-"52a39ae2-cc49-4186-aa5d-5d548d070b63",
-"4794f317-5c17-4541-a69d-4ac94be17c54",
-"e684f989-4562-49d0-9c6e-5a8cc089299a",
-"5e6b96d6-fbe4-4cbb-92aa-bc3df9734fd4",
-"4b5a1877-9db0-4338-af02-4863fb233653"
+                    "eb9b61b3-b5ec-48f3-bcc8-a8a8bc182372",
+"f2d113fa-66e0-4049-aa0b-f532f39d42c1",
+"c298dc27-55fc-42be-bf96-f0a40c3a30a7",
+"e6faf18d-102f-43df-842b-1c5e31474728",
+"76284637-3ed2-4c40-ac93-4c532971efd1",
+"563cae6d-b541-441a-8c3c-933bb6601c00",
+"44d1aa30-e285-49be-beec-b473230c72e1",
+"f73b1327-1971-4130-aa98-e842dfc36de0",
+"b1f6b0d2-8a89-49a7-ac11-9baf8d3131c2",
+"fc0f811f-5b79-4671-8ef1-bfd5799a28ee",
+"13f1969f-37f8-4e9b-bc91-f84adeee6b87",
+"f6bf3eef-5574-4a04-8805-1c8bce11d099",
+"9e936099-eb53-48a5-8909-6d6073eff1fb",
+"cc95aec8-a980-4783-9a7c-babb6dd0d429",
+"4ffe089b-91df-4d7a-b3fd-88b6d970384b",
+"a84c23f4-7300-47b1-a37e-522392cd3c48",
+"56407a10-b1a6-420d-a2d7-a71086e99bb6"
                 ]
             }
             ,
 
             {
-                "id": "7159851f-bd02-48f7-89c6-29ef88ba2e16",
+                "id": "23ae9487-7183-401d-b673-53efd324fb14",
                 "name": "\u5c0f\u5b66\u9ad8\u7ea7\u534e\u65875B\u7b2c11\u8bfe",
                 "vocab": [
-                    "26ac621b-42a6-41af-a9b2-c060d1e8f264",
-"31aff3c8-15f2-45ce-9e61-bf812cc9223c",
-"de377c82-7d4e-45bd-adbb-e90e76ed9e70",
-"15d07a10-f023-4444-973d-f66aa4c8d279",
-"314b2488-7331-4214-b964-960ecd56f623",
-"19ea059a-4c0b-4115-aa8c-d28d5ce5d1a9",
-"0404ca94-8237-4246-9396-e6ceaa8988b0",
-"0aaf3d26-a2b2-4591-bf51-44c1319b15ca",
-"79d87dd9-9abb-48c0-9da7-df4544162281",
-"3e26da40-5a61-4714-8b61-98bf54d28607",
-"be9d67d7-f768-4f17-a4cc-4912a555855f",
-"3ee486ea-02d2-4a21-85bc-b2f732716d69",
-"af81440e-b43a-4e62-93ae-2f663e0e490a",
-"3c648656-0a5c-40b5-a33f-f28c6e269068"
+                    "87432949-8b50-4681-8f4c-90b433506fdb",
+"b83c2bab-d6d5-46b0-97fb-dc54b4121a44",
+"d667101f-b109-45f6-8993-1ee797ad2c2c",
+"453effba-febd-4f93-a1c1-1ef985e5e132",
+"9f0e8693-4f22-4f99-9d1e-6db6e215b2b9",
+"0c61cbcd-56a5-4aaa-87dc-c846b54146e2",
+"1cfba2cf-ea78-4c74-8182-4bd0cc6bb92d",
+"cb6152d7-62e1-4742-85dc-baadf27b61cc",
+"7f873bd8-040b-4967-9b98-6c26963ce66d",
+"7663bb55-4518-48e1-921b-cdefd58fccd3",
+"45295c6d-6b74-404a-8747-fe1d9f85bb1e",
+"77533964-c60f-4b23-8e52-5cf97dba3db7",
+"24ff1daf-370f-4f58-aa81-feec27723ee3",
+"05591833-84ca-4f5f-8c1c-ebd7113402e8"
                 ]
             }
             ,
 
             {
-                "id": "d20d3dca-183f-4d8b-b712-dc4f28530742",
+                "id": "57c8c8dc-a5e0-4b5b-b828-8d41c5f3133e",
                 "name": "\u5c0f\u5b66\u9ad8\u7ea7\u534e\u65875B\u7b2c12\u8bfe",
                 "vocab": [
-                    "b89dedaa-65b2-4aeb-a49b-8a90b21cb64b",
-"3077452d-a72b-4788-ab1a-98f66931e1b9",
-"c0afde4b-e250-4fe4-b7b6-794ecaa96477",
-"983c247f-73bd-4118-ab8c-e05e6719dfb4",
-"54afb484-2fa0-4a83-85ca-96b94b56024c",
-"f3774941-00fe-4223-a4d9-e59fab96da99",
-"6dc13476-149f-4d6e-9457-f5a7d75b351b",
-"329104d4-eb92-4058-bd16-4a0311d6b8fb",
-"1647e797-5a4a-420a-8cb2-423609229e9f",
-"307468d8-7c10-4148-847a-4e005c56a1f0",
-"90dac4e6-7c7b-4b3b-a6cf-02f07d7d6ea8",
-"475b62ce-b0da-4d5e-8c8c-4a049c47fb13",
-"27591a62-0ace-40b5-8220-ebce24f3545d",
-"da15c1ce-2afa-40a2-8b77-d50d2e25100d",
-"68497225-a929-4ad8-bee6-33ef44d8d6af"
+                    "4ac83561-d620-4e46-be23-ee9095ea8c61",
+"38bbd98e-9121-4641-abcb-68b2801e635a",
+"b32d66de-d86c-4be6-bf28-bd7d387f9c6d",
+"3422be80-0efd-4657-a9d3-8ff50f262287",
+"b98bf0d8-c7e0-41d7-9e36-785371ab9341",
+"63f2de2d-91d3-4078-a99f-5f2bdfdfe867",
+"2f88202c-c863-4224-a311-5a81f83c9d8a",
+"387661a4-14ea-4cf5-b511-7e177e6a457c",
+"73cc7a40-8225-4cc4-8ebe-1acb249e3ff5",
+"0fa16211-5276-49fb-88e4-3e957b6bf688",
+"ec26eb4b-2b6b-4579-8c0e-154a2f475615",
+"1f8fc89f-30da-4092-93d2-c57ac51dea26",
+"dcf16db3-4e60-45ec-a0ea-e2f2edcad04c",
+"4799efda-c2bc-40fa-9011-82d56a1e2fc4",
+"6a2bfc6a-fe8d-48c0-98ab-e8385250073c"
                 ]
             }
             ,
 
             {
-                "id": "ca7b6932-8051-4c27-b2fa-0cb37975c8a0",
+                "id": "e6c59166-4e8a-4fd0-b51a-9979a31304cf",
                 "name": "\u5c0f\u5b66\u9ad8\u7ea7\u534e\u65875B\u7b2c13\u8bfe",
                 "vocab": [
-                    "74b4bf39-a522-4526-805d-97dec475ae9c",
-"2374b718-4be2-4f5b-9290-0ef13560e8c9",
-"a5cc9723-e7f5-482f-a6c6-3ce161b2bc66",
-"759b60b6-a6f4-4012-ae51-782b83fe3251",
-"e755cc5b-967c-4f9d-b9f7-6d123d18d4b2",
-"09b7828f-2515-474c-ae94-c63ac89d1af9",
-"ba669f5e-25e2-4177-a079-433a59094ead",
-"4c1d8f78-6511-4929-8224-a3460760c0d3",
-"baaa9f42-f8a2-4e2e-8033-7a6272adc57d",
-"297ef217-e641-493c-936d-ede555b70f27",
-"a41ff3d1-faff-469a-9763-1c9a0067d1db",
-"d69ecd29-e0af-411c-824e-15fd75938f00",
-"e7b40b2f-effd-4b7e-b3ba-60c61ab874e8"
+                    "e27d20e1-9538-423c-95bb-5f213cb76e41",
+"b140fe4a-24f3-403c-a2ea-e6037e902ce0",
+"14b98c52-fb1d-4215-8f69-fc6c381466b0",
+"fef9020d-db30-4e8c-b8a7-6ec4d577fdd1",
+"29e63b8a-b1df-4a0f-928c-a5dd0d6c73a1",
+"4b6e3f35-080d-4bee-a51d-90ae5d923a67",
+"ab8079ee-1c44-447e-a289-56d80573039d",
+"f67b10d5-d933-414d-bdb8-e9f558330978",
+"faa503b3-8129-45d5-9924-02c049d97fee",
+"05165570-fd3c-4e51-bf1b-61a16240fa25",
+"e8fe80a0-d17d-429c-8b8a-8048077ce83e",
+"02f85d47-f95e-4637-8d63-bd8aa2b73910",
+"4c9181a0-1998-4fd1-b160-68a61522d343"
                 ]
             }
             ,
 
             {
-                "id": "be3369f8-53a8-4d64-89d7-666f7e509521",
+                "id": "98949e2e-fe41-45e3-b8aa-15ea0519ad98",
                 "name": "\u5c0f\u5b66\u9ad8\u7ea7\u534e\u65875B\u7b2c14\u8bfe",
                 "vocab": [
-                    "90be9c72-08d2-46e0-894f-b6892429c5a7",
-"c2444891-d986-4401-bf57-c2857482c8c4",
-"b4ebe4ef-fd52-47d3-b812-14c31354f5f6",
-"3cd4092f-7dd4-448b-92d8-1f7258f865d8",
-"50fe8f11-8849-4121-a129-067f3aab1aa1",
-"ffbaead1-b025-414c-8780-bc7df2849a39",
-"79c00c6c-9e7a-425e-8b24-54fbb5ce6e22",
-"9c6f1a91-833b-47a3-a6f2-0ef2da8a0254",
-"2c78f724-d11d-4e66-989f-5b2aaf515775",
-"1fbe6274-e91e-4a40-8045-d7ca232e8ec1",
-"c167a151-6f73-4e3f-a9d9-ad906f60ae33",
-"4e592885-f2a6-459b-abfe-18af30157ee2",
-"4067dbbd-bed2-416a-8c33-2f3e70387eaa",
-"3dcc8fdc-500f-4dba-b59e-3398bb49b5cf",
-"b18e2570-25dc-45bf-9152-711a8a74f21b",
-"348b9a16-0989-4fd9-84b8-7beb7fef1447"
+                    "b2ed757e-72bf-4fae-8328-24f1c19a8a20",
+"57dc421b-c417-4708-bf1c-4a6f865aa651",
+"ec690652-feed-41a7-97c2-418979161fe3",
+"3efabf64-06fb-4a65-88a7-c7733cd7084a",
+"ded0bcfe-6829-4cf0-9d0c-d4a0b1167aab",
+"d6e20995-0deb-4835-ba63-4c86ed9c02a4",
+"e9b4e95a-dc27-4815-81dd-341677f4bf19",
+"7414e506-b373-4a66-9002-e74fb843fbfb",
+"48ccb816-a548-404a-af25-6d926eff9abb",
+"d0bbbe6e-a7bf-49b0-bd32-87b88ff0f520",
+"3a3a2fae-11a5-4ed2-bd0c-90823a64a88c",
+"596ee431-6648-440b-890b-da20c49f3482",
+"c46cac2b-0fbb-4054-a2f4-6acc7ffb0565",
+"7ebd50fe-40de-4ab2-9015-79747533bd11",
+"dbcd80d7-151d-4207-99fa-cbf4c586fff5",
+"9ab57b16-d648-4305-9767-bbcad1b3fe3b"
                 ]
             }
             ,
 
             {
-                "id": "7dc168c7-eeda-41f4-ae15-e95cd2f25057",
+                "id": "9d905931-12cf-4513-9830-3aa90e82bdb6",
                 "name": "\u5c0f\u5b66\u9ad8\u7ea7\u534e\u65875B\u7b2c15\u8bfe",
                 "vocab": [
-                    "14e97644-1b77-467e-9958-2af515d0d012",
-"d2ce1d04-8a6a-49a8-be1b-41893d491482",
-"77b256cd-67c3-44ef-bb69-01458ff505c5",
-"ae5d731f-bf45-45f8-b489-4f2b9a32edbe",
-"33d6be84-12b8-4c96-920c-9c6da37b6112",
-"485fcd88-969e-40a6-8646-8b2b1b2d951b",
-"33749b13-ac1c-46bb-a781-e15162b45e06",
-"c3352ece-b864-4c80-ba4d-563db71cdb6f",
-"a728fd00-5223-44c0-9a3e-68e15730f882",
-"a3fc435d-5af2-4997-a7d6-d1fa4d9cbeef",
-"9a7043bc-7b56-4592-8cb7-cdc528e381aa",
-"cbf55542-df98-4a96-8665-bdaf614a454b",
-"71d159db-9521-4834-8d3e-f7ae58e294f8",
-"22cb67c1-4af9-4ae3-baae-a7834aa51226"
+                    "28304563-6877-4b79-99c2-a4b0b6e035d4",
+"6a892f5f-1210-4b40-a1f4-aa028973005d",
+"4a3fe26e-7ce8-4947-8fb9-85e4ca9e1cc6",
+"d1c18bda-2844-4740-8f4c-eb2881a82ae9",
+"17ce076a-7f55-4b66-b924-600badbd4757",
+"b0c0d60e-f21b-4fc0-b20b-4f14501cec07",
+"73482ef1-0834-47a9-904f-8c8028adf30c",
+"39a62abd-9ee3-42cb-a82f-6e5cc7d76e74",
+"309d9d1a-9d18-4f53-98e5-fd8446750eb7",
+"2c848907-c388-46f8-968d-c3dd792ea605",
+"3facd2a7-3c50-44c5-a72c-ed541f7f2b9a",
+"c48084ec-67be-4258-b88d-f5faa3b738e4",
+"2c501a99-f464-4980-b05c-eb7280705b08",
+"c92b36b5-fb34-4242-b72f-c6700ab8e897"
                 ]
             }
             ,
 
             {
-                "id": "8f29d502-2ab9-4e57-9fbf-660225715fb7",
+                "id": "847b2d12-e558-4cd1-9d63-5851a487ce75",
                 "name": "\u5c0f\u4e94\u9ad8\u7ea7\u534e\u65875B\u7b2c16\u300117\u8bfe",
                 "vocab": [
-                    "73e05308-eb96-430d-a819-50ceffa632a6",
-"da547e79-21e9-4a0a-a856-290e36f6f51e",
-"eb5a7fdb-3b77-46e3-982a-29a000f4dd70",
-"9d09d802-7f6a-426e-97a4-d7851dbe6108",
-"e1950969-70d1-492b-b112-51361e6050d3",
-"e0c589be-6f82-47d3-832c-b79f7e78182c",
-"a29999f1-888d-4882-82f9-3ec3dbac244e",
-"51249518-2774-48ab-b10e-2d19a128bf30",
-"d740f6d0-5e90-490a-babe-9cf4853e5661",
-"5252d7bc-95d8-4461-9a19-4943dbf3f6ae",
-"1bc1e036-5034-4540-bc82-a19f8df07d69",
-"196700f7-a2bf-40ec-9f60-839889968243",
-"cdf34520-4a92-4575-9a02-2cd912f492e8",
-"7df495fa-480a-4761-abad-3720bee27233",
-"206bba7c-1f84-432d-ab2f-a2b688aa2a22",
-"d52d0092-8bbf-4560-bfdd-84b9a90905a5"
+                    "de33be10-dcde-452b-8197-9c00c6d0487e",
+"77309563-0366-4b8e-802e-721b18f22ba7",
+"11af9b68-5578-4f63-9bba-41741c09ab88",
+"cfcdb7b9-87a8-4ff5-837b-f6afc7f0e549",
+"476c6212-d1c3-4736-83f7-9bf356df7e1d",
+"cc227c6d-02cb-484e-ae95-320f9d1aabd6",
+"202230aa-01cb-4260-9ca5-05156e8f2709",
+"1afd8776-cb80-4cd6-97a6-85ab5cc12b97",
+"9c129301-5d63-4f3a-a89d-633dca092360",
+"882285ee-cdee-4824-83d6-dc44c61ad6c5",
+"a766cc93-a600-4204-b8a8-eb7f1f9e06d2",
+"2c878ba7-2fe2-44ad-a32b-7506a3fbc1bc",
+"571dd81b-4501-4726-b35b-4c5ee1610088",
+"57ab10a9-fd7f-4caa-9044-141d6333c343",
+"4661ce7a-b8c4-48f6-8ed7-48980c5f7978",
+"0ce9c6c7-f43e-4029-9be2-97d33a9a8f1c"
                 ]
             }
             
@@ -374,8 +374,9 @@
         "vocab": [
             
                 {
-                    "id": "145bd6ce-4eb0-4928-a725-57efecbe3ca8",
+                    "id": "a1d525ed-0a84-4fb5-83d9-8199121f2f11",
                     "word": "\u9732\u8425",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u4e2a\u661f\u671f\u5929\uff0c\u6211\u548c\u54e5\u54e5\u8981\u53bb\u6d77\u8fb9\u9732\u8425\u3002"],
                     "word_building": []
@@ -383,8 +384,9 @@
                 ,
 
                 {
-                    "id": "f0819f6b-c63b-4e4b-89ee-34f174373818",
+                    "id": "56e58e19-6065-4634-8c61-971304ab3d9f",
                     "word": "\u96c6\u5408",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u660e\u5929\u65e9\u4e0a\uff0c\u540c\u5b66\u4eec\u90fd\u8981\u5230\u793c\u5802\u96c6\u5408\u3002"],
                     "word_building": []
@@ -392,8 +394,9 @@
                 ,
 
                 {
-                    "id": "392c7d88-fd3a-4325-9530-959f2a0b96f9",
+                    "id": "ee0e161e-ab7f-470a-b099-e24cee4bbfe1",
                     "word": "\u63a2\u9669",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u4e2a\u5047\u671f\uff0c\u6211\u4eec\u5168\u73ed\u540c\u5b66\u4f1a\u4e00\u8d77\u53bb\u4e1b\u6797\u63a2\u9669\u3002"],
                     "word_building": []
@@ -401,8 +404,9 @@
                 ,
 
                 {
-                    "id": "42682ef5-68b6-47bd-9394-0d21f7edb455",
+                    "id": "04e86ed1-9bc7-43ee-b47a-fca66972e4d1",
                     "word": "\u6500\u5ca9",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u54e5\u54e5\u5728\u6700\u8fd1\u7684\u4e00\u6b21\u6500\u5ca9\u6bd4\u8d5b\u4e2d\u62ff\u5230\u4e86\u51a0\u519b\u3002"],
                     "word_building": []
@@ -410,8 +414,9 @@
                 ,
 
                 {
-                    "id": "b26d8a48-d7ec-47cb-8328-164568c36adc",
+                    "id": "747ab4a0-253e-4ecb-ba12-4557428a1987",
                     "word": "\u5355\u72ec",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u4e0d\u5141\u8bb8\u5c0f\u6587\u5355\u72ec\u5916\u51fa\u3002"],
                     "word_building": []
@@ -419,8 +424,9 @@
                 ,
 
                 {
-                    "id": "88063723-5641-4b25-a6c6-0d9962056364",
+                    "id": "4d6a64c6-69f6-4d63-852f-70db0649780c",
                     "word": "\u9632\u6b62",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e3a\u4e86\u9632\u6b62\u610f\u5916\uff0c\u5bb6\u957f\u4e00\u5b9a\u8981\u770b\u7ba1\u597d\u81ea\u5df1\u7684\u5c0f\u5b69\u3002"],
                     "word_building": ["\u9632\u6b62\u610f\u5916", "\u9632\u6b62\u610f\u5916"]
@@ -428,8 +434,9 @@
                 ,
 
                 {
-                    "id": "23d73b35-13c4-4c5e-8576-172820d5b8de",
+                    "id": "30973ab8-331e-49eb-8604-e95e0a04d087",
                     "word": "\u7981\u6b62",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5728\u8fd9\u4e2a\u7f8e\u672f\u9986\u91cc\uff0c\u6e38\u5ba2\u7981\u6b62\u62cd\u7167\u3002"],
                     "word_building": ["\u7981\u6b62\u5438\u70df", "\u7981\u6b62\u62cd\u7167", "\u7981\u6b62\u5438\u70df", "\u7981\u6b62\u62cd\u7167"]
@@ -437,8 +444,9 @@
                 ,
 
                 {
-                    "id": "f0b99f36-0694-4623-84d6-d37f78f484c3",
+                    "id": "6cb0c210-f8f4-4dfd-a045-1cb9ab40417f",
                     "word": "\u8d35\u91cd",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4f60\u7684\u8fd9\u4efd\u793c\u7269\u592a\u8d35\u91cd\u4e86\uff0c\u6211\u4e0d\u80fd\u63a5\u53d7\u3002"],
                     "word_building": []
@@ -446,8 +454,9 @@
                 ,
 
                 {
-                    "id": "aa8f4803-2cc0-4d23-834f-caf230b9abe9",
+                    "id": "38befc68-df46-4984-9213-4d7994713ea5",
                     "word": "\u7ade\u8d5b",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c0f\u6587\u5373\u5c06\u53bb\u53c2\u52a0\u5168\u56fd\u5c0f\u5b66\u751f\u6570\u5b66\u7ade\u8d5b\uff0c\u4ed6\u89c9\u5f97\u5f88\u7d27\u5f20\u3002"],
                     "word_building": []
@@ -455,8 +464,9 @@
                 ,
 
                 {
-                    "id": "f2f21dd4-7c02-46fa-8802-d660e0504a99",
+                    "id": "e25a22a2-7c26-4d68-ab71-9877d630b3a3",
                     "word": "\u7ed1",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u544a\u8bc9\u6211\u4e00\u5b9a\u8981\u7ed1\u597d\u978b\u5e26\u518d\u51fa\u95e8\u3002"],
                     "word_building": []
@@ -464,8 +474,9 @@
                 ,
 
                 {
-                    "id": "4ac5741d-769a-49b1-b3c7-3fcf6e1a47e3",
+                    "id": "387f33c0-0950-4000-aadd-5941ef17546e",
                     "word": "\u8f6e",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6bcf\u5929\u653e\u5b66\u540e\uff0c\u540c\u5b66\u4eec\u8981\u8f6e\u6d41\u6253\u626b\u8bfe\u5ba4\u3002"],
                     "word_building": []
@@ -473,8 +484,9 @@
                 ,
 
                 {
-                    "id": "25e22533-c964-42ff-90c2-7f669aa0e5a1",
+                    "id": "ed22b38a-8c30-43c8-b184-5fdf545fed0f",
                     "word": "\u51a0\u519b",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c0f\u660e\u83b7\u5f97\u4e86\u672c\u6b21\u6bd4\u8d5b\u7684\u51a0\u519b\uff0c\u5988\u5988\u89c9\u5f97\u5341\u5206\u6b23\u6170\u3002"],
                     "word_building": ["\u83b7\u5f97\u51a0\u519b", "\u593a\u5f97\u51a0\u519b"]
@@ -482,8 +494,9 @@
                 ,
 
                 {
-                    "id": "4bf33ae1-0032-4ad2-b5dd-c5fadf1bee7e",
+                    "id": "0b67297b-7636-4540-9d5b-b7214eabc35c",
                     "word": "\u6454\u5012",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5f1f\u5f1f\u4e0d\u5c0f\u5fc3\u6454\u5012\u4e86\uff0c\u4ed6\u75db\u5f97\u54c7\u54c7\u5927\u54ed\u3002"],
                     "word_building": []
@@ -491,8 +504,9 @@
                 ,
 
                 {
-                    "id": "188cb892-3aae-455e-802f-16917fa93c0b",
+                    "id": "91111ca9-b2d0-4e43-88df-1c951fd77f7d",
                     "word": "\u9f50\u5fc3\u534f\u529b",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u867d\u7136\u8fd9\u9879\u5de5\u4f5c\u96be\u5ea6\u5f88\u5927\uff0c\u4f46\u662f\u53ea\u8981\u5927\u5bb6\u9f50\u5fc3\u534f\u529b\uff0c\u5c31\u4e00\u5b9a\u53ef\u4ee5\u5b8c\u6210\u3002"],
                     "word_building": []
@@ -500,8 +514,9 @@
                 ,
 
                 {
-                    "id": "985b076f-e877-46ff-b2ed-b9c64047a600",
+                    "id": "4943b020-90b4-4f02-9905-d5e0142f3b8f",
                     "word": "\u914d\u5408",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5404\u90e8\u95e8\u76f8\u4e92\u914d\u5408\uff0c\u5f88\u5feb\u5c31\u5b8c\u6210\u4e86\u8001\u677f\u5e03\u7f6e\u7684\u4efb\u52a1\u3002"],
                     "word_building": ["\u76f8\u4e92\u914d\u5408", "\u914d\u5408\u5de5\u4f5c", "\u76f8\u4e92\u914d\u5408", "\u914d\u5408\u5de5\u4f5c"]
@@ -509,8 +524,9 @@
                 ,
 
                 {
-                    "id": "4aba18d5-17b3-42c3-b1b4-aea5804615f2",
+                    "id": "efe07699-bd40-435e-9dce-288e61e54ed8",
                     "word": "\u64e6",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6bcf\u6b21\u8fd0\u52a8\u5b8c\uff0c\u54e5\u54e5\u90fd\u4f1a\u7528\u6e7f\u7eb8\u5dfe\u64e6\u8138\u3002"],
                     "word_building": []
@@ -518,8 +534,9 @@
                 ,
 
                 {
-                    "id": "66a549f7-4e71-4e5b-8167-690f953d93c9",
+                    "id": "de5dc037-7928-4341-a98a-bff66bf07291",
                     "word": "\u987f",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6bcf\u5929\u4e0b\u73ed\u540e\uff0c\u5988\u5988\u90fd\u4f1a\u8d76\u56de\u5bb6\u4e3a\u6211\u4eec\u51c6\u5907\u4e00\u987f\u4e30\u76db\u7684\u665a\u9910\u3002"],
                     "word_building": []
@@ -527,8 +544,9 @@
                 ,
 
                 {
-                    "id": "9c23e83f-38e7-4653-a901-f2c7ec6722e1",
+                    "id": "7e8579bd-c6a0-4a0d-b446-40cfc810e0b4",
                     "word": "\u72fc\u541e\u864e\u54bd",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u544a\u8bc9\u54e5\u54e5\u5403\u4e1c\u897f\u7684\u65f6\u5019\u4e0d\u80fd\u72fc\u541e\u864e\u54bd\uff0c\u90a3\u6837\u5bf9\u8eab\u4f53\u4e0d\u597d\u3002"],
                     "word_building": []
@@ -536,8 +554,9 @@
                 ,
 
                 {
-                    "id": "3a4436be-0288-41ef-8351-d0dd4b452015",
+                    "id": "c28f0035-2e9b-45e7-9f1a-c2e2a9f24dff",
                     "word": "\u4e00\u671b\u65e0\u9645",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u90a3\u91cc\u7684\u8349\u539f\u4e00\u671b\u65e0\u9645\uff0c\u53ea\u89c1\u6709\u5f88\u591a\u7f8a\u7fa4\u5728\u8fdc\u5904\u5403\u8349\u3002"],
                     "word_building": []
@@ -545,8 +564,9 @@
                 ,
 
                 {
-                    "id": "65f6b66f-eaf9-4d53-a268-0e65caa1d164",
+                    "id": "dc2220e1-253b-48c4-984f-9f79d53a1c6a",
                     "word": "\u9ec4\u660f",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u9ec4\u660f\u65f6\u5206\uff0c\u5915\u9633\u4eff\u4f5b\u628a\u5927\u5730\u67d3\u6210\u4e86\u91d1\u8272\uff0c\u7f8e\u4e3d\u6781\u4e86\u3002"],
                     "word_building": []
@@ -554,8 +574,9 @@
                 ,
 
                 {
-                    "id": "b6555903-e9f9-44cf-87de-715fb411db85",
+                    "id": "1c192ca1-06b3-4f66-ad60-63d51747a427",
                     "word": "\u6d4b\u8bd5",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u53ea\u8981\u901a\u8fc7\u4eca\u5929\u7684\u6d4b\u8bd5\uff0c\u6211\u5c31\u53ef\u4ee5\u83b7\u5f97\u5165\u5b66\u8d44\u683c\u3002"],
                     "word_building": []
@@ -563,8 +584,9 @@
                 ,
 
                 {
-                    "id": "0dff9257-6983-4f2a-99c3-12bced18cd89",
+                    "id": "58b4b07d-c436-4f4b-8c55-c21ec98c1044",
                     "word": "\u6b63\u786e",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u7ecf\u8fc7\u4e00\u756a\u6df1\u601d\u719f\u8651\uff0c\u54e5\u54e5\u7ec8\u4e8e\u505a\u51fa\u4e86\u6b63\u786e\u7684\u9009\u62e9\u3002"],
                     "word_building": []
@@ -572,8 +594,9 @@
                 ,
 
                 {
-                    "id": "c71734ee-9205-485f-bba5-10b3759d281a",
+                    "id": "3f33a731-44a8-4c7b-948b-9a71426eb494",
                     "word": "\u4ee3\u8868",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8001\u5e08\u51b3\u5b9a\u8ba9\u5c0f\u660e\u4ee3\u8868\u6211\u4eec\u73ed\u53c2\u52a0\u8fd9\u6b21\u7684\u5168\u56fd\u5c0f\u5b66\u751f\u4f5c\u6587\u6bd4\u8d5b\u3002"],
                     "word_building": []
@@ -581,8 +604,9 @@
                 ,
 
                 {
-                    "id": "f59dfcd0-7b28-4133-8000-72b57c8516cb",
+                    "id": "521a3cdd-598c-4cb2-9960-d772d79cab48",
                     "word": "\u53f7\u7801",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u662f\u6211\u4eec\u5bb6\u7684\u95e8\u724c\u53f7\u7801\uff0c\u4f60\u53ef\u4ee5\u628a\u4e1c\u897f\u9001\u6765\u8fd9\u91cc\u3002"],
                     "word_building": []
@@ -590,8 +614,9 @@
                 ,
 
                 {
-                    "id": "78125e8c-d3ad-475f-a604-f71c8e55f015",
+                    "id": "4833c67a-be12-4b8e-94a9-c5a2f48ca432",
                     "word": "\u586b\u5199",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8bf7\u628a\u4f60\u7684\u4e2a\u4eba\u4fe1\u606f\u586b\u5199\u5728\u8fd9\u5f20\u8868\u683c\u4e0a\u3002"],
                     "word_building": ["\u586b\u5199\u7b54\u6848", "\u586b\u5199\u4fe1\u606f"]
@@ -599,8 +624,9 @@
                 ,
 
                 {
-                    "id": "fa1d963a-fe42-4962-9188-df9e78f0d2cb",
+                    "id": "eb909b35-1f48-419d-895b-2e1d067e2db5",
                     "word": "\u660f\u6697",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u4e2a\u623f\u95f4\u7684\u706f\u5149\u592a\u660f\u6697\u4e86\uff0c\u4f60\u4e0d\u5e94\u8be5\u5728\u8fd9\u91cc\u770b\u4e66\u3002"],
                     "word_building": []
@@ -608,8 +634,9 @@
                 ,
 
                 {
-                    "id": "bced7470-1540-4870-b6ce-e3c27d947036",
+                    "id": "67c3d85f-9820-493e-8c42-885606bd3e11",
                     "word": "\u5c4f\u5e55",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4eec\u770b\u7535\u89c6\u65f6\uff0c\u773c\u775b\u8981\u548c\u5c4f\u5e55\u4fdd\u6301\u4e00\u5b9a\u7684\u8ddd\u79bb\u3002"],
                     "word_building": []
@@ -617,8 +644,9 @@
                 ,
 
                 {
-                    "id": "d7283fcd-1980-4808-bff3-d193779d99d4",
+                    "id": "36008962-564e-4a04-864f-6301f85cb90f",
                     "word": "\u8ddd\u79bb",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6709\u4e9b\u91ce\u751f\u52a8\u7269\u6bd4\u8f83\u51f6\u731b\uff0c\u6211\u4eec\u8981\u548c\u5b83\u4eec\u4fdd\u6301\u4e00\u5b9a\u7684\u8ddd\u79bb\u3002"],
                     "word_building": []
@@ -626,8 +654,9 @@
                 ,
 
                 {
-                    "id": "c1be56de-c7bb-4c97-957e-481378d80d03",
+                    "id": "4ce5a95d-c257-4d27-8662-062d2c5ce6f3",
                     "word": "\u4fdd\u6301",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5728\u56fe\u4e66\u9986\u770b\u4e66\u65f6\uff0c\u6211\u4eec\u90fd\u8981\u4fdd\u6301\u5b89\u9759\u3002"],
                     "word_building": ["\u4fdd\u6301\u5b89\u9759", "\u4fdd\u6301\u6e05\u6d01", "\u4fdd\u6301\u5b89\u9759", "\u4fdd\u6301\u6e05\u6d01"]
@@ -635,8 +664,9 @@
                 ,
 
                 {
-                    "id": "ce1acaf4-f498-4d19-998f-3b2e71b182f9",
+                    "id": "9f85f717-a76f-4e5c-9b55-eee5e05b94a0",
                     "word": "\u800c\u4e14",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c0f\u4e3d\u4e0d\u4f46\u5b66\u4e60\u6210\u7ee9\u597d\uff0c\u800c\u4e14\u4e50\u4e8e\u52a9\u4eba\uff0c\u5927\u5bb6\u90fd\u5f88\u559c\u6b22\u5979\u3002"],
                     "word_building": ["\u4e0d\u4f46\u2026\u2026\u800c\u4e14\u2026\u2026"]
@@ -644,8 +674,9 @@
                 ,
 
                 {
-                    "id": "ae79ff23-868c-4b81-81fe-42c7dd683c06",
+                    "id": "e294db12-b68d-4817-ba55-ae59f1f5fc89",
                     "word": "\u9694",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6bcf\u9694\u4e00\u6bb5\u65f6\u95f4\uff0c\u5988\u5988\u5c31\u4f1a\u5e26\u6211\u548c\u5f1f\u5f1f\u53bb\u62dc\u8bbf\u8001\u4eba\u9662\uff0c\u4e3a\u90a3\u91cc\u7684\u8001\u4eba\u505a\u4e00\u4e9b\u529b\u6240\u80fd\u53ca\u7684\u4e8b\u60c5\u3002"],
                     "word_building": []
@@ -653,8 +684,9 @@
                 ,
 
                 {
-                    "id": "bf6ae10e-06f6-43fc-bfb4-a98deae80da2",
+                    "id": "3cd57e3b-19c5-4953-a159-104d1dc25f10",
                     "word": "\u76ef\u7740",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4ed6\u4e00\u76f4\u76ef\u7740\u6211\u770b\uff0c\u597d\u50cf\u6709\u8bdd\u60f3\u8981\u5bf9\u6211\u8bf4\u3002"],
                     "word_building": []
@@ -662,8 +694,9 @@
                 ,
 
                 {
-                    "id": "eec8babc-0533-4c88-bcb2-c71f976358c0",
+                    "id": "4f0273e0-caeb-45dd-be81-1ebeff22996a",
                     "word": "\u60e8",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5728\u8fd9\u4e2a\u7ae5\u8bdd\u6545\u4e8b\u91cc\uff0c\u7537\u4e3b\u4eba\u516c\u7684\u547d\u8fd0\u5341\u5206\u60b2\u60e8\u3002"],
                     "word_building": []
@@ -671,8 +704,9 @@
                 ,
 
                 {
-                    "id": "4f719e0e-4119-4efa-820c-d88913baf266",
+                    "id": "a5dd81f9-98fc-482a-97bb-dca99076af15",
                     "word": "\u6a21\u7cca",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u542c\u5230\u8fd9\u4e2a\u4e0d\u5e78\u7684\u6d88\u606f\uff0c\u6cea\u6c34\u6a21\u7cca\u4e86\u6211\u7684\u53cc\u773c\u3002"],
                     "word_building": ["\u89c6\u7ebf\u6a21\u7cca", "\u6a21\u7cca\u4e0d\u6e05"]
@@ -680,8 +714,9 @@
                 ,
 
                 {
-                    "id": "74d9e9ca-854a-486d-a407-49e64975bf2d",
+                    "id": "c789a2d8-d75b-4b86-ba83-cdde065390be",
                     "word": "\u629b",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c0f\u660e\u53ea\u987e\u7740\u8e22\u8db3\u7403\uff0c\u65e9\u5df2\u628a\u505a\u529f\u8bfe\u7684\u4e8b\u60c5\u629b\u5230\u4e86\u8111\u540e\u3002"],
                     "word_building": []
@@ -689,8 +724,9 @@
                 ,
 
                 {
-                    "id": "e73af85e-12b3-43f7-bf17-c572f1f973d1",
+                    "id": "45f25b55-ab0b-4ca9-acb0-355690a55570",
                     "word": "\u4e60\u60ef",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4eec\u8981\u4ece\u5c0f\u517b\u6210\u8282\u7ea6\u7528\u6c34\u7684\u597d\u4e60\u60ef\u3002"],
                     "word_building": ["\u751f\u6d3b\u4e60\u60ef", "\u6539\u6389\u574f\u4e60\u60ef", "\u517b\u6210\u4e60\u60ef"]
@@ -698,8 +734,9 @@
                 ,
 
                 {
-                    "id": "36b37a64-349b-4df4-a51c-8b7a766d6c31",
+                    "id": "50ac142b-55f4-4c09-a2af-8c1e277d49e9",
                     "word": "\u7761\u7720",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u56e0\u4e3a\u7761\u7720\u4e0d\u8db3\uff0c\u5c0f\u660e\u6574\u5929\u90fd\u65e0\u7cbe\u6253\u91c7\u7684\u3002"],
                     "word_building": ["\u7761\u7720\u4e0d\u8db3", "\u7761\u7720\u8d28\u91cf"]
@@ -707,8 +744,9 @@
                 ,
 
                 {
-                    "id": "1145a6ee-3235-4757-b47f-3dc783756b16",
+                    "id": "8c582e27-2926-49a1-a711-364b1b6fc380",
                     "word": "\u4e0b\u964d",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u4e2a\u5b66\u671f\uff0c\u5c0f\u660e\u7684\u6210\u7ee9\u4e0b\u964d\u4e86\u5f88\u591a\uff0c\u4ed6\u7684\u5988\u5988\u5f88\u7740\u6025\u3002"],
                     "word_building": []
@@ -716,8 +754,9 @@
                 ,
 
                 {
-                    "id": "6289fd8b-d61e-4e0b-ac73-408221d9af57",
+                    "id": "baa742a9-bcc8-41fe-bad3-afe84aa989a8",
                     "word": "\u4f24\u5bb3",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4f60\u7684\u505a\u6cd5\u5bf9\u5c0f\u6587\u9020\u6210\u4e86\u5f88\u5927\u7684\u4f24\u5bb3\uff0c\u6211\u89c9\u5f97\u4f60\u5e94\u8be5\u5411\u5979\u9053\u6b49\u3002"],
                     "word_building": ["\u53d7\u5230\u4f24\u5bb3\uff0c\u4f24\u5bb3\u611f\u60c5"]
@@ -725,8 +764,9 @@
                 ,
 
                 {
-                    "id": "dbcf890d-622d-4d93-a4aa-25cc77275c5b",
+                    "id": "5d905287-3acd-4716-acc5-7497a3de6423",
                     "word": "\u8bca\u6240",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u59b9\u59b9\u53d1\u70e7\u4e86\uff0c\u5988\u5988\u8981\u5e26\u5979\u53bb\u8bca\u6240\u770b\u533b\u751f\u3002"],
                     "word_building": []
@@ -734,8 +774,9 @@
                 ,
 
                 {
-                    "id": "41ac1181-3640-4d08-b188-7af685bf0c14",
+                    "id": "b8059d41-a016-4b73-8294-c6ae4db0dc29",
                     "word": "\u8425\u517b",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u852c\u83dc\u6c34\u679c\u8425\u517b\u4e30\u5bcc\uff0c\u4eba\u4eec\u5e94\u8be5\u7ecf\u5e38\u98df\u7528\u3002"],
                     "word_building": ["\u8425\u517b\u4e30\u5bcc", "\u7f3a\u4e4f\u8425\u517b"]
@@ -743,8 +784,9 @@
                 ,
 
                 {
-                    "id": "1fb2df61-8ed0-40d8-85ac-271535fca27c",
+                    "id": "0bb0c23d-fd83-480d-9c85-9c6df169a9ff",
                     "word": "\u6750\u6599",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u4e9b\u5efa\u7b51\u6750\u6599\u90fd\u662f\u65e0\u6bd2\u65e0\u5bb3\u7684\uff0c\u60a8\u53ef\u4ee5\u653e\u5fc3\u4f7f\u7528\u3002"],
                     "word_building": []
@@ -752,8 +794,9 @@
                 ,
 
                 {
-                    "id": "89463e12-6528-408c-b94c-e3815a16d1ce",
+                    "id": "8bdc4690-8e5f-4dd2-9248-13e964765a62",
                     "word": "\u8c03\u5473\u6599",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u559c\u6b22\u5728\u7172\u6c64\u65f6\u52a0\u5165\u4e00\u4e9b\u8c03\u5473\u6599\uff0c\u8fd9\u6837\u53ef\u4ee5\u4f7f\u6c64\u7684\u5473\u9053\u66f4\u9c9c\u7f8e\u3002"],
                     "word_building": []
@@ -761,8 +804,9 @@
                 ,
 
                 {
-                    "id": "62aeadd2-552d-4a4f-9093-3703b67a7fc8",
+                    "id": "a3feaac9-4af6-4149-a18a-12e7318df1bd",
                     "word": "\u5f62\u72b6",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5f1f\u5f1f\u628a\u8fd9\u5f20\u5f69\u7eb8\u526a\u6210\u4e86\u5c0f\u9e2d\u5b50\u7684\u5f62\u72b6\u3002"],
                     "word_building": []
@@ -770,8 +814,9 @@
                 ,
 
                 {
-                    "id": "999a185a-36c9-4845-8906-097a7cf1d2e2",
+                    "id": "268f1e71-b162-40d3-9052-dc26811a37be",
                     "word": "\u6405\u62cc",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u505a\u86cb\u7cd5\u4e4b\u524d\uff0c\u5988\u5988\u5148\u628a\u9e21\u86cb\u548c\u725b\u5976\u6405\u62cc\u5728\u4e00\u8d77\u3002"],
                     "word_building": []
@@ -779,8 +824,9 @@
                 ,
 
                 {
-                    "id": "5f0791cd-17fb-4796-a40a-ddd367a2be31",
+                    "id": "27507b02-67d5-4fbd-8849-93fe1482ac65",
                     "word": "\u5f02\u53e3\u540c\u58f0",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u201c\u6211\u4eec\u4e00\u5b9a\u4f1a\u52aa\u529b\u5b66\u4e60\uff01\u201d\u540c\u5b66\u4eec\u5f02\u53e3\u540c\u58f0\u5730\u8bf4\u3002"],
                     "word_building": []
@@ -788,8 +834,9 @@
                 ,
 
                 {
-                    "id": "21210408-6cb5-4d0d-a3ba-343d680a6328",
+                    "id": "40682849-2266-469d-866a-b6504bf2889e",
                     "word": "\u6c89\u9ed8",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u4e2a\u95ee\u9898\u5c0f\u4e3d\u4e0d\u77e5\u5982\u4f55\u56de\u7b54\uff0c\u5979\u53ea\u597d\u4fdd\u6301\u6c89\u9ed8\u3002"],
                     "word_building": ["\u4fdd\u6301\u6c89\u9ed8", "\u4f4e\u5934\u6c89\u9ed8", "\u4fdd\u6301\u6c89\u9ed8", "\u4f4e\u5934\u6c89\u9ed8"]
@@ -797,8 +844,9 @@
                 ,
 
                 {
-                    "id": "af16e855-379c-4ec6-9d09-3e66e1863460",
+                    "id": "feb13a95-e81b-4085-a91d-4be27d7d4ba7",
                     "word": "\u5de6\u987e\u53f3\u76fc",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6587\u534e\u5de6\u987e\u53f3\u76fc\uff0c\u4f3c\u4e4e\u60f3\u5411\u4ed6\u4eba\u5bfb\u6c42\u5e2e\u52a9\u3002"],
                     "word_building": []
@@ -806,8 +854,9 @@
                 ,
 
                 {
-                    "id": "ece1bad6-d59e-4dc0-a5e4-501fc9608981",
+                    "id": "13730562-a6d9-40d1-be91-dbc76195d141",
                     "word": "\u805a\u4f1a",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u4e2a\u5468\u672b\uff0c\u5988\u5988\u8981\u5e26\u6211\u548c\u59b9\u59b9\u4e00\u8d77\u53bb\u53c2\u52a0\u5979\u7684\u540c\u5b66\u805a\u4f1a\u3002"],
                     "word_building": ["\u53c2\u52a0\u805a\u4f1a", "\u7ec4\u7ec7\u805a\u4f1a"]
@@ -815,8 +864,9 @@
                 ,
 
                 {
-                    "id": "f3088876-6561-4939-ad6a-8aba4706cddd",
+                    "id": "20616f27-27cc-407d-8dd7-6305c5dccf21",
                     "word": "\u795d\u798f",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c0f\u6587\u4e3a\u5988\u5988\u5236\u4f5c\u4e86\u4e00\u5f20\u751f\u65e5\u8d3a\u5361\uff0c\u5e76\u5728\u5361\u7247\u4e0a\u5199\u4e0b\u4e86\u4ed6\u5bf9\u5988\u5988\u7684\u751f\u65e5\u795d\u798f\u3002"],
                     "word_building": ["\u751f\u65e5\u795d\u798f", "\u65b0\u5e74\u795d\u798f", "\u63a5\u53d7\u795d\u798f"]
@@ -824,8 +874,9 @@
                 ,
 
                 {
-                    "id": "b54dbea9-3155-4ed1-ab38-2733e007f228",
+                    "id": "a7ad97a0-57ec-4c4f-8a1d-6322c51e464a",
                     "word": "\u9e26\u96c0\u65e0\u58f0",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e0a\u8bfe\u94c3\u58f0\u54cd\u4e86\uff0c\u539f\u672c\u55a7\u95f9\u7684\u8bfe\u5ba4\u987f\u65f6\u53d8\u5f97\u9e26\u96c0\u65e0\u58f0\u3002"],
                     "word_building": []
@@ -833,8 +884,9 @@
                 ,
 
                 {
-                    "id": "5e385f35-397e-4e63-a6ce-74b669d36556",
+                    "id": "4812c8ed-9b23-4179-b87a-34759911fcd1",
                     "word": "\u9519\u8bef",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u7ecf\u8fc7\u8fd9\u4ef6\u4e8b\u60c5\uff0c\u4f1f\u660e\u8ba4\u8bc6\u5230\u4e86\u81ea\u5df1\u7684\u9519\u8bef\uff0c\u4ed6\u51b3\u5b9a\u4ee5\u540e\u4e00\u5b9a\u8981\u505a\u4e00\u4e2a\u8bda\u5b9e\u7684\u5b69\u5b50\u3002"],
                     "word_building": ["\u6539\u6b63\u9519\u8bef", "\u72af\u9519\u8bef", "\u7ea0\u6b63\u9519\u8bef", "\u627f\u8ba4\u9519\u8bef"]
@@ -842,8 +894,9 @@
                 ,
 
                 {
-                    "id": "1047ba1e-8762-4c37-a24f-7e69e9302a38",
+                    "id": "67a71351-892f-459f-9425-76a1b0b354f1",
                     "word": "\u4f3c\u7684",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e3d\u4e3d\u7684\u6cea\u6c34\u4e00\u76f4\u5728\u773c\u7736\u91cc\u6253\u8f6c\uff0c\u597d\u50cf\u53d7\u4e86\u5f88\u5927\u7684\u59d4\u5c48\u4f3c\u7684\u3002"],
                     "word_building": []
@@ -851,8 +904,9 @@
                 ,
 
                 {
-                    "id": "87da6cb3-c5eb-41c5-868c-81d50b26d434",
+                    "id": "d51b3d6e-c7d3-4e0e-9b2a-6fc817d40217",
                     "word": "\u8bed\u91cd\u5fc3\u957f",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8001\u5e08\u8bed\u91cd\u5fc3\u957f\u5730\u5bf9\u6211\u8bf4\uff1a\u201c\u53ea\u8981\u4f60\u80fd\u6539\u6b63\u81ea\u5df1\u7684\u9519\u8bef\uff0c\u5927\u5bb6\u90fd\u4f1a\u539f\u8c05\u4f60\u7684\u3002\u201d"],
                     "word_building": []
@@ -860,8 +914,9 @@
                 ,
 
                 {
-                    "id": "cfe76f31-39fd-421a-b90e-0128e1dacc3d",
+                    "id": "037cd25c-4e43-4b9f-a3ea-b9fa97d2dd1f",
                     "word": "\u70e6\u607c",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5f1f\u5f1f\u5f88\u987d\u76ae\uff0c\u603b\u662f\u95ef\u7978\uff0c\u8fd9\u8ba9\u7238\u7238\u5988\u5988\u5f88\u70e6\u607c\u3002"],
                     "word_building": ["\u611f\u5230\u70e6\u607c", "\u589e\u6dfb\u70e6\u607c"]
@@ -869,8 +924,9 @@
                 ,
 
                 {
-                    "id": "29e60796-b6fa-4153-8a76-bbfd0dd875f3",
+                    "id": "dc0b36d3-b1de-4833-8d21-4e27ac96779b",
                     "word": "\u5b89\u6170",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u770b\u5230\u5f1f\u5f1f\u4f24\u5fc3\u7684\u6837\u5b50\uff0c\u54e5\u54e5\u7acb\u523b\u8dd1\u53bb\u5b89\u6170\u4ed6\u3002"],
                     "word_building": []
@@ -878,8 +934,9 @@
                 ,
 
                 {
-                    "id": "e9f333df-5d90-47a4-b3ce-da230b04dabb",
+                    "id": "20623d9c-5d4d-417d-969b-9eeeb4750893",
                     "word": "\u52b3\u7d2f",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5de5\u4f5c\u4e86\u4e00\u5929\u4e4b\u540e\uff0c\u7238\u7238\u611f\u5230\u5341\u5206\u52b3\u7d2f\u3002"],
                     "word_building": []
@@ -887,8 +944,9 @@
                 ,
 
                 {
-                    "id": "fa294818-f97d-46b0-b4aa-b774e5d1085f",
+                    "id": "f81be611-267d-4645-bc01-04f5204ead14",
                     "word": "\u61c2\u4e8b",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u53ef\u5fc3\u4ece\u5c0f\u5c31\u4e56\u5de7\u61c2\u4e8b\uff0c\u5bb6\u4eba\u548c\u8001\u5e08\u90fd\u975e\u5e38\u559c\u6b22\u5979\u3002"],
                     "word_building": []
@@ -896,8 +954,9 @@
                 ,
 
                 {
-                    "id": "6f4da16b-2b4b-4219-b76a-cf4f1d1dbc47",
+                    "id": "fda01a61-368a-4f23-8e20-aa62e82b6305",
                     "word": "\u7231\u60dc",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4eec\u4e0d\u5e94\u8be5\u7ecf\u5e38\u71ac\u591c\uff0c\u8981\u77e5\u9053\u7231\u60dc\u81ea\u5df1\u7684\u8eab\u4f53\u3002"],
                     "word_building": []
@@ -905,8 +964,9 @@
                 ,
 
                 {
-                    "id": "845e7944-2e90-4c45-b0e8-024d4960762a",
+                    "id": "e214a040-85c4-4181-b84a-3fcbe8cb65cb",
                     "word": "\u6350",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4eec\u53ef\u4ee5\u628a\u4e0d\u7528\u7684\u4e66\u672c\u6350\u51fa\u53bb\uff0c\u5e2e\u52a9\u90a3\u4e9b\u8d2b\u56f0\u5730\u533a\u7684\u5b69\u5b50\u3002"],
                     "word_building": []
@@ -914,8 +974,9 @@
                 ,
 
                 {
-                    "id": "652d88ae-51a9-4aff-adb9-dfbfa332ffcf",
+                    "id": "dee91954-505c-44c3-ae0d-d4130c33b269",
                     "word": "\u8089\u7c7b",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8089\u7c7b\u98df\u54c1\u6700\u597d\u8981\u51b7\u85cf\u4fdd\u5b58\uff0c\u4e0d\u7136\u5f88\u5bb9\u6613\u574f\u6389\u3002"],
                     "word_building": []
@@ -923,8 +984,9 @@
                 ,
 
                 {
-                    "id": "a441c552-ff19-4864-b05e-ad45ce8c0342",
+                    "id": "d536a089-acc9-4581-b6a1-b883b006bcba",
                     "word": "\u5fc5\u987b",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4f60\u4eca\u5929\u5fc5\u987b\u8981\u5b8c\u6210\u8fd9\u9879\u4efb\u52a1\uff0c\u5426\u5219\u4f1a\u5f71\u54cd\u6211\u4eec\u7684\u5de5\u4f5c\u8fdb\u5ea6\u3002"],
                     "word_building": []
@@ -932,8 +994,9 @@
                 ,
 
                 {
-                    "id": "9d6e1299-0fe4-417d-bfe5-568f3877ec85",
+                    "id": "adfaddc7-0ffa-4fb4-ad0e-394465e7dab5",
                     "word": "\u5b58\u653e",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u628a\u521a\u521a\u4e70\u7684\u852c\u83dc\u6c34\u679c\u5b58\u653e\u5728\u51b0\u7bb1\u91cc\u3002"],
                     "word_building": []
@@ -941,8 +1004,9 @@
                 ,
 
                 {
-                    "id": "63fe4d0a-efad-4e50-95be-d799f74de6b5",
+                    "id": "7f1008f9-6548-402b-8f83-d1a6efa2951f",
                     "word": "\u65b0\u9c9c",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u5bb6\u5c0f\u5e97\u552e\u5356\u5404\u79cd\u65b0\u9c9c\u7684\u852c\u83dc\u6c34\u679c\u3002"],
                     "word_building": ["\u65b0\u9c9c\u7684\u852c\u83dc", "\u65b0\u9c9c\u7684\u7a7a\u6c14", "\u65b0\u9c9c\u7684\u852c\u83dc", "\u65b0\u9c9c\u7684\u7a7a\u6c14"]
@@ -950,8 +1014,9 @@
                 ,
 
                 {
-                    "id": "61d2c794-d182-473e-81b0-8756d64b787c",
+                    "id": "d193f9ef-5235-4515-accb-a37015b9b59c",
                     "word": "\u997a\u5b50",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u7238\u7238\u6700\u559c\u6b22\u5403\u7684\u98df\u7269\u5c31\u662f\u997a\u5b50\u3002"],
                     "word_building": []
@@ -959,8 +1024,9 @@
                 ,
 
                 {
-                    "id": "f54ad8ae-d52c-46c3-80b9-e165fa6db4b3",
+                    "id": "04da9fa6-f092-487f-a687-11bada9ba8db",
                     "word": "\u901f\u51bb",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u4e2a\u724c\u5b50\u7684\u901f\u51bb\u6c34\u997a\uff0c\u5473\u9053\u975e\u5e38\u9c9c\u7f8e\u3002"],
                     "word_building": []
@@ -968,8 +1034,9 @@
                 ,
 
                 {
-                    "id": "1d6ac4fc-1c18-44c6-9df2-3238e6d30677",
+                    "id": "16e93378-13ec-42b4-89a0-ae7ce3f96648",
                     "word": "\u81ea\u79c1",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5927\u5bb6\u90fd\u4e0d\u613f\u610f\u548c\u90a3\u4e9b\u81ea\u79c1\u7684\u4eba\u505a\u670b\u53cb\u3002"],
                     "word_building": ["\u81ea\u79c1\u81ea\u5229", "\u81ea\u79c1\u81ea\u5229"]
@@ -977,8 +1044,9 @@
                 ,
 
                 {
-                    "id": "96fff19a-4e72-4bac-862d-3f1a9c60c0d2",
+                    "id": "03ce74cf-475e-4e4e-bab2-9186ce547422",
                     "word": "\u964c\u751f\u4eba",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u7ecf\u5e38\u544a\u8bc9\u6211\u4eec\uff0c\u4e0d\u53ef\u4ee5\u5403\u964c\u751f\u4eba\u7ed9\u7684\u98df\u7269\u3002"],
                     "word_building": []
@@ -986,8 +1054,9 @@
                 ,
 
                 {
-                    "id": "854ac410-c5e3-41fa-9482-3ed1d2ff5ba6",
+                    "id": "3e93c9e3-06ab-47b8-a093-745821520239",
                     "word": "\u7eb7\u7eb7",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e00\u9635\u5927\u98ce\u8fc7\u540e\uff0c\u6811\u4e0a\u7684\u53f6\u5b50\u7eb7\u7eb7\u98d8\u843d\u4e0b\u6765\u3002"],
                     "word_building": []
@@ -995,8 +1064,9 @@
                 ,
 
                 {
-                    "id": "383ae827-6247-4212-8586-c5f70874c3a2",
+                    "id": "89ad4745-b9b4-4b2b-a1d6-9413cf9dc932",
                     "word": "\u6101\u7709\u82e6\u8138",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c0f\u660e\u6700\u8fd1\u603b\u662f\u6101\u7709\u82e6\u8138\u7684\uff0c\u597d\u50cf\u6709\u4ec0\u4e48\u5fc3\u4e8b\u4f3c\u7684\u3002"],
                     "word_building": []
@@ -1004,8 +1074,9 @@
                 ,
 
                 {
-                    "id": "9ae12024-9765-4fed-bb06-fda503d7b83d",
+                    "id": "7857f2c5-1b06-40fc-bfef-431207b459bf",
                     "word": "\u6492",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5976\u5976\u4e70\u4e86\u4e00\u4e9b\u73ab\u7470\u82b1\u7684\u79cd\u5b50\uff0c\u7136\u540e\u628a\u5b83\u4eec\u6492\u5728\u82b1\u56ed\u91cc\u3002"],
                     "word_building": []
@@ -1013,8 +1084,9 @@
                 ,
 
                 {
-                    "id": "8c621647-0eb4-462a-b254-a8af67c31ac5",
+                    "id": "743d0dfe-75e5-4cb5-977b-3ec9ae077cde",
                     "word": "\u592b\u59bb",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u90a3\u5bf9\u592b\u59bb\u975e\u5e38\u70ed\u5fc3\uff0c\u603b\u662f\u53bb\u5e2e\u52a9\u90a3\u4e9b\u6709\u56f0\u96be\u7684\u4eba\u3002"],
                     "word_building": []
@@ -1022,8 +1094,9 @@
                 ,
 
                 {
-                    "id": "1fb3cfb0-a459-473f-a49a-7c0ca080804b",
+                    "id": "e5a1dde9-d7ee-4980-8738-193a83b786ae",
                     "word": "\u7f3a\u5c11",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u56e0\u4e3a\u7f3a\u5c11\u98df\u6750\uff0c\u6240\u4ee5\u5988\u5988\u6ca1\u529e\u6cd5\u505a\u8fa3\u6912\u8783\u87f9\u7ed9\u6211\u4eec\u5403\u3002"],
                     "word_building": ["\u7f3a\u5c11\u7ecf\u9a8c", "\u7f3a\u5c11\u6750\u6599"]
@@ -1031,8 +1104,9 @@
                 ,
 
                 {
-                    "id": "5308bb40-72ab-4a83-8e77-460738dc26bd",
+                    "id": "bea09869-427f-4990-b3a1-2af0041407ed",
                     "word": "\u4e00\u6e9c\u70df",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u770b\u5230\u8b66\u5bdf\u6765\u4e86\uff0c\u90a3\u4e2a\u5c0f\u5077\u4e00\u6e9c\u70df\u5730\u8dd1\u5f00\u4e86\u3002"],
                     "word_building": []
@@ -1040,8 +1114,9 @@
                 ,
 
                 {
-                    "id": "4847302d-84e2-4027-9b03-bf409139a157",
+                    "id": "5645d0a6-f37a-479b-9ced-210f0ccac21a",
                     "word": "\u5e78\u798f",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4ece\u6b64\uff0c\u4ed6\u4eec\u4e00\u5bb6\u4eba\u8fc7\u4e0a\u4e86\u5e78\u798f\u7684\u65e5\u5b50\u3002"],
                     "word_building": ["\u751f\u6d3b\u5e78\u798f", "\u611f\u5230\u5e78\u798f", "\u5e78\u798f\u7f8e\u6ee1"]
@@ -1049,8 +1124,9 @@
                 ,
 
                 {
-                    "id": "8da326d6-a5bd-4330-9b15-d0e0ac0b545f",
+                    "id": "bd1e711e-36b1-4809-9fe4-918a6bc3f3a1",
                     "word": "\u6109\u5feb",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5373\u4f7f\u73b0\u5728\u5b66\u4e1a\u538b\u529b\u5927\uff0c\u6211\u4eec\u4e5f\u8981\u5c3d\u91cf\u4fdd\u6301\u5fc3\u60c5\u6109\u5feb\u3002"],
                     "word_building": ["\u5fc3\u60c5\u6109\u5feb", "\u751f\u6d3b\u6109\u5feb"]
@@ -1058,8 +1134,9 @@
                 ,
 
                 {
-                    "id": "eae6ea5f-cc25-4166-82d0-9cbc63346260",
+                    "id": "d2d7e2cb-6156-457c-be73-58cbd88d0eb8",
                     "word": "\u9080\u8bf7",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u7acb\u660e\u9080\u8bf7\u4e86\u6240\u6709\u7684\u540c\u5b66\u53bb\u53c2\u52a0\u4ed6\u7684\u751f\u65e5\u4f1a\u3002"],
                     "word_building": ["\u63a5\u53d7\u9080\u8bf7", "\u53d1\u51fa\u9080\u8bf7", "\u9080\u8bf7\u670b\u53cb"]
@@ -1067,8 +1144,9 @@
                 ,
 
                 {
-                    "id": "df3fde51-e8fb-49da-90ba-a847de0dacfc",
+                    "id": "1b21d3cd-c728-40b6-b557-1609d26aa9d3",
                     "word": "\u5b81\u9759",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4ed6\u4eec\u4e00\u5bb6\u4eba\u6700\u540e\u51b3\u5b9a\u5728\u8fd9\u4e2a\u5b81\u9759\u7684\u5c0f\u5c71\u6751\u91cc\u5ea6\u8fc7\u8fd9\u4e2a\u5047\u671f\u3002"],
                     "word_building": ["\u5b81\u9759\u7684\u591c\u665a", "\u5b81\u9759\u7684\u5c0f\u9547"]
@@ -1076,8 +1154,9 @@
                 ,
 
                 {
-                    "id": "bfe6afb2-deb6-4529-b5f2-94edda941dce",
+                    "id": "e59405ea-3f35-43f1-ba25-ba4df6ca7078",
                     "word": "\u7a0b\u5ea6",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u54e5\u54e5\u7684\u534e\u6587\u7a0b\u5ea6\u5f88\u597d\uff0c\u6bcf\u6b21\u8003\u8bd5\u90fd\u62ff\u6ee1\u5206\u3002"],
                     "word_building": []
@@ -1085,8 +1164,9 @@
                 ,
 
                 {
-                    "id": "dc469f84-d732-4ccf-914c-e339ad55fbb2",
+                    "id": "0dd2006e-5227-40f7-9013-2d6ebd883f02",
                     "word": "\u6839\u636e",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6839\u636e\u8d44\u6599\u663e\u793a\uff0c\u5168\u7403\u7684\u6c14\u5019\u6b63\u5728\u9010\u6e10\u53d8\u6696\u3002"],
                     "word_building": []
@@ -1094,8 +1174,9 @@
                 ,
 
                 {
-                    "id": "8f6cd4c9-e3e5-4857-91e9-38f162841588",
+                    "id": "0de88f2e-c19d-4c0b-a36f-c7dfcd574bab",
                     "word": "\u79ef\u6781",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c0f\u660e\u603b\u662f\u79ef\u6781\u53c2\u52a0\u5b66\u6821\u7ec4\u7ec7\u7684\u5404\u9879\u6d3b\u52a8\uff0c\u540c\u5b66\u548c\u8001\u5e08\u90fd\u5f88\u559c\u6b22\u4ed6\u3002"],
                     "word_building": ["\u79ef\u6781\u53c2\u52a0", "\u6001\u5ea6\u79ef\u6781\u53cd\u4e49\u8bcd\u6d88\u6781"]
@@ -1103,8 +1184,9 @@
                 ,
 
                 {
-                    "id": "3875f303-2481-4e87-8c4a-95410079b662",
+                    "id": "3f7da5a4-a2c6-4084-98af-c06f899f2beb",
                     "word": "\u77db\u76fe",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5f53\u6211\u548c\u59d0\u59d0\u4e4b\u95f4\u51fa\u73b0\u77db\u76fe\u65f6\uff0c\u5988\u5988\u603b\u4f1a\u51fa\u9762\u8c03\u89e3\u3002"],
                     "word_building": ["\u51fa\u73b0\u77db\u76fe", "\u4ea7\u751f\u77db\u76fe"]
@@ -1112,8 +1194,9 @@
                 ,
 
                 {
-                    "id": "6502cb5f-11df-4b7a-9ab6-9c3d12756221",
+                    "id": "52368442-0fa8-459b-af52-22b0afc714a2",
                     "word": "\u62b1\u6028",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6bcf\u6b21\u9047\u5230\u4e00\u70b9\u56f0\u96be\uff0c\u5c0f\u6587\u5c31\u4e0d\u505c\u5730\u62b1\u6028\u3002"],
                     "word_building": []
@@ -1121,8 +1204,9 @@
                 ,
 
                 {
-                    "id": "fcfc7c02-8813-4443-888f-b8308e3741d8",
+                    "id": "f518a134-e177-43d7-9664-83d8e075ae58",
                     "word": "\u9a84\u50b2",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5373\u4f7f\u6211\u4eec\u53d6\u5f97\u4e86\u4e00\u4e9b\u597d\u6210\u7ee9\uff0c\u4e5f\u4e0d\u80fd\u56e0\u6b64\u611f\u5230\u9a84\u50b2\u3002"],
                     "word_building": ["\u89c9\u5f97\u9a84\u50b2", "\u611f\u5230\u9a84\u50b2"]
@@ -1130,8 +1214,9 @@
                 ,
 
                 {
-                    "id": "951d1059-6c08-4008-a15d-91db47ee4449",
+                    "id": "9ab899a4-7a9c-42ab-8191-bab916d8e3ac",
                     "word": "\u95ef\u7978",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u867d\u7136\u5c0f\u660e\u95ef\u7978\u4e86\uff0c\u4f46\u662f\u4ed6\u4e3b\u52a8\u627f\u8ba4\u4e86\u9519\u8bef\uff0c\u5988\u5988\u5c31\u539f\u8c05\u4e86\u4ed6\u3002"],
                     "word_building": []
@@ -1139,8 +1224,9 @@
                 ,
 
                 {
-                    "id": "98bdfabc-760a-4550-a0d8-eab18f924971",
+                    "id": "3e182999-84eb-4628-b0a8-9f0eab82d4ea",
                     "word": "\u53e4\u8463",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u4e2a\u53e4\u8463\u82b1\u74f6\u662f\u7238\u7238\u4ece\u4e2d\u56fd\u4e70\u7684\uff0c\u4ed6\u975e\u5e38\u559c\u6b22\u3002"],
                     "word_building": ["\u53e4\u8463\u82b1\u74f6", "\u53e4\u8463\u5b57\u753b"]
@@ -1148,8 +1234,9 @@
                 ,
 
                 {
-                    "id": "c7d7f435-77d3-49c5-95a2-7f65a81f7f4d",
+                    "id": "8cee6444-0156-46ea-b227-faa6bd400fad",
                     "word": "\u6124\u6012",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u54e5\u54e5\u5bf9\u8001\u5e08\u65e0\u793c\u7684\u884c\u4e3a\u8ba9\u7238\u7238\u5f88\u6124\u6012\u3002"],
                     "word_building": ["\u611f\u5230\u6124\u6012", "\u4ee4\u4eba\u6124\u6012"]
@@ -1157,8 +1244,9 @@
                 ,
 
                 {
-                    "id": "14abe179-46ea-403a-b24c-8018c023b16a",
+                    "id": "2d5ac658-88cd-4ef2-a446-753c7f3cf14a",
                     "word": "\u4e25\u8083",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u7238\u7238\u76b1\u7740\u7709\u5934\u770b\u7740\u6211\uff0c\u8868\u60c5\u5341\u5206\u4e25\u8083\u3002"],
                     "word_building": []
@@ -1166,8 +1254,9 @@
                 ,
 
                 {
-                    "id": "c06b4f37-492b-4b93-b387-cc983877bce2",
+                    "id": "b8f19c57-f3f4-4628-911d-6f08f3158f07",
                     "word": "\u6000\u7591",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6797\u4f2f\u4f2f\u770b\u89c1\u4e00\u4e2a\u4eba\u5728\u5df4\u58eb\u4e0a\u9b3c\u9b3c\u795f\u795f\u7684\uff0c\u4ed6\u6000\u7591\u90a3\u4e2a\u4eba\u60f3\u8981\u5077\u4e1c\u897f\u3002"],
                     "word_building": ["\u6000\u7591\u522b\u4eba", "\u5f15\u8d77\u6000\u7591"]
@@ -1175,8 +1264,9 @@
                 ,
 
                 {
-                    "id": "e42f0cc8-4b9a-4d41-a040-ef2179a41285",
+                    "id": "06944012-676d-40cc-b4e9-27cfdf6895de",
                     "word": "\u907f\u5f00",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c0f\u6587\u77e5\u9053\u81ea\u5df1\u505a\u9519\u4e86\u4e8b\uff0c\u4e00\u76f4\u4f4e\u7740\u5934\uff0c\u60f3\u8981\u907f\u5f00\u5988\u5988\u7684\u76ee\u5149\u3002"],
                     "word_building": ["\u907f\u5f00\u884c\u4eba", "\u907f\u5f00\u76ee\u5149"]
@@ -1184,8 +1274,9 @@
                 ,
 
                 {
-                    "id": "0d4e4144-f01d-48e1-b7c4-b122366f12a8",
+                    "id": "3938aefe-af9c-48ac-9880-9dd8a0f133f1",
                     "word": "\u4e00\u53e0",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8001\u5e08\u624b\u91cc\u6367\u7740\u4e00\u53e0\u7eb8\uff0c\u8d70\u8fdb\u4e86\u8bfe\u5ba4\u3002"],
                     "word_building": []
@@ -1193,8 +1284,9 @@
                 ,
 
                 {
-                    "id": "b040c9ac-7417-4555-871d-cd8fdf8fe408",
+                    "id": "f8718b54-7dfa-422d-835f-7c80364a82d6",
                     "word": "\u949e\u7968",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u7238\u7238\u7ed9\u4e86\u6211\u4e00\u5f20\u949e\u7968\uff0c\u8ba9\u6211\u81ea\u5df1\u53bb\u4e70\u5348\u9910\u3002"],
                     "word_building": ["\u4e00\u5f20\u949e\u7968", "\u4e00\u53e0\u949e\u7968"]
@@ -1202,8 +1294,9 @@
                 ,
 
                 {
-                    "id": "e264ab97-9a18-4205-ad09-c35eb800175b",
+                    "id": "fcb9f50a-5fc9-4bc8-9f82-439dac81bb36",
                     "word": "\u8054\u7cfb",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5982\u679c\u4f60\u60f3\u77e5\u9053\u8be6\u60c5\uff0c\u53ef\u4ee5\u6253\u7535\u8bdd\u548c\u4ed6\u4eec\u8054\u7cfb\u3002"],
                     "word_building": ["\u4fdd\u6301\u8054\u7cfb", "\u8054\u7cfb\u65b9\u5f0f"]
@@ -1211,8 +1304,9 @@
                 ,
 
                 {
-                    "id": "9283389a-8b7c-4faf-93a0-2c1eaec8943a",
+                    "id": "a42d57e1-73ef-4cb4-8093-93cef2a75484",
                     "word": "\u6447\u6643",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5929\u82b1\u677f\u4e0a\u7684\u706f\u4e0d\u505c\u5730\u6447\u6643\uff0c\u597d\u50cf\u662f\u5730\u9707\u4e86\u3002"],
                     "word_building": []
@@ -1220,8 +1314,9 @@
                 ,
 
                 {
-                    "id": "4512cb3e-301c-42ed-99ba-4b0400c8d3e8",
+                    "id": "9e958b0b-3d75-4be6-be83-cf999c29847b",
                     "word": "\u963b\u62e6",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u770b\u5230\u6709\u4eba\u6b3a\u8d1f\u5c0f\u670b\u53cb\uff0c\u54e5\u54e5\u7acb\u523b\u4e0a\u524d\u963b\u62e6\u3002"],
                     "word_building": []
@@ -1229,8 +1324,9 @@
                 ,
 
                 {
-                    "id": "c19be6a8-c06c-4b94-b3c9-12f7d3c3db82",
+                    "id": "9abbdd34-7deb-4361-ba04-668021e8646b",
                     "word": "\u4e89\u5148\u6050\u540e",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e0b\u8bfe\u94c3\u58f0\u54cd\u4e86\uff0c\u540c\u5b66\u4eec\u4e89\u5148\u6050\u540e\u5730\u51b2\u51fa\u8bfe\u5ba4\u3002"],
                     "word_building": []
@@ -1238,8 +1334,9 @@
                 ,
 
                 {
-                    "id": "9b619092-e015-4a05-b41e-1c2453c7ed03",
+                    "id": "5f611e34-eb0e-4c95-b0cf-6c225a102dda",
                     "word": "\u9ebb\u70e6",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4eec\u80fd\u81ea\u5df1\u89e3\u51b3\u7684\u4e8b\u60c5\uff0c\u5c31\u5c3d\u91cf\u4e0d\u8981\u53bb\u9ebb\u70e6\u522b\u4eba\u3002"],
                     "word_building": ["\u5236\u9020\u9ebb\u70e6", "\u5e26\u6765\u9ebb\u70e6", "\u9ebb\u70e6\u522b\u4eba"]
@@ -1247,8 +1344,9 @@
                 ,
 
                 {
-                    "id": "d6b74cdd-f936-4e44-9053-181146cefb38",
+                    "id": "af94322b-cd6d-430a-8e35-6ad97836932d",
                     "word": "\u8bda\u5b9e",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c0f\u4e3d\u4e3b\u52a8\u627f\u8ba4\u4e86\u81ea\u5df1\u7684\u9519\u8bef\uff0c\u8001\u5e08\u79f0\u8d5e\u5979\u662f\u4e2a\u8bda\u5b9e\u7684\u5b69\u5b50\u3002"],
                     "word_building": []
@@ -1256,8 +1354,9 @@
                 ,
 
                 {
-                    "id": "853c77f2-207a-4f02-a41a-6a0ca9ae6e02",
+                    "id": "bc7ad13c-153b-453e-a563-8671166c96ea",
                     "word": "\u5584\u826f",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u674e\u963f\u59e8\u975e\u5e38\u5584\u826f\uff0c\u5979\u6536\u517b\u4e86\u5f88\u591a\u6d41\u6d6a\u72d7\u3002"],
                     "word_building": ["\u5fc3\u5730\u5584\u826f"]
@@ -1265,8 +1364,9 @@
                 ,
 
                 {
-                    "id": "4d5797af-51ee-44c5-8deb-384217c56924",
+                    "id": "18e5139e-b7a8-4154-86ea-4f76ccbf793a",
                     "word": "\u5386\u5386\u5728\u76ee",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u90a3\u4ef6\u4e8b\u60c5\u5df2\u7ecf\u8fc7\u53bb\u5f88\u4e45\u4e86\uff0c\u53ef\u6211\u73b0\u5728\u56de\u60f3\u8d77\u6765\uff0c\u4ecd\u65e7\u5386\u5386\u5728\u76ee\u3002"],
                     "word_building": []
@@ -1274,8 +1374,9 @@
                 ,
 
                 {
-                    "id": "05e28747-349c-4cbc-8d7a-14177ea5d342",
+                    "id": "b5a7240c-206d-4f3f-afd9-4d6e73e74031",
                     "word": "\u9cb8\u9c7c",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u9cb8\u9c7c\u4e0d\u662f\u9c7c\u7c7b\uff0c\u800c\u662f\u4e00\u79cd\u54fa\u4e73\u52a8\u7269\u3002"],
                     "word_building": []
@@ -1283,8 +1384,9 @@
                 ,
 
                 {
-                    "id": "99d1247c-c5a0-4a79-ba12-35c311049cba",
+                    "id": "ab699bbb-5b8c-4c28-9f29-e722953580b6",
                     "word": "\u8102\u80aa",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4eec\u5e94\u8be5\u5c11\u5403\u9ad8\u8102\u80aa\u7684\u98df\u7269\uff0c\u8fd9\u6837\u6709\u5229\u4e8e\u6211\u4eec\u7684\u8eab\u4f53\u5065\u5eb7\u3002"],
                     "word_building": []
@@ -1292,8 +1394,9 @@
                 ,
 
                 {
-                    "id": "6b888656-c658-43cb-88a8-32d2f9349f05",
+                    "id": "e13ff20e-f84e-4ac5-9cb8-d73789046096",
                     "word": "\u6d6e",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u521a\u5f00\u59cb\u5b66\u4e60\u6e38\u6cf3\u65f6\uff0c\u6559\u7ec3\u4f1a\u6559\u6211\u4eec\u600e\u6837\u4f7f\u81ea\u5df1\u7684\u8eab\u4f53\u6d6e\u5728\u6c34\u9762\u4e0a\u3002"],
                     "word_building": []
@@ -1301,8 +1404,9 @@
                 ,
 
                 {
-                    "id": "c4692b51-770d-425c-aea4-efeecc8198d1",
+                    "id": "cc0a8c9a-4797-41c7-b1ae-0200b57616a0",
                     "word": "\u6d45",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u9cb8\u9c7c\u6709\u65f6\u5728\u6df1\u6d77\u91cc\u6d3b\u52a8\uff0c\u6709\u65f6\u4e5f\u4f1a\u5230\u6d45\u6d77\u6d3b\u52a8\u3002"],
                     "word_building": []
@@ -1310,8 +1414,9 @@
                 ,
 
                 {
-                    "id": "93c48003-3b2b-42dc-94b7-323fab8baa69",
+                    "id": "b607d101-682b-4993-b996-54553780439f",
                     "word": "\u6cfc",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u59d0\u59d0\u6c14\u5f97\u706b\u5192\u4e09\u4e08\uff0c\u56e0\u4e3a\u5f1f\u5f1f\u6545\u610f\u628a\u6c34\u6cfc\u5728\u5979\u8eab\u4e0a\u3002"],
                     "word_building": []
@@ -1319,8 +1424,9 @@
                 ,
 
                 {
-                    "id": "5e423636-b65e-4d64-bcfc-5807702c5111",
+                    "id": "ef1b0f31-5b56-4570-b5cb-4074b105ea99",
                     "word": "\u5927\u6982",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u8bf4\u6211\u4eec\u8fd9\u6b21\u65c5\u884c\u5927\u6982\u8981\u53bb\u4e94\u4e2a\u65c5\u6e38\u666f\u70b9\u3002"],
                     "word_building": ["\u5927\u6982\u60c5\u51b5", "\u5927\u6982\u6570\u76ee"]
@@ -1328,8 +1434,9 @@
                 ,
 
                 {
-                    "id": "93614cf3-7681-4800-b1a2-bfaa31a359af",
+                    "id": "3e2362db-83df-46f9-90f4-a4788e63e093",
                     "word": "\u8f7d",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6bcf\u5929\u65e9\u4e0a\uff0c\u7238\u7238\u90fd\u4f1a\u5f00\u8f66\u8f7d\u6211\u53bb\u5b66\u6821\u3002"],
                     "word_building": []
@@ -1337,8 +1444,9 @@
                 ,
 
                 {
-                    "id": "10303fd3-6d97-4da9-a302-8d9fbc0a8f1e",
+                    "id": "cd7f8cb6-623d-422b-9c42-d38a53ec0c49",
                     "word": "\u5598\u6c14",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u9a6c\u62c9\u677e\u6bd4\u8d5b\u8fc7\u540e\uff0c\u9009\u624b\u4eec\u90fd\u5927\u53e3\u5598\u6c14\uff0c\u770b\u8d77\u6765\u5341\u5206\u75b2\u60eb\u3002"],
                     "word_building": []
@@ -1346,8 +1454,9 @@
                 ,
 
                 {
-                    "id": "7df94368-cb16-4046-85a7-bd78d57daa3f",
+                    "id": "dd00936e-9749-46b4-9e96-49aaf79844d3",
                     "word": "\u6da8\u6f6e",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u508d\u665a\u6da8\u6f6e\u65f6\uff0c\u6d77\u8fb9\u7684\u666f\u8272\u7f8e\u4e3d\u6781\u4e86\u3002"],
                     "word_building": []
@@ -1355,8 +1464,9 @@
                 ,
 
                 {
-                    "id": "18374ada-ca1c-49ec-a3b9-b88104cc47e3",
+                    "id": "3d39c6f6-829c-487e-b39f-ced4b19c92d7",
                     "word": "\u6fc0\u52a8",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u542c\u5230\u8fd9\u4e2a\u597d\u6d88\u606f\uff0c\u5c0f\u4e3d\u6fc0\u52a8\u5f97\u70ed\u6cea\u76c8\u7736\u3002"],
                     "word_building": ["\u611f\u5230\u6fc0\u52a8", "\u89c9\u5f97\u6fc0\u52a8", "\u5341\u5206\u6fc0\u52a8"]
@@ -1364,8 +1474,9 @@
                 ,
 
                 {
-                    "id": "4da59632-bf10-4edd-9250-536de9de6e89",
+                    "id": "98594095-a06f-4d15-b306-4bcfdee03a57",
                     "word": "\u6e10\u6e10",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5728\u8001\u5e08\u7684\u8010\u5fc3\u6559\u5bfc\u4e0b\uff0c\u6211\u7684\u534e\u6587\u6210\u7ee9\u6e10\u6e10\u63d0\u9ad8\u4e86\u3002"],
                     "word_building": ["\u6e10\u6e10\u957f\u5927", "\u6e10\u6e10\u63d0\u9ad8", "\u6e10\u6e10\u957f\u5927", "\u6e10\u6e10\u63d0\u9ad8"]
@@ -1373,8 +1484,9 @@
                 ,
 
                 {
-                    "id": "acfe7d3e-6585-4bd0-bca4-17b4ca7e8e5b",
+                    "id": "50de18e5-2c5d-4b2b-b032-a23a144abda7",
                     "word": "\u6ce2\u6d6a",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6d77\u9762\u4e0a\u7684\u6ce2\u6d6a\u8d8a\u6765\u8d8a\u5927\uff0c\u597d\u50cf\u66b4\u98ce\u96e8\u8981\u6765\u4e86\u3002"],
                     "word_building": []
@@ -1382,8 +1494,9 @@
                 ,
 
                 {
-                    "id": "2d8d32ca-6911-4b6e-bc33-28835b7dfc49",
+                    "id": "f1181d24-6a84-482c-8c91-8ec0cd37f10f",
                     "word": "\u968f\u7740",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u968f\u7740\u8003\u8bd5\u7684\u4e34\u8fd1\uff0c\u540c\u5b66\u4eec\u90fd\u5f00\u59cb\u4e89\u5206\u593a\u79d2\u5730\u52aa\u529b\u5b66\u4e60\u3002"],
                     "word_building": []
@@ -1391,8 +1504,9 @@
                 ,
 
                 {
-                    "id": "d2507330-e00d-430f-a56f-f5db0b19ff3e",
+                    "id": "d1d61a00-f99e-4330-8512-4e914179e41d",
                     "word": "\u5f98\u5f8a",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4ed6\u4e00\u76f4\u5728\u5bb6\u95e8\u53e3\u5f98\u5f8a\uff0c\u4e00\u526f\u6101\u7709\u4e0d\u5c55\u7684\u6837\u5b50\u3002"],
                     "word_building": []
@@ -1400,8 +1514,9 @@
                 ,
 
                 {
-                    "id": "99b2eec3-69db-4a16-9512-7b8e8381b1ef",
+                    "id": "3430fec5-dec9-4ff3-bcb3-123c554675d9",
                     "word": "\u4f9d\u4f9d\u4e0d\u820d",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u592a\u9633\u8981\u843d\u5c71\u4e86\uff0c\u6211\u4eec\u4f9d\u4f9d\u4e0d\u820d\u5730\u79bb\u5f00\u4e86\u3002"],
                     "word_building": []
@@ -1409,8 +1524,9 @@
                 ,
 
                 {
-                    "id": "2b8a66e6-1476-4c49-94b5-65e1cac3f686",
+                    "id": "e78e0fbc-b82c-4ed4-9fb8-9d40b1fbaa79",
                     "word": "\u6d88\u5931",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u7247\u523b\u95f4\uff0c\u4e3d\u534e\u4fbf\u6d88\u5931\u5728\u4eba\u7fa4\u4e2d\u3002"],
                     "word_building": []
@@ -1418,8 +1534,9 @@
                 ,
 
                 {
-                    "id": "2f941789-83ac-43cb-886f-64a9f72c9d13",
+                    "id": "9f390b94-935f-4200-9282-a57794c6d8f6",
                     "word": "\u5236\u9020",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u4e9b\u673a\u5668\u90fd\u662f\u5728\u65b0\u52a0\u5761\u5236\u9020\u7684\uff0c\u73b0\u5728\u9500\u91cf\u975e\u5e38\u597d\u3002"],
                     "word_building": ["\u5236\u9020\u673a\u5668", "\u5236\u9020\u9ebb\u70e6", "\u5236\u9020\u4ea7\u54c1", "\u5236\u9020\u673a\u5668", "\u5236\u9020\u9ebb\u70e6", "\u5236\u9020\u4ea7\u54c1"]
@@ -1427,8 +1544,9 @@
                 ,
 
                 {
-                    "id": "ca4afff1-96ef-4416-8ac7-7610059bd125",
+                    "id": "f4d7ba18-62db-4844-ac69-7d02da55d64d",
                     "word": "\u672a\u6765",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5728\u672a\u6765\u7684\u65e5\u5b50\u91cc\uff0c\u6211\u4e00\u5b9a\u4f1a\u66f4\u52a0\u52aa\u529b\u5730\u5b66\u4e60\uff0c\u4e0d\u8f9c\u8d1f\u7236\u6bcd\u5bf9\u6211\u7684\u671f\u671b\u3002"],
                     "word_building": []
@@ -1436,8 +1554,9 @@
                 ,
 
                 {
-                    "id": "00fd6439-2f60-4444-86c1-5fc4192c08d2",
+                    "id": "debed74d-d5bc-4252-b031-b07b6b836da3",
                     "word": "\u7f51\u7edc",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5f53\u4eca\u793e\u4f1a\uff0c\u5f88\u591a\u4eba\u9009\u62e9\u5728\u7f51\u7edc\u4e0a\u8fdb\u884c\u8d2d\u7269\u3002"],
                     "word_building": []
@@ -1445,8 +1564,9 @@
                 ,
 
                 {
-                    "id": "99edae74-33a7-4b94-b76f-1280b9680d3a",
+                    "id": "209fd3f3-d253-4742-99df-102a392d7d1b",
                     "word": "\u60b2\u4f24",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5979\u5f97\u77e5\u7237\u7237\u53bb\u4e16\u7684\u6d88\u606f\u540e\uff0c\u611f\u5230\u5341\u5206\u60b2\u4f24\u3002"],
                     "word_building": ["\u611f\u5230\u60b2\u4f24", "\u4ee4\u4eba\u60b2\u4f24"]
@@ -1454,8 +1574,9 @@
                 ,
 
                 {
-                    "id": "734afc54-c383-4995-92e8-1f110f1c786b",
+                    "id": "1e4f6591-e351-4c31-92b3-7777f1f34c94",
                     "word": "\u7626\u5f31",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u603b\u662f\u8ba9\u6211\u591a\u5403\u4e00\u70b9\uff0c\u56e0\u4e3a\u6211\u592a\u7626\u5f31\u4e86\u3002"],
                     "word_building": []
@@ -1463,8 +1584,9 @@
                 ,
 
                 {
-                    "id": "bb20bb78-5d5c-4efc-b80a-0743159708ec",
+                    "id": "416c4b27-cd90-4078-b1a1-800da941a6f1",
                     "word": "\u6c38\u8fdc",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u867d\u7136\u674e\u8001\u5e08\u4e0d\u518d\u6559\u6211\u4e86\uff0c\u4f46\u6211\u4f1a\u6c38\u8fdc\u8bb0\u5f97\u5979\u5bf9\u6211\u7684\u8c06\u8c06\u6559\u8bf2\u3002"],
                     "word_building": []
@@ -1472,8 +1594,9 @@
                 ,
 
                 {
-                    "id": "da1053d0-a3fa-4f4e-a1e6-d7ba516a7206",
+                    "id": "a00181ee-244b-4e0e-9a24-c96221941a77",
                     "word": "\u66fe\u7ecf",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6587\u6587\u66fe\u7ecf\u53bb\u8fc7\u7f8e\u56fd\u5f88\u591a\u6b21\uff0c\u5bf9\u90a3\u91cc\u6709\u4e00\u5b9a\u7684\u4e86\u89e3\u3002"],
                     "word_building": []
@@ -1481,8 +1604,9 @@
                 ,
 
                 {
-                    "id": "d8498ab8-681a-45ac-86b6-47c2621cf1b7",
+                    "id": "1c58fe01-c156-4eda-80ca-1632a3976cc5",
                     "word": "\u62c5\u5fe7",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u867d\u7136\u54e5\u54e5\u5df2\u7ecf\u6210\u5e74\u4e86\uff0c\u4f46\u662f\u4ed6\u4e00\u4e2a\u4eba\u51fa\u56fd\u65c5\u884c\uff0c\u5988\u5988\u8fd8\u662f\u6709\u4e00\u4e9b\u62c5\u5fe7\u3002"],
                     "word_building": []
@@ -1490,8 +1614,9 @@
                 ,
 
                 {
-                    "id": "f895f3f2-0382-4cc9-8d00-cc9de8fef4fc",
+                    "id": "1edd9f3a-f030-495d-afc0-11e1c15dc653",
                     "word": "\u7981\u4e0d\u4f4f",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u7981\u4e0d\u4f4f\u7f8e\u98df\u7684\u8bf1\u60d1\uff0c\u4e8e\u662f\u8d70\u8fdb\u4e86\u90a3\u5bb6\u610f\u5927\u5229\u9910\u5385\u3002"],
                     "word_building": []
@@ -1499,8 +1624,9 @@
                 ,
 
                 {
-                    "id": "d99cedf7-9928-4c40-a0d4-1f744db2d9e4",
+                    "id": "6a9b8610-a15a-48e3-9467-37f3e1e3d627",
                     "word": "\u8d62",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5728\u8001\u5e08\u4e0e\u540c\u5b66\u4eec\u7684\u5e2e\u52a9\u4e0b\uff0c\u6211\u6700\u7ec8\u8d62\u5f97\u4e86\u90a3\u573a\u6bd4\u8d5b\u3002"],
                     "word_building": []
@@ -1508,8 +1634,9 @@
                 ,
 
                 {
-                    "id": "9575d8d7-97f9-4360-add8-bdbe4d0b0f39",
+                    "id": "30999884-1ad9-49e7-8cdd-ccb8572a7bc3",
                     "word": "\u4e00\u7728\u773c",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e00\u7728\u773c\u7684\u529f\u592b\uff0c\u6211\u7684\u80cc\u5305\u5c31\u88ab\u5c0f\u5077\u5077\u8d70\u4e86\u3002"],
                     "word_building": []
@@ -1517,8 +1644,9 @@
                 ,
 
                 {
-                    "id": "99501476-29c1-4f9c-bf5e-dede05ec67fa",
+                    "id": "c29d1190-72d1-4d42-bf02-3c46f3489675",
                     "word": "\u8282\u7701",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e3a\u4e86\u8282\u7701\u65f6\u95f4\uff0c\u5988\u5988\u6bcf\u5929\u5f00\u8f66\u9001\u6211\u53bb\u5b66\u6821\u3002"],
                     "word_building": []
@@ -1526,8 +1654,9 @@
                 ,
 
                 {
-                    "id": "69ec9e48-7696-498c-bacb-bd26885c7af2",
+                    "id": "5f02b969-9f00-49a2-a16a-21578ed5cc07",
                     "word": "\u4e95\u4e95\u6709\u6761",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u867d\u7136\u5de5\u4f5c\u5f88\u5fd9\uff0c\u4f46\u662f\u5979\u628a\u5bb6\u91cc\u7684\u6bcf\u4e00\u4ef6\u4e8b\u90fd\u5b89\u6392\u5f97\u4e95\u4e95\u6709\u6761\u3002"],
                     "word_building": []
@@ -1535,8 +1664,9 @@
                 ,
 
                 {
-                    "id": "6f21f78e-ddf3-48b4-960d-a7dd623310d0",
+                    "id": "536efdbb-2393-4ec8-bbf5-c38e31da227a",
                     "word": "\u589e\u6dfb",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4ece\u4e94\u5c81\u5f00\u59cb\u5b66\u4e60\u82ad\u857e\u821e\uff0c\u8fd9\u7ed9\u6211\u7684\u751f\u6d3b\u589e\u6dfb\u4e86\u5f88\u591a\u4e50\u8da3\u3002"],
                     "word_building": ["\u589e\u6dfb\u4e50\u8da3", "\u589e\u6dfb\u70e6\u607c"]
@@ -1544,8 +1674,9 @@
                 ,
 
                 {
-                    "id": "10648845-9b80-49c4-858c-22682e04d3a8",
+                    "id": "4484d0a0-0c14-422c-9d68-42303f7fbee6",
                     "word": "\u4ff1\u4e50\u90e8",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u81ea\u4ece\u52a0\u5165\u4e86\u8fd9\u4e2a\u534e\u8bed\u4ff1\u4e50\u90e8\uff0c\u6211\u7684\u534e\u6587\u6709\u4e86\u660e\u663e\u7684\u8fdb\u6b65\u3002"],
                     "word_building": []
@@ -1553,8 +1684,9 @@
                 ,
 
                 {
-                    "id": "c7a8bd67-da31-4dd0-90cc-27d372ab5470",
+                    "id": "0e36de85-1bda-4f61-a444-588266f71dfc",
                     "word": "\u7968\u4ef7",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u573a\u6f14\u51fa\u7684\u7968\u4ef7\u5f88\u9ad8\uff0c\u5988\u5988\u662f\u4e0d\u4f1a\u8ba9\u6211\u53bb\u7684\u3002"],
                     "word_building": ["\u4ef7\u94b1", "\u8ba8\u4ef7\u8fd8\u4ef7"]
@@ -1562,8 +1694,9 @@
                 ,
 
                 {
-                    "id": "906837e3-1e8c-41ed-965e-ba1278f2bea4",
+                    "id": "d487269a-b774-4cfe-bfa9-4d4fef752b75",
                     "word": "\u514d\u8d39",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u53c2\u52a0\u8fd9\u573a\u665a\u4f1a\u7684\u6765\u5bbe\uff0c\u90fd\u53ef\u4ee5\u514d\u8d39\u83b7\u5f97\u4e00\u4efd\u793c\u7269\u3002"],
                     "word_building": []
@@ -1571,8 +1704,9 @@
                 ,
 
                 {
-                    "id": "48e62e6b-4b67-4d39-8bd5-9345725c6374",
+                    "id": "a9f1c60a-f2e8-490c-914f-23d56afafba2",
                     "word": "\u8ba2",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u60f3\u8981\u53bb\u542c\u97f3\u4e50\u4f1a\u7684\u540c\u5b66\u4eec\uff0c\u53ef\u4ee5\u63d0\u524d\u5728\u7f51\u4e0a\u8ba2\u7968\u3002"],
                     "word_building": []
@@ -1580,8 +1714,9 @@
                 ,
 
                 {
-                    "id": "56f6077a-935b-4455-851d-81879f1d4825",
+                    "id": "7cf1f1ad-be4a-4f8e-bf88-24f8a47aa202",
                     "word": "\u88c5\u626e",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5728\u821e\u53f0\u4e0a\uff0c\u4ed6\u628a\u81ea\u5df1\u88c5\u626e\u6210\u5c0f\u4e11\u7684\u6837\u5b50\u3002"],
                     "word_building": []
@@ -1589,8 +1724,9 @@
                 ,
 
                 {
-                    "id": "74782bff-8894-47b7-90f0-51839e8ee694",
+                    "id": "64ecc87f-9980-4326-bbc4-b1a6ae6031d6",
                     "word": "\u6253\u4ed7",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5728\u53e4\u4ee3\uff0c\u7537\u4eba\u4eec\u8981\u65f6\u523b\u51c6\u5907\u7740\u53bb\u5f53\u5175\u6253\u4ed7\u3002"],
                     "word_building": []
@@ -1598,8 +1734,9 @@
                 ,
 
                 {
-                    "id": "ae2aba03-c94d-434a-a923-a5ef553416a0",
+                    "id": "02d9f0ff-17c3-4ef2-ae7f-4db9d99f6757",
                     "word": "\u5b5d\u5fc3",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u7acb\u660e\u4eb2\u624b\u505a\u4e86\u4e00\u4e2a\u751f\u65e5\u86cb\u7cd5\u9001\u7ed9\u5988\u5988\uff0c\u60f3\u501f\u6b64\u8868\u8fbe\u81ea\u5df1\u7684\u4e00\u7247\u5b5d\u5fc3\u3002"],
                     "word_building": []
@@ -1607,8 +1744,9 @@
                 ,
 
                 {
-                    "id": "b49f2fa0-c177-45f5-96d8-aa37eb6acb6a",
+                    "id": "699d3ac0-e9a4-4f01-b98a-622e7676f8ce",
                     "word": "\u8270\u8f9b",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u58eb\u5175\u4eec\u5386\u5c3d\u8270\u8f9b\uff0c\u7ec8\u4e8e\u6253\u8d25\u4e86\u654c\u4eba\u3002"],
                     "word_building": []
@@ -1616,8 +1754,9 @@
                 ,
 
                 {
-                    "id": "e12f04f6-6481-4aff-b9a9-e80f74e8af99",
+                    "id": "885afc53-2c2e-41d6-b4af-1b09a5ed98bc",
                     "word": "\u82f1\u96c4",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4ed6\u4e3a\u4e86\u4fdd\u536b\u56fd\u5bb6\uff0c\u727a\u7272\u4e86\u81ea\u5df1\u5e74\u8f7b\u7684\u751f\u547d\uff0c\u4eba\u4eec\u4f1a\u6c38\u8fdc\u94ed\u8bb0\u8fd9\u4f4d\u82f1\u96c4\u3002"],
                     "word_building": ["\u82f1\u96c4\u4e8b\u8ff9", "\u6210\u4e3a\u82f1\u96c4"]
@@ -1625,8 +1764,9 @@
                 ,
 
                 {
-                    "id": "73aa0b58-c570-4bd3-ae0d-d1728d6ae425",
+                    "id": "e6830cb0-81c4-4c17-a6bc-f1548874ce49",
                     "word": "\u653b\u654c",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5982\u679c\u58eb\u5175\u4eec\u653b\u654c\u6210\u529f\uff0c\u5c31\u53ef\u4ee5\u593a\u56de\u88ab\u654c\u519b\u5360\u9886\u7684\u56fd\u571f\u3002"],
                     "word_building": []
@@ -1634,8 +1774,9 @@
                 ,
 
                 {
-                    "id": "9e14e591-924c-4f78-b636-9d2883d2530f",
+                    "id": "15f55e28-54a0-43ba-b507-555cdadcbc2b",
                     "word": "\u53ee",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5b69\u5b50\u4eec\u4e00\u65e6\u88ab\u868a\u866b\u53ee\u54ac\uff0c\u53ef\u80fd\u4f1a\u5f15\u53d1\u591a\u79cd\u75be\u75c5\uff0c\u5bb6\u957f\u4eec\u4e0d\u53ef\u4ee5\u6389\u4ee5\u8f7b\u5fc3\u3002"],
                     "word_building": []
@@ -1643,8 +1784,9 @@
                 ,
 
                 {
-                    "id": "c6e588f8-2f61-40d8-8cc7-7e9068ffb6cb",
+                    "id": "20f780a0-8d38-4366-91e7-4dab909327d3",
                     "word": "\u5bb6\u4e61",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6218\u4e89\u7ed3\u675f\u540e\uff0c\u58eb\u5175\u4eec\u90fd\u56de\u5230\u4e86\u81ea\u5df1\u7684\u5bb6\u4e61\u3002"],
                     "word_building": []
@@ -1652,8 +1794,9 @@
                 ,
 
                 {
-                    "id": "6170f18d-6a1c-443e-b2a4-bfc13f76f5bf",
+                    "id": "89b28848-6688-4065-887b-7238812d94b3",
                     "word": "\u4ee3\u66ff",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u73ed\u957f\u751f\u75c5\u6ca1\u6709\u6765\u4e0a\u5b66\uff0c\u8001\u5e08\u8ba9\u6211\u4ee3\u66ff\u4ed6\u7ed9\u540c\u5b66\u4eec\u7b7e\u5230\u3002"],
                     "word_building": []
@@ -1661,8 +1804,9 @@
                 ,
 
                 {
-                    "id": "91cc714a-f291-43ac-a643-3c8b5db54118",
+                    "id": "eb9b61b3-b5ec-48f3-bcc8-a8a8bc182372",
                     "word": "\u7f51\u5740",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u662f\u6211\u4eec\u5b66\u6821\u7684\u7f51\u5740\uff0c\u4f60\u53ef\u4ee5\u53bb\u90a3\u91cc\u67e5\u8be2\u76f8\u5173\u8d44\u6599\u3002"],
                     "word_building": []
@@ -1670,8 +1814,9 @@
                 ,
 
                 {
-                    "id": "68dbcc84-3752-4a53-9787-e793186c92b0",
+                    "id": "f2d113fa-66e0-4049-aa0b-f532f39d42c1",
                     "word": "\u6bd4\u8f83",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6700\u8fd1\u5929\u6c14\u6bd4\u8f83\u51b7\uff0c\u4f60\u51fa\u95e8\u65f6\u5e94\u8be5\u7a7f\u4ef6\u5916\u5957\u3002"],
                     "word_building": []
@@ -1679,8 +1824,9 @@
                 ,
 
                 {
-                    "id": "3a334dd4-cb8a-4acc-a0dc-82f9b8e99d39",
+                    "id": "c298dc27-55fc-42be-bf96-f0a40c3a30a7",
                     "word": "\u5632\u7b11",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u674e\u660e\u603b\u662f\u559c\u6b22\u5632\u7b11\u522b\u4eba\uff0c\u540c\u5b66\u4eec\u90fd\u4e0d\u559c\u6b22\u4ed6\u3002"],
                     "word_building": []
@@ -1688,8 +1834,9 @@
                 ,
 
                 {
-                    "id": "9839d90f-8138-4bd8-ba76-270e1398debf",
+                    "id": "e6faf18d-102f-43df-842b-1c5e31474728",
                     "word": "\u9690\u5f62",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u7684\u89c6\u529b\u4e0d\u662f\u5f88\u597d\uff0c\u6709\u65f6\u51fa\u95e8\u4f1a\u4f69\u6234\u9690\u5f62\u773c\u955c\u3002"],
                     "word_building": ["\u9690\u5f62\u773c\u955c\u751f\u5b57\u9690\u7ea6"]
@@ -1697,8 +1844,9 @@
                 ,
 
                 {
-                    "id": "d83f35ac-3365-46c1-8335-8a4206204207",
+                    "id": "76284637-3ed2-4c40-ac93-4c532971efd1",
                     "word": "\u4e0a\u763e",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6700\u8fd1\uff0c\u54e5\u54e5\u6bcf\u5929\u73a9\u7f51\u7edc\u6e38\u620f\u5230\u6df1\u591c\uff0c\u4ed6\u80af\u5b9a\u662f\u4e0a\u763e\u4e86\u3002"],
                     "word_building": []
@@ -1706,8 +1854,9 @@
                 ,
 
                 {
-                    "id": "d79f35fb-bd6b-4575-9bce-1ce5cf37dca0",
+                    "id": "563cae6d-b541-441a-8c3c-933bb6601c00",
                     "word": "\u63a7\u5236",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u77e5\u9053\u4e0d\u5e94\u8be5\u4e71\u53d1\u813e\u6c14\uff0c\u53ef\u5c31\u662f\u63a7\u5236\u4e0d\u4e86\u81ea\u5df1\u3002"],
                     "word_building": ["\u63a7\u5236\u60c5\u7eea", "\u63a7\u5236\u996e\u98df"]
@@ -1715,8 +1864,9 @@
                 ,
 
                 {
-                    "id": "0eb3217e-749d-47fa-9224-8d52010c1997",
+                    "id": "44d1aa30-e285-49be-beec-b473230c72e1",
                     "word": "\u5520\u53e8",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u6709\u65f6\u4f1a\u6bd4\u8f83\u5520\u53e8\uff0c\u4f46\u90fd\u662f\u56e0\u4e3a\u5979\u592a\u5173\u5fc3\u6211\u4e86\u3002"],
                     "word_building": []
@@ -1724,8 +1874,9 @@
                 ,
 
                 {
-                    "id": "db1a8b31-f863-4567-929b-d751ce82be41",
+                    "id": "f73b1327-1971-4130-aa98-e842dfc36de0",
                     "word": "\u7897\u789f",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5403\u5b8c\u665a\u996d\u540e\uff0c\u6211\u4f1a\u5e2e\u5988\u5988\u6536\u62fe\u7897\u789f\u3002"],
                     "word_building": ["\u6536\u62fe\u7897\u789f", "\u56de\u6536\u7897\u789f\u540c\u97f3\u5b57\u8774\u8776", "\u558b\u558b\u4e0d\u4f11"]
@@ -1733,8 +1884,9 @@
                 ,
 
                 {
-                    "id": "effa364a-4329-481a-aea9-7465d3791fdd",
+                    "id": "b1f6b0d2-8a89-49a7-ac11-9baf8d3131c2",
                     "word": "\u5c0f\u5fc3\u7ffc\u7ffc",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u59b9\u59b9\u5c0f\u5fc3\u7ffc\u7ffc\u5730\u5173\u597d\u623f\u95e8\uff0c\u6015\u6253\u6270\u6b63\u5728\u770b\u4e66\u7684\u54e5\u54e5\u3002"],
                     "word_building": []
@@ -1742,8 +1894,9 @@
                 ,
 
                 {
-                    "id": "4924363f-a7a5-49b9-9049-d826823a769a",
+                    "id": "fc0f811f-5b79-4671-8ef1-bfd5799a28ee",
                     "word": "\u6076\u4f5c\u5267",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6587\u534e\u662f\u4e00\u4e2a\u975e\u5e38\u987d\u76ae\u7684\u5c0f\u5b69\uff0c\u4ed6\u603b\u662f\u6076\u4f5c\u5267\u6349\u5f04\u540c\u5b66\u3002"],
                     "word_building": []
@@ -1751,8 +1904,9 @@
                 ,
 
                 {
-                    "id": "a04e4f75-080d-446f-b053-c131a54b0b34",
+                    "id": "13f1969f-37f8-4e9b-bc91-f84adeee6b87",
                     "word": "\u906e\u4f4f",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5982\u679c\u7535\u5f71\u4e2d\u51fa\u73b0\u53ef\u6015\u7684\u753b\u9762\uff0c\u5c0f\u4e3d\u4f1a\u7528\u624b\u906e\u4f4f\u81ea\u5df1\u7684\u773c\u775b\u3002"],
                     "word_building": []
@@ -1760,8 +1914,9 @@
                 ,
 
                 {
-                    "id": "c2d91ed5-c4e7-4723-92ab-b0a6492d4f8d",
+                    "id": "f6bf3eef-5574-4a04-8805-1c8bce11d099",
                     "word": "\u4e30\u76db",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6bcf\u5929\u665a\u4e0a\uff0c\u5988\u5988\u90fd\u4f1a\u4e3a\u6211\u51c6\u5907\u4e30\u76db\u7684\u665a\u9910\u3002"],
                     "word_building": ["\u4e30\u76db\u7684\u665a\u9910", "\u4e30\u76db\u7684\u98df\u7269\u751f\u5b57\u8302\u76db", "\u76db\u5f00"]
@@ -1769,8 +1924,9 @@
                 ,
 
                 {
-                    "id": "52a39ae2-cc49-4186-aa5d-5d548d070b63",
+                    "id": "9e936099-eb53-48a5-8909-6d6073eff1fb",
                     "word": "\u60ed\u6127",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u542c\u4e86\u8001\u5e08\u7684\u8bdd\uff0c\u5c0f\u660e\u89c9\u5f97\u5f88\u60ed\u6127\uff0c\u7ea2\u7740\u8138\u4f4e\u4e0b\u4e86\u5934\u3002"],
                     "word_building": []
@@ -1778,8 +1934,9 @@
                 ,
 
                 {
-                    "id": "4794f317-5c17-4541-a69d-4ac94be17c54",
+                    "id": "cc95aec8-a980-4783-9a7c-babb6dd0d429",
                     "word": "\u73cd\u60dc",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6bcf\u4e00\u7c92\u7cae\u98df\u90fd\u6765\u4e4b\u4e0d\u6613\uff0c\u6211\u4eec\u8981\u61c2\u5f97\u73cd\u60dc\uff0c\u4e0d\u80fd\u6d6a\u8d39\u98df\u7269\u3002"],
                     "word_building": ["\u73cd\u60dc\u65f6\u95f4", "\u73cd\u60dc\u7cae\u98df"]
@@ -1787,8 +1944,9 @@
                 ,
 
                 {
-                    "id": "e684f989-4562-49d0-9c6e-5a8cc089299a",
+                    "id": "4ffe089b-91df-4d7a-b3fd-88b6d970384b",
                     "word": "\u611f\u6069",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8001\u5e08\u4e3a\u6211\u4eec\u4ed8\u51fa\u4e86\u5f88\u591a\uff0c\u6211\u4eec\u8981\u61c2\u5f97\u611f\u6069\u3002"],
                     "word_building": []
@@ -1796,8 +1954,9 @@
                 ,
 
                 {
-                    "id": "5e6b96d6-fbe4-4cbb-92aa-bc3df9734fd4",
+                    "id": "a84c23f4-7300-47b1-a37e-522392cd3c48",
                     "word": "\u62e5\u6709",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4eec\u60f3\u8981\u62e5\u6709\u4e00\u4e2a\u6e05\u6d01\u7684\u5c45\u4f4f\u73af\u5883\u5c31\u4e0d\u80fd\u4e71\u4e22\u5783\u573e\u3002"],
                     "word_building": []
@@ -1805,8 +1964,9 @@
                 ,
 
                 {
-                    "id": "4b5a1877-9db0-4338-af02-4863fb233653",
+                    "id": "56407a10-b1a6-420d-a2d7-a71086e99bb6",
                     "word": "\u6bb5",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8bfb\u4e86\u8fd9\u6bb5\u6587\u5b57\uff0c\u6211\u5185\u5fc3\u6709\u5f88\u591a\u611f\u89e6\u3002"],
                     "word_building": ["\u4e00\u6bb5\u8bdd", "\u4e00\u6bb5\u8def", "\u4e00\u6bb5\u5f80\u4e8b"]
@@ -1814,8 +1974,9 @@
                 ,
 
                 {
-                    "id": "26ac621b-42a6-41af-a9b2-c060d1e8f264",
+                    "id": "87432949-8b50-4681-8f4c-90b433506fdb",
                     "word": "\u521d\u7ea7",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u7ed9\u6211\u62a5\u540d\u53c2\u52a0\u4e86\u821e\u8e48\u521d\u7ea7\u73ed\u7684\u8bfe\u7a0b\u3002"],
                     "word_building": []
@@ -1823,8 +1984,9 @@
                 ,
 
                 {
-                    "id": "31aff3c8-15f2-45ce-9e61-bf812cc9223c",
+                    "id": "b83c2bab-d6d5-46b0-97fb-dc54b4121a44",
                     "word": "\u57fa\u672c",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4f60\u7684\u610f\u601d\u6211\u57fa\u672c\u660e\u767d\u4e86\uff0c\u6211\u4f1a\u5c3d\u5feb\u628a\u5de5\u4f5c\u505a\u597d\u3002"],
                     "word_building": ["\u57fa\u672c\u77e5\u8bc6", "\u57fa\u672c\u4e86\u89e3", "\u57fa\u672c\u660e\u767d"]
@@ -1832,8 +1994,9 @@
                 ,
 
                 {
-                    "id": "de377c82-7d4e-45bd-adbb-e90e76ed9e70",
+                    "id": "d667101f-b109-45f6-8993-1ee797ad2c2c",
                     "word": "\u622a\u6b62",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u6b21\u6bd4\u8d5b\u7684\u62a5\u540d\u5230\u4e0b\u5468\u5c31\u622a\u6b62\u4e86\uff0c\u4f60\u8981\u6293\u7d27\u65f6\u95f4\u3002"],
                     "word_building": ["\u622a\u6b62\u65e5\u671f"]
@@ -1841,8 +2004,9 @@
                 ,
 
                 {
-                    "id": "15d07a10-f023-4444-973d-f66aa4c8d279",
+                    "id": "453effba-febd-4f93-a1c1-1ef985e5e132",
                     "word": "\u6709\u9650",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6c34\u8d44\u6e90\u662f\u6709\u9650\u7684\uff0c\u6211\u4eec\u8981\u8282\u7ea6\u7528\u6c34\u3002"],
                     "word_building": []
@@ -1850,8 +2014,9 @@
                 ,
 
                 {
-                    "id": "314b2488-7331-4214-b964-960ecd56f623",
+                    "id": "9f0e8693-4f22-4f99-9d1e-6db6e215b2b9",
                     "word": "\u5c3d\u65e9",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u957f\u6b64\u4ee5\u5f80\uff0c\u95ee\u9898\u4f1a\u8d8a\u6765\u8d8a\u4e25\u91cd\uff0c\u6211\u4eec\u8981\u5c3d\u65e9\u60f3\u51fa\u529e\u6cd5\u3002"],
                     "word_building": []
@@ -1859,8 +2024,9 @@
                 ,
 
                 {
-                    "id": "19ea059a-4c0b-4115-aa8c-d28d5ce5d1a9",
+                    "id": "0c61cbcd-56a5-4aaa-87dc-c846b54146e2",
                     "word": "\u8be6\u60c5",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4f60\u82e5\u60f3\u77e5\u9053\u66f4\u591a\u8be6\u60c5\uff0c\u53ef\u4ee5\u6253\u7535\u8bdd\u8fc7\u53bb\u8be2\u95ee\u3002"],
                     "word_building": []
@@ -1868,8 +2034,9 @@
                 ,
 
                 {
-                    "id": "0404ca94-8237-4246-9396-e6ceaa8988b0",
+                    "id": "1cfba2cf-ea78-4c74-8182-4bd0cc6bb92d",
                     "word": "\u8eb2\u95ea",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5e78\u4e8f\u6211\u8eb2\u95ea\u53ca\u65f6\uff0c\u4e0d\u7136\u5c31\u88ab\u8f66\u5b50\u649e\u5230\u4e86\u3002"],
                     "word_building": []
@@ -1877,8 +2044,9 @@
                 ,
 
                 {
-                    "id": "0aaf3d26-a2b2-4591-bf51-44c1319b15ca",
+                    "id": "cb6152d7-62e1-4742-85dc-baadf27b61cc",
                     "word": "\u626d\u6253",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u770b\u89c1\u54e5\u54e5\u548c\u5f1f\u5f1f\u626d\u6253\u5728\u4e00\u8d77\uff0c\u6c14\u5f97\u706b\u5192\u4e09\u4e08\u3002"],
                     "word_building": []
@@ -1886,8 +2054,9 @@
                 ,
 
                 {
-                    "id": "79d87dd9-9abb-48c0-9da7-df4544162281",
+                    "id": "7f873bd8-040b-4967-9b98-6c26963ce66d",
                     "word": "\u5f7c\u6b64",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u8981\u6211\u548c\u5f1f\u5f1f\u5f7c\u6b64\u5173\u5fc3\u3001\u4e92\u76f8\u7167\u987e\u3002"],
                     "word_building": ["\u5173\u5fc3\u5f7c\u6b64", "\u7167\u987e\u5f7c\u6b64"]
@@ -1895,8 +2064,9 @@
                 ,
 
                 {
-                    "id": "3e26da40-5a61-4714-8b61-98bf54d28607",
+                    "id": "7663bb55-4518-48e1-921b-cdefd58fccd3",
                     "word": "\u886c\u886b",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u738b\u660e\u7684\u751f\u65e5\u5230\u4e86\uff0c\u5988\u5988\u9001\u7ed9\u4ed6\u4e00\u4ef6\u65b0\u886c\u886b\u3002"],
                     "word_building": []
@@ -1904,8 +2074,9 @@
                 ,
 
                 {
-                    "id": "be9d67d7-f768-4f17-a4cc-4912a555855f",
+                    "id": "45295c6d-6b74-404a-8747-fe1d9f85bb1e",
                     "word": "\u80a9\u8180",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u7238\u7238\u7684\u80a9\u8180\u53d7\u4f24\u4e86\uff0c\u8981\u5728\u5bb6\u4f11\u606f\u4e00\u6bb5\u65e5\u5b50\u3002"],
                     "word_building": []
@@ -1913,8 +2084,9 @@
                 ,
 
                 {
-                    "id": "3ee486ea-02d2-4a21-85bc-b2f732716d69",
+                    "id": "77533964-c60f-4b23-8e52-5cf97dba3db7",
                     "word": "\u6068",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u975e\u5e38\u75db\u6068\u90a3\u4e9b\u6740\u5bb3\u91ce\u751f\u52a8\u7269\u7684\u4eba\u3002"],
                     "word_building": []
@@ -1922,8 +2094,9 @@
                 ,
 
                 {
-                    "id": "af81440e-b43a-4e62-93ae-2f663e0e490a",
+                    "id": "24ff1daf-370f-4f58-aa81-feec27723ee3",
                     "word": "\u72e0\u72e0",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u7238\u7238\u770b\u5230\u5c0f\u660e\u6b3a\u8d1f\u5f1f\u5f1f\uff0c\u5c31\u628a\u5c0f\u660e\u72e0\u72e0\u5730\u6559\u8bad\u4e86\u4e00\u987f\u3002"],
                     "word_building": ["\u72e0\u72e0\u5730\u8d23\u5907", "\u72e0\u72e0\u5730\u6559\u8bad", "\u72e0\u72e0\u5730\u77aa\u7740"]
@@ -1931,8 +2104,9 @@
                 ,
 
                 {
-                    "id": "3c648656-0a5c-40b5-a33f-f28c6e269068",
+                    "id": "05591833-84ca-4f5f-8c1c-ebd7113402e8",
                     "word": "\u77aa",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u59d0\u59d0\u5f88\u751f\u6c14\uff0c\u6240\u4ee5\u5979\u72e0\u72e0\u5730\u77aa\u4e86\u6211\u4e00\u773c\u3002"],
                     "word_building": []
@@ -1940,8 +2114,9 @@
                 ,
 
                 {
-                    "id": "b89dedaa-65b2-4aeb-a49b-8a90b21cb64b",
+                    "id": "4ac83561-d620-4e46-be23-ee9095ea8c61",
                     "word": "\u6700\u4f73",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u674e\u660e\u8fde\u7eed\u4e09\u5e74\u88ab\u8bc4\u4e3a\u5168\u7403\u6700\u4f73\u8bbe\u8ba1\u5e08\u3002"],
                     "word_building": ["\u6700\u4f73\u673a\u573a", "\u6700\u4f73\u57ce\u5e02"]
@@ -1949,8 +2124,9 @@
                 ,
 
                 {
-                    "id": "3077452d-a72b-4788-ab1a-98f66931e1b9",
+                    "id": "38bbd98e-9121-4641-abcb-68b2801e635a",
                     "word": "\u8457\u540d",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u90a3\u4f4d\u5973\u58eb\u662f\u4e00\u4f4d\u8457\u540d\u7684\u97f3\u4e50\u5bb6\uff0c\u6709\u5f88\u591a\u4f18\u79c0\u7684\u4f5c\u54c1\u3002"],
                     "word_building": []
@@ -1958,8 +2134,9 @@
                 ,
 
                 {
-                    "id": "c0afde4b-e250-4fe4-b7b6-794ecaa96477",
+                    "id": "b32d66de-d86c-4be6-bf28-bd7d387f9c6d",
                     "word": "\u624b\u518c",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u672c\u624b\u518c\u91cc\u8bb0\u5f55\u4e86\u5236\u4f5c\u7cd5\u70b9\u7684\u8be6\u7ec6\u6b65\u9aa4\uff0c\u5bf9\u521d\u5b66\u8005\u4f1a\u6709\u5f88\u5927\u5e2e\u52a9\u3002"],
                     "word_building": ["\u65c5\u6e38\u624b\u518c", "\u70f9\u996a\u624b\u518c\u751f\u5b57\u5c0f\u518c\u5b50", "\u76f8\u518c", "\u7eaa\u5ff5\u518c"]
@@ -1967,8 +2144,9 @@
                 ,
 
                 {
-                    "id": "983c247f-73bd-4118-ab8c-e05e6719dfb4",
+                    "id": "3422be80-0efd-4657-a9d3-8ff50f262287",
                     "word": "\u5df7",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u7684\u5bb6\u4f4f\u5728\u540e\u6e2f\u4e03\u5df7\uff0c\u5f88\u9760\u8fd1\u6211\u7684\u5b66\u6821\u3002"],
                     "word_building": []
@@ -1976,8 +2154,9 @@
                 ,
 
                 {
-                    "id": "54afb484-2fa0-4a83-85ca-96b94b56024c",
+                    "id": "b98bf0d8-c7e0-41d7-9e36-785371ab9341",
                     "word": "\u552f\u4e00",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c0f\u6587\u662f\u5bb6\u91cc\u552f\u4e00\u7684\u5b69\u5b50\uff0c\u6240\u4ee5\u7237\u7237\u5976\u5976\u5341\u5206\u5ba0\u7231\u4ed6\u3002"],
                     "word_building": []
@@ -1985,8 +2164,9 @@
                 ,
 
                 {
-                    "id": "f3774941-00fe-4223-a4d9-e59fab96da99",
+                    "id": "63f2de2d-91d3-4078-a99f-5f2bdfdfe867",
                     "word": "\u9a84\u50b2",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5373\u4f7f\u4f60\u8fd9\u6b21\u8003\u8bd5\u53d6\u5f97\u4e86\u597d\u6210\u7ee9\uff0c\u4e5f\u4e0d\u5e94\u8be5\u9a84\u50b2\uff0c\u800c\u662f\u8981\u7ee7\u7eed\u52aa\u529b\u3002"],
                     "word_building": []
@@ -1994,8 +2174,9 @@
                 ,
 
                 {
-                    "id": "6dc13476-149f-4d6e-9457-f5a7d75b351b",
+                    "id": "2f88202c-c863-4224-a311-5a81f83c9d8a",
                     "word": "\u5bbd\u9614",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u65b0\u4fee\u7684\u9a6c\u8def\u5341\u5206\u5bbd\u9614\uff0c\u5927\u5927\u7f13\u89e3\u4e86\u9ad8\u5cf0\u65f6\u671f\u7684\u4ea4\u901a\u538b\u529b\u3002"],
                     "word_building": []
@@ -2003,8 +2184,9 @@
                 ,
 
                 {
-                    "id": "329104d4-eb92-4058-bd16-4a0311d6b8fb",
+                    "id": "387661a4-14ea-4cf5-b511-7e177e6a457c",
                     "word": "\u5448\u732e",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": [],
                     "word_building": ["\u7ecf\u8fc7\u4e00\u4e2a\u6708\u7684\u7cbe\u5fc3\u51c6\u5907\uff0c\u540c\u5b66\u4eec\u4e3a\u89c2\u4f17\u5448\u732e\u4e86\u4e00\u53f0\u7cbe\u5f69\u7684\u6f14\u51fa\u3002"]
@@ -2012,8 +2194,9 @@
                 ,
 
                 {
-                    "id": "1647e797-5a4a-420a-8cb2-423609229e9f",
+                    "id": "73cc7a40-8225-4cc4-8ebe-1acb249e3ff5",
                     "word": "\u76fc\u671b",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u76fc\u671b\u5df2\u4e45\u7684\u5047\u671f\u7ec8\u4e8e\u5230\u4e86\uff0c\u53ef\u4ee5\u548c\u5bb6\u4eba\u4e00\u8d77\u51fa\u56fd\u65c5\u884c\u4e86\u3002"],
                     "word_building": []
@@ -2021,8 +2204,9 @@
                 ,
 
                 {
-                    "id": "307468d8-7c10-4148-847a-4e005c56a1f0",
+                    "id": "0fa16211-5276-49fb-88e4-3e957b6bf688",
                     "word": "\u4e94\u5f69\u7f24\u7eb7",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u690d\u7269\u56ed\u91cc\u4e94\u5f69\u7f24\u7eb7\u7684\u82b1\u6735\u5438\u5f15\u4e86\u5f88\u591a\u6e38\u5ba2\u3002"],
                     "word_building": []
@@ -2030,8 +2214,9 @@
                 ,
 
                 {
-                    "id": "90dac4e6-7c7b-4b3b-a6cf-02f07d7d6ea8",
+                    "id": "ec26eb4b-2b6b-4579-8c0e-154a2f475615",
                     "word": "\u6c14\u6c1b",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u56e0\u4e3a\u610f\u89c1\u4e0a\u5b58\u5728\u5206\u6b67\uff0c\u6240\u4ee5\u8fd9\u6b21\u4f1a\u8bae\u7684\u6c14\u6c1b\u5341\u5206\u7d27\u5f20\u3002"],
                     "word_building": ["\u6b22\u4e50\u7684\u6c14\u6c1b", "\u559c\u5e86\u7684\u6c14\u6c1b", "\u7d27\u5f20\u7684\u6c14\u6c1b"]
@@ -2039,8 +2224,9 @@
                 ,
 
                 {
-                    "id": "475b62ce-b0da-4d5e-8c8c-4a049c47fb13",
+                    "id": "1f8fc89f-30da-4092-93d2-c57ac51dea26",
                     "word": "\u81ea\u8c6a",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u767b\u4e0a\u9886\u5956\u53f0\u7684\u90a3\u4e00\u523b\uff0c\u6211\u611f\u5230\u65e0\u6bd4\u7684\u81ea\u8c6a\u3002"],
                     "word_building": []
@@ -2048,8 +2234,9 @@
                 ,
 
                 {
-                    "id": "27591a62-0ace-40b5-8220-ebce24f3545d",
+                    "id": "dcf16db3-4e60-45ec-a0ea-e2f2edcad04c",
                     "word": "\u6c89\u6d78",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5f97\u77e5\u59d0\u59d0\u8003\u4e0a\u4e86\u7406\u60f3\u7684\u5927\u5b66\uff0c\u5168\u5bb6\u90fd\u6c89\u6d78\u5728\u559c\u60a6\u4e4b\u4e2d\u3002"],
                     "word_building": []
@@ -2057,8 +2244,9 @@
                 ,
 
                 {
-                    "id": "da15c1ce-2afa-40a2-8b77-d50d2e25100d",
+                    "id": "4799efda-c2bc-40fa-9011-82d56a1e2fc4",
                     "word": "\u961f\u4f0d",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u540c\u5b66\u4eec\u6392\u5217\u6210\u6574\u9f50\u7684\u961f\u4f0d\uff0c\u8010\u5fc3\u5730\u7b49\u5f85\u6bd4\u8d5b\u5f00\u59cb\u3002"],
                     "word_building": []
@@ -2066,8 +2254,9 @@
                 ,
 
                 {
-                    "id": "68497225-a929-4ad8-bee6-33ef44d8d6af",
+                    "id": "6a2bfc6a-fe8d-48c0-98ab-e8385250073c",
                     "word": "\u6e10\u6e10",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5728\u674e\u8001\u5e08\u7684\u5e2e\u52a9\u4e0b\uff0c\u5f1f\u5f1f\u5bf9\u5b66\u4e60\u534e\u6587\u6e10\u6e10\u6709\u4e86\u5174\u8da3\u3002"],
                     "word_building": ["\u6e10\u6e10\u63d0\u9ad8", "\u6e10\u6e10\u597d\u8f6c"]
@@ -2075,8 +2264,9 @@
                 ,
 
                 {
-                    "id": "74b4bf39-a522-4526-805d-97dec475ae9c",
+                    "id": "e27d20e1-9538-423c-95bb-5f213cb76e41",
                     "word": "\u5386\u53f2",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4eec\u6bcf\u4e2a\u4eba\u90fd\u5e94\u8be5\u4e86\u89e3\u81ea\u5df1\u56fd\u5bb6\u7684\u5386\u53f2\uff0c\u6709\u4e00\u9897\u7231\u56fd\u5fc3"],
                     "word_building": ["\u5386\u53f2\u60a0\u4e45\u751f\u5b57\u7ecf\u5386", "\u65e5\u5386"]
@@ -2084,8 +2274,9 @@
                 ,
 
                 {
-                    "id": "2374b718-4be2-4f5b-9290-0ef13560e8c9",
+                    "id": "b140fe4a-24f3-403c-a2ea-e6037e902ce0",
                     "word": "\u5305\u62ec",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u95e8\u8bfe\u7a0b\u7684\u5185\u5bb9\u5305\u62ec\u5386\u53f2\u548c\u6587\u5316\u4e24\u4e2a\u90e8\u5206\u3002"],
                     "word_building": []
@@ -2093,8 +2284,9 @@
                 ,
 
                 {
-                    "id": "a5cc9723-e7f5-482f-a6c6-3ce161b2bc66",
+                    "id": "14b98c52-fb1d-4215-8f69-fc6c381466b0",
                     "word": "\u4e16\u754c",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u53d4\u53d4\u5728\u6709\u7a7a\u7684\u65f6\u5019\u7ecf\u5e38\u4f1a\u53bb\u4e16\u754c\u5404\u5730\u65c5\u884c\u3002"],
                     "word_building": ["\u4e16\u754c\u5404\u5730", "\u5168\u4e16\u754c"]
@@ -2102,8 +2294,9 @@
                 ,
 
                 {
-                    "id": "759b60b6-a6f4-4012-ae51-782b83fe3251",
+                    "id": "fef9020d-db30-4e8c-b8a7-6ec4d577fdd1",
                     "word": "\u4e0d\u4ec5",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u59d0\u59d0\u4e0d\u4ec5\u5b66\u4e60\u6210\u7ee9\u4f18\u5f02\uff0c\u8fd8\u4e50\u4e8e\u52a9\u4eba\uff0c\u5927\u5bb6\u90fd\u5f88\u559c\u6b22\u5979\u3002"],
                     "word_building": ["\u4e0d\u4ec5\u2026\u2026\u800c\u4e14\u2026\u2026", "\u4e0d\u4ec5\u2026\u2026\u8fd8\u2026\u2026\u751f\u5b57\u4ec5\u4ec5", "\u4ec5\u6709"]
@@ -2111,8 +2304,9 @@
                 ,
 
                 {
-                    "id": "e755cc5b-967c-4f9d-b9f7-6d123d18d4b2",
+                    "id": "29e63b8a-b1df-4a0f-928c-a5dd0d6c73a1",
                     "word": "\u7a84",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e24\u5f20\u684c\u5b50\u4e4b\u95f4\u7684\u8ddd\u79bb\u592a\u7a84\u4e86\uff0c\u6211\u6ca1\u529e\u6cd5\u8d70\u8fc7\u53bb\u3002"],
                     "word_building": []
@@ -2120,8 +2314,9 @@
                 ,
 
                 {
-                    "id": "09b7828f-2515-474c-ae94-c63ac89d1af9",
+                    "id": "4b6e3f35-080d-4bee-a51d-90ae5d923a67",
                     "word": "\u6000\u7591",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u6000\u7591\u662f\u674e\u660e\u5077\u8d70\u4e86\u6211\u7684\u94c5\u7b14\u76d2\u3002"],
                     "word_building": []
@@ -2129,8 +2324,9 @@
                 ,
 
                 {
-                    "id": "ba669f5e-25e2-4177-a079-433a59094ead",
+                    "id": "ab8079ee-1c44-447e-a289-56d80573039d",
                     "word": "\u604d\u7136\u5927\u609f",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u542c\u4e86\u8001\u5e08\u7684\u4e00\u756a\u8bdd\uff0c\u6211\u624d\u604d\u7136\u5927\u609f\uff0c\u8ba4\u8bc6\u5230\u4e86\u81ea\u5df1\u7684\u9519\u8bef\u3002"],
                     "word_building": []
@@ -2138,8 +2334,9 @@
                 ,
 
                 {
-                    "id": "4c1d8f78-6511-4929-8224-a3460760c0d3",
+                    "id": "f67b10d5-d933-414d-bdb8-e9f558330978",
                     "word": "\u4f69\u670d",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6587\u534e\u4e0d\u987e\u81ea\u5df1\u7684\u5b89\u5371\uff0c\u820d\u5df1\u6551\u4eba\uff0c\u771f\u8ba9\u4eba\u4f69\u670d\uff01"],
                     "word_building": []
@@ -2147,8 +2344,9 @@
                 ,
 
                 {
-                    "id": "baaa9f42-f8a2-4e2e-8033-7a6272adc57d",
+                    "id": "faa503b3-8129-45d5-9924-02c049d97fee",
                     "word": "\u8fdd\u6297",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u90a3\u4e2a\u58eb\u5175\u56e0\u4e3a\u8fdd\u6297\u4e86\u5c06\u519b\u7684\u547d\u4ee4\uff0c\u53d7\u5230\u4e86\u4e25\u5389\u7684\u5904\u7f5a\u3002"],
                     "word_building": ["\u8fdd\u6297\u547d\u4ee4", "\u8fdd\u6297\u547d\u4ee4"]
@@ -2156,8 +2354,9 @@
                 ,
 
                 {
-                    "id": "297ef217-e641-493c-936d-ede555b70f27",
+                    "id": "05165570-fd3c-4e51-bf1b-61a16240fa25",
                     "word": "\u8be2\u95ee",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e00\u4e2a\u5c0f\u5973\u5b69\u5728\u8def\u8fb9\u54c7\u54c7\u5927\u54ed\uff0c\u4e00\u4e9b\u597d\u5fc3\u7684\u8def\u4eba\u770b\u5230\u4e86\uff0c\u7acb\u523b\u8fc7\u53bb\u8be2\u95ee\u53d1\u751f\u4e86\u4ec0\u4e48\u4e8b\u3002"],
                     "word_building": []
@@ -2165,8 +2364,9 @@
                 ,
 
                 {
-                    "id": "a41ff3d1-faff-469a-9763-1c9a0067d1db",
+                    "id": "e8fe80a0-d17d-429c-8b8a-8048077ce83e",
                     "word": "\u80f8\u6709\u6210\u7af9",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5f1f\u5f1f\u80f8\u6709\u6210\u7af9\u5730\u5bf9\u6211\u8bf4\uff1a\u201c\u6211\u8fd9\u6b21\u8003\u8bd5\u4e00\u5b9a\u53ef\u4ee5\u62ff\u5230\u6ee1\u5206\u3002\u201d"],
                     "word_building": []
@@ -2174,8 +2374,9 @@
                 ,
 
                 {
-                    "id": "d69ecd29-e0af-411c-824e-15fd75938f00",
+                    "id": "02f85d47-f95e-4637-8d63-bd8aa2b73910",
                     "word": "\u6784\u6210",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u82f1\u6587\u5355\u8bcd\u548c\u6c49\u5b57\u4e0d\u540c\uff0c\u5b83\u4eec\u7531\u5b57\u6bcd\u6784\u6210\u7684\u3002"],
                     "word_building": []
@@ -2183,8 +2384,9 @@
                 ,
 
                 {
-                    "id": "e7b40b2f-effd-4b7e-b3ba-60c61ab874e8",
+                    "id": "4c9181a0-1998-4fd1-b160-68a61522d343",
                     "word": "\u8bb0\u5f55",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6bcf\u6b21\u4e0a\u8bfe\u7684\u5185\u5bb9\uff0c\u6211\u90fd\u4f1a\u8ba4\u771f\u5730\u8bb0\u5f55\u4e0b\u6765\uff0c\u4fbf\u4e8e\u56de\u5bb6\u540e\u590d\u4e60\u3002"],
                     "word_building": ["\u8ba4\u771f\u8bb0\u5f55", "\u505a\u597d\u8bb0\u5f55\u751f\u5b57\u5f55\u50cf", "\u5f55\u7528", "\u5f55\u53d6", "\u6536\u5f55"]
@@ -2192,8 +2394,9 @@
                 ,
 
                 {
-                    "id": "90be9c72-08d2-46e0-894f-b6892429c5a7",
+                    "id": "b2ed757e-72bf-4fae-8328-24f1c19a8a20",
                     "word": "\u8f9b\u52e4",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u90a3\u4f4d\u8001\u5976\u5976\u6bcf\u65e5\u8f9b\u52e4\u5de5\u4f5c\uff0c\u4ece\u6765\u4e0d\u6015\u8f9b\u82e6\u3002"],
                     "word_building": ["\u8f9b\u52e4\u5de5\u4f5c", "\u8f9b\u52e4\u52b3\u52a8"]
@@ -2201,8 +2404,9 @@
                 ,
 
                 {
-                    "id": "c2444891-d986-4401-bf57-c2857482c8c4",
+                    "id": "57dc421b-c417-4708-bf1c-4a6f865aa651",
                     "word": "\u987d\u76ae",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u867d\u7136\u5f1f\u5f1f\u6709\u65f6\u975e\u5e38\u987d\u76ae\uff0c\u4f46\u662f\u6211\u8fd8\u662f\u5f88\u559c\u6b22\u4ed6\u3002"],
                     "word_building": []
@@ -2210,8 +2414,9 @@
                 ,
 
                 {
-                    "id": "b4ebe4ef-fd52-47d3-b812-14c31354f5f6",
+                    "id": "ec690652-feed-41a7-97c2-418979161fe3",
                     "word": "\u8bd7",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6bcd\u4eb2\u8282\u8981\u5230\u4e86\uff0c\u6211\u7279\u610f\u5199\u4e86\u4e00\u9996\u8bd7\u9001\u7ed9\u5988\u5988\u3002"],
                     "word_building": []
@@ -2219,8 +2424,9 @@
                 ,
 
                 {
-                    "id": "3cd4092f-7dd4-448b-92d8-1f7258f865d8",
+                    "id": "3efabf64-06fb-4a65-88a7-c7733cd7084a",
                     "word": "\u57f9\u80b2",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u90a3\u4f4d\u8001\u7237\u7237\u5728\u81ea\u5bb6\u7684\u9662\u5b50\u91cc\u57f9\u80b2\u4e86\u5f88\u591a\u7a00\u6709\u690d\u7269\u3002"],
                     "word_building": []
@@ -2228,8 +2434,9 @@
                 ,
 
                 {
-                    "id": "50fe8f11-8849-4121-a129-067f3aab1aa1",
+                    "id": "ded0bcfe-6829-4cf0-9d0c-d4a0b1167aab",
                     "word": "\u72af\u9519",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c0f\u660e\u77e5\u9053\u81ea\u5df1\u72af\u9519\u4e86\uff0c\u5fc3\u91cc\u89c9\u5f97\u5f88\u60ed\u6127\u3002"],
                     "word_building": []
@@ -2237,8 +2444,9 @@
                 ,
 
                 {
-                    "id": "ffbaead1-b025-414c-8780-bc7df2849a39",
+                    "id": "d6e20995-0deb-4835-ba63-4c86ed9c02a4",
                     "word": "\u5ba3\u5e03",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8001\u5e08\u5728\u5168\u73ed\u540c\u5b66\u9762\u524d\u5ba3\u5e03\u7531\u6211\u6765\u62c5\u4efb\u73ed\u957f\u3002"],
                     "word_building": []
@@ -2246,8 +2454,9 @@
                 ,
 
                 {
-                    "id": "79c00c6c-9e7a-425e-8b24-54fbb5ce6e22",
+                    "id": "e9b4e95a-dc27-4815-81dd-341677f4bf19",
                     "word": "\u52a0\u500d",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5728\u4eca\u540e\u7684\u65e5\u5b50\u91cc\uff0c\u660e\u534e\u4e0b\u5b9a\u51b3\u5fc3\u4f1a\u52a0\u500d\u52aa\u529b\u5b66\u4e60\u3002"],
                     "word_building": []
@@ -2255,8 +2464,9 @@
                 ,
 
                 {
-                    "id": "9c6f1a91-833b-47a3-a6f2-0ef2da8a0254",
+                    "id": "7414e506-b373-4a66-9002-e74fb843fbfb",
                     "word": "\u79ef\u6781",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e3d\u4e3d\u603b\u662f\u79ef\u6781\u53c2\u52a0\u5b66\u6821\u7ec4\u7ec7\u7684\u5404\u9879\u6d3b\u52a8\u3002"],
                     "word_building": ["\u79ef\u6781\u54cd\u5e94", "\u79ef\u6781\u53c2\u52a0", "\u6001\u5ea6\u79ef\u6781\u53cd\u4e49\u8bcd\u6d88\u6781"]
@@ -2264,8 +2474,9 @@
                 ,
 
                 {
-                    "id": "2c78f724-d11d-4e66-989f-5b2aaf515775",
+                    "id": "48ccb816-a548-404a-af25-6d926eff9abb",
                     "word": "\u6210\u7ee9",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u59d0\u59d0\u4e0d\u4ec5\u5b66\u4e60\u6210\u7ee9\u4f18\u5f02\uff0c\u8fd8\u4e50\u4e8e\u52a9\u4eba\uff0c\u5927\u5bb6\u90fd\u5f88\u559c\u6b22\u5979\u3002"],
                     "word_building": ["\u597d\u6210\u7ee9", "\u6210\u7ee9\u4f18\u5f02", "\u8003\u8bd5\u6210\u7ee9\u3002"]
@@ -2273,8 +2484,9 @@
                 ,
 
                 {
-                    "id": "1fbe6274-e91e-4a40-8045-d7ca232e8ec1",
+                    "id": "d0bbbe6e-a7bf-49b0-bd32-87b88ff0f520",
                     "word": "\u7948\u7977",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u7237\u7237\u751f\u75c5\u4f4f\u9662\u4e86\uff0c\u6211\u6bcf\u5929\u90fd\u5728\u5fc3\u4e2d\u7948\u7977\uff0c\u5e0c\u671b\u4ed6\u80fd\u65e9\u65e5\u5eb7\u590d\u3002"],
                     "word_building": ["\u9ed8\u9ed8\u7948\u7977", "\u6697\u81ea\u7948\u7977"]
@@ -2282,8 +2494,9 @@
                 ,
 
                 {
-                    "id": "c167a151-6f73-4e3f-a9d9-ad906f60ae33",
+                    "id": "3a3a2fae-11a5-4ed2-bd0c-90823a64a88c",
                     "word": "\u6df7",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6587\u534e\u88ab\u8001\u677f\u6279\u8bc4\u4e86\uff0c\u56e0\u4e3a\u4ed6\u5de5\u4f5c\u4e0d\u8ba4\u771f\uff0c\u6bcf\u5929\u90fd\u5728\u6df7\u65e5\u5b50\u3002"],
                     "word_building": []
@@ -2291,8 +2504,9 @@
                 ,
 
                 {
-                    "id": "4e592885-f2a6-459b-abfe-18af30157ee2",
+                    "id": "596ee431-6648-440b-890b-da20c49f3482",
                     "word": "\u504f\u504f",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4e0d\u60f3\u53bb\u53c2\u52a0\u8fd9\u6b21\u7684\u6bd4\u8d5b\uff0c\u53ef\u662f\u8001\u5e08\u504f\u504f\u9009\u4e2d\u4e86\u6211\u3002"],
                     "word_building": []
@@ -2300,8 +2514,9 @@
                 ,
 
                 {
-                    "id": "4067dbbd-bed2-416a-8c33-2f3e70387eaa",
+                    "id": "c46cac2b-0fbb-4054-a2f4-6acc7ffb0565",
                     "word": "\u94bb",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c0f\u660e\u89c9\u5f97\u7f9e\u6127\u96be\u5f53\uff0c\u6068\u4e0d\u5f97\u5728\u5730\u4e0a\u627e\u4e2a\u6d1e\u94bb\u8fdb\u53bb\u3002"],
                     "word_building": []
@@ -2309,8 +2524,9 @@
                 ,
 
                 {
-                    "id": "3dcc8fdc-500f-4dba-b59e-3398bb49b5cf",
+                    "id": "7ebd50fe-40de-4ab2-9015-79747533bd11",
                     "word": "\u6e29\u67d4",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u662f\u4e00\u4e2a\u5f88\u6e29\u67d4\u7684\u4eba\uff0c\u4ece\u6765\u4e0d\u4f1a\u4e71\u53d1\u813e\u6c14\u3002"],
                     "word_building": ["\u6027\u683c\u6e29\u67d4"]
@@ -2318,8 +2534,9 @@
                 ,
 
                 {
-                    "id": "b18e2570-25dc-45bf-9152-711a8a74f21b",
+                    "id": "dbcd80d7-151d-4207-99fa-cbf4c586fff5",
                     "word": "\u59d4\u5c48",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e3d\u6587\u88ab\u4eba\u51a4\u6789\u4e86\uff0c\u5979\u5fc3\u91cc\u89c9\u5f97\u5f88\u59d4\u5c48\u3002"],
                     "word_building": ["\u611f\u5230\u59d4\u5c48", "\u89c9\u5f97\u59d4\u5c48"]
@@ -2327,8 +2544,9 @@
                 ,
 
                 {
-                    "id": "348b9a16-0989-4fd9-84b8-7beb7fef1447",
+                    "id": "9ab57b16-d648-4305-9767-bbcad1b3fe3b",
                     "word": "\u6062\u590d",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u7ecf\u8fc7\u533b\u751f\u7684\u6cbb\u7597\uff0c\u7237\u7237\u7ec8\u4e8e\u6062\u590d\u4e86\u5065\u5eb7\u3002"],
                     "word_building": ["\u6062\u590d\u5065\u5eb7", "\u6062\u590d\u81ea\u4fe1"]
@@ -2336,8 +2554,9 @@
                 ,
 
                 {
-                    "id": "14e97644-1b77-467e-9958-2af515d0d012",
+                    "id": "28304563-6877-4b79-99c2-a4b0b6e035d4",
                     "word": "\u683d\u79cd",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4eec\u7684\u82b1\u56ed\u91cc\uff0c\u683d\u79cd\u4e86\u5f88\u591a\u7684\u82b1\u8349\u6811\u6728\u3002"],
                     "word_building": []
@@ -2345,8 +2564,9 @@
                 ,
 
                 {
-                    "id": "d2ce1d04-8a6a-49a8-be1b-41893d491482",
+                    "id": "6a892f5f-1210-4b40-a1f4-aa028973005d",
                     "word": "\u5bbd\u9614",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4eec\u5c0f\u533a\u5916\u9762\u65b0\u4fee\u4e86\u4e00\u6761\u5bbd\u9614\u7684\u9a6c\u8def\u3002"],
                     "word_building": ["\u5bbd\u9614\u7684\u9053\u8def", "\u5fc3\u80f8\u5bbd\u9614"]
@@ -2354,8 +2574,9 @@
                 ,
 
                 {
-                    "id": "77b256cd-67c3-44ef-bb69-01458ff505c5",
+                    "id": "4a3fe26e-7ce8-4947-8fb9-85e4ca9e1cc6",
                     "word": "\u6de1\u6de1",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6bcf\u5230\u590f\u5929\uff0c\u6211\u5bb6\u82b1\u56ed\u91cc\u7684\u82b1\u603b\u6563\u53d1\u51fa\u6de1\u6de1\u7684\u6e05\u9999\u3002"],
                     "word_building": ["\u6de1\u6de1\u7684\u82b1\u9999", "\u6de1\u6de1\u7684\u9999\u5473\u751f\u8bcd\u51b7\u6de1\u5f62\u4f3c\u5b57\u8c08\u8bdd", "\u708e\u70ed"]
@@ -2363,8 +2584,9 @@
                 ,
 
                 {
-                    "id": "ae5d731f-bf45-45f8-b489-4f2b9a32edbe",
+                    "id": "d1c18bda-2844-4740-8f4c-eb2881a82ae9",
                     "word": "\u8150\u70c2",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5982\u679c\u6211\u4eec\u4e0d\u628a\u852c\u83dc\u653e\u8fdb\u51b0\u7bb1\uff0c\u5b83\u4eec\u5f88\u5feb\u5c31\u4f1a\u8150\u70c2\u7684\u3002"],
                     "word_building": []
@@ -2372,8 +2594,9 @@
                 ,
 
                 {
-                    "id": "33d6be84-12b8-4c96-920c-9c6da37b6112",
+                    "id": "17ce076a-7f55-4b66-b924-600badbd4757",
                     "word": "\u7f16\u53f7",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5728\u56fd\u5bb6\u56fe\u4e66\u9986\u91cc\uff0c\u6bcf\u672c\u56fe\u4e66\u90fd\u6709\u81ea\u5df1\u7684\u7f16\u53f7\u3002"],
                     "word_building": []
@@ -2381,8 +2604,9 @@
                 ,
 
                 {
-                    "id": "485fcd88-969e-40a6-8646-8b2b1b2d951b",
+                    "id": "b0c0d60e-f21b-4fc0-b20b-4f14501cec07",
                     "word": "\u95f2\u804a",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5988\u5988\u6709\u7a7a\u65f6\u603b\u4f1a\u53bb\u90bb\u5c45\u5bb6\u95f2\u804a\u3002"],
                     "word_building": []
@@ -2390,8 +2614,9 @@
                 ,
 
                 {
-                    "id": "33749b13-ac1c-46bb-a781-e15162b45e06",
+                    "id": "73482ef1-0834-47a9-904f-8c8028adf30c",
                     "word": "\u662f\u5426",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c0f\u660e\u4e0a\u5468\u53d7\u4f24\u4e86\uff0c\u4e0d\u77e5\u4ed6\u662f\u5426\u8fd8\u4f1a\u53c2\u52a0\u4eca\u5929\u7684\u6bd4\u8d5b\u3002"],
                     "word_building": []
@@ -2399,8 +2624,9 @@
                 ,
 
                 {
-                    "id": "c3352ece-b864-4c80-ba4d-563db71cdb6f",
+                    "id": "39a62abd-9ee3-42cb-a82f-6e5cc7d76e74",
                     "word": "\u59ff\u6001",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u90a3\u4e9b\u82ad\u857e\u821e\u6f14\u5458\u5728\u821e\u53f0\u4e0a\u7684\u59ff\u6001\u975e\u5e38\u4f18\u7f8e\uff0c\u8d62\u5f97\u4e86\u89c2\u4f17\u7684\u9635\u9635\u638c\u58f0\u3002"],
                     "word_building": ["\u59ff\u6001\u4f18\u7f8e\u751f\u5b57\u59ff\u52bf", "\u6001\u5ea6"]
@@ -2408,8 +2634,9 @@
                 ,
 
                 {
-                    "id": "a728fd00-5223-44c0-9a3e-68e15730f882",
+                    "id": "309d9d1a-9d18-4f53-98e5-fd8446750eb7",
                     "word": "\u633a\u80f8",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u56fd\u5e86\u5e86\u5178\u4e0a\uff0c\u90a3\u4e9b\u58eb\u5175\u51fa\u573a\u7684\u65f6\u5019\u90fd\u633a\u80f8\u62ac\u5934\u3002"],
                     "word_building": []
@@ -2417,8 +2644,9 @@
                 ,
 
                 {
-                    "id": "a3fc435d-5af2-4997-a7d6-d1fa4d9cbeef",
+                    "id": "2c848907-c388-46f8-968d-c3dd792ea605",
                     "word": "\u6177\u6168",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u7238\u7238\u505a\u751f\u610f\u9047\u5230\u56f0\u96be\uff0c\u53d4\u53d4\u6177\u6168\u89e3\u56ca\uff0c\u5e2e\u4ed6\u6e21\u8fc7\u96be\u5173\u3002"],
                     "word_building": ["\u6177\u6168\u89e3\u56ca", "\u6177\u6168\u5927\u65b9"]
@@ -2426,8 +2654,9 @@
                 ,
 
                 {
-                    "id": "9a7043bc-7b56-4592-8cb7-cdc528e381aa",
+                    "id": "3facd2a7-3c50-44c5-a72c-ed541f7f2b9a",
                     "word": "\u8302\u5bc6",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u90a3\u79cd\u6811\u6728\u7684\u679d\u53f6\u975e\u5e38\u8302\u5bc6\uff0c\u4eba\u4eec\u53ef\u4ee5\u5728\u6811\u4e0b\u4e58\u51c9\u3002"],
                     "word_building": ["\u679d\u53f6\u8302\u5bc6\u540c\u97f3\u5b57\u8702\u871c\u751f\u8bcd\u8302\u76db", "\u79d8\u5bc6"]
@@ -2435,8 +2664,9 @@
                 ,
 
                 {
-                    "id": "cbf55542-df98-4a96-8665-bdaf614a454b",
+                    "id": "c48084ec-67be-4258-b88d-f5faa3b738e4",
                     "word": "\u5e7d\u9ed8",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u53d4\u53d4\u662f\u4e00\u4e2a\u975e\u5e38\u5e7d\u9ed8\u7684\u4eba\uff0c\u5927\u5bb6\u90fd\u559c\u6b22\u542c\u4ed6\u8bb2\u6545\u4e8b\u3002"],
                     "word_building": ["\u8c08\u5410\u5e7d\u9ed8\u751f\u8bcd\u9ed8\u9ed8", "\u6c89\u9ed8"]
@@ -2444,8 +2674,9 @@
                 ,
 
                 {
-                    "id": "71d159db-9521-4834-8d3e-f7ae58e294f8",
+                    "id": "2c501a99-f464-4980-b05c-eb7280705b08",
                     "word": "\u67af\u53f6",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e00\u573a\u66b4\u98ce\u96e8\u8fc7\u540e\uff0c\u5730\u4e0a\u5e03\u6ee1\u4e86\u67af\u53f6\u3002"],
                     "word_building": []
@@ -2453,8 +2684,9 @@
                 ,
 
                 {
-                    "id": "22cb67c1-4af9-4ae3-baae-a7834aa51226",
+                    "id": "c92b36b5-fb34-4242-b72f-c6700ab8e897",
                     "word": "\u6084\u6084",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u770b\u89c1\u5c0f\u660e\u7761\u7740\u4e86\uff0c\u5988\u5988\u5c31\u6084\u6084\u5730\u5173\u4e0a\u623f\u95e8\u79bb\u5f00\u4e86\u3002"],
                     "word_building": []
@@ -2462,8 +2694,9 @@
                 ,
 
                 {
-                    "id": "73e05308-eb96-430d-a819-50ceffa632a6",
+                    "id": "de33be10-dcde-452b-8197-9c00c6d0487e",
                     "word": "\u8d44\u6e90",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6c34\u8d44\u6e90\u662f\u6709\u9650\u7684\uff0c\u6211\u4eec\u8981\u8282\u7ea6\u7528\u6c34\u3002"],
                     "word_building": ["\u8282\u7ea6\u8d44\u6e90", "\u6c34\u8d44\u6e90"]
@@ -2471,8 +2704,9 @@
                 ,
 
                 {
-                    "id": "da547e79-21e9-4a0a-a856-290e36f6f51e",
+                    "id": "77309563-0366-4b8e-802e-721b18f22ba7",
                     "word": "\u6c61\u67d3",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4eec\u5e94\u8be5\u51cf\u5c11\u4f7f\u7528\u6c7d\u8f66\uff0c\u56e0\u4e3a\u6c7d\u8f66\u5c3e\u6c14\u7684\u6392\u653e\u4f1a\u6c61\u67d3\u73af\u5883\u3002"],
                     "word_building": ["\u7a7a\u6c14\u6c61\u67d3", "\u51cf\u5c11\u6c61\u67d3"]
@@ -2480,8 +2714,9 @@
                 ,
 
                 {
-                    "id": "eb5a7fdb-3b77-46e3-982a-29a000f4dd70",
+                    "id": "11af9b68-5578-4f63-9bba-41741c09ab88",
                     "word": "\u548c\u8c10",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u6211\u4eec\u5e94\u8be5\u548c\u90bb\u5c45\u4eec\u548c\u8c10\u5171\u5904\uff0c\u53ea\u6709\u8fd9\u6837\u624d\u80fd\u4f7f\u6211\u4eec\u7684\u751f\u6d3b\u66f4\u7f8e\u597d\u3002"],
                     "word_building": ["\u548c\u8c10\u5171\u5904", "\u548c\u8c10\u793e\u4f1a"]
@@ -2489,8 +2724,9 @@
                 ,
 
                 {
-                    "id": "9d09d802-7f6a-426e-97a4-d7851dbe6108",
+                    "id": "cfcdb7b9-87a8-4ff5-837b-f6afc7f0e549",
                     "word": "\u535a\u7269\u9986",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e0a\u4e2a\u661f\u671f\uff0c\u8001\u5e08\u5e26\u9886\u6211\u4eec\u5168\u73ed\u540c\u5b66\u53bb\u53c2\u89c2\u4e86\u65b0\u52a0\u5761\u535a\u7269\u9986\u3002"],
                     "word_building": []
@@ -2498,8 +2734,9 @@
                 ,
 
                 {
-                    "id": "e1950969-70d1-492b-b112-51361e6050d3",
+                    "id": "476c6212-d1c3-4736-83f7-9bf356df7e1d",
                     "word": "\u5c3d\u7ba1",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5c3d\u7ba1\u5929\u6c14\u5341\u5206\u5bd2\u51b7\uff0c\u58eb\u5175\u4eec\u4ecd\u65e7\u575a\u6301\u64cd\u7ec3\u3002"],
                     "word_building": []
@@ -2507,8 +2744,9 @@
                 ,
 
                 {
-                    "id": "e0c589be-6f82-47d3-832c-b79f7e78182c",
+                    "id": "cc227c6d-02cb-484e-ae95-320f9d1aabd6",
                     "word": "\u719f\u6089",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u53d4\u53d4\u4ece\u5c0f\u751f\u6d3b\u5728\u8fd9\u91cc\uff0c\u5bf9\u8fd9\u4e00\u5e26\u975e\u5e38\u719f\u6089\u3002"],
                     "word_building": ["\u719f\u6089\u7684\u58f0\u97f3", "\u719f\u6089\u7684\u5730\u65b9"]
@@ -2516,8 +2754,9 @@
                 ,
 
                 {
-                    "id": "a29999f1-888d-4882-82f9-3ec3dbac244e",
+                    "id": "202230aa-01cb-4260-9ca5-05156e8f2709",
                     "word": "\u8feb\u4e0d\u53ca\u5f85",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u4e3d\u4e3d\u8feb\u4e0d\u53ca\u5f85\u5730\u6253\u5f00\u4e86\u5988\u5988\u9001\u7ed9\u5979\u7684\u751f\u65e5\u793c\u7269\u3002"],
                     "word_building": []
@@ -2525,8 +2764,9 @@
                 ,
 
                 {
-                    "id": "51249518-2774-48ab-b10e-2d19a128bf30",
+                    "id": "1afd8776-cb80-4cd6-97a6-85ab5cc12b97",
                     "word": "\u5947\u5999",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u81ea\u7136\u754c\u771f\u7684\u5f88\u5947\u5999\uff0c\u6709\u5f88\u591a\u4e1c\u897f\u7b49\u5f85\u7740\u4eba\u4eec\u53bb\u63a2\u7d22\uff0c\u53bb\u53d1\u73b0\u3002"],
                     "word_building": []
@@ -2534,8 +2774,9 @@
                 ,
 
                 {
-                    "id": "d740f6d0-5e90-490a-babe-9cf4853e5661",
+                    "id": "9c129301-5d63-4f3a-a89d-633dca092360",
                     "word": "\u9676\u9189",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u91cc\u7f8e\u4e3d\u7684\u666f\u8272\u771f\u8ba9\u4eba\u9676\u9189\u554a\uff01"],
                     "word_building": ["\u8ba9\u4eba\u9676\u9189", "\u9676\u9189\u5176\u4e2d"]
@@ -2543,8 +2784,9 @@
                 ,
 
                 {
-                    "id": "5252d7bc-95d8-4461-9a19-4943dbf3f6ae",
+                    "id": "882285ee-cdee-4824-83d6-dc44c61ad6c5",
                     "word": "\u653b\u51fb",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u90a3\u652f\u519b\u961f\u5728\u5ce1\u8c37\u91cc\u53d7\u5230\u4e86\u654c\u519b\u7684\u653b\u51fb\uff0c\u4f24\u4ea1\u60e8\u91cd\u3002"],
                     "word_building": ["\u653b\u51fb\u654c\u4eba", "\u53d7\u5230\u653b\u51fb"]
@@ -2552,8 +2794,9 @@
                 ,
 
                 {
-                    "id": "1bc1e036-5034-4540-bc82-a19f8df07d69",
+                    "id": "a766cc93-a600-4204-b8a8-eb7f1f9e06d2",
                     "word": "\u7956\u5148",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5728\u4e00\u4e9b\u4f20\u7edf\u8282\u65e5\uff0c\u534e\u4eba\u90fd\u4f1a\u796d\u62dc\u7956\u5148\u3002"],
                     "word_building": []
@@ -2561,8 +2804,9 @@
                 ,
 
                 {
-                    "id": "196700f7-a2bf-40ec-9f60-839889968243",
+                    "id": "2c878ba7-2fe2-44ad-a32b-7506a3fbc1bc",
                     "word": "\u963b\u6321",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u53ea\u8981\u6211\u4eec\u610f\u5fd7\u575a\u5b9a\uff0c\u4efb\u4f55\u56f0\u96be\u90fd\u963b\u6321\u4e0d\u4e86\u6211\u4eec\u524d\u8fdb\u7684\u6b65\u4f10\u3002"],
                     "word_building": []
@@ -2570,8 +2814,9 @@
                 ,
 
                 {
-                    "id": "cdf34520-4a92-4575-9a02-2cd912f492e8",
+                    "id": "571dd81b-4501-4726-b35b-4c5ee1610088",
                     "word": "\u5373\u4f7f",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5373\u4f7f\u56f0\u96be\u91cd\u91cd\uff0c\u90a3\u4e9b\u58eb\u5175\u4e5f\u4f1a\u575a\u6301\u5b8c\u6210\u4efb\u52a1\u3002"],
                     "word_building": []
@@ -2579,8 +2824,9 @@
                 ,
 
                 {
-                    "id": "7df495fa-480a-4761-abad-3720bee27233",
+                    "id": "57ab10a9-fd7f-4caa-9044-141d6333c343",
                     "word": "\u884c\u9a76",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5f53\u6c7d\u8f66\u884c\u9a76\u5728\u96e8\u5929\u6e7f\u6ed1\u7684\u8def\u9762\u4e0a\u65f6\uff0c\u53f8\u673a\u4e00\u5b9a\u8981\u5c0f\u5fc3\u8c28\u614e\u3002"],
                     "word_building": []
@@ -2588,8 +2834,9 @@
                 ,
 
                 {
-                    "id": "206bba7c-1f84-432d-ab2f-a2b688aa2a22",
+                    "id": "4661ce7a-b8c4-48f6-8ed7-48980c5f7978",
                     "word": "\u5929\u5bd2\u5730\u51bb",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u5230\u4e86\u51ac\u5929\uff0c\u5f88\u591a\u5730\u65b9\u90fd\u5929\u5bd2\u5730\u51bb\uff0c\u4eba\u4eec\u751f\u6d3b\u975e\u5e38\u4e0d\u65b9\u4fbf\u3002"],
                     "word_building": []
@@ -2597,8 +2844,9 @@
                 ,
 
                 {
-                    "id": "d52d0092-8bbf-4560-bfdd-84b9a90905a5",
+                    "id": "0ce9c6c7-f43e-4029-9be2-97d33a9a8f1c",
                     "word": "\u6696\u548c",
+                    "isHCL": false,
                     "definition": "",
                     "model_sentences": ["\u8fd9\u680b\u623f\u5b50\u91cc\u5b89\u88c5\u4e86\u53d6\u6696\u8bbe\u5907\uff0c\u975e\u5e38\u6696\u548c\u3002"],
                     "word_building": []
