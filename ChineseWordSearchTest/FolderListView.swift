@@ -12,8 +12,8 @@ struct FolderListView: View {
 
     var isTopLevel: Bool = false
 
-    @State var prototypeNewFolder: VocabFolder?
-    @State var prototypeNewVocab: Vocab?
+    @State var showNewFolder: Bool = false
+    @State var showNewVocab: Bool = false
 
     var body: some View {
         List {
@@ -40,29 +40,15 @@ struct FolderListView: View {
             toolbarContent
         }
         .navigationTitle(folder.name)
-        .sheet(isPresented: .init(get: {
-            prototypeNewFolder != nil
-        }, set: { isShown in
-            if !isShown {
-                prototypeNewFolder = nil
-            }
-        }), content: {
+        .sheet(isPresented: $showNewFolder) {
             NewFolderView(
-                folder: $folder,
-                prototypeNewFolder: $prototypeNewFolder
+                folder: $folder
             )
             .interactiveDismissDisabled(true)
-        })
-        .sheet(isPresented: .init(get: {
-            prototypeNewVocab != nil
-        }, set: { isShown in
-            if !isShown {
-                prototypeNewVocab = nil
-            }
-        })) {
+        }
+        .sheet(isPresented: $showNewVocab) {
             NewVocabView(
-                folder: $folder,
-                prototypeNewVocab: $prototypeNewVocab
+                folder: $folder
             )
             .interactiveDismissDisabled(true)
         }
@@ -166,18 +152,10 @@ struct FolderListView: View {
     }
 
     func newFolder() {
-        var name = "New Folder"
-        if folder.subfolders.contains(where: { $0.name == name }) {
-            var counter = 2
-            while folder.subfolders.contains(where: { $0.name == "\(name) \(counter)" }) {
-                counter += 1
-            }
-            name += " \(counter)"
-        }
-        prototypeNewFolder = .init(name: name, subfolders: [], vocab: [])
+        showNewFolder = true
     }
 
     func newVocab() {
-        prototypeNewVocab = .init(word: "无标题", definition: "", sentences: [], wordBuilding: [])
+        showNewVocab = true
     }
 }

@@ -9,33 +9,26 @@ import SwiftUI
 
 struct NewVocabView: View {
     @Binding var folder: VocabFolder
-    @Binding var prototypeNewVocab: Vocab?
+    @State var prototypeNewVocab: Vocab = .init(word: "无标题", definition: "", sentences: [], wordBuilding: [])
+
+    @Environment(\.presentationMode) var presentationMode
 
     var body: some View {
         NavigationStack {
-            VocabDetailsView(
-                vocab: .init(
-                    get: {
-                        prototypeNewVocab!
-                    },
-                    set: { newValue in
-                        prototypeNewVocab = newValue
-                    }
-                )
-            )
-            .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
-                    Button("Cancel") {
-                        prototypeNewVocab = nil
+            VocabDetailsView(vocab: $prototypeNewVocab)
+                .toolbar {
+                    ToolbarItem(placement: .topBarLeading) {
+                        Button("Cancel") {
+                            presentationMode.wrappedValue.dismiss()
+                        }
                     }
                 }
-            }
-            .environment(\.editMode, .init(get: { .active }, set: { newMode in
-                if newMode == .inactive {
-                    folder.vocab.append(prototypeNewVocab!)
-                    prototypeNewVocab = nil
-                }
-            }))
+                .environment(\.editMode, .init(get: { .active }, set: { newMode in
+                    if newMode == .inactive {
+                        folder.vocab.append(prototypeNewVocab)
+                        presentationMode.wrappedValue.dismiss()
+                    }
+                }))
         }
     }
 }

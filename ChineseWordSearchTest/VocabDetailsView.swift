@@ -70,7 +70,7 @@ private struct VocabDetailsContentsView: View {
         if !vocab.definition.isEmpty || isEditing {
             Section("Definition") {
                 if isEditing {
-                    TextField("", text: $vocab.definition)
+                    TextField("Definition", text: $vocab.definition)
                 } else {
                     Text(vocab.definition)
                 }
@@ -79,8 +79,12 @@ private struct VocabDetailsContentsView: View {
 
         if !vocab.sentences.isEmpty || isEditing {
             Section("Example Sentences") {
-                ForEach(Array(vocab.sentences.enumerated()), id: \.offset) { (_, sentence) in
-                    Text(sentence)
+                ForEach(Array($vocab.sentences.enumerated()), id: \.offset) { (_, $sentence) in
+                    if isEditing {
+                        TextField("Sentence", text: $sentence)
+                    } else {
+                        Text(sentence)
+                    }
                 }
                 .onMove { indices, newOffset in
                     vocab.sentences.move(fromOffsets: indices, toOffset: newOffset)
@@ -89,22 +93,28 @@ private struct VocabDetailsContentsView: View {
                     vocab.sentences.remove(atOffsets: indexSet)
                 }
 
-                HStack {
-                    Spacer()
-                    Button {
-                        vocab.sentences.append("New Sentence")
-                    } label: {
-                        Image(systemName: "plus")
+                if isEditing {
+                    HStack {
+                        Spacer()
+                        Button {
+                            vocab.sentences.append("New Sentence")
+                        } label: {
+                            Image(systemName: "plus")
+                        }
+                        Spacer()
                     }
-                    Spacer()
                 }
             }
         }
 
         if !vocab.wordBuilding.isEmpty || isEditing {
             Section("Example Words") {
-                ForEach(Array(vocab.wordBuilding.enumerated()), id: \.offset) { (_, wordBuilding) in
-                    Text(wordBuilding)
+                ForEach(Array($vocab.wordBuilding.enumerated()), id: \.offset) { (_, $wordBuilding) in
+                    if isEditing {
+                        TextField("Phrase", text: $wordBuilding)
+                    } else {
+                        Text(wordBuilding)
+                    }
                 }
                 .onMove { indices, newOffset in
                     vocab.wordBuilding.move(fromOffsets: indices, toOffset: newOffset)
@@ -113,14 +123,16 @@ private struct VocabDetailsContentsView: View {
                     vocab.wordBuilding.remove(atOffsets: indexSet)
                 }
 
-                HStack {
-                    Spacer()
-                    Button {
-                        vocab.wordBuilding.append("New Phrase")
-                    } label: {
-                        Image(systemName: "plus")
+                if isEditing {
+                    HStack {
+                        Spacer()
+                        Button {
+                            vocab.wordBuilding.append("New Phrase")
+                        } label: {
+                            Image(systemName: "plus")
+                        }
+                        Spacer()
                     }
-                    Spacer()
                 }
             }
         }
@@ -130,7 +142,7 @@ private struct VocabDetailsContentsView: View {
                 HStack {
                     Spacer()
                     VStack {
-                        if vocab.definition.isEmpty || vocab.sentences.isEmpty || vocab.wordBuilding.isEmpty {
+                        if vocab.definition.isEmpty && vocab.sentences.isEmpty && vocab.wordBuilding.isEmpty {
                             Text("No Details.")
                         }
                         if !isEditing {
