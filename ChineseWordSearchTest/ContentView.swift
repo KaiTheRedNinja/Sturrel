@@ -8,47 +8,42 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var manager: VocabDataManager = .shared
-
-    @State var expansionState: [String: Bool] = [:]
-
-    @State var searchText: String = ""
-    @State var showSearch: Bool = false
-
     var body: some View {
-        NavigationStack {
-            VStack {
-                if !showSearch {
-                    FolderListView(folder: $manager.root, isTopLevel: true)
-                } else {
-                    if searchText.isEmpty {
+        TabView {
+            MainView()
+                .tabItem {
+                    Label("Vocab", systemImage: "character.book.closed.fill.zh")
+                }
+            NavigationStack {
+                List {
+                    Section {
+                        ForEach(0..<5) { index in
+                            Text("Setting \(index)")
+                        }
+                    }
+
+                    Section {
                         HStack {
                             Spacer()
-                            Text("Search a Word, Lesson or Year Level")
+                            VStack {
+                                Text("Vocabulary provided by\nXueLin Learning Hub")
+                                    .multilineTextAlignment(.center)
+                                Image("xuelinLogo")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(height: 100)
+                            }
                             Spacer()
                         }
                         .foregroundStyle(Color.gray)
-                        .font(.subheadline)
                         .listRowBackground(Color.clear)
-                    } else {
-                        List {
-                            HierarchicalSearchResultView(
-                                searchText: searchText,
-                                folder: $manager.root
-                            )
-                        }
                     }
                 }
+                .navigationTitle("Settings")
             }
-            .listStyle(.sidebar)
-            .searchable(text: $searchText, isPresented: $showSearch)
-            .onChange(of: manager.root) { _, _ in
-                manager.reconcileVocabConfigurationToRoot()
-                manager.saveRoot()
+            .tabItem {
+                Label("Settings", systemImage: "gear")
             }
-        }
-        .onAppear {
-            manager.loadFromVocabConfiguration()
         }
     }
 }

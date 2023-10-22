@@ -98,6 +98,14 @@ struct FolderListView: View {
 
     @ToolbarContentBuilder
     var toolbarContent: some ToolbarContent {
+        ToolbarItem(placement: .topBarLeading) {
+            Button {
+                // TODO: games
+            } label: {
+                Image(systemName: "play")
+            }
+        }
+
         ToolbarItem(placement: .topBarTrailing) {
             Menu {
                 Section {

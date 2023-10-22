@@ -63,11 +63,10 @@ class VocabDataManager: ObservableObject {
         } else {
             // initialise all the data
             // transfer P1-P6 and S1-S3 files
-            var config = VocabConfiguration(folders: [])
+            self.vocabConfiguration = VocabConfiguration(folders: [])
             for filename in VocabConfiguration.builtins {
                 copyBuiltinFolder(named: filename)
             }
-            self.vocabConfiguration = config
         }
     }
 

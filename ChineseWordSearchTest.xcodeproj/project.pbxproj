@@ -24,6 +24,7 @@
 		932024262AE01649008A0E06 /* HanziPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932024202AE01649008A0E06 /* HanziPinyin.swift */; };
 		934C92262AE41A18005B495E /* NewFolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C92252AE41A18005B495E /* NewFolderView.swift */; };
 		934C92282AE41A5E005B495E /* NewVocabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C92272AE41A5E005B495E /* NewVocabView.swift */; };
+		934C922C2AE4CE71005B495E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C922B2AE4CE71005B495E /* MainView.swift */; };
 		9395981B2AE1EAF100DC1DDD /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9395981A2AE1EAF100DC1DDD /* FileSystem.swift */; };
 		93DD69A62AE01E1600439BA9 /* DEFAULT_P5.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69A22AE01E1500439BA9 /* DEFAULT_P5.json */; };
 		93DD69A72AE01E1600439BA9 /* DEFAULT_P3.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69A32AE01E1500439BA9 /* DEFAULT_P3.json */; };
@@ -54,6 +55,7 @@
 		932024202AE01649008A0E06 /* HanziPinyin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanziPinyin.swift; sourceTree = "<group>"; };
 		934C92252AE41A18005B495E /* NewFolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFolderView.swift; sourceTree = "<group>"; };
 		934C92272AE41A5E005B495E /* NewVocabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVocabView.swift; sourceTree = "<group>"; };
+		934C922B2AE4CE71005B495E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9395981A2AE1EAF100DC1DDD /* FileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
 		93DD69A22AE01E1500439BA9 /* DEFAULT_P5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P5.json; sourceTree = "<group>"; };
 		93DD69A32AE01E1500439BA9 /* DEFAULT_P3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P3.json; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				932024112AE00A8D008A0E06 /* Data */,
 				932023FF2AE00681008A0E06 /* ChineseWordSearchTestApp.swift */,
 				932024012AE00681008A0E06 /* ContentView.swift */,
+				934C922B2AE4CE71005B495E /* MainView.swift */,
 				931BFBA42AE0F22500FB1005 /* HierarchicalSearchResultView.swift */,
 				932024172AE01149008A0E06 /* FolderListView.swift */,
 				934C92252AE41A18005B495E /* NewFolderView.swift */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9320240E2AE008D2008A0E06 /* VocabDataManager.swift in Sources */,
+				934C922C2AE4CE71005B495E /* MainView.swift in Sources */,
 				934C92282AE41A5E005B495E /* NewVocabView.swift in Sources */,
 				932024022AE00681008A0E06 /* ContentView.swift in Sources */,
 				932024002AE00681008A0E06 /* ChineseWordSearchTestApp.swift in Sources */,
