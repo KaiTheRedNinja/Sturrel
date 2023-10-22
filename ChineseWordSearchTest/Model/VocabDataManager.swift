@@ -2,113 +2,42 @@
 //  VocabDataManager.swift
 //  ChineseWordSearchTest
 //
-//  Created by Kai Quan Tay on 18/10/23.
+//  Created by Kai Quan Tay on 22/10/23.
 //
 
-import Foundation
+import SwiftUI
 
-class VocabDataManager: ObservableObject {
+final class VocabDataManager: ObservableObject {
     static var shared: VocabDataManager = .init()
 
-    private init() {}
+    private init() {
+        guard FileSystem.exists(file: .vocabs) else { return }
+        vocabs = FileSystem.read([Vocab.ID: Vocab].self, from: .vocabs) ?? [:]
+    }
 
-    @Published var root: VocabFolder = .init(name: "Folders", subfolders: [], vocab: [])
+    @Published private var vocabs: [Vocab.ID: Vocab] = [:]
 
-    @Published var vocabConfiguration: VocabConfiguration! {
-        didSet {
-            if let vocabConfiguration {
-                FileSystem.write(vocabConfiguration, to: .config)
-            }
+    func getVocab(for id: Vocab.ID) -> Vocab? {
+        return vocabs[id]
+    }
+
+    func saveVocab(_ vocab: Vocab) {
+        vocabs[vocab.id] = vocab
+    }
+
+    func bindingVocab(for id: Vocab.ID) -> Binding<Vocab> {
+        .init {
+            self.getVocab(for: id) ?? .init(id: id, word: "Untitled", definition: "", sentences: [], wordBuilding: [])
+        } set: { newValue in
+            self.saveVocab(newValue)
         }
     }
 
-    func loadFromVocabConfiguration() {
-        print("Loading from config at \(FileSystem.getDocumentsDirectory().absoluteString)")
-        getVocabConfiguration()
-        reconcileRootToVocabConfiguration()
+    func removeVocab(_ id: Vocab.ID) {
+        vocabs.removeValue(forKey: id)
     }
 
-    /// Modify `root` to match `vocabConfiguration`
-    func reconcileRootToVocabConfiguration() {
-        var newFolders = [VocabFolder]()
-        for folder in vocabConfiguration.folders {
-            if let match = root.subfolders.first(where: { $0.id == folder }) {
-                newFolders.append(match)
-            } else if let loadedFolder = loadCustomFolder(id: folder) {
-                newFolders.append(loadedFolder)
-            }
-        }
-        root.subfolders = newFolders
+    func save() {
+        FileSystem.write(vocabs, to: .vocabs)
     }
-
-    /// Modify `vocabConfiguration` to match `root`
-    func reconcileVocabConfigurationToRoot() {
-        var newConfiguration = VocabConfiguration(folders: [])
-        for subfolder in root.subfolders {
-            newConfiguration.folders.append(subfolder.id)
-        }
-        vocabConfiguration = newConfiguration
-    }
-
-    func saveRoot() {
-        // save the files in Root. Should only be called once the app is about to quit.
-        for subfolder in root.subfolders {
-            FileSystem.write(subfolder, to: .customFolder(subfolder.id))
-        }
-    }
-
-    private func getVocabConfiguration() {
-        if FileSystem.exists(file: .config), let config = FileSystem.read(VocabConfiguration.self, from: .config) {
-            self.vocabConfiguration = config
-        } else {
-            // initialise all the data
-            // transfer P1-P6 and S1-S3 files
-            self.vocabConfiguration = VocabConfiguration(folders: [])
-            for filename in VocabConfiguration.builtins {
-                copyBuiltinFolder(named: filename)
-            }
-        }
-    }
-
-    private func loadDefaultFolder(named filename: String) -> VocabFolder? {
-        guard let path = Bundle.main.path(forResource: "DEFAULT_" + filename, ofType: "json") else { return nil }
-        do {
-            let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-            let jsonResult = try JSONDecoder().decode(VocabFolder.self, from: data)
-            return jsonResult
-        } catch {
-            print("Oh no error: \(error)")
-        }
-
-        return nil
-    }
-
-    private func loadCustomFolder(id: UUID) -> VocabFolder? {
-        guard let result = FileSystem.read(VocabFolder.self, from: .customFolder(id)) else { return nil }
-        return result
-    }
-
-    func copyBuiltinFolder(named filename: String) {
-        guard var builtin = loadDefaultFolder(named: filename) else { return }
-
-        // change the name so that theres no conflicts
-        var name = builtin.name
-        if root.subfolders.contains(where: { $0.name == name }) {
-            var counter = 2
-            while root.subfolders.contains(where: { $0.name == "\(name) \(counter)" }) {
-                counter += 1
-            }
-            name += " \(counter)"
-        }
-        builtin.name = name
-
-        FileSystem.write(builtin, to: .customFolder(builtin.id))
-        vocabConfiguration.folders.append(builtin.id)
-    }
-}
-
-struct VocabConfiguration: Codable {
-    var folders: [UUID]
-
-    static let builtins: [String] = ["P1", "P2", "P3", "P4", "P5", "P6", "S1", "S2", "S3"]
 }

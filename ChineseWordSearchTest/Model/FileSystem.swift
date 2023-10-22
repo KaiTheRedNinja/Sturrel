@@ -11,12 +11,14 @@ public enum FileSystem {
     public static var currentUserEmail: String?
 
     public enum FileName {
-        case config
+        case root
+        case vocabs
         case customFolder(UUID)
 
         public var fileName: String {
             switch self {
-            case .config: "config.json"
+            case .root: "root.json"
+            case .vocabs: "vocabs.json"
             case .customFolder(let id): "custom/CUSTOM_\(id.uuidString).json"
             }
         }

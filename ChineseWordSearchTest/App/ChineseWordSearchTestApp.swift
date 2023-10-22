@@ -9,7 +9,8 @@ import SwiftUI
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
-        VocabDataManager.shared.saveRoot()
+        RootDataManager.shared.save()
+        FoldersDataManager.shared.save()
     }
 }
 

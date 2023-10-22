@@ -8,14 +8,30 @@
 import SwiftUI
 
 struct FolderListView: View {
-    @Binding var folder: VocabFolder
+    var folderID: VocabFolder.ID
 
     var isTopLevel: Bool = false
 
     @State var showNewFolder: Bool = false
     @State var showNewVocab: Bool = false
 
+    @ObservedObject var folderDataManager: FoldersDataManager = .shared
+    @ObservedObject var vocabDataManager: VocabDataManager = .shared
+
+    init(folderID: VocabFolder.ID, isTopLevel: Bool = false) {
+        self.folderID = folderID
+        self.isTopLevel = isTopLevel
+    }
+
     var body: some View {
+        if let folder = folderDataManager.getFolder(for: folderID) {
+            folderContent(for: folder)
+        } else {
+            Text("Internal Error")
+        }
+    }
+
+    func folderContent(for folder: VocabFolder) -> some View {
         List {
             if folder.subfolders.isEmpty && folder.vocab.isEmpty {
                 HStack {
@@ -29,11 +45,11 @@ struct FolderListView: View {
             }
 
             if !folder.subfolders.isEmpty {
-                folderSection
+                folderSection(subfolders: folderDataManager.bindingFolder(for: folderID).subfolders)
             }
 
             if !folder.vocab.isEmpty && !isTopLevel {
-                vocabSection
+                vocabSection(vocab: folderDataManager.bindingFolder(for: folderID).vocab)
             }
         }
         .toolbar {
@@ -42,42 +58,42 @@ struct FolderListView: View {
         .navigationTitle(folder.name)
         .sheet(isPresented: $showNewFolder) {
             NewFolderView(
-                folder: $folder
+                targetFolderID: folderID
             )
             .interactiveDismissDisabled(true)
         }
         .sheet(isPresented: $showNewVocab) {
             NewVocabView(
-                folder: $folder
+                targetFolderID: folderID
             )
             .interactiveDismissDisabled(true)
         }
     }
 
-    var folderSection: some View {
+    func folderSection(subfolders: Binding<[VocabFolder.ID]>) -> some View {
         Section("Folders") {
-            ForEach($folder.subfolders, id: \.hashValue) { $folder in
-                viewForFolder($folder)
+            ForEach(subfolders.wrappedValue, id: \.hashValue) { folder in
+                viewForFolder(folder)
             }
             .onMove { indices, newOffset in
-                folder.subfolders.move(fromOffsets: indices, toOffset: newOffset)
+                subfolders.wrappedValue.move(fromOffsets: indices, toOffset: newOffset)
             }
             .onDelete { indexSet in
-                folder.subfolders.remove(atOffsets: indexSet)
+                subfolders.wrappedValue.remove(atOffsets: indexSet)
             }
         }
     }
 
-    var vocabSection: some View {
+    func vocabSection(vocab: Binding<[Vocab.ID]>) -> some View {
         Section("Vocab") {
-            ForEach($folder.vocab, id: \.hashValue) { $vocab in
-                viewForVocab($vocab)
+            ForEach(vocab.wrappedValue, id: \.hashValue) { vocab in
+                viewForVocab(vocab)
             }
             .onMove { indices, newOffset in
-                folder.vocab.move(fromOffsets: indices, toOffset: newOffset)
+                vocab.wrappedValue.move(fromOffsets: indices, toOffset: newOffset)
             }
             .onDelete { indexSet in
-                folder.vocab.remove(atOffsets: indexSet)
+                vocab.wrappedValue.remove(atOffsets: indexSet)
             }
         }
     }
@@ -100,9 +116,9 @@ struct FolderListView: View {
                     }
                     if isTopLevel {
                         Menu("Copy Built-in Folder") {
-                            ForEach(VocabConfiguration.builtins, id: \.self) { filename in
+                            ForEach(RootDataManager.builtins, id: \.self) { filename in
                                 Button(filename) {
-                                    VocabDataManager.shared.copyBuiltinFolder(named: filename)
+                                    RootDataManager.shared.copyBuiltinFolder(named: filename)
                                 }
                             }
                         }
@@ -125,28 +141,35 @@ struct FolderListView: View {
         }
     }
 
-    func viewForFolder(_ folder: Binding<VocabFolder>) -> some View {
-        NavigationLink {
-            FolderListView(folder: folder)
-        } label: {
-            HStack {
-                Image(systemName: "folder")
-                    .frame(width: 26, height: 22)
-                    .foregroundStyle(Color.accentColor)
-                Text(folder.wrappedValue.name)
+    @ViewBuilder
+    func viewForFolder(_ folderID: VocabFolder.ID) -> some View {
+        if let folder = folderDataManager.getFolder(for: folderID) {
+            NavigationLink {
+                FolderListView(folderID: folderID)
+            } label: {
+
+                HStack {
+                    Image(systemName: "folder")
+                        .frame(width: 26, height: 22)
+                        .foregroundStyle(Color.accentColor)
+                    Text(folder.name)
+                }
             }
         }
     }
 
-    func viewForVocab(_ vocab: Binding<Vocab>) -> some View {
-        NavigationLink {
-            VocabDetailsView(vocab: vocab)
-        } label: {
-            HStack {
-                Text(vocab.wrappedValue.word)
-                Spacer()
-                Text(vocab.wrappedValue.word.toPinyin())
-                    .foregroundStyle(Color.gray)
+    @ViewBuilder
+    func viewForVocab(_ vocabID: Vocab.ID) -> some View {
+        if let vocab = vocabDataManager.getVocab(for: vocabID) {
+            NavigationLink {
+                VocabDetailsView(vocabID: vocabID)
+            } label: {
+                HStack {
+                    Text(vocab.word)
+                    Spacer()
+                    Text(vocab.word.toPinyin())
+                        .foregroundStyle(Color.gray)
+                }
             }
         }
     }

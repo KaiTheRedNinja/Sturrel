@@ -8,24 +8,35 @@
 import SwiftUI
 
 struct NewVocabView: View {
-    @Binding var folder: VocabFolder
-    @State var prototypeNewVocab: Vocab = .init(word: "无标题", definition: "", sentences: [], wordBuilding: [])
+    var targetFolderID: VocabFolder.ID
+    var prototypeNewVocabID: Vocab.ID
 
     @Environment(\.presentationMode) var presentationMode
 
+    @ObservedObject var vocabDataManager: VocabDataManager = .shared
+
+    init(targetFolderID: VocabFolder.ID) {
+        self.targetFolderID = targetFolderID
+
+        let prototype = Vocab(word: "无标题", definition: "", sentences: [], wordBuilding: [])
+        VocabDataManager.shared.saveVocab(prototype)
+        self.prototypeNewVocabID = prototype.id
+    }
+
     var body: some View {
         NavigationStack {
-            VocabDetailsView(vocab: $prototypeNewVocab)
+            VocabDetailsView(vocabID: prototypeNewVocabID)
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
                         Button("Cancel") {
+                            vocabDataManager.removeVocab(prototypeNewVocabID)
                             presentationMode.wrappedValue.dismiss()
                         }
                     }
                 }
                 .environment(\.editMode, .init(get: { .active }, set: { newMode in
                     if newMode == .inactive {
-                        folder.vocab.append(prototypeNewVocab)
+                        FoldersDataManager.shared.bindingFolder(for: targetFolderID).wrappedValue.vocab.append(prototypeNewVocabID)
                         presentationMode.wrappedValue.dismiss()
                     }
                 }))

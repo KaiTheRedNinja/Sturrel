@@ -9,32 +9,44 @@ import SwiftUI
 
 struct HierarchicalSearchResultView: View {
     var searchText: String
-    var folder: Binding<VocabFolder>
+    var folderID: VocabFolder.ID
 
     var body: some View {
-        ForEach(folder.subfolders, id: \.hashValue) { $subFolder in
-            if folderContainsSearch(folder: subFolder, term: searchText) {
+        if let folder = FoldersDataManager.shared.getFolder(for: folderID) {
+            folderContent(for: folder)
+        } else {
+            Text("Internal Error")
+        }
+    }
+
+    @ViewBuilder
+    func folderContent(for folder: VocabFolder) -> some View {
+        ForEach(folder.subfolders, id: \.hashValue) { subFolderID in
+            if folderContainsSearch(folderID: subFolderID, term: searchText) {
                 NavigationLink {
-                    FolderListView(folder: $subFolder)
+                    FolderListView(folderID: subFolderID)
                 } label: {
                     HStack {
                         Image(systemName: "folder")
                             .frame(width: 26, height: 22)
                             .foregroundStyle(Color.accentColor)
-                        HighlightedText(.init(subFolder.name), highlight: searchText)
+                        if let subFolder = FoldersDataManager.shared.getFolder(for: subFolderID) {
+                            HighlightedText(.init(subFolder.name), highlight: searchText)
+                        }
                     }
                 }
                 HierarchicalSearchResultView(
                     searchText: searchText,
-                    folder: $subFolder
+                    folderID: subFolderID
                 )
                 .padding(.leading, 16)
             }
         }
-        ForEach(folder.vocab, id: \.hashValue) { $vocab in
-            if vocab.word.lowercased().contains(searchText.lowercased()) {
+        ForEach(folder.vocab, id: \.hashValue) { vocabID in
+            if let vocab = VocabDataManager.shared.getVocab(for: vocabID),
+               vocab.word.lowercased().contains(searchText.lowercased()) {
                 NavigationLink {
-                    VocabDetailsView(vocab: $vocab)
+                    VocabDetailsView(vocabID: vocabID)
                 } label: {
                     HStack {
                         HighlightedText(.init(vocab.word), highlight: searchText)
@@ -47,16 +59,18 @@ struct HierarchicalSearchResultView: View {
         }
     }
 
-    func folderContainsSearch(folder: VocabFolder, term: String) -> Bool {
+    func folderContainsSearch(folderID: VocabFolder.ID, term: String) -> Bool {
         let lowerterm = term.lowercased()
+        guard let folder = FoldersDataManager.shared.getFolder(for: folderID) else { return false }
         if folder.name.lowercased().contains(lowerterm) { return true }
         if folder.subfolders.contains(where: {
-            folderContainsSearch(folder: $0, term: term)
+            folderContainsSearch(folderID: $0, term: term)
         }) {
             return true
         }
-        if folder.vocab.contains(where: {
-            $0.word.lowercased().contains(lowerterm)
+        if folder.vocab.contains(where: { vocabID in
+            guard let vocab = VocabDataManager.shared.getVocab(for: vocabID) else { return false }
+            return vocab.word.lowercased().contains(lowerterm)
         }) {
             return true
         }

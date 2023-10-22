@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct VocabDetailsView: View {
-    @Binding var vocab: Vocab
+    var vocabID: Vocab.ID
 
     var body: some View {
         List {
-            VocabDetailsContentsView(vocab: $vocab)
+            VocabDetailsContentsView(vocabID: vocabID)
         }
         .navigationTitle("Vocab")
         .navigationBarTitleDisplayMode(.inline)
@@ -23,7 +23,9 @@ struct VocabDetailsView: View {
 }
 
 private struct VocabDetailsContentsView: View {
-    @Binding var vocab: Vocab
+    var vocabID: Vocab.ID
+
+    @ObservedObject var vocabDataManager = VocabDataManager.shared
 
     @Environment(\.editMode) var rawEditMode
 
@@ -32,13 +34,14 @@ private struct VocabDetailsContentsView: View {
     }
 
     var body: some View {
+        let vocab = vocabDataManager.getVocab(for: vocabID)!
         Section {
             HStack {
                 Spacer()
                 if isEditing {
                     VStack {
                         let pinyin = vocab.word.toPinyin()
-                        TextField("", text: $vocab.word)
+                        TextField("", text: vocabDataManager.bindingVocab(for: vocabID).word)
                             .font(.largeTitle)
                             .bold()
                             .multilineTextAlignment(.center)
@@ -70,7 +73,7 @@ private struct VocabDetailsContentsView: View {
         if !vocab.definition.isEmpty || isEditing {
             Section("Definition") {
                 if isEditing {
-                    TextField("Definition", text: $vocab.definition)
+                    TextField("Definition", text: vocabDataManager.bindingVocab(for: vocabID).definition)
                 } else {
                     Text(vocab.definition)
                 }
@@ -79,7 +82,7 @@ private struct VocabDetailsContentsView: View {
 
         if !vocab.sentences.isEmpty || isEditing {
             Section("Example Sentences") {
-                ForEach(Array($vocab.sentences.enumerated()), id: \.offset) { (_, $sentence) in
+                ForEach(Array(vocabDataManager.bindingVocab(for: vocabID).sentences.enumerated()), id: \.offset) { (_, $sentence) in
                     if isEditing {
                         TextField("Sentence", text: $sentence)
                     } else {
@@ -87,17 +90,17 @@ private struct VocabDetailsContentsView: View {
                     }
                 }
                 .onMove { indices, newOffset in
-                    vocab.sentences.move(fromOffsets: indices, toOffset: newOffset)
+                    vocabDataManager.bindingVocab(for: vocabID).wrappedValue.sentences.move(fromOffsets: indices, toOffset: newOffset)
                 }
                 .onDelete { indexSet in
-                    vocab.sentences.remove(atOffsets: indexSet)
+                    vocabDataManager.bindingVocab(for: vocabID).wrappedValue.sentences.remove(atOffsets: indexSet)
                 }
 
                 if isEditing {
                     HStack {
                         Spacer()
                         Button {
-                            vocab.sentences.append("New Sentence")
+                            vocabDataManager.bindingVocab(for: vocabID).wrappedValue.sentences.append("New Sentence")
                         } label: {
                             Image(systemName: "plus")
                         }
@@ -109,7 +112,7 @@ private struct VocabDetailsContentsView: View {
 
         if !vocab.wordBuilding.isEmpty || isEditing {
             Section("Example Words") {
-                ForEach(Array($vocab.wordBuilding.enumerated()), id: \.offset) { (_, $wordBuilding) in
+                ForEach(Array(vocabDataManager.bindingVocab(for: vocabID).wordBuilding.enumerated()), id: \.offset) { (_, $wordBuilding) in
                     if isEditing {
                         TextField("Phrase", text: $wordBuilding)
                     } else {
@@ -117,17 +120,17 @@ private struct VocabDetailsContentsView: View {
                     }
                 }
                 .onMove { indices, newOffset in
-                    vocab.wordBuilding.move(fromOffsets: indices, toOffset: newOffset)
+                    vocabDataManager.bindingVocab(for: vocabID).wrappedValue.wordBuilding.move(fromOffsets: indices, toOffset: newOffset)
                 }
                 .onDelete { indexSet in
-                    vocab.wordBuilding.remove(atOffsets: indexSet)
+                    vocabDataManager.bindingVocab(for: vocabID).wrappedValue.wordBuilding.remove(atOffsets: indexSet)
                 }
 
                 if isEditing {
                     HStack {
                         Spacer()
                         Button {
-                            vocab.wordBuilding.append("New Phrase")
+                            vocabDataManager.bindingVocab(for: vocabID).wrappedValue.wordBuilding.append("New Phrase")
                         } label: {
                             Image(systemName: "plus")
                         }

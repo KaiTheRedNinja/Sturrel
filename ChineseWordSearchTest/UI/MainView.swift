@@ -7,9 +7,14 @@
 
 import SwiftUI
 
+enum FolderOrVocabID {
+    case folder(VocabFolder.ID)
+    case vocab(Vocab.ID)
+}
+
 struct MainView: View {
 
-    @ObservedObject var manager: VocabDataManager = .shared
+    @ObservedObject var manager: RootDataManager = .shared
 
     @State var expansionState: [String: Bool] = [:]
 
@@ -20,7 +25,7 @@ struct MainView: View {
         NavigationStack {
             VStack {
                 if !showSearch {
-                    FolderListView(folder: $manager.root, isTopLevel: true)
+                    FolderListView(folderID: manager.root.id)
                 } else {
                     if searchText.isEmpty {
                         HStack {
@@ -35,7 +40,7 @@ struct MainView: View {
                         List {
                             HierarchicalSearchResultView(
                                 searchText: searchText,
-                                folder: $manager.root
+                                folderID: manager.root.id
                             )
                         }
                     }
@@ -43,13 +48,6 @@ struct MainView: View {
             }
             .listStyle(.sidebar)
             .searchable(text: $searchText, isPresented: $showSearch)
-            .onChange(of: manager.root) { _, _ in
-                manager.reconcileVocabConfigurationToRoot()
-                manager.saveRoot()
-            }
-        }
-        .onAppear {
-            manager.loadFromVocabConfiguration()
         }
     }
 }

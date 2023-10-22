@@ -8,38 +8,48 @@
 import SwiftUI
 
 struct NewFolderView: View {
-    @Binding var folder: VocabFolder
-    @State var prototypeNewFolder: VocabFolder
+    var targetFolderID: VocabFolder.ID
+    var prototypeNewFolderID: VocabFolder.ID
+
+    @ObservedObject var folderDataManager: FoldersDataManager = .shared
 
     @Environment(\.presentationMode) var presentationMode
 
-    init(folder: Binding<VocabFolder>) {
-        self._folder = folder
-        
+    init(targetFolderID: VocabFolder.ID) {
+        self.targetFolderID = targetFolderID
+
         var name = "New Folder"
-        if folder.wrappedValue.subfolders.contains(where: { $0.name == name }) {
-            var counter = 2
-            while folder.wrappedValue.subfolders.contains(where: { $0.name == "\(name) \(counter)" }) {
-                counter += 1
+
+        if let subfolders = FoldersDataManager.shared.getFolder(for: targetFolderID)?.subfolders {
+            if subfolders.contains(where: { FoldersDataManager.shared.getFolder(for: $0)?.name == name }) {
+                var counter = 2
+                while subfolders.contains(where: { FoldersDataManager.shared.getFolder(for: $0)?.name == "\(name) \(counter)" }) {
+                    counter += 1
+                }
+                name += " \(counter)"
             }
-            name += " \(counter)"
         }
-        self._prototypeNewFolder = .init(initialValue: .init(name: name, subfolders: [], vocab: []))
+
+        let prototype = VocabFolder(name: name, subfolders: [], vocab: [])
+
+        FoldersDataManager.shared.saveFolder(prototype)
+        self.prototypeNewFolderID = prototype.id
     }
 
     var body: some View {
         NavigationStack {
-            FolderListView(folder: $prototypeNewFolder)
+            FolderListView(folderID: targetFolderID)
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
                         Button("Cancel") {
+                            FoldersDataManager.shared.removeFolder(prototypeNewFolderID)
                             presentationMode.wrappedValue.dismiss()
                         }
                     }
                 }
                 .environment(\.editMode, .init(get: { .active }, set: { newMode in
                     if newMode == .inactive {
-                        folder.subfolders.append(prototypeNewFolder)
+                        FoldersDataManager.shared.bindingFolder(for: targetFolderID).wrappedValue.subfolders.append(prototypeNewFolderID)
                         presentationMode.wrappedValue.dismiss()
                     }
                 }))
