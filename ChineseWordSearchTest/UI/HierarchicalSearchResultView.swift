@@ -23,23 +23,25 @@ struct HierarchicalSearchResultView: View {
     @ViewBuilder
     func folderContent(for folder: VocabFolder) -> some View {
         ForEach(folder.subfolders, id: \.hashValue) { subFolderID in
-            if searchManager.folderMatchesCriteria(subFolderID) {
-                NavigationLink {
-                    FolderListView(folderID: subFolderID)
-                } label: {
-                    HStack {
-                        Image(systemName: "folder")
-                            .frame(width: 26, height: 22)
-                            .foregroundStyle(Color.accentColor)
-                        if let subFolder = FoldersDataManager.shared.getFolder(for: subFolderID) {
-                            HighlightedText(subFolder.name, highlight: searchManager.highlightFor(folder: subFolder))
+            if searchManager.folderContainsCriteria(subFolderID) {
+                if !searchManager.showFlat || searchManager.folderMatchesCriteria(subFolderID) {
+                    NavigationLink {
+                        FolderListView(folderID: subFolderID)
+                    } label: {
+                        HStack {
+                            Image(systemName: "folder")
+                                .frame(width: 26, height: 22)
+                                .foregroundStyle(Color.accentColor)
+                            if let subFolder = FoldersDataManager.shared.getFolder(for: subFolderID) {
+                                HighlightedText(subFolder.name, highlight: searchManager.highlightFor(folder: subFolder))
+                            }
                         }
                     }
                 }
                 HierarchicalSearchResultView(
                     folderID: subFolderID
                 )
-                .padding(.leading, 16)
+                .padding(.leading, searchManager.showFlat ? 0 : 16)
             }
         }
         ForEach(folder.vocab, id: \.hashValue) { vocabID in

@@ -25,6 +25,7 @@
 		934C92262AE41A18005B495E /* NewFolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C92252AE41A18005B495E /* NewFolderView.swift */; };
 		934C92282AE41A5E005B495E /* NewVocabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C92272AE41A5E005B495E /* NewVocabView.swift */; };
 		934C922C2AE4CE71005B495E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C922B2AE4CE71005B495E /* MainView.swift */; };
+		93669AC12AE6A55E00803139 /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93669AC02AE6A55D00803139 /* SearchManager.swift */; };
 		9395981B2AE1EAF100DC1DDD /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9395981A2AE1EAF100DC1DDD /* FileSystem.swift */; };
 		93D40C212AE517280091BD34 /* FoldersDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D40C202AE517280091BD34 /* FoldersDataManager.swift */; };
 		93D40C232AE51F110091BD34 /* VocabDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D40C222AE51F110091BD34 /* VocabDataManager.swift */; };
@@ -58,6 +59,7 @@
 		934C92252AE41A18005B495E /* NewFolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFolderView.swift; sourceTree = "<group>"; };
 		934C92272AE41A5E005B495E /* NewVocabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVocabView.swift; sourceTree = "<group>"; };
 		934C922B2AE4CE71005B495E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		93669AC02AE6A55D00803139 /* SearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
 		9395981A2AE1EAF100DC1DDD /* FileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
 		93D40C202AE517280091BD34 /* FoldersDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldersDataManager.swift; sourceTree = "<group>"; };
 		93D40C222AE51F110091BD34 /* VocabDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabDataManager.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				93D40C222AE51F110091BD34 /* VocabDataManager.swift */,
 				9395981A2AE1EAF100DC1DDD /* FileSystem.swift */,
 				9320240F2AE008D9008A0E06 /* Vocab.swift */,
+				93669AC02AE6A55D00803139 /* SearchManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9320240E2AE008D2008A0E06 /* Root.swift in Sources */,
+				93669AC12AE6A55E00803139 /* SearchManager.swift in Sources */,
 				93D40C232AE51F110091BD34 /* VocabDataManager.swift in Sources */,
 				934C922C2AE4CE71005B495E /* MainView.swift in Sources */,
 				934C92282AE41A5E005B495E /* NewVocabView.swift in Sources */,
