@@ -174,6 +174,12 @@ struct FolderListView: View {
                 VocabDetailsView(vocabID: vocabID)
             } label: {
                 HStack {
+                    if vocab.isHCL {
+                        Image(systemName: "staroflife.fill")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(height: 14)
+                    }
                     Text(vocab.word)
                     Spacer()
                     Text(vocab.word.toPinyin())
