@@ -17,6 +17,7 @@ struct FolderListView: View {
 
     @ObservedObject var folderDataManager: FoldersDataManager = .shared
     @ObservedObject var vocabDataManager: VocabDataManager = .shared
+    @ObservedObject var searchManager: SearchManager = .shared
 
     init(folderID: VocabFolder.ID, isTopLevel: Bool = false) {
         self.folderID = folderID
@@ -24,11 +25,22 @@ struct FolderListView: View {
     }
 
     var body: some View {
-        if let folder = folderDataManager.getFolder(for: folderID) {
-            folderContent(for: folder)
-        } else {
-            Text("Internal Error")
+        VStack {
+            if !searchManager.showSearch {
+                if let folder = folderDataManager.getFolder(for: folderID) {
+                    folderContent(for: folder)
+                } else {
+                    Text("Internal Error")
+                }
+            } else {
+                searchContent()
+            }
         }
+        .listStyle(.sidebar)
+        .searchable(
+            text: $searchManager.searchText,
+            isPresented: $searchManager.showSearch
+        )
     }
 
     func folderContent(for folder: VocabFolder) -> some View {
@@ -70,6 +82,63 @@ struct FolderListView: View {
         }
         .onChange(of: folder) { _, newValue in
             folderDataManager.saveFolder(newValue)
+        }
+    }
+
+    func searchContent() -> some View {
+        List {
+            if searchManager.searchText.isEmpty {
+                HStack {
+                    Spacer()
+                    Text("Search a Word or Folder")
+                    Spacer()
+                }
+                .foregroundStyle(Color.gray)
+                .font(.subheadline)
+                .listRowBackground(Color.clear)
+            } else {
+                HierarchicalSearchResultView(
+                    folderID: folderID
+                )
+                .environmentObject(searchManager)
+            }
+        }
+        .safeAreaInset(edge: .top) {
+            HStack {
+                ForEach(SearchToken.allCases) { token in
+                    if searchManager.searchTokens.contains(token) {
+                        Button(token.rawValue) {
+                            searchManager.searchTokens.remove(token)
+                        }
+                        .buttonStyle(.borderedProminent)
+                        .cornerRadius(15)
+                    } else {
+                        Button(token.rawValue) {
+                            searchManager.searchTokens.insert(token)
+                        }
+                        .buttonStyle(.bordered)
+                        .cornerRadius(15)
+                    }
+                }
+                Spacer()
+                Button {
+                    // toggle between hierarchy and not
+                    searchManager.showFlat.toggle()
+                } label: {
+                    Image(systemName: "list.bullet" + (searchManager.showFlat ? "" : ".indent"))
+                }
+                .buttonStyle(.bordered)
+                .cornerRadius(15)
+            }
+            .padding(.horizontal, 20)
+            .padding(.vertical, 10)
+            .font(.footnote)
+            .background(.regularMaterial)
+            .overlay(alignment: .bottom) {
+                VStack {
+                    Divider()
+                }
+            }
         }
     }
 
