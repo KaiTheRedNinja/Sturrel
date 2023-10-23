@@ -40,6 +40,10 @@ struct VocabFolder: Identifiable, Codable, Hashable {
         self.subfolders = (try? container.decode([VocabFolder.ID].self, forKey: .subfolders)) ?? []
         self.vocab = (try? container.decode([Vocab.ID].self, forKey: .vocab)) ?? []
     }
+
+    func flatVocab() -> [Vocab.ID] {
+        self.vocab + subfolders.compactMap({ FoldersDataManager.shared.getFolder(for: $0)?.flatVocab() }).flatMap({ $0 })
+    }
 }
 
 struct Vocab: Identifiable, Codable, Hashable {

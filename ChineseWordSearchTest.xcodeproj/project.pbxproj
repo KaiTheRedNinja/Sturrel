@@ -26,6 +26,8 @@
 		934C92282AE41A5E005B495E /* NewVocabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C92272AE41A5E005B495E /* NewVocabView.swift */; };
 		934C922C2AE4CE71005B495E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C922B2AE4CE71005B495E /* MainView.swift */; };
 		93669AC12AE6A55E00803139 /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93669AC02AE6A55D00803139 /* SearchManager.swift */; };
+		93669AC62AE6AC8100803139 /* QuizSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93669AC52AE6AC8100803139 /* QuizSetupView.swift */; };
+		93669ACE2AE6AF2400803139 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93669ACD2AE6AF2400803139 /* QuizManager.swift */; };
 		9395981B2AE1EAF100DC1DDD /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9395981A2AE1EAF100DC1DDD /* FileSystem.swift */; };
 		93D40C212AE517280091BD34 /* FoldersDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D40C202AE517280091BD34 /* FoldersDataManager.swift */; };
 		93D40C232AE51F110091BD34 /* VocabDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D40C222AE51F110091BD34 /* VocabDataManager.swift */; };
@@ -60,6 +62,8 @@
 		934C92272AE41A5E005B495E /* NewVocabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVocabView.swift; sourceTree = "<group>"; };
 		934C922B2AE4CE71005B495E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		93669AC02AE6A55D00803139 /* SearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
+		93669AC52AE6AC8100803139 /* QuizSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSetupView.swift; sourceTree = "<group>"; };
+		93669ACD2AE6AF2400803139 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 		9395981A2AE1EAF100DC1DDD /* FileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
 		93D40C202AE517280091BD34 /* FoldersDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldersDataManager.swift; sourceTree = "<group>"; };
 		93D40C222AE51F110091BD34 /* VocabDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabDataManager.swift; sourceTree = "<group>"; };
@@ -147,6 +151,14 @@
 			path = PinYin;
 			sourceTree = "<group>";
 		};
+		93669AC72AE6AC8E00803139 /* Quizzes */ = {
+			isa = PBXGroup;
+			children = (
+				93669AC52AE6AC8100803139 /* QuizSetupView.swift */,
+			);
+			path = Quizzes;
+			sourceTree = "<group>";
+		};
 		93D40C1C2AE5146E0091BD34 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +168,7 @@
 				9395981A2AE1EAF100DC1DDD /* FileSystem.swift */,
 				9320240F2AE008D9008A0E06 /* Vocab.swift */,
 				93669AC02AE6A55D00803139 /* SearchManager.swift */,
+				93669ACD2AE6AF2400803139 /* QuizManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +176,7 @@
 		93D40C1D2AE514820091BD34 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				93669AC72AE6AC8E00803139 /* Quizzes */,
 				934C922B2AE4CE71005B495E /* MainView.swift */,
 				931BFBA42AE0F22500FB1005 /* HierarchicalSearchResultView.swift */,
 				932024172AE01149008A0E06 /* FolderListView.swift */,
@@ -272,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93669AC62AE6AC8100803139 /* QuizSetupView.swift in Sources */,
 				9320240E2AE008D2008A0E06 /* Root.swift in Sources */,
 				93669AC12AE6A55E00803139 /* SearchManager.swift in Sources */,
 				93D40C232AE51F110091BD34 /* VocabDataManager.swift in Sources */,
@@ -280,6 +295,7 @@
 				932024022AE00681008A0E06 /* ContentView.swift in Sources */,
 				932024002AE00681008A0E06 /* ChineseWordSearchTestApp.swift in Sources */,
 				931BFBA52AE0F22500FB1005 /* HierarchicalSearchResultView.swift in Sources */,
+				93669ACE2AE6AF2400803139 /* QuizManager.swift in Sources */,
 				932024182AE01149008A0E06 /* FolderListView.swift in Sources */,
 				93D40C212AE517280091BD34 /* FoldersDataManager.swift in Sources */,
 				932024262AE01649008A0E06 /* HanziPinyin.swift in Sources */,

@@ -41,6 +41,13 @@ struct FolderListView: View {
             text: $searchManager.searchText,
             isPresented: $searchManager.showSearch
         )
+        .navigationDestination(for: Quiz.self) { quiz in
+            if let folder = folderDataManager.getFolder(for: folderID) {
+                QuizSetupView(folder: folder, quiz: quiz)
+            } else {
+                Text("Internal Error")
+            }
+        }
     }
 
     func folderContent(for folder: VocabFolder) -> some View {
@@ -179,8 +186,12 @@ struct FolderListView: View {
     @ToolbarContentBuilder
     var toolbarContent: some ToolbarContent {
         ToolbarItem(placement: .topBarLeading) {
-            Button {
-                // TODO: games
+            Menu {
+                ForEach(Quiz.allCases) { quiz in
+                    NavigationLink(value: quiz) {
+                        Text(quiz.description)
+                    }
+                }
             } label: {
                 Image(systemName: "play")
             }
