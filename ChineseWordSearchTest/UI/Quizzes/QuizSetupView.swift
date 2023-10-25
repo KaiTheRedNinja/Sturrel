@@ -32,6 +32,7 @@ class QuizSetupManager: ObservableObject {
         includedVocab.compactMap { vocabID in
             guard let vocab = VocabDataManager.shared.getVocab(for: vocabID) else { return nil }
             return Question(
+                associatedVocab: vocabID,
                 question: questionType.forVocab(vocab),
                 answer: answerType.forVocab(vocab)
             )
@@ -134,6 +135,19 @@ struct QuizSetupView: View {
             }
 
             Section {
+                NavigationLink("Play") {
+                    switch quiz {
+                    case .dragAndMatch:
+                        DragAndMatchQuiz(
+                            quizManager: .init(statsToShow: [.remaining, .correct, .wrong],
+                                               questions: setupManager.produceQuestions())
+                        )
+                    }
+                }
+                .disabled(setupManager.includedVocab.isEmpty)
+            }
+
+            Section("\(setupManager.includedVocab.count) Words") {
                 ForEach(setupManager.includedVocab, id: \.self) { vocabID in
                     if let vocab = VocabDataManager.shared.getVocab(for: vocabID) {
                         HStack {
@@ -143,9 +157,9 @@ struct QuizSetupView: View {
                                     .scaledToFit()
                                     .frame(height: 14)
                             }
-                            Text(vocab.word)
+                            Text(setupManager.questionType.forVocab(vocab))
                             Spacer()
-                            Text(vocab.word.toPinyin())
+                            Text(setupManager.answerType.forVocab(vocab))
                                 .foregroundStyle(Color.gray)
                         }
                     }
@@ -160,16 +174,6 @@ struct QuizSetupView: View {
                     .foregroundStyle(Color.gray)
                     .listRowBackground(Color.clear)
                 }
-            }
-
-            Section {
-                NavigationLink("Play") {
-                    switch quiz {
-                    case .dragAndMatch:
-                        Text("Drag and match")
-                    }
-                }
-                .disabled(setupManager.includedVocab.isEmpty)
             }
         }
         .navigationTitle("Quiz Setup")

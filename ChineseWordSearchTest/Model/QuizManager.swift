@@ -28,40 +28,44 @@ class QuizManager: ObservableObject {
     var statsToShow: [Stat]
 
     /// The questions for the quiz view
-    @Published var questions: [Question]
+    @Published private(set) var questions: [Question]
+    @Published private(set) var questionIndex: Int
 
     /// The total number of questions in the quiz
     var total: Int { questions.count }
-    /// The total number of completed questions in the quiz
-    @Published var completed: Int = 0
-    /// The total number of wrong questions in the quiz
-    @Published var wrong: Int = 0
-    /// The total number of correct questions in the quiz
-    @Published var correct: Int = 0
 
     /// The attempts to solve the question
-    var attempts: [QuestionAttempt] = []
+    /// From this, you can get the total questions answered, the number of wrong answers, and right answers.
+    @Published private(set) var attempts: [QuestionAttempt] = []
 
     init(
         statsToShow: [Stat],
         questions: [Question],
-        completed: Int = 0,
-        wrong: Int = 0,
-        correct: Int = 0,
         attempts: [QuestionAttempt] = []
     ) {
         self.statsToShow = statsToShow
         self.questions = questions
-        self.completed = completed
-        self.wrong = wrong
-        self.correct = correct
+        self.questionIndex = 0
         self.attempts = attempts
+    }
+
+    func nextQuestion() -> Question? {
+        guard questions.count > questionIndex else { return nil }
+        defer {
+            questionIndex += 1
+        }
+        return questions[questionIndex]
+    }
+
+    func makeAttempt(_ attempt: QuestionAttempt) {
+        attempts.append(attempt)
     }
 }
 
 struct Question: Identifiable, Hashable {
     var id = UUID()
 
+    var associatedVocab: Vocab.ID
     var question: String
     var answer: String
 }

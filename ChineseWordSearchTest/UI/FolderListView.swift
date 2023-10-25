@@ -15,6 +15,8 @@ struct FolderListView: View {
     @State var showNewFolder: Bool = false
     @State var showNewVocab: Bool = false
 
+    @State var quiz: Quiz?
+
     @ObservedObject var folderDataManager: FoldersDataManager = .shared
     @ObservedObject var vocabDataManager: VocabDataManager = .shared
     @ObservedObject var searchManager: SearchManager = .shared
@@ -41,11 +43,13 @@ struct FolderListView: View {
             text: $searchManager.searchText,
             isPresented: $searchManager.showSearch
         )
-        .navigationDestination(for: Quiz.self) { quiz in
-            if let folder = folderDataManager.getFolder(for: folderID) {
-                QuizSetupView(folder: folder, quiz: quiz)
-            } else {
-                Text("Internal Error")
+        .fullScreenCover(item: $quiz) { quiz in
+            NavigationStack {
+                if let folder = folderDataManager.getFolder(for: folderID) {
+                    QuizSetupView(folder: folder, quiz: quiz)
+                } else {
+                    Text("Internal Error")
+                }
             }
         }
     }
@@ -188,8 +192,8 @@ struct FolderListView: View {
         ToolbarItem(placement: .topBarLeading) {
             Menu {
                 ForEach(Quiz.allCases) { quiz in
-                    NavigationLink(value: quiz) {
-                        Text(quiz.description)
+                    Button(quiz.description) {
+                        self.quiz = quiz
                     }
                 }
             } label: {

@@ -38,6 +38,7 @@
 		93DD69AD2AE09D9200439BA9 /* DEFAULT_S1.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69AA2AE09D9200439BA9 /* DEFAULT_S1.json */; };
 		93DD69AE2AE09D9200439BA9 /* DEFAULT_S2.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69AB2AE09D9200439BA9 /* DEFAULT_S2.json */; };
 		93DD69AF2AE09D9200439BA9 /* DEFAULT_S3.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69AC2AE09D9200439BA9 /* DEFAULT_S3.json */; };
+		93DDCBAA2AE884A200B56CFC /* DragAndMatchQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DDCBA92AE884A200B56CFC /* DragAndMatchQuiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		93DD69AA2AE09D9200439BA9 /* DEFAULT_S1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_S1.json; sourceTree = "<group>"; };
 		93DD69AB2AE09D9200439BA9 /* DEFAULT_S2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_S2.json; sourceTree = "<group>"; };
 		93DD69AC2AE09D9200439BA9 /* DEFAULT_S3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_S3.json; sourceTree = "<group>"; };
+		93DDCBA92AE884A200B56CFC /* DragAndMatchQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndMatchQuiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				93669AC52AE6AC8100803139 /* QuizSetupView.swift */,
+				93DDCBA92AE884A200B56CFC /* DragAndMatchQuiz.swift */,
 			);
 			path = Quizzes;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				93669ACE2AE6AF2400803139 /* QuizManager.swift in Sources */,
 				932024182AE01149008A0E06 /* FolderListView.swift in Sources */,
 				93D40C212AE517280091BD34 /* FoldersDataManager.swift in Sources */,
+				93DDCBAA2AE884A200B56CFC /* DragAndMatchQuiz.swift in Sources */,
 				932024262AE01649008A0E06 /* HanziPinyin.swift in Sources */,
 				932024222AE01649008A0E06 /* PinyinFormatter.swift in Sources */,
 				934C92262AE41A18005B495E /* NewFolderView.swift in Sources */,
