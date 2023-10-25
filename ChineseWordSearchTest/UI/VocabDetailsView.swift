@@ -74,12 +74,18 @@ private struct VocabDetailsContentsView: View {
             }
         }
 
-        if !vocab.definition.isEmpty || isEditing {
+        if !vocab.definition.isEmpty || !vocab.englishDefinition.isEmpty || isEditing {
             Section("Definition") {
                 if isEditing {
-                    TextField("Definition", text: vocabDataManager.bindingVocab(for: vocabID).definition)
+                    TextField("English Definition", text: vocabDataManager.bindingVocab(for: vocabID).englishDefinition)
+                    TextField("Chinese Definition", text: vocabDataManager.bindingVocab(for: vocabID).definition)
                 } else {
-                    Text(vocab.definition)
+                    if !vocab.englishDefinition.isEmpty {
+                        Text(vocab.englishDefinition)
+                    }
+                    if !vocab.definition.isEmpty {
+                        Text(vocab.definition)
+                    }
                 }
             }
         }
