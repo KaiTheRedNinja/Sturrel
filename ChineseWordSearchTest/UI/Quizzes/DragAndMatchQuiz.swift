@@ -14,16 +14,15 @@ struct DragAndMatchQuiz: View {
 
     var body: some View {
         VStack {
-            if !loadedQuestions.isEmpty {
-                gameView
+            if quizManager.inPlay {
+                VStack {
+                    QuizInfoView(quizManager: quizManager)
+                    Divider()
+                    gameView
+                }
+                .padding(.horizontal, 16)
             } else {
                 QuizResultsView(quizManager: quizManager)
-            }
-        }
-        .onAppear {
-            for _ in 0..<5 {
-                guard let newQuestion = quizManager.nextQuestion() else { break }
-                loadedQuestions.append(newQuestion)
             }
         }
         .navigationBarTitleDisplayMode(.inline)
@@ -69,6 +68,8 @@ struct DragAndMatchQuiz: View {
                                     loadedQuestions.removeAll(where: { $0.id == question.id })
                                     if let newQuestion = quizManager.nextQuestion() {
                                         loadedQuestions.append(newQuestion)
+                                    } else if loadedQuestions.isEmpty {
+                                        quizManager.inPlay = false
                                     }
                                 }
                             }
@@ -82,6 +83,12 @@ struct DragAndMatchQuiz: View {
                 }
             }
             .padding(.vertical, 5)
+        }
+        .onAppear {
+            for _ in 0..<5 {
+                guard let newQuestion = quizManager.nextQuestion() else { break }
+                loadedQuestions.append(newQuestion)
+            }
         }
     }
 }

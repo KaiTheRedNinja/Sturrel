@@ -12,6 +12,8 @@ struct QuizResultsView: View {
 
     @State var questionSortMode: QuestionSortMode = .all
 
+    @Environment(\.presentationMode) var presentationMode
+
     enum QuestionSortMode: String, CaseIterable, Identifiable {
         case all
         case correct
@@ -27,7 +29,7 @@ struct QuizResultsView: View {
             Section {
                 // number of questions
                 Text("\(quizManager.questions.count)").bold() +
-                Text("Questions")
+                Text(" Questions")
 
                 // number of attempts
                 // number of incorrect
@@ -54,29 +56,45 @@ struct QuizResultsView: View {
                 // average attempts per question
                 // maximum attempts per question
                 // distribution of attempts per question (graph)
+//                HStack {
+//                    let maxAttempts = Double(distribution.values.max(by: { $0.count < $1.count })?.count ?? 0)
+//                    ScrollView(.horizontal) {
+//                        HStack(alignment: .bottom) {
+//                            ForEach(distribution.keys.sorted(by: { (distribution[$0]?.count ?? 0) < (distribution[$1]?.count ?? 0) })) { question in
+//                                if let attempts = distribution[question] {
+//                                    VStack(spacing: 0) {
+//                                        ForEach(0..<attempts.filter({ $0.isCorrect }).count, id: \.self) { _ in
+//                                            Color.green.frame(width: 40, height: 200.0/maxAttempts)
+//                                        }
+//                                        ForEach(0..<attempts.filter({ !$0.isCorrect }).count, id: \.self) { _ in
+//                                            Color.red.frame(width: 40, height: 200.0/maxAttempts)
+//                                        }
+//                                        Text(question.question)
+//                                            .rotationEffect(.degrees(90))
+//                                            .padding(.top, 10)
+//                                    }
+//                                }
+//                            }
+//                        }
+//                    }
+//                }
+            }
+
+            Section {
                 HStack {
-                    let maxAttempts = Double(distribution.values.max(by: { $0.count < $1.count })?.count ?? 0)
-                    ScrollView(.horizontal) {
-                        HStack(alignment: .bottom) {
-                            ForEach(distribution.keys.sorted(by: { (distribution[$0]?.count ?? 0) < (distribution[$1]?.count ?? 0) })) { question in
-                                if let attempts = distribution[question] {
-                                    VStack(spacing: 0) {
-                                        ForEach(0..<attempts.filter({ $0.isCorrect }).count, id: \.self) { _ in
-                                            Color.green.frame(width: 40, height: 200.0/maxAttempts)
-                                        }
-                                        ForEach(0..<attempts.filter({ !$0.isCorrect }).count, id: \.self) { _ in
-                                            Color.red.frame(width: 40, height: 200.0/maxAttempts)
-                                        }
-                                        Text(question.question)
-                                            .rotationEffect(.degrees(90))
-                                            .padding(.top, 10)
-                                    }
-                                }
-                            }
-                        }
+                    Spacer()
+                    Button("Replay") {
+                        quizManager.restart()
                     }
+                    .tint(Color.gray)
+                    Spacer()
+                    Button("Exit") {
+                        presentationMode.wrappedValue.dismiss()
+                    }
+                    Spacer()
                 }
             }
+            .buttonStyle(.borderedProminent)
 
             Section {
                 // filter by correct/wrong/all questions
@@ -95,7 +113,7 @@ struct QuizResultsView: View {
                             ZStack(alignment: .leading) {
                                 Color.clear.frame(height: 3)
                                 Text(question.answer)
-                                    .foregroundStyle(Color.primary)
+                                    .foregroundStyle(Color.primary.opacity(0.6))
                             }
                         }
                         .backgroundStyle(Color.green)
@@ -113,7 +131,7 @@ struct QuizResultsView: View {
                                     }
                                 }
                             }
-                            .backgroundStyle(Color.red)
+                            .backgroundStyle(Color.red.opacity(0.6))
                         }
                     }
                 }

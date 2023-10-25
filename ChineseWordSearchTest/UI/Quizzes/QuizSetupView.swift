@@ -84,6 +84,8 @@ enum QuizExtent: CaseIterable, Hashable, Identifiable {
 struct QuizSetupView: View {
     @ObservedObject var setupManager: QuizSetupManager
 
+    @Environment(\.presentationMode) var presentationMode
+
     var folder: VocabFolder
     var quiz: Quiz
 
@@ -177,6 +179,13 @@ struct QuizSetupView: View {
             }
         }
         .navigationTitle("Quiz Setup")
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button("Exit") {
+                    presentationMode.wrappedValue.dismiss()
+                }
+            }
+        }
     }
 }
 

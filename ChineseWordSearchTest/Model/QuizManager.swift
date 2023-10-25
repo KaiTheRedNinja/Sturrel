@@ -25,21 +25,21 @@ enum Quiz: CaseIterable, Identifiable, Hashable {
 
 class QuizManager: ObservableObject {
     /// Which stats to show in the stat screen
-    var statsToShow: [Stat]
+    var statsToShow: Set<QuizStat>
 
     /// The questions for the quiz view
     @Published private(set) var questions: [Question]
     @Published private(set) var questionIndex: Int
 
-    /// The total number of questions in the quiz
-    var total: Int { questions.count }
-
     /// The attempts to solve the question
     /// From this, you can get the total questions answered, the number of wrong answers, and right answers.
     @Published private(set) var attempts: [QuestionAttempt] = []
 
+    /// If the game is currently playing
+    @Published var inPlay: Bool = true
+
     init(
-        statsToShow: [Stat],
+        statsToShow: Set<QuizStat>,
         questions: [Question],
         attempts: [QuestionAttempt] = []
     ) {
@@ -59,6 +59,27 @@ class QuizManager: ObservableObject {
 
     func makeAttempt(_ attempt: QuestionAttempt) {
         attempts.append(attempt)
+    }
+
+    subscript (_ stat: QuizStat) -> Int {
+        switch stat {
+        case .total:
+            questions.count
+        case .completed:
+            questionIndex
+        case .remaining:
+            questions.count - questionIndex
+        case .wrong:
+            attempts.filter({ !$0.isCorrect }).count
+        case .correct:
+            attempts.filter({ $0.isCorrect }).count
+        }
+    }
+
+    func restart() {
+        questionIndex = 0
+        attempts = []
+        inPlay = true
     }
 }
 
@@ -81,20 +102,22 @@ struct QuestionAttempt: Identifiable, Hashable {
     }
 }
 
-enum Stat: CaseIterable {
+enum QuizStat: String, CaseIterable, Identifiable {
     /// The number of questions in the quiz
-    case total
+    case total = "Total"
     /// The number of questions completed in the quiz
-    case completed
+    case completed = "Completed"
     /// The remaining questions
-    case remaining
+    case remaining = "Remaining"
     /// How many wrong answers were given
-    case wrong
+    case wrong = "Wrong"
     /// How many correct answers were given
-    case correct
+    case correct = "Correct"
+
+    var id: String { self.rawValue }
 
     /// The colors for each stat, used in the stats view of ``QuizProtocolView``
-    static let colors: [Stat: Color] = [
+    static let colors: [QuizStat: Color] = [
         .total: Color.orange,
         .completed: Color.indigo,
         .remaining: Color.cyan,
@@ -104,6 +127,6 @@ enum Stat: CaseIterable {
 
     /// The color for the `Stat`, which redirects to the ``colors`` static property of `Stat`.
     var color: Color {
-        Stat.colors[self] ?? Color.clear
+        QuizStat.colors[self] ?? Color.clear
     }
 }

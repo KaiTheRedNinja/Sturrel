@@ -29,6 +29,7 @@
 		93669AC62AE6AC8100803139 /* QuizSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93669AC52AE6AC8100803139 /* QuizSetupView.swift */; };
 		93669ACE2AE6AF2400803139 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93669ACD2AE6AF2400803139 /* QuizManager.swift */; };
 		9395981B2AE1EAF100DC1DDD /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9395981A2AE1EAF100DC1DDD /* FileSystem.swift */; };
+		93B5A3FE2AE943B7002C4B76 /* QuizInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B5A3FD2AE943B7002C4B76 /* QuizInfoView.swift */; };
 		93D40C212AE517280091BD34 /* FoldersDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D40C202AE517280091BD34 /* FoldersDataManager.swift */; };
 		93D40C232AE51F110091BD34 /* VocabDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D40C222AE51F110091BD34 /* VocabDataManager.swift */; };
 		93DD69A62AE01E1600439BA9 /* DEFAULT_P5.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69A22AE01E1500439BA9 /* DEFAULT_P5.json */; };
@@ -67,6 +68,7 @@
 		93669AC52AE6AC8100803139 /* QuizSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSetupView.swift; sourceTree = "<group>"; };
 		93669ACD2AE6AF2400803139 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 		9395981A2AE1EAF100DC1DDD /* FileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
+		93B5A3FD2AE943B7002C4B76 /* QuizInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizInfoView.swift; sourceTree = "<group>"; };
 		93D40C202AE517280091BD34 /* FoldersDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldersDataManager.swift; sourceTree = "<group>"; };
 		93D40C222AE51F110091BD34 /* VocabDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabDataManager.swift; sourceTree = "<group>"; };
 		93DD69A22AE01E1500439BA9 /* DEFAULT_P5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P5.json; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			children = (
 				93669AC52AE6AC8100803139 /* QuizSetupView.swift */,
 				93DDCBAB2AE8960300B56CFC /* QuizResultsView.swift */,
+				93B5A3FD2AE943B7002C4B76 /* QuizInfoView.swift */,
 				93DDCBA92AE884A200B56CFC /* DragAndMatchQuiz.swift */,
 			);
 			path = Quizzes;
@@ -299,6 +302,7 @@
 				934C922C2AE4CE71005B495E /* MainView.swift in Sources */,
 				93DDCBAC2AE8960300B56CFC /* QuizResultsView.swift in Sources */,
 				934C92282AE41A5E005B495E /* NewVocabView.swift in Sources */,
+				93B5A3FE2AE943B7002C4B76 /* QuizInfoView.swift in Sources */,
 				932024022AE00681008A0E06 /* ContentView.swift in Sources */,
 				932024002AE00681008A0E06 /* ChineseWordSearchTestApp.swift in Sources */,
 				931BFBA52AE0F22500FB1005 /* HierarchicalSearchResultView.swift in Sources */,
