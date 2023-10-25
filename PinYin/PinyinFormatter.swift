@@ -23,7 +23,8 @@ internal struct PinyinFormatter {
 
         // turn tone indicator into unicode tone indicator
         if let lastChar = formattedPinyin.last, let tone = Int(String(lastChar)) {
-            for (char, alts) in characterMap {
+            for char in characterMap.keys.sorted() {
+                let alts = characterMap[char]!
                 if pinyin.contains(char) {
                     formattedPinyin = formattedPinyin.replacingOccurrences(of: char, with: alts[tone-1])
                     break
