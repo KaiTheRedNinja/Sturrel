@@ -17,7 +17,7 @@ struct DragAndMatchQuiz: View {
             if !loadedQuestions.isEmpty {
                 gameView
             } else {
-                Text("Game Over")
+                QuizResultsView(quizManager: quizManager)
             }
         }
         .onAppear {
@@ -27,6 +27,7 @@ struct DragAndMatchQuiz: View {
             }
         }
         .navigationBarTitleDisplayMode(.inline)
+        .navigationBarBackButtonHidden()
     }
 
     var gameView: some View {

@@ -39,6 +39,7 @@
 		93DD69AE2AE09D9200439BA9 /* DEFAULT_S2.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69AB2AE09D9200439BA9 /* DEFAULT_S2.json */; };
 		93DD69AF2AE09D9200439BA9 /* DEFAULT_S3.json in Resources */ = {isa = PBXBuildFile; fileRef = 93DD69AC2AE09D9200439BA9 /* DEFAULT_S3.json */; };
 		93DDCBAA2AE884A200B56CFC /* DragAndMatchQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DDCBA92AE884A200B56CFC /* DragAndMatchQuiz.swift */; };
+		93DDCBAC2AE8960300B56CFC /* QuizResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DDCBAB2AE8960300B56CFC /* QuizResultsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		93DD69AB2AE09D9200439BA9 /* DEFAULT_S2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_S2.json; sourceTree = "<group>"; };
 		93DD69AC2AE09D9200439BA9 /* DEFAULT_S3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_S3.json; sourceTree = "<group>"; };
 		93DDCBA92AE884A200B56CFC /* DragAndMatchQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndMatchQuiz.swift; sourceTree = "<group>"; };
+		93DDCBAB2AE8960300B56CFC /* QuizResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				93669AC52AE6AC8100803139 /* QuizSetupView.swift */,
+				93DDCBAB2AE8960300B56CFC /* QuizResultsView.swift */,
 				93DDCBA92AE884A200B56CFC /* DragAndMatchQuiz.swift */,
 			);
 			path = Quizzes;
@@ -294,6 +297,7 @@
 				93669AC12AE6A55E00803139 /* SearchManager.swift in Sources */,
 				93D40C232AE51F110091BD34 /* VocabDataManager.swift in Sources */,
 				934C922C2AE4CE71005B495E /* MainView.swift in Sources */,
+				93DDCBAC2AE8960300B56CFC /* QuizResultsView.swift in Sources */,
 				934C92282AE41A5E005B495E /* NewVocabView.swift in Sources */,
 				932024022AE00681008A0E06 /* ContentView.swift in Sources */,
 				932024002AE00681008A0E06 /* ChineseWordSearchTestApp.swift in Sources */,
