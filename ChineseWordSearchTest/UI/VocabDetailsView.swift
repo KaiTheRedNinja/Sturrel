@@ -158,25 +158,8 @@ private struct VocabDetailsContentsView: View {
                         if vocab.definition.isEmpty && vocab.sentences.isEmpty && vocab.wordBuilding.isEmpty {
                             Text("No Details.")
                         }
-                        if !isEditing {
-                            if vocab.definition.isEmpty {
-                                if vocab.sentences.isEmpty {
-                                    if vocab.wordBuilding.isEmpty {
-                                        Text("Press Edit to add a definition, example sentences, or phrases")
-                                    } else {
-                                        Text("Press Edit to add a definition or example sentences")
-                                    }
-                                } else if vocab.wordBuilding.isEmpty {
-                                    Text("Press Edit to add a definition or example phrases")
-                                }
-                            } else { // a definition is present
-                                if vocab.sentences.isEmpty {
-                                    Text("Press Edit to add example sentences")
-                                } else if vocab.wordBuilding.isEmpty {
-                                    Text("Press Edit to add example phrases")
-                                }
-                                // all three being non-empty won't occur
-                            }
+                        if let message = editMessage(for: vocab) {
+                            Text(message)
                         }
                     }
                     .foregroundStyle(Color.gray)
@@ -185,6 +168,39 @@ private struct VocabDetailsContentsView: View {
                 }
                 .listRowBackground(Color.clear)
             }
+        }
+    }
+
+    func editMessage(for vocab: Vocab) -> String? {
+        guard !isEditing && (
+            vocab.englishDefinition.isEmpty ||
+            vocab.definition.isEmpty ||
+            vocab.sentences.isEmpty ||
+            vocab.wordBuilding.isEmpty
+        ) else { return nil }
+
+        var tokens = [String]()
+
+        if vocab.englishDefinition.isEmpty {
+            tokens.append("English Definition")
+        }
+
+        if vocab.definition.isEmpty {
+            tokens.append("Chinese Definition")
+        }
+
+        if vocab.sentences.isEmpty {
+            tokens.append("example sentence")
+        }
+
+        if vocab.wordBuilding.isEmpty {
+            tokens.append("example phrase")
+        }
+
+        if tokens.count <= 2 {
+            return "Press Edit to add a " + tokens.joined(separator: " or ")
+        } else {
+            return "Press Edit to add a " + tokens[0..<tokens.count-1].joined(separator: ", ") + ", or " + tokens.last!
         }
     }
 }

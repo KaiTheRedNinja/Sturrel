@@ -239,10 +239,7 @@ struct FolderListView: View {
     @ViewBuilder
     func viewForFolder(_ folderID: VocabFolder.ID) -> some View {
         if let folder = folderDataManager.getFolder(for: folderID) {
-            NavigationLink {
-                FolderListView(folderID: folderID)
-            } label: {
-
+            NavigationLink(value: FolderOrVocabID.folder(folderID)) {
                 HStack {
                     Image(systemName: "folder")
                         .frame(width: 26, height: 22)
@@ -256,9 +253,7 @@ struct FolderListView: View {
     @ViewBuilder
     func viewForVocab(_ vocabID: Vocab.ID) -> some View {
         if let vocab = vocabDataManager.getVocab(for: vocabID) {
-            NavigationLink {
-                VocabDetailsView(vocabID: vocabID)
-            } label: {
+            NavigationLink(value: FolderOrVocabID.vocab(vocabID)) {
                 HStack {
                     if vocab.isHCL {
                         Image(systemName: "staroflife.fill")
