@@ -161,11 +161,13 @@ private struct VocabDetailsContentsView: View {
                         if !isEditing {
                             if vocab.definition.isEmpty {
                                 if vocab.sentences.isEmpty {
-                                    Text("Press Edit to add a definition or example sentences")
+                                    if vocab.wordBuilding.isEmpty {
+                                        Text("Press Edit to add a definition, example sentences, or phrases")
+                                    } else {
+                                        Text("Press Edit to add a definition or example sentences")
+                                    }
                                 } else if vocab.wordBuilding.isEmpty {
                                     Text("Press Edit to add a definition or example phrases")
-                                } else {
-                                    Text("Press Edit to add a definition, example sentences, or phrases")
                                 }
                             } else { // a definition is present
                                 if vocab.sentences.isEmpty {
