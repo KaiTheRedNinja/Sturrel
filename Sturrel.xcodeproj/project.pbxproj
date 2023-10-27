@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		933C169D2AEBF88000973361 /* SturrelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C169C2AEBF88000973361 /* SturrelApp.swift */; };
+		933C169F2AEBF88000973361 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C169E2AEBF88000973361 /* ContentView.swift */; };
+		933C16A12AEBF88100973361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933C16A02AEBF88100973361 /* Assets.xcassets */; };
+		933C16A42AEBF88100973361 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933C16A32AEBF88100973361 /* Preview Assets.xcassets */; };
+		933C16AF2AEBF8A100973361 /* PinyinFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16AB2AEBF8A100973361 /* PinyinFormatter.swift */; };
+		933C16B02AEBF8A100973361 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 933C16AC2AEBF8A100973361 /* unicode_to_hanyu_pinyin.txt */; };
+		933C16B12AEBF8A100973361 /* String+HanziPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16AD2AEBF8A100973361 /* String+HanziPinyin.swift */; };
+		933C16B22AEBF8A100973361 /* HanziPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16AE2AEBF8A100973361 /* HanziPinyin.swift */; };
+		933C16BC2AEBF8FF00973361 /* VocabDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16B52AEBF8FF00973361 /* VocabDataManager.swift */; };
+		933C16BD2AEBF8FF00973361 /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16B62AEBF8FF00973361 /* FileSystem.swift */; };
+		933C16BE2AEBF8FF00973361 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16B72AEBF8FF00973361 /* Root.swift */; };
+		933C16BF2AEBF8FF00973361 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16B82AEBF8FF00973361 /* QuizManager.swift */; };
+		933C16C02AEBF8FF00973361 /* FoldersDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16B92AEBF8FF00973361 /* FoldersDataManager.swift */; };
+		933C16C12AEBF8FF00973361 /* Vocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16BA2AEBF8FF00973361 /* Vocab.swift */; };
+		933C16C22AEBF8FF00973361 /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16BB2AEBF8FF00973361 /* SearchManager.swift */; };
+		933C16D02AEBF91D00973361 /* VocabDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16C42AEBF91D00973361 /* VocabDetailsView.swift */; };
+		933C16D12AEBF91D00973361 /* HierarchicalSearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16C52AEBF91D00973361 /* HierarchicalSearchResultView.swift */; };
+		933C16D22AEBF91D00973361 /* FolderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16C62AEBF91D00973361 /* FolderListView.swift */; };
+		933C16D32AEBF91D00973361 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16C72AEBF91D00973361 /* MainView.swift */; };
+		933C16D42AEBF91D00973361 /* NewVocabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16C92AEBF91D00973361 /* NewVocabView.swift */; };
+		933C16D52AEBF91D00973361 /* NewFolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16CA2AEBF91D00973361 /* NewFolderView.swift */; };
+		933C16D62AEBF91D00973361 /* DragAndMatchQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16CC2AEBF91D00973361 /* DragAndMatchQuiz.swift */; };
+		933C16D72AEBF91D00973361 /* QuizSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16CD2AEBF91D00973361 /* QuizSetupView.swift */; };
+		933C16D82AEBF91D00973361 /* QuizResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16CE2AEBF91D00973361 /* QuizResultsView.swift */; };
+		933C16D92AEBF91D00973361 /* QuizInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16CF2AEBF91D00973361 /* QuizInfoView.swift */; };
+		933C16E42AEBF93900973361 /* DEFAULT_P1.json in Resources */ = {isa = PBXBuildFile; fileRef = 933C16DB2AEBF93900973361 /* DEFAULT_P1.json */; };
+		933C16E52AEBF93900973361 /* DEFAULT_P6.json in Resources */ = {isa = PBXBuildFile; fileRef = 933C16DC2AEBF93900973361 /* DEFAULT_P6.json */; };
+		933C16E62AEBF93900973361 /* DEFAULT_S1.json in Resources */ = {isa = PBXBuildFile; fileRef = 933C16DD2AEBF93900973361 /* DEFAULT_S1.json */; };
+		933C16E72AEBF93900973361 /* DEFAULT_S2.json in Resources */ = {isa = PBXBuildFile; fileRef = 933C16DE2AEBF93900973361 /* DEFAULT_S2.json */; };
+		933C16E82AEBF93900973361 /* DEFAULT_P4.json in Resources */ = {isa = PBXBuildFile; fileRef = 933C16DF2AEBF93900973361 /* DEFAULT_P4.json */; };
+		933C16E92AEBF93900973361 /* DEFAULT_P5.json in Resources */ = {isa = PBXBuildFile; fileRef = 933C16E02AEBF93900973361 /* DEFAULT_P5.json */; };
+		933C16EA2AEBF93900973361 /* DEFAULT_S3.json in Resources */ = {isa = PBXBuildFile; fileRef = 933C16E12AEBF93900973361 /* DEFAULT_S3.json */; };
+		933C16EB2AEBF93900973361 /* DEFAULT_P2.json in Resources */ = {isa = PBXBuildFile; fileRef = 933C16E22AEBF93900973361 /* DEFAULT_P2.json */; };
+		933C16EC2AEBF93900973361 /* DEFAULT_P3.json in Resources */ = {isa = PBXBuildFile; fileRef = 933C16E32AEBF93900973361 /* DEFAULT_P3.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		933C16992AEBF88000973361 /* Sturrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sturrel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		933C169C2AEBF88000973361 /* SturrelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SturrelApp.swift; sourceTree = "<group>"; };
+		933C169E2AEBF88000973361 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		933C16A02AEBF88100973361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		933C16A32AEBF88100973361 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		933C16AB2AEBF8A100973361 /* PinyinFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinyinFormatter.swift; sourceTree = "<group>"; };
+		933C16AC2AEBF8A100973361 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		933C16AD2AEBF8A100973361 /* String+HanziPinyin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HanziPinyin.swift"; sourceTree = "<group>"; };
+		933C16AE2AEBF8A100973361 /* HanziPinyin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanziPinyin.swift; sourceTree = "<group>"; };
+		933C16B52AEBF8FF00973361 /* VocabDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VocabDataManager.swift; sourceTree = "<group>"; };
+		933C16B62AEBF8FF00973361 /* FileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
+		933C16B72AEBF8FF00973361 /* Root.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		933C16B82AEBF8FF00973361 /* QuizManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		933C16B92AEBF8FF00973361 /* FoldersDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldersDataManager.swift; sourceTree = "<group>"; };
+		933C16BA2AEBF8FF00973361 /* Vocab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vocab.swift; sourceTree = "<group>"; };
+		933C16BB2AEBF8FF00973361 /* SearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
+		933C16C42AEBF91D00973361 /* VocabDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VocabDetailsView.swift; sourceTree = "<group>"; };
+		933C16C52AEBF91D00973361 /* HierarchicalSearchResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HierarchicalSearchResultView.swift; sourceTree = "<group>"; };
+		933C16C62AEBF91D00973361 /* FolderListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderListView.swift; sourceTree = "<group>"; };
+		933C16C72AEBF91D00973361 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		933C16C92AEBF91D00973361 /* NewVocabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewVocabView.swift; sourceTree = "<group>"; };
+		933C16CA2AEBF91D00973361 /* NewFolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFolderView.swift; sourceTree = "<group>"; };
+		933C16CC2AEBF91D00973361 /* DragAndMatchQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragAndMatchQuiz.swift; sourceTree = "<group>"; };
+		933C16CD2AEBF91D00973361 /* QuizSetupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizSetupView.swift; sourceTree = "<group>"; };
+		933C16CE2AEBF91D00973361 /* QuizResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizResultsView.swift; sourceTree = "<group>"; };
+		933C16CF2AEBF91D00973361 /* QuizInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizInfoView.swift; sourceTree = "<group>"; };
+		933C16DB2AEBF93900973361 /* DEFAULT_P1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P1.json; sourceTree = "<group>"; };
+		933C16DC2AEBF93900973361 /* DEFAULT_P6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P6.json; sourceTree = "<group>"; };
+		933C16DD2AEBF93900973361 /* DEFAULT_S1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_S1.json; sourceTree = "<group>"; };
+		933C16DE2AEBF93900973361 /* DEFAULT_S2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_S2.json; sourceTree = "<group>"; };
+		933C16DF2AEBF93900973361 /* DEFAULT_P4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P4.json; sourceTree = "<group>"; };
+		933C16E02AEBF93900973361 /* DEFAULT_P5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P5.json; sourceTree = "<group>"; };
+		933C16E12AEBF93900973361 /* DEFAULT_S3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_S3.json; sourceTree = "<group>"; };
+		933C16E22AEBF93900973361 /* DEFAULT_P2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P2.json; sourceTree = "<group>"; };
+		933C16E32AEBF93900973361 /* DEFAULT_P3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P3.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		933C16962AEBF88000973361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		933C16902AEBF88000973361 = {
+			isa = PBXGroup;
+			children = (
+				933C16AA2AEBF8A100973361 /* PinYin */,
+				933C169B2AEBF88000973361 /* Sturrel */,
+				933C169A2AEBF88000973361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		933C169A2AEBF88000973361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				933C16992AEBF88000973361 /* Sturrel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		933C169B2AEBF88000973361 /* Sturrel */ = {
+			isa = PBXGroup;
+			children = (
+				933C16B32AEBF8CC00973361 /* App */,
+				933C16B42AEBF8FF00973361 /* Model */,
+				933C16C32AEBF91D00973361 /* UI */,
+				933C16DA2AEBF93900973361 /* Data */,
+			);
+			path = Sturrel;
+			sourceTree = "<group>";
+		};
+		933C16A22AEBF88100973361 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				933C16A32AEBF88100973361 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		933C16AA2AEBF8A100973361 /* PinYin */ = {
+			isa = PBXGroup;
+			children = (
+				933C16AB2AEBF8A100973361 /* PinyinFormatter.swift */,
+				933C16AC2AEBF8A100973361 /* unicode_to_hanyu_pinyin.txt */,
+				933C16AD2AEBF8A100973361 /* String+HanziPinyin.swift */,
+				933C16AE2AEBF8A100973361 /* HanziPinyin.swift */,
+			);
+			path = PinYin;
+			sourceTree = "<group>";
+		};
+		933C16B32AEBF8CC00973361 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				933C16A22AEBF88100973361 /* Preview Content */,
+				933C169C2AEBF88000973361 /* SturrelApp.swift */,
+				933C169E2AEBF88000973361 /* ContentView.swift */,
+				933C16A02AEBF88100973361 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		933C16B42AEBF8FF00973361 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				933C16B72AEBF8FF00973361 /* Root.swift */,
+				933C16B92AEBF8FF00973361 /* FoldersDataManager.swift */,
+				933C16B52AEBF8FF00973361 /* VocabDataManager.swift */,
+				933C16B62AEBF8FF00973361 /* FileSystem.swift */,
+				933C16BA2AEBF8FF00973361 /* Vocab.swift */,
+				933C16BB2AEBF8FF00973361 /* SearchManager.swift */,
+				933C16B82AEBF8FF00973361 /* QuizManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		933C16C32AEBF91D00973361 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				933C16C82AEBF91D00973361 /* Adding */,
+				933C16CB2AEBF91D00973361 /* Quizzes */,
+				933C16C72AEBF91D00973361 /* MainView.swift */,
+				933C16C42AEBF91D00973361 /* VocabDetailsView.swift */,
+				933C16C62AEBF91D00973361 /* FolderListView.swift */,
+				933C16C52AEBF91D00973361 /* HierarchicalSearchResultView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		933C16C82AEBF91D00973361 /* Adding */ = {
+			isa = PBXGroup;
+			children = (
+				933C16C92AEBF91D00973361 /* NewVocabView.swift */,
+				933C16CA2AEBF91D00973361 /* NewFolderView.swift */,
+			);
+			path = Adding;
+			sourceTree = "<group>";
+		};
+		933C16CB2AEBF91D00973361 /* Quizzes */ = {
+			isa = PBXGroup;
+			children = (
+				933C16CC2AEBF91D00973361 /* DragAndMatchQuiz.swift */,
+				933C16CD2AEBF91D00973361 /* QuizSetupView.swift */,
+				933C16CE2AEBF91D00973361 /* QuizResultsView.swift */,
+				933C16CF2AEBF91D00973361 /* QuizInfoView.swift */,
+			);
+			path = Quizzes;
+			sourceTree = "<group>";
+		};
+		933C16DA2AEBF93900973361 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				933C16DB2AEBF93900973361 /* DEFAULT_P1.json */,
+				933C16E22AEBF93900973361 /* DEFAULT_P2.json */,
+				933C16E32AEBF93900973361 /* DEFAULT_P3.json */,
+				933C16DF2AEBF93900973361 /* DEFAULT_P4.json */,
+				933C16E02AEBF93900973361 /* DEFAULT_P5.json */,
+				933C16DC2AEBF93900973361 /* DEFAULT_P6.json */,
+				933C16DD2AEBF93900973361 /* DEFAULT_S1.json */,
+				933C16DE2AEBF93900973361 /* DEFAULT_S2.json */,
+				933C16E12AEBF93900973361 /* DEFAULT_S3.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		933C16982AEBF88000973361 /* Sturrel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933C16A72AEBF88100973361 /* Build configuration list for PBXNativeTarget "Sturrel" */;
+			buildPhases = (
+				933C16952AEBF88000973361 /* Sources */,
+				933C16962AEBF88000973361 /* Frameworks */,
+				933C16972AEBF88000973361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sturrel;
+			productName = Sturrel;
+			productReference = 933C16992AEBF88000973361 /* Sturrel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		933C16912AEBF88000973361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					933C16982AEBF88000973361 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 933C16942AEBF88000973361 /* Build configuration list for PBXProject "Sturrel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 933C16902AEBF88000973361;
+			productRefGroup = 933C169A2AEBF88000973361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				933C16982AEBF88000973361 /* Sturrel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		933C16972AEBF88000973361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933C16E42AEBF93900973361 /* DEFAULT_P1.json in Resources */,
+				933C16EA2AEBF93900973361 /* DEFAULT_S3.json in Resources */,
+				933C16B02AEBF8A100973361 /* unicode_to_hanyu_pinyin.txt in Resources */,
+				933C16A42AEBF88100973361 /* Preview Assets.xcassets in Resources */,
+				933C16E52AEBF93900973361 /* DEFAULT_P6.json in Resources */,
+				933C16E72AEBF93900973361 /* DEFAULT_S2.json in Resources */,
+				933C16EC2AEBF93900973361 /* DEFAULT_P3.json in Resources */,
+				933C16A12AEBF88100973361 /* Assets.xcassets in Resources */,
+				933C16EB2AEBF93900973361 /* DEFAULT_P2.json in Resources */,
+				933C16E92AEBF93900973361 /* DEFAULT_P5.json in Resources */,
+				933C16E62AEBF93900973361 /* DEFAULT_S1.json in Resources */,
+				933C16E82AEBF93900973361 /* DEFAULT_P4.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		933C16952AEBF88000973361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933C16D12AEBF91D00973361 /* HierarchicalSearchResultView.swift in Sources */,
+				933C16BD2AEBF8FF00973361 /* FileSystem.swift in Sources */,
+				933C16C12AEBF8FF00973361 /* Vocab.swift in Sources */,
+				933C16D72AEBF91D00973361 /* QuizSetupView.swift in Sources */,
+				933C16BE2AEBF8FF00973361 /* Root.swift in Sources */,
+				933C16D82AEBF91D00973361 /* QuizResultsView.swift in Sources */,
+				933C16C22AEBF8FF00973361 /* SearchManager.swift in Sources */,
+				933C16D92AEBF91D00973361 /* QuizInfoView.swift in Sources */,
+				933C16D02AEBF91D00973361 /* VocabDetailsView.swift in Sources */,
+				933C16D22AEBF91D00973361 /* FolderListView.swift in Sources */,
+				933C16B22AEBF8A100973361 /* HanziPinyin.swift in Sources */,
+				933C169F2AEBF88000973361 /* ContentView.swift in Sources */,
+				933C16D32AEBF91D00973361 /* MainView.swift in Sources */,
+				933C16D62AEBF91D00973361 /* DragAndMatchQuiz.swift in Sources */,
+				933C16BF2AEBF8FF00973361 /* QuizManager.swift in Sources */,
+				933C16AF2AEBF8A100973361 /* PinyinFormatter.swift in Sources */,
+				933C16B12AEBF8A100973361 /* String+HanziPinyin.swift in Sources */,
+				933C16D52AEBF91D00973361 /* NewFolderView.swift in Sources */,
+				933C16D42AEBF91D00973361 /* NewVocabView.swift in Sources */,
+				933C16C02AEBF8FF00973361 /* FoldersDataManager.swift in Sources */,
+				933C169D2AEBF88000973361 /* SturrelApp.swift in Sources */,
+				933C16BC2AEBF8FF00973361 /* VocabDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		933C16A52AEBF88100973361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		933C16A62AEBF88100973361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		933C16A82AEBF88100973361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sturrel/App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z88Z98GRZQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaithebuilder.Sturrel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		933C16A92AEBF88100973361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sturrel/App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z88Z98GRZQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaithebuilder.Sturrel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		933C16942AEBF88000973361 /* Build configuration list for PBXProject "Sturrel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933C16A52AEBF88100973361 /* Debug */,
+				933C16A62AEBF88100973361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		933C16A72AEBF88100973361 /* Build configuration list for PBXNativeTarget "Sturrel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933C16A82AEBF88100973361 /* Debug */,
+				933C16A92AEBF88100973361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 933C16912AEBF88000973361 /* Project object */;
+}

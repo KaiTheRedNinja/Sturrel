@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  ChineseWordSearchTest
+//  Sturrel
 //
-//  Created by Kai Quan Tay on 18/10/23.
+//  Created by Kai Quan Tay on 27/10/23.
 //
 
 import SwiftUI

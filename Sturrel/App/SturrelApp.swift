@@ -1,8 +1,8 @@
 //
-//  ChineseWordSearchTestApp.swift
-//  ChineseWordSearchTest
+//  SturrelApp.swift
+//  Sturrel
 //
-//  Created by Kai Quan Tay on 18/10/23.
+//  Created by Kai Quan Tay on 27/10/23.
 //
 
 import SwiftUI
@@ -22,7 +22,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 }
 
 @main
-struct ChineseWordSearchTestApp: App {
+struct SturrelApp: App {
     @UIApplicationDelegateAdaptor var appDelegate: AppDelegate
 
     var body: some Scene {
