@@ -43,6 +43,7 @@ class QuizSetupManager: ObservableObject {
 enum QAType: CaseIterable, Hashable, Identifiable {
     case hanzi
     case pinyin
+    case definition
 
     func forVocab(_ vocab: Vocab) -> String {
         switch self {
@@ -50,6 +51,8 @@ enum QAType: CaseIterable, Hashable, Identifiable {
             vocab.word
         case .pinyin:
             vocab.word.toPinyin()
+        case .definition:
+            vocab.englishDefinition
         }
     }
 
@@ -59,6 +62,8 @@ enum QAType: CaseIterable, Hashable, Identifiable {
             "Han Zi"
         case .pinyin:
             "Pin Yin"
+        case .definition:
+            "Definition"
         }
     }
 

@@ -37,6 +37,9 @@ struct DragAndMatchQuiz: View {
                         .fill(Color.orange)
                         .overlay {
                             Text(question.question)
+                                .font(.system(size: 500))
+                                .minimumScaleFactor(0.01)
+                                .padding(7)
                         }
                         .draggable(question.id.uuidString)
                 }
@@ -54,6 +57,9 @@ struct DragAndMatchQuiz: View {
                         .fill(Color.blue)
                         .overlay {
                             Text(question.answer)
+                                .font(.system(size: 500))
+                                .minimumScaleFactor(0.01)
+                                .padding(7)
                         }
                         .dropDestination(for: String.self) { items, location in
                             guard
