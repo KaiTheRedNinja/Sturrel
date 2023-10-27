@@ -91,6 +91,7 @@ struct DragAndMatchQuiz: View {
             .padding(.vertical, 5)
         }
         .onAppear {
+            loadedQuestions = []
             for _ in 0..<5 {
                 guard let newQuestion = quizManager.nextQuestion() else { break }
                 loadedQuestions.append(newQuestion)

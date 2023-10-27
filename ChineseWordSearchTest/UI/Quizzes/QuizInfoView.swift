@@ -26,6 +26,14 @@ struct QuizInfoView: View {
                         }
                 }
             }
+            Button {
+                for question in quizManager.questions where !quizManager.attempts.contains(where: { $0.question == question }) {
+                    quizManager.makeAttempt(.init(question: question, givenAnswer: "(Not Answered)"))
+                }
+                quizManager.inPlay = false
+            } label: {
+                Image(systemName: "xmark")
+            }
         }
         .frame(maxHeight: 70)
     }
