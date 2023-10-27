@@ -190,12 +190,14 @@ struct FolderListView: View {
     @ToolbarContentBuilder
     var toolbarContent: some ToolbarContent {
         ToolbarItem(placement: .topBarLeading) {
-            Menu {
-                ForEach(Quiz.allCases) { quiz in
-                    Button(quiz.description) {
-                        self.quiz = quiz
-                    }
-                }
+//            Menu {
+//                ForEach(Quiz.allCases) { quiz in
+//                    Button(quiz.description) {
+//                        self.quiz = quiz
+//                    }
+//                }
+            Button {
+                self.quiz = Quiz.dragAndMatch
             } label: {
                 Image(systemName: "play")
             }
