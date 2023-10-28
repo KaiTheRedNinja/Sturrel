@@ -8,7 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var startManager: StartManager = .shared
+
     var body: some View {
+        if startManager.shown {
+            StartView()
+        } else {
+            tabView
+        }
+    }
+
+    var tabView: some View {
         TabView {
             MainView()
                 .tabItem {

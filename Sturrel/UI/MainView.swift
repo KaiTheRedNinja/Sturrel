@@ -19,11 +19,19 @@ enum FolderOrVocabID: Identifiable, Hashable {
     }
 }
 
+class StartManager: ObservableObject {
+    static let shared: StartManager = .init()
+
+    private init() {}
+
+    @Published var shown: Bool = false
+}
+
 struct MainView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                FolderListView(folderID: Root.id)
+                FolderListView(folderID: Root.id, isTopLevel: true)
             }
             .navigationDestination(for: FolderOrVocabID.self) { item in
                 switch item {

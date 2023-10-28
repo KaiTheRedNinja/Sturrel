@@ -12,47 +12,21 @@ enum Root {
 
     static let builtins: [String] = ["P1", "P2", "P3", "P4", "P5", "P6", "S1", "S2", "S3"]
 
-    static func load() {
+    enum RootError: Error {
+        case rootNotFound
+    }
+
+    static func load() throws {
         print("Getting contents from \(FileSystem.getDocumentsDirectory())")
 
         if FileSystem.exists(file: .root), let root = FileSystem.read(VocabFolder.self, from: .root) {
             id = root.id
             FoldersDataManager.shared.saveFolder(root)
         } else {
-            // initialise all the data
-            // transfer P1-P6 and S1-S3 files
-            var subfolderIDs = [VocabFolder.ID]()
-            var root = VocabFolder(name: "Folders", subfolders: [], vocab: [])
-
-            var folders: [VocabFolder] = []
-            var vocabs: [Vocab] = []
-
-            for filename in Self.builtins {
-                guard let contents = loadDefaultFolder(named: filename) else { continue }
-                //                let file = VocabFolder(name: contents.name, subfolders: contents.folders.map({ $0.id }), vocab: contents.vocab.map({ $0.id }))
-                let file = VocabFolder(name: contents.name, subfolders: contents.folders.map({ $0.id }), vocab: [])
-
-                folders.append(contentsOf: contents.folders)
-                vocabs.append(contentsOf: contents.vocab)
-
-                subfolderIDs.append(file.id)
-                folders.append(file)
-            }
-
-            root.subfolders = subfolderIDs
-
-            // These have to happen async, because FoldersDataManager checks with RootDataManager
-            // and produces an access error if its called before or while RootDataManager is initialising
-            DispatchQueue.main.async {
-                for folder in folders {
-                    FoldersDataManager.shared.saveFolder(folder)
-                }
-                for vocab in vocabs {
-                    VocabDataManager.shared.saveVocab(vocab)
-                }
-            }
-            id = root.id
-            FoldersDataManager.shared.saveFolder(root)
+            let tempRoot = VocabFolder(name: "Folders", subfolders: [], vocab: [])
+            id = tempRoot.id
+            FoldersDataManager.shared.saveFolder(tempRoot)
+            throw RootError.rootNotFound
         }
     }
 
@@ -87,6 +61,7 @@ enum Root {
 
         root.subfolders.append(file.id)
         FoldersDataManager.shared.saveFolder(file)
+        FoldersDataManager.shared.saveFolder(root)
     }
 
     private static func loadDefaultFolder(named filename: String) -> DefaultFolder? {

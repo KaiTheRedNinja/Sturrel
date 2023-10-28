@@ -41,6 +41,7 @@
 		933C16EA2AEBF93900973361 /* DEFAULT_S3.json in Resources */ = {isa = PBXBuildFile; fileRef = 933C16E12AEBF93900973361 /* DEFAULT_S3.json */; };
 		933C16EB2AEBF93900973361 /* DEFAULT_P2.json in Resources */ = {isa = PBXBuildFile; fileRef = 933C16E22AEBF93900973361 /* DEFAULT_P2.json */; };
 		933C16EC2AEBF93900973361 /* DEFAULT_P3.json in Resources */ = {isa = PBXBuildFile; fileRef = 933C16E32AEBF93900973361 /* DEFAULT_P3.json */; };
+		933C16EE2AEC028900973361 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16ED2AEC028900973361 /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		933C16E12AEBF93900973361 /* DEFAULT_S3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_S3.json; sourceTree = "<group>"; };
 		933C16E22AEBF93900973361 /* DEFAULT_P2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P2.json; sourceTree = "<group>"; };
 		933C16E32AEBF93900973361 /* DEFAULT_P3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DEFAULT_P3.json; sourceTree = "<group>"; };
+		933C16ED2AEC028900973361 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 		933C16C82AEBF91D00973361 /* Adding */ = {
 			isa = PBXGroup;
 			children = (
+				933C16ED2AEC028900973361 /* StartView.swift */,
 				933C16C92AEBF91D00973361 /* NewVocabView.swift */,
 				933C16CA2AEBF91D00973361 /* NewFolderView.swift */,
 			);
@@ -301,6 +304,7 @@
 				933C16D82AEBF91D00973361 /* QuizResultsView.swift in Sources */,
 				933C16C22AEBF8FF00973361 /* SearchManager.swift in Sources */,
 				933C16D92AEBF91D00973361 /* QuizInfoView.swift in Sources */,
+				933C16EE2AEC028900973361 /* StartView.swift in Sources */,
 				933C16D02AEBF91D00973361 /* VocabDetailsView.swift in Sources */,
 				933C16D22AEBF91D00973361 /* FolderListView.swift in Sources */,
 				933C16B22AEBF8A100973361 /* HanziPinyin.swift in Sources */,

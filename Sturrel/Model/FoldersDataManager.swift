@@ -56,6 +56,12 @@ final class FoldersDataManager: ObservableObject {
         }
     }
 
+    func removeAll() {
+        for folder in folders.keys {
+            removeFolder(folder)
+        }
+    }
+
     private func loadCustomFolder(id: UUID) -> VocabFolder? {
         guard let result = FileSystem.read(VocabFolder.self, from: .customFolder(id)) else { return nil }
         return result
