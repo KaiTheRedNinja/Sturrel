@@ -51,7 +51,7 @@ enum Root {
         }
         builtin.name = name
 
-        let file = VocabFolder(name: builtin.name, subfolders: builtin.folders.map({ $0.id }), vocab: builtin.vocab.map({ $0.id }))
+        let file = VocabFolder(name: builtin.name, subfolders: builtin.folders.map({ $0.id }), vocab: [])
         for folder in builtin.folders {
             FoldersDataManager.shared.saveFolder(folder)
         }
