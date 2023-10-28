@@ -88,7 +88,7 @@ You can always add other builtin vocabulary by pressing the plus button in the V
         root.subfolders = []
         FoldersDataManager.shared.saveFolder(root)
 
-        for folder in includedFolders {
+        for folder in Root.builtins where includedFolders.contains(folder) {
             Root.copyBuiltinFolder(named: folder)
             withAnimation {
                 loaded += 1

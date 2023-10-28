@@ -25,42 +25,7 @@ struct ContentView: View {
                     Label("Vocab", systemImage: "character.book.closed.fill.zh")
                 }
             NavigationStack {
-                List {
-                    Section {
-                        ForEach(0..<5) { index in
-                            Text("Setting \(index)")
-                        }
-                    }
-
-                    Section {
-                        NavigationLink {
-                            ScrollView {
-                                VStack(alignment: .center) {
-                                    VStack {
-                                        Text("Rewritten by Tay Kai Quan")
-                                            .padding(.bottom, 10)
-                                        Text("Originally written and designed by:\nTay Kai Quan\nNatalie Ruzsicska\nElyssa Yeo\nZara Rosman")
-                                    }
-                                    .padding(.bottom, 60)
-
-                                    VStack {
-                                        Text("Vocabulary provided by\nXueLin Learning Hub")
-                                        Image("xuelinLogo")
-                                            .resizable()
-                                            .scaledToFit()
-                                            .frame(height: 100)
-                                    }
-                                }
-                                .foregroundStyle(Color.gray)
-                                .listRowBackground(Color.clear)
-                                .multilineTextAlignment(.center)
-                            }
-                        } label: {
-                            Text("Credits")
-                        }
-                    }
-                }
-                .navigationTitle("Settings")
+                SettingsView()
             }
             .tabItem {
                 Label("Settings", systemImage: "gear")
