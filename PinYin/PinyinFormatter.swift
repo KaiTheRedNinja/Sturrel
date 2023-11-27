@@ -18,11 +18,11 @@ let characterMap: [String: [String]] = [
 ]
 
 internal struct PinyinFormatter {
-    internal static func format(_ pinyin: String) -> String {
+    internal static func format(_ pinyin: String, indicateTone: Bool) -> String {
         var formattedPinyin = pinyin
 
         // turn tone indicator into unicode tone indicator
-        if let lastChar = formattedPinyin.last, let tone = Int(String(lastChar)) {
+        if indicateTone, let lastChar = formattedPinyin.last, let tone = Int(String(lastChar)) {
             for char in characterMap.keys.sorted() {
                 let alts = characterMap[char]!
                 if pinyin.contains(char) {

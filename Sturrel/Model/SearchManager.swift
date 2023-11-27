@@ -56,7 +56,9 @@ class SearchManager: ObservableObject {
         }
 
         let lowerterm = searchText.lowercased()
-        return vocab.word.lowercased().contains(lowerterm)
+        let word = vocab.word.lowercased()
+        let pinyin = vocab.word.toPinyin(indicateTone: false)
+        return word.contains(lowerterm) || pinyin.contains(lowerterm)
     }
 
     func highlightFor(folder: VocabFolder) -> String {

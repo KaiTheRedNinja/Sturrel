@@ -9,11 +9,11 @@
 import Foundation
 
 public extension String {
-    func toPinyin(separator: String = " ") -> String {
+    func toPinyin(separator: String = " ", indicateTone: Bool = true) -> String {
         var pinyinStrings = [String]()
         for unicodeScalar in unicodeScalars {
             let charCodePoint = unicodeScalar.value
-            let pinyinArray = HanziPinyin.pinyinArray(withCharCodePoint: charCodePoint)
+            let pinyinArray = HanziPinyin.pinyinArray(withCharCodePoint: charCodePoint, indicateTone: indicateTone)
 
             if pinyinArray.count > 0 {
                 pinyinStrings.append(pinyinArray.first! + separator)

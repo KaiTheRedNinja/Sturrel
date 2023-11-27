@@ -22,7 +22,7 @@ internal struct HanziPinyin {
         print("Table size: \(unicodeToPinyinTable.count)")
     }
 
-    internal static func pinyinArray(withCharCodePoint charCodePoint: UInt32) -> [String] {
+    internal static func pinyinArray(withCharCodePoint charCodePoint: UInt32, indicateTone: Bool) -> [String] {
         func isValidPinyin(_ pinyin: String) -> Bool {
             return pinyin != "(none0)" && pinyin.hasPrefix("(") && pinyin.hasSuffix(")")
         }
@@ -38,7 +38,7 @@ internal struct HanziPinyin {
         let pinyinArray = processedPinyin.components(separatedBy: ",")
 
         let formattedPinyinArray = pinyinArray.map { (pinyin) -> String in
-            return PinyinFormatter.format(pinyin)
+            return PinyinFormatter.format(pinyin, indicateTone: indicateTone)
         }
         return formattedPinyinArray
     }
