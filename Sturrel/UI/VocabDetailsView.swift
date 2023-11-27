@@ -29,6 +29,8 @@ private struct VocabDetailsContentsView: View {
 
     @Environment(\.editMode) var rawEditMode
 
+    @State var showPlayOverlay: Bool = false
+
     var isEditing: Bool {
         rawEditMode?.wrappedValue.isEditing ?? false
     }
@@ -51,6 +53,7 @@ private struct VocabDetailsContentsView: View {
                     }
                 } else {
                     HStack {
+                        Spacer()
                         let pinyin = vocab.word.toPinyin().split(separator: " ")
                         ForEach(0..<vocab.word.count, id: \.self) { index in
                             VStack(alignment: .center) {
@@ -63,6 +66,19 @@ private struct VocabDetailsContentsView: View {
                                     .foregroundStyle(Color.gray)
                             }
                         }
+                        Spacer()
+                    }
+                    .overlay(alignment: .bottomTrailing) {
+                        Button {
+                            showPlayOverlay.toggle()
+                        } label: {
+                            Image(systemName: "play")
+                        }
+                    }
+                    .sheet(isPresented: $showPlayOverlay) {
+                        VocabAnimationView(vocab: vocab)
+                            .presentationDetents([.fraction(0.3)])
+                            .padding(.top, 30)
                     }
                 }
                 Spacer()

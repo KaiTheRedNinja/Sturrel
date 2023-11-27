@@ -15,16 +15,17 @@ enum CharacterAction {
 }
 
 struct CharacterView: View {
+    var text: String
     @State var size: CGSize = .zero
-
     @Binding var action: CharacterAction?
 
-    init(action: Binding<CharacterAction?>? = nil) {
+    init(_ text: String, action: Binding<CharacterAction?>? = nil) {
+        self.text = text
         self._action = action ?? .constant(nil)
     }
 
     var body: some View {
-        CharacterViewWrapper(size: $size, action: $action)
+        CharacterViewWrapper(text: text, size: $size, action: $action)
             .background {
                 GeometryReader { (geom) -> Color in
                     DispatchQueue.main.async {
@@ -38,6 +39,8 @@ struct CharacterView: View {
 
 private struct CharacterViewWrapper: UIViewRepresentable {
     typealias UIViewType = WKWebView
+
+    var text: String
 
     @Binding var size: CGSize
     @Binding var action: CharacterAction?
@@ -113,7 +116,7 @@ private struct CharacterViewWrapper: UIViewRepresentable {
             webView.evaluateJavaScript(jsString) { _, _ in
                 webView.evaluateJavaScript(
 """
-var writer = HanziWriter.create('character-target-div', '你', {
+var writer = HanziWriter.create('character-target-div', '\(self.parent.text)', {
     width: \(Int(smaller*3.6)),
     height: \(Int(smaller*3.6)),
     padding: 5
@@ -134,7 +137,7 @@ private struct CharacterPreview: View {
             ScrollView {
                 LazyVGrid(columns: .init(repeating: .init(), count: 3)) {
                     ForEach(1..<13) { scale in
-                        CharacterView(action: $action)
+                        CharacterView("你", action: $action)
                             .frame(width: Double(scale*10), height: Double(scale*10))
                             .overlay {
                                 Color.blue.opacity(0.1)
@@ -162,6 +165,7 @@ private struct CharacterPreview: View {
                     Image(systemName: "circle")
                 }
             }
+            .font(.largeTitle)
         }
     }
 }
