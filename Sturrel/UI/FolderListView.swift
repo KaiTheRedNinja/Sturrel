@@ -14,6 +14,7 @@ struct FolderListView: View {
 
     @State var showNewFolder: Bool = false
     @State var showNewVocab: Bool = false
+    @State var showSearch: Bool = false
 
     @State var quiz: Quiz?
 
@@ -28,7 +29,7 @@ struct FolderListView: View {
 
     var body: some View {
         VStack {
-            if !searchManager.showSearch {
+            if !showSearch {
                 if let folder = folderDataManager.getFolder(for: folderID) {
                     folderContent(for: folder)
                 } else {
@@ -41,7 +42,7 @@ struct FolderListView: View {
         .listStyle(.sidebar)
         .searchable(
             text: $searchManager.searchText,
-            isPresented: $searchManager.showSearch
+            isPresented: $showSearch
         )
         .fullScreenCover(item: $quiz) { quiz in
             NavigationStack {

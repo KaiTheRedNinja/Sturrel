@@ -14,7 +14,6 @@ class SearchManager: ObservableObject {
 
     @Published var searchTokens: Set<SearchToken> = .init([.folders, .vocab])
     @Published var searchText: String = ""
-    @Published var showSearch: Bool = false
     @Published var showFlat: Bool = false
 
     func folderContainsCriteria(_ folderID: VocabFolder.ID) -> Bool {

@@ -25,9 +25,9 @@ struct HierarchicalSearchResultView: View {
         ForEach(folder.subfolders, id: \.hashValue) { subFolderID in
             if searchManager.folderContainsCriteria(subFolderID) {
                 if !searchManager.showFlat || searchManager.folderMatchesCriteria(subFolderID) {
-                    NavigationLink {
-                        FolderListView(folderID: subFolderID)
-                    } label: {
+//                    NavigationLink {
+//                        FolderListView(folderID: subFolderID)
+//                    } label: {
                         HStack {
                             Image(systemName: "folder")
                                 .frame(width: 26, height: 22)
@@ -36,7 +36,7 @@ struct HierarchicalSearchResultView: View {
                                 HighlightedText(subFolder.name, highlight: searchManager.highlightFor(folder: subFolder))
                             }
                         }
-                    }
+//                    }
                 }
                 HierarchicalSearchResultView(
                     folderID: subFolderID
