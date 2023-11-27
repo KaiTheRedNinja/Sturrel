@@ -35,7 +35,7 @@ private struct VocabDetailsContentsView: View {
 
     var body: some View {
         let vocab = vocabDataManager.getVocab(for: vocabID)!
-        Section(vocab.isHCL ? "HCL" : "") {
+        Section(vocab.isHCL ? "Higher Chinese" : "") {
             HStack {
                 Spacer()
                 if isEditing {
