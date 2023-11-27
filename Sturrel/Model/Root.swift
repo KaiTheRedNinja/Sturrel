@@ -17,8 +17,6 @@ enum Root {
     }
 
     static func load() throws {
-        print("Getting contents from \(FileSystem.getDocumentsDirectory())")
-
         if FileSystem.exists(file: .root), let root = FileSystem.read(VocabFolder.self, from: .root) {
             id = root.id
             FoldersDataManager.shared.saveFolder(root)
