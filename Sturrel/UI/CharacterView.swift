@@ -166,6 +166,10 @@ private struct CharacterPreview: View {
                 }
             }
             .font(.largeTitle)
+
+            Text("Animation requires internet connection")
+                .font(.subheadline)
+                .foregroundStyle(Color.gray)
         }
     }
 }
