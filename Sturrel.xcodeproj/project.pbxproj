@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930C45802B15D131006C7BF0 /* SearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C457F2B15D131006C7BF0 /* SearchResultView.swift */; };
 		933C169D2AEBF88000973361 /* SturrelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C169C2AEBF88000973361 /* SturrelApp.swift */; };
 		933C169F2AEBF88000973361 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C169E2AEBF88000973361 /* ContentView.swift */; };
 		933C16A12AEBF88100973361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933C16A02AEBF88100973361 /* Assets.xcassets */; };
@@ -23,7 +24,6 @@
 		933C16C12AEBF8FF00973361 /* Vocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16BA2AEBF8FF00973361 /* Vocab.swift */; };
 		933C16C22AEBF8FF00973361 /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16BB2AEBF8FF00973361 /* SearchManager.swift */; };
 		933C16D02AEBF91D00973361 /* VocabDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16C42AEBF91D00973361 /* VocabDetailsView.swift */; };
-		933C16D12AEBF91D00973361 /* HierarchicalSearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16C52AEBF91D00973361 /* HierarchicalSearchResultView.swift */; };
 		933C16D22AEBF91D00973361 /* FolderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16C62AEBF91D00973361 /* FolderListView.swift */; };
 		933C16D32AEBF91D00973361 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16C72AEBF91D00973361 /* MainView.swift */; };
 		933C16D42AEBF91D00973361 /* NewVocabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C16C92AEBF91D00973361 /* NewVocabView.swift */; };
@@ -49,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		930C457F2B15D131006C7BF0 /* SearchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultView.swift; sourceTree = "<group>"; };
 		933C16992AEBF88000973361 /* Sturrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sturrel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		933C169C2AEBF88000973361 /* SturrelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SturrelApp.swift; sourceTree = "<group>"; };
 		933C169E2AEBF88000973361 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,7 +67,6 @@
 		933C16BA2AEBF8FF00973361 /* Vocab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vocab.swift; sourceTree = "<group>"; };
 		933C16BB2AEBF8FF00973361 /* SearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
 		933C16C42AEBF91D00973361 /* VocabDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VocabDetailsView.swift; sourceTree = "<group>"; };
-		933C16C52AEBF91D00973361 /* HierarchicalSearchResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HierarchicalSearchResultView.swift; sourceTree = "<group>"; };
 		933C16C62AEBF91D00973361 /* FolderListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderListView.swift; sourceTree = "<group>"; };
 		933C16C72AEBF91D00973361 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		933C16C92AEBF91D00973361 /* NewVocabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewVocabView.swift; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 				933C16C72AEBF91D00973361 /* MainView.swift */,
 				933C16C42AEBF91D00973361 /* VocabDetailsView.swift */,
 				933C16C62AEBF91D00973361 /* FolderListView.swift */,
-				933C16C52AEBF91D00973361 /* HierarchicalSearchResultView.swift */,
+				930C457F2B15D131006C7BF0 /* SearchResultView.swift */,
 				93E9F96F2AEC8FB8006FF515 /* SettingsView.swift */,
 				935270DB2B144A1F00CA1D68 /* CharacterView.swift */,
 				935270DF2B14775200CA1D68 /* VocabAnimationView.swift */,
@@ -309,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				933C16D12AEBF91D00973361 /* HierarchicalSearchResultView.swift in Sources */,
 				933C16BD2AEBF8FF00973361 /* FileSystem.swift in Sources */,
 				933C16C12AEBF8FF00973361 /* Vocab.swift in Sources */,
 				933C16D72AEBF91D00973361 /* QuizSetupView.swift in Sources */,
@@ -323,6 +322,7 @@
 				933C16D02AEBF91D00973361 /* VocabDetailsView.swift in Sources */,
 				933C16D22AEBF91D00973361 /* FolderListView.swift in Sources */,
 				933C16B22AEBF8A100973361 /* HanziPinyin.swift in Sources */,
+				930C45802B15D131006C7BF0 /* SearchResultView.swift in Sources */,
 				933C169F2AEBF88000973361 /* ContentView.swift in Sources */,
 				933C16D32AEBF91D00973361 /* MainView.swift in Sources */,
 				933C16D62AEBF91D00973361 /* DragAndMatchQuiz.swift in Sources */,

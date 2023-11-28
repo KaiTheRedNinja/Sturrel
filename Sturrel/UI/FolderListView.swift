@@ -98,21 +98,21 @@ struct FolderListView: View {
     }
 
     func searchContent() -> some View {
-        List {
+        Group {
             if searchManager.searchText.isEmpty {
-                HStack {
-                    Spacer()
-                    Text("Search a Word or Folder")
-                    Spacer()
+                List {
+                    HStack {
+                        Spacer()
+                        Text("Search a Word or Folder")
+                        Spacer()
+                    }
+                    .foregroundStyle(Color.gray)
+                    .font(.subheadline)
+                    .listRowBackground(Color.clear)
                 }
-                .foregroundStyle(Color.gray)
-                .font(.subheadline)
-                .listRowBackground(Color.clear)
             } else {
-                HierarchicalSearchResultView(
-                    folderID: folderID
-                )
-                .environmentObject(searchManager)
+                SearchResultView()
+                    .environmentObject(searchManager)
             }
         }
         .safeAreaInset(edge: .top) {
@@ -133,14 +133,14 @@ struct FolderListView: View {
                     }
                 }
                 Spacer()
-                Button {
-                    // toggle between hierarchy and not
-                    searchManager.showFlat.toggle()
-                } label: {
-                    Image(systemName: "list.bullet" + (searchManager.showFlat ? "" : ".indent"))
-                }
-                .buttonStyle(.bordered)
-                .cornerRadius(15)
+//                Button {
+//                    // toggle between hierarchy and not
+//                    searchManager.showFlat.toggle()
+//                } label: {
+//                    Image(systemName: "list.bullet" + (searchManager.showFlat ? "" : ".indent"))
+//                }
+//                .buttonStyle(.bordered)
+//                .cornerRadius(15)
             }
             .padding(.horizontal, 20)
             .padding(.vertical, 10)
