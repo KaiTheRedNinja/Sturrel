@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct StartView: View {
-    @State var includedFolders: Set<String> = Set(Root.builtins)
+    @State var includedFolders: Set<String> = Set(Root.manifest.builtins)
 
     @State var isLoading: Bool = false
     @State var loaded: Int = 0
@@ -63,7 +63,7 @@ You can always add other builtin vocabulary by pressing the plus button in the V
         }
 
         Section {
-            ForEach(Root.builtins, id: \.self) { element in
+            ForEach(Root.manifest.builtins, id: \.self) { element in
                 Toggle(element, isOn: .init(get: {
                     includedFolders.contains(element)
                 }, set: { isIncluded in
@@ -88,7 +88,7 @@ You can always add other builtin vocabulary by pressing the plus button in the V
         root.subfolders = []
         FoldersDataManager.shared.saveFolder(root)
 
-        for folder in Root.builtins where includedFolders.contains(folder) {
+        for folder in Root.manifest.builtins where includedFolders.contains(folder) {
             Root.copyBuiltinFolder(named: folder)
             withAnimation {
                 loaded += 1

@@ -10,7 +10,9 @@ import Foundation
 enum Root {
     static private(set) var id: VocabFolder.ID!
 
-    static let builtins: [String] = ["P1", "P2", "P3", "P4", "P5", "P6", "S1", "S2", "S3"]
+    static var manifest: Manifest = {
+        Self.getManifest()
+    }()
 
     enum RootError: Error {
         case rootNotFound
@@ -31,6 +33,7 @@ enum Root {
     static func save() {
         guard let root = FoldersDataManager.shared.getFolder(for: id) else { return }
         FileSystem.write(root, to: .root)
+        FileSystem.write(manifest, to: .manifest)
     }
 
     static func copyBuiltinFolder(named filename: String) {

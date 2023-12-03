@@ -12,12 +12,14 @@ public enum FileSystem {
 
     public enum FileName {
         case root
+        case manifest
         case vocabs
         case customFolder(UUID)
 
         public var fileName: String {
             switch self {
             case .root: "root.json"
+            case .manifest: "manifest.json"
             case .vocabs: "vocabs.json"
             case .customFolder(let id): "custom/CUSTOM_\(id.uuidString).json"
             }

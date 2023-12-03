@@ -45,6 +45,8 @@
 		935270DC2B144A1F00CA1D68 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935270DB2B144A1F00CA1D68 /* CharacterView.swift */; };
 		935270DE2B144AE800CA1D68 /* hanzi-writer.js in Resources */ = {isa = PBXBuildFile; fileRef = 935270DD2B144AE800CA1D68 /* hanzi-writer.js */; };
 		935270E02B14775200CA1D68 /* VocabAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935270DF2B14775200CA1D68 /* VocabAnimationView.swift */; };
+		93E8419D2B1C30DF00B020D9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 93E8419C2B1C30DF00B020D9 /* manifest.json */; };
+		93E8419F2B1C329F00B020D9 /* Root+Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E8419E2B1C329F00B020D9 /* Root+Manifest.swift */; };
 		93E9F9702AEC8FB8006FF515 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E9F96F2AEC8FB8006FF515 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +90,8 @@
 		935270DB2B144A1F00CA1D68 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		935270DD2B144AE800CA1D68 /* hanzi-writer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "hanzi-writer.js"; sourceTree = "<group>"; };
 		935270DF2B14775200CA1D68 /* VocabAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabAnimationView.swift; sourceTree = "<group>"; };
+		93E8419C2B1C30DF00B020D9 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		93E8419E2B1C329F00B020D9 /* Root+Manifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Root+Manifest.swift"; sourceTree = "<group>"; };
 		93E9F96F2AEC8FB8006FF515 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				933C16B72AEBF8FF00973361 /* Root.swift */,
+				93E8419E2B1C329F00B020D9 /* Root+Manifest.swift */,
 				933C16B92AEBF8FF00973361 /* FoldersDataManager.swift */,
 				933C16B52AEBF8FF00973361 /* VocabDataManager.swift */,
 				933C16B62AEBF8FF00973361 /* FileSystem.swift */,
@@ -215,6 +220,7 @@
 		933C16DA2AEBF93900973361 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				93E8419C2B1C30DF00B020D9 /* manifest.json */,
 				933C16DB2AEBF93900973361 /* DEFAULT_P1.json */,
 				933C16E22AEBF93900973361 /* DEFAULT_P2.json */,
 				933C16E32AEBF93900973361 /* DEFAULT_P3.json */,
@@ -294,6 +300,7 @@
 				933C16E72AEBF93900973361 /* DEFAULT_S2.json in Resources */,
 				935270DE2B144AE800CA1D68 /* hanzi-writer.js in Resources */,
 				933C16EC2AEBF93900973361 /* DEFAULT_P3.json in Resources */,
+				93E8419D2B1C30DF00B020D9 /* manifest.json in Resources */,
 				933C16A12AEBF88100973361 /* Assets.xcassets in Resources */,
 				933C16EB2AEBF93900973361 /* DEFAULT_P2.json in Resources */,
 				933C16E92AEBF93900973361 /* DEFAULT_P5.json in Resources */,
@@ -329,6 +336,7 @@
 				933C16BF2AEBF8FF00973361 /* QuizManager.swift in Sources */,
 				935270DC2B144A1F00CA1D68 /* CharacterView.swift in Sources */,
 				933C16AF2AEBF8A100973361 /* PinyinFormatter.swift in Sources */,
+				93E8419F2B1C329F00B020D9 /* Root+Manifest.swift in Sources */,
 				933C16B12AEBF8A100973361 /* String+HanziPinyin.swift in Sources */,
 				933C16D52AEBF91D00973361 /* NewFolderView.swift in Sources */,
 				933C16D42AEBF91D00973361 /* NewVocabView.swift in Sources */,

@@ -47,6 +47,11 @@ final class VocabDataManager: ObservableObject {
         save()
     }
 
+    func removeAll() {
+        vocabs = [:]
+        save()
+    }
+
     func save() {
         FileSystem.write(vocabs, to: .vocabs)
     }

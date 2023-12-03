@@ -63,6 +63,10 @@ struct SettingsView: View {
     func reset() {
         // remove all elements in FoldersDataManager
         FoldersDataManager.shared.removeAll()
+        // remove all elements in VocabDatamanager
+        VocabDataManager.shared.removeAll()
+        // reset the manifest
+        Root.resetManifest()
         // reset Root
         try? Root.load()
         guard var root = FoldersDataManager.shared.getFolder(for: Root.id) else { return }
