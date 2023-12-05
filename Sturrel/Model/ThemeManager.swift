@@ -16,6 +16,15 @@ struct SturrelTheme: Identifiable, Codable, Hashable {
     var listItemColor: Color
     var foregroundColor: Color
     var detailColor: Color
+
+    var colors: [Color] {
+        [
+            backgroundColor,
+            listItemColor,
+            foregroundColor,
+            detailColor
+        ]
+    }
 }
 
 class ThemeManager: ObservableObject {

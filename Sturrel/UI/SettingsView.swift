@@ -31,6 +31,10 @@ struct SettingsView: View {
                 .listRowBackground(Color.primary.colorInvert())
             }
 
+            Section("Theme") {
+                ThemeSelectionView()
+            }
+
             Section {
                 NavigationLink {
                     ScrollView {
