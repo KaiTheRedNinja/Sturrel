@@ -52,9 +52,23 @@ class ThemeManager: ObservableObject {
             listItemColor: .pink.opacity(0.1),
             foregroundColor: .primary,
             detailColor: .yellow
+        ),
+        .init(
+            id: UUID(uuidString: "2D7956DF-18C3-43FC-8F9A-5AE329004536")!,
+            name: "Forest",
+            backgroundColor: .green.opacity(0.2),
+            listItemColor: .green.opacity(0.6),
+            foregroundColor: .primary,
+            detailColor: .brown
+        ),
+        .init(
+            id: UUID(uuidString: "FAF0C735-363B-4658-8148-FDD701FD8D80")!,
+            name: "Beach",
+            backgroundColor: .yellow.opacity(0.3),
+            listItemColor: .blue.opacity(0.3),
+            foregroundColor: .blue,
+            detailColor: .indigo
         )
-        // TODO: Forest
-        // TODO: Beach
     ]
 
     static let shared: ThemeManager = .init()
