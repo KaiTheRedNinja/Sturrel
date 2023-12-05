@@ -101,7 +101,7 @@ struct QuizSetupView: View {
     }
 
     var body: some View {
-        List {
+        ThemedList {
             Section {
                 HStack {
                     VStack {
@@ -167,7 +167,7 @@ struct QuizSetupView: View {
                             Text(setupManager.questionType.forVocab(vocab))
                             Spacer()
                             Text(setupManager.answerType.forVocab(vocab))
-                                .foregroundStyle(Color.gray)
+                                .foregroundStyle(Color.additional)
                         }
                     }
                 }
@@ -178,7 +178,7 @@ struct QuizSetupView: View {
                         Text("No Vocab")
                         Spacer()
                     }
-                    .foregroundStyle(Color.gray)
+                    .foregroundStyle(Color.additional)
                     .listRowBackground(Color.clear)
                 }
             }

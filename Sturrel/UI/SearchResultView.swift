@@ -17,7 +17,7 @@ struct SearchResultView: View {
     @State var results: [SearchResult] = []
 
     var body: some View {
-        List {
+        ThemedList {
             ForEach(results) { result in
                 switch result.result {
                 case .folder(let folderID):
@@ -44,7 +44,7 @@ struct SearchResultView: View {
                                 Text(vocab.word)
                                 Spacer()
                                 Text(vocab.word.toPinyin())
-                                    .foregroundStyle(Color.gray)
+                                    .foregroundStyle(Color.additional)
                             }
                         }
                     }

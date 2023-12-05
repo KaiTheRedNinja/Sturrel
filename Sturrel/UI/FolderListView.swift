@@ -53,15 +53,16 @@ struct FolderListView: View {
                 }
             }
         }
+        .themed()
     }
 
     func folderContent(for folder: VocabFolder) -> some View {
-        List {
+        ThemedList {
             if folder.subfolders.isEmpty && folder.vocab.isEmpty {
                 HStack {
                     Spacer()
                     Text("Empty Folder.\nPress + to add subfolders or vocab")
-                        .foregroundStyle(Color.gray)
+                        .foregroundStyle(Color.additional)
                         .multilineTextAlignment(.center)
                     Spacer()
                 }
@@ -100,13 +101,13 @@ struct FolderListView: View {
     func searchContent() -> some View {
         Group {
             if searchManager.searchText.isEmpty {
-                List {
+                ThemedList {
                     HStack {
                         Spacer()
                         Text("Search a Word or Folder")
                         Spacer()
                     }
-                    .foregroundStyle(Color.gray)
+                    .foregroundStyle(Color.additional)
                     .font(.subheadline)
                     .listRowBackground(Color.clear)
                 }
@@ -267,7 +268,7 @@ struct FolderListView: View {
                     Text(vocab.word)
                     Spacer()
                     Text(vocab.word.toPinyin())
-                        .foregroundStyle(Color.gray)
+                        .foregroundStyle(Color.additional)
                 }
             }
         }

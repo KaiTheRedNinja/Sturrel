@@ -169,7 +169,7 @@ private struct CharacterPreview: View {
 
             Text("Animation requires internet connection")
                 .font(.subheadline)
-                .foregroundStyle(Color.gray)
+                .foregroundStyle(Color.additional)
         }
     }
 }

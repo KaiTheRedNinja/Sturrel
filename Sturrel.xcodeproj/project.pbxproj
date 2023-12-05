@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		930C45802B15D131006C7BF0 /* SearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C457F2B15D131006C7BF0 /* SearchResultView.swift */; };
+		93105DA72B1EFFE2008638D2 /* ThemedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93105DA62B1EFFE2008638D2 /* ThemedList.swift */; };
 		933C169D2AEBF88000973361 /* SturrelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C169C2AEBF88000973361 /* SturrelApp.swift */; };
 		933C169F2AEBF88000973361 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C169E2AEBF88000973361 /* ContentView.swift */; };
 		933C16A12AEBF88100973361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933C16A02AEBF88100973361 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		935270DE2B144AE800CA1D68 /* hanzi-writer.js in Resources */ = {isa = PBXBuildFile; fileRef = 935270DD2B144AE800CA1D68 /* hanzi-writer.js */; };
 		935270E02B14775200CA1D68 /* VocabAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935270DF2B14775200CA1D68 /* VocabAnimationView.swift */; };
 		937BC0362B1EBD2300D90356 /* BuiltinsUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937BC0352B1EBD2300D90356 /* BuiltinsUpdateView.swift */; };
+		937BC0382B1ECD5400D90356 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937BC0372B1ECD5400D90356 /* ThemeManager.swift */; };
 		93E8419D2B1C30DF00B020D9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 93E8419C2B1C30DF00B020D9 /* manifest.json */; };
 		93E8419F2B1C329F00B020D9 /* Root+Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E8419E2B1C329F00B020D9 /* Root+Manifest.swift */; };
 		93E9F9702AEC8FB8006FF515 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E9F96F2AEC8FB8006FF515 /* SettingsView.swift */; };
@@ -53,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		930C457F2B15D131006C7BF0 /* SearchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultView.swift; sourceTree = "<group>"; };
+		93105DA62B1EFFE2008638D2 /* ThemedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedList.swift; sourceTree = "<group>"; };
 		933C16992AEBF88000973361 /* Sturrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sturrel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		933C169C2AEBF88000973361 /* SturrelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SturrelApp.swift; sourceTree = "<group>"; };
 		933C169E2AEBF88000973361 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +95,7 @@
 		935270DD2B144AE800CA1D68 /* hanzi-writer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "hanzi-writer.js"; sourceTree = "<group>"; };
 		935270DF2B14775200CA1D68 /* VocabAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabAnimationView.swift; sourceTree = "<group>"; };
 		937BC0352B1EBD2300D90356 /* BuiltinsUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuiltinsUpdateView.swift; sourceTree = "<group>"; };
+		937BC0372B1ECD5400D90356 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		93E8419C2B1C30DF00B020D9 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		93E8419E2B1C329F00B020D9 /* Root+Manifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Root+Manifest.swift"; sourceTree = "<group>"; };
 		93E9F96F2AEC8FB8006FF515 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 				933C16BA2AEBF8FF00973361 /* Vocab.swift */,
 				933C16BB2AEBF8FF00973361 /* SearchManager.swift */,
 				933C16B82AEBF8FF00973361 /* QuizManager.swift */,
+				937BC0372B1ECD5400D90356 /* ThemeManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				93E9F96F2AEC8FB8006FF515 /* SettingsView.swift */,
 				935270DB2B144A1F00CA1D68 /* CharacterView.swift */,
 				935270DF2B14775200CA1D68 /* VocabAnimationView.swift */,
+				93105DA62B1EFFE2008638D2 /* ThemedList.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -331,6 +337,7 @@
 				935270E02B14775200CA1D68 /* VocabAnimationView.swift in Sources */,
 				93E9F9702AEC8FB8006FF515 /* SettingsView.swift in Sources */,
 				933C16D02AEBF91D00973361 /* VocabDetailsView.swift in Sources */,
+				93105DA72B1EFFE2008638D2 /* ThemedList.swift in Sources */,
 				933C16D22AEBF91D00973361 /* FolderListView.swift in Sources */,
 				933C16B22AEBF8A100973361 /* HanziPinyin.swift in Sources */,
 				930C45802B15D131006C7BF0 /* SearchResultView.swift in Sources */,
@@ -347,6 +354,7 @@
 				933C16C02AEBF8FF00973361 /* FoldersDataManager.swift in Sources */,
 				933C169D2AEBF88000973361 /* SturrelApp.swift in Sources */,
 				933C16BC2AEBF8FF00973361 /* VocabDataManager.swift in Sources */,
+				937BC0382B1ECD5400D90356 /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

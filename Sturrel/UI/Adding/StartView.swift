@@ -14,7 +14,7 @@ struct StartView: View {
     @State var loaded: Int = 0
 
     var body: some View {
-        List {
+        ThemedList {
             Section {
                 HStack {
                     Spacer()
@@ -58,7 +58,7 @@ Sturrel comes with Primary 1-6 and Secondary 1-3 vocabulary.
 
 You can always add other builtin vocabulary by pressing the plus button in the Vocab view
 """)
-            .foregroundStyle(Color.gray)
+            .foregroundStyle(Color.additional)
             .listRowBackground(Color.clear)
         }
 

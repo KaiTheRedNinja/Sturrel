@@ -30,7 +30,7 @@ struct VocabAnimationView: View {
                             .frame(width: 100, height: 100)
                         Text(pinyin[index])
                             .font(.title3)
-                            .foregroundStyle(Color.gray)
+                            .foregroundStyle(Color.additional)
                     }
                 }
             }

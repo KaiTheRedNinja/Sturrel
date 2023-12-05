@@ -23,7 +23,7 @@ struct QuizResultsView: View {
     }
 
     var body: some View {
-        List {
+        ThemedList {
             let distribution = [Question:[QuestionAttempt]].init(grouping: quizManager.attempts) { $0.question }
 
             Section {
@@ -86,7 +86,7 @@ struct QuizResultsView: View {
                     Button("Replay") {
                         quizManager.restart()
                     }
-                    .tint(Color.gray)
+                    .tint(Color.additional)
                     Spacer()
                     Button("Exit") {
                         presentationMode.wrappedValue.dismiss()

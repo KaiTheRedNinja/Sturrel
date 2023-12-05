@@ -11,7 +11,7 @@ struct SettingsView: View {
     @State var showResetConfirm: Bool = false
 
     var body: some View {
-        List {
+        ThemedList {
             Section {
                 Button("Reset All Vocab", role: .destructive) {
                     showResetConfirm = true
@@ -27,6 +27,8 @@ struct SettingsView: View {
                 } message: {
                     Text("This action cannot be undone")
                 }
+                .bold()
+                .listRowBackground(Color.primary.colorInvert())
             }
 
             Section {
@@ -48,7 +50,7 @@ struct SettingsView: View {
                                     .frame(height: 100)
                             }
                         }
-                        .foregroundStyle(Color.gray)
+                        .foregroundStyle(Color.additional)
                         .listRowBackground(Color.clear)
                         .multilineTextAlignment(.center)
                     }

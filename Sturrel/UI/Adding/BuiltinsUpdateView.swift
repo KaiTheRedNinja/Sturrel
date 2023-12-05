@@ -11,7 +11,7 @@ struct BuiltinsUpdateView: View {
     @State var changes: [(ManifestChange, Bool)]
 
     var body: some View {
-        List {
+        ThemedList {
             Section {
                 HStack {
                     Spacer()
@@ -20,7 +20,7 @@ struct BuiltinsUpdateView: View {
                             .font(.title)
                             .padding(.bottom, 5)
                         Text("Select the folders you want to update")
-                            .foregroundStyle(Color.gray)
+                            .foregroundStyle(Color.additional)
                     }
                     Spacer()
                 }

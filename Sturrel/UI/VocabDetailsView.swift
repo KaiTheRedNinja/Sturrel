@@ -11,7 +11,7 @@ struct VocabDetailsView: View {
     var vocabID: Vocab.ID
 
     var body: some View {
-        List {
+        ThemedList {
             VocabDetailsContentsView(vocabID: vocabID)
         }
         .navigationTitle("Vocab")
@@ -49,7 +49,7 @@ private struct VocabDetailsContentsView: View {
                             .multilineTextAlignment(.center)
                         Text(pinyin)
                             .font(.subheadline)
-                            .foregroundStyle(Color.gray)
+                            .foregroundStyle(Color.additional)
                     }
                 } else {
                     HStack {
@@ -63,7 +63,7 @@ private struct VocabDetailsContentsView: View {
                                     .bold()
                                 Text(pinyin[index])
                                     .font(.subheadline)
-                                    .foregroundStyle(Color.gray)
+                                    .foregroundStyle(Color.additional)
                             }
                         }
                         Spacer()
@@ -77,8 +77,8 @@ private struct VocabDetailsContentsView: View {
                     }
                     .sheet(isPresented: $showPlayOverlay) {
                         VocabAnimationView(vocab: vocab)
-                            .presentationDetents([.fraction(0.3)])
-                            .padding(.top, 30)
+                            .presentationDetents([.height(310), .fraction(0.5)])
+                            .padding(.vertical, 30)
                     }
                 }
                 Spacer()
@@ -178,7 +178,7 @@ private struct VocabDetailsContentsView: View {
                             Text(message)
                         }
                     }
-                    .foregroundStyle(Color.gray)
+                    .foregroundStyle(Color.additional)
                     .multilineTextAlignment(.center)
                     Spacer()
                 }
