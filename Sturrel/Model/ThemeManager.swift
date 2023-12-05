@@ -38,19 +38,23 @@ class ThemeManager: ObservableObject {
 
     var builtinThemes: [SturrelTheme] = [
         .init(
-            name: "Sturrel",
-            backgroundColor: .purple.opacity(0.7),
-            listItemColor: .pink.opacity(0.3),
-            foregroundColor: .primary,
-            detailColor: .yellow
-        ),
-        .init(
+            id: UUID(uuidString: "E7FBE9AA-C413-4AD1-83DE-E19B84C579AA")!,
             name: "iOS Native",
-            backgroundColor: .gray,
+            backgroundColor: .init(uiColor: .systemGroupedBackground),
             listItemColor: .init(uiColor: .systemBackground),
             foregroundColor: .primary,
-            detailColor: .accentColor
+            detailColor: .purple
+        ),
+        .init(
+            id: UUID(uuidString: "4DF429C1-3293-4459-8ADE-6A4EB4933253")!,
+            name: "Tico",
+            backgroundColor: .purple.opacity(0.2),
+            listItemColor: .pink.opacity(0.1),
+            foregroundColor: .primary,
+            detailColor: .yellow
         )
+        // TODO: Forest
+        // TODO: Beach
     ]
 
     static let shared: ThemeManager = .init()
@@ -85,7 +89,7 @@ struct ThemeModifier: ViewModifier {
             }
             .scrollContentBackground(.hidden)
             .toolbarBackground(.visible, for: .navigationBar, .tabBar)
-            .toolbarBackground(Color.background.opacity(0.7), for: .navigationBar, .tabBar)
+            .toolbarBackground(Color.background.opacity(0.9), for: .navigationBar, .tabBar)
             .tint(Color.detail)
 //            .foregroundStyle(Color.foreground)
     }
