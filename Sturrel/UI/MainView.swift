@@ -25,6 +25,12 @@ class StartManager: ObservableObject {
     private init() {}
 
     @Published var shown: Bool = false
+    @Published var changes: ManifestChangeReport?
+
+    struct ManifestChangeReport: Identifiable {
+        var id = UUID()
+        var changes: [ManifestChange]
+    }
 }
 
 struct MainView: View {

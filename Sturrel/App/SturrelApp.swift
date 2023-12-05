@@ -9,11 +9,23 @@ import SwiftUI
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        // check if root loads
         do {
             try Root.load()
         } catch {
             StartManager.shared.shown = true
+            return true
         }
+
+        // check if theres updates
+        DispatchQueue.main.async {
+            let changes = Root.checkManifest()
+
+            if !changes.isEmpty {
+                StartManager.shared.changes = .init(changes: changes)
+            }
+        }
+
         return true
     }
 

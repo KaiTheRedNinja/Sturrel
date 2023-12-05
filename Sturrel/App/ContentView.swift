@@ -31,6 +31,9 @@ struct ContentView: View {
                 Label("Settings", systemImage: "gear")
             }
         }
+        .sheet(item: $startManager.changes) { change in
+            BuiltinsUpdateView(changes: change.changes.map({ ($0, true) }))
+        }
     }
 }
 

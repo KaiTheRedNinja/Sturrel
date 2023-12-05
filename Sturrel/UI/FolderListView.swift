@@ -212,9 +212,11 @@ struct FolderListView: View {
                     }
                     if isTopLevel {
                         Menu("Copy Built-in Folder") {
-                            ForEach(Root.manifest.builtins, id: \.self) { filename in
-                                Button(filename) {
-                                    Root.copyBuiltinFolder(named: filename)
+                            Section("These will replace any folders with the same name") {
+                                ForEach(Root.manifest.builtins, id: \.self) { filename in
+                                    Button(filename) {
+                                        Root.copyBuiltinFolder(named: filename)
+                                    }
                                 }
                             }
                         }

@@ -41,16 +41,8 @@ enum Root {
               var builtin = loadDefaultFolder(named: filename)
         else { return }
 
-        // change the name so that theres no conflicts
-        var name = builtin.name
-        if root.subfolders.compactMap({ FoldersDataManager.shared.getFolder(for: $0) }).contains(where: { $0.name == name }) {
-            var counter = 2
-            while root.subfolders.compactMap({ FoldersDataManager.shared.getFolder(for: $0) }).contains(where: { $0.name == "\(name) \(counter)" }) {
-                counter += 1
-            }
-            name += " \(counter)"
-        }
-        builtin.name = name
+        // remove any folder with a conflicting name
+        root.subfolders.removeAll(where: { FoldersDataManager.shared.getFolder(for: $0)?.name == builtin.name })
 
         let file = VocabFolder(name: builtin.name, subfolders: builtin.folders.map({ $0.id }), vocab: [])
         for folder in builtin.folders {
