@@ -24,6 +24,7 @@ struct VocabDetailsView: View {
 
 private struct VocabDetailsContentsView: View {
     var vocabID: Vocab.ID
+    var vocab: Vocab
 
     @ObservedObject var vocabDataManager = VocabDataManager.shared
 
@@ -35,22 +36,20 @@ private struct VocabDetailsContentsView: View {
         rawEditMode?.wrappedValue.isEditing ?? false
     }
 
+    init(vocabID: Vocab.ID) {
+        self.vocabID = vocabID
+        self.vocab = VocabDataManager.shared.getVocab(for: vocabID)!
+    }
+
     var body: some View {
-        let vocab = vocabDataManager.getVocab(for: vocabID)!
         Section(vocab.isHCL ? "Higher Chinese" : "") {
             HStack {
                 Spacer()
                 if isEditing {
-                    VStack {
-                        let pinyin = vocab.word.toPinyin()
-                        TextField("", text: vocabDataManager.bindingVocab(for: vocabID).word)
-                            .font(.largeTitle)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                        Text(pinyin)
-                            .font(.subheadline)
-                            .foregroundStyle(Color.additional)
-                    }
+                    TextField("", text: vocabDataManager.bindingVocab(for: vocabID).word)
+                        .font(.largeTitle)
+                        .bold()
+                        .multilineTextAlignment(.center)
                 } else {
                     HStack {
                         Spacer()
