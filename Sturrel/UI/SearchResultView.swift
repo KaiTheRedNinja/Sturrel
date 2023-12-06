@@ -51,7 +51,7 @@ struct SearchResultView: View {
                 }
             }
         }
-        .onChange(of: "\(searchManager.searchText) \(searchManager.searchTokens)") { _, _ in
+        .onChange(of: "\(searchManager.searchText) \(searchManager.searchTokens)") { _ in
             loadQueue.async {
                 let results = searchManager.searchResults()
                 DispatchQueue.main.async {
