@@ -32,11 +32,11 @@ extension Root {
         var changes = [ManifestChange]()
 
         // check for added
-        changes.append(
-            contentsOf: bundleManifest.builtins
-                .filter { !currentManifest.builtins.contains($0) }
-                .map { ManifestChange.added($0) }
-        )
+//        changes.append(
+//            contentsOf: bundleManifest.builtins
+//                .filter { !currentManifest.builtins.contains($0) }
+//                .map { ManifestChange.added($0) }
+//        )
         // check for removed
         changes.append(
             contentsOf: currentManifest.builtins

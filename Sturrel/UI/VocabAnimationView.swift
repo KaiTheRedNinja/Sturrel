@@ -68,12 +68,12 @@ struct VocabAnimationView: View {
     }
 }
 
-#Preview {
-    if #available(iOS 17.0, *) {
-        VocabAnimationView(vocab: .init(word: "早安"))
-            .containerRelativeFrame(.vertical, count: 3, spacing: 0)
-    } else {
-        // Fallback on earlier versions
-        VocabAnimationView(vocab: .init(word: "早安"))
-    }
-}
+//#Preview {
+//    if #available(iOS 17.0, *) {
+//        VocabAnimationView(vocab: .init(word: "早安"))
+//            .containerRelativeFrame(.vertical, count: 3, spacing: 0)
+//    } else {
+//        // Fallback on earlier versions
+//        VocabAnimationView(vocab: .init(word: "早安"))
+//    }
+//}

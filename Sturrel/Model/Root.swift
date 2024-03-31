@@ -38,7 +38,7 @@ enum Root {
 
     static func copyBuiltinFolder(named filename: String) {
         guard var root = FoldersDataManager.shared.getFolder(for: id),
-              var builtin = loadDefaultFolder(named: filename)
+              let builtin = loadDefaultFolder(named: filename)
         else { return }
 
         // remove any folder with a conflicting name
