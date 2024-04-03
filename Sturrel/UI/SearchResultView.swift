@@ -8,6 +8,8 @@
 import SwiftUI
 import SturrelTypes
 import SturrelModel
+import SturrelQuiz
+import SturrelSearch
 
 let loadQueue = DispatchQueue(label: "sturrel.loadQueue")
 

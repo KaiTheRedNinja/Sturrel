@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SturrelThemes
 
 struct ContentView: View {
     @ObservedObject var startManager: StartManager = .shared

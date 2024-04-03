@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SturrelTypes
+import SturrelModel
 import PinYin
 
 public struct SearchResult: Identifiable {

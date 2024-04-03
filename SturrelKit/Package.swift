@@ -17,6 +17,15 @@ let package = Package(
         .library(
             name: "SturrelModel",
             targets: ["SturrelModel"]),
+        .library(
+            name: "SturrelQuiz",
+            targets: ["SturrelQuiz"]),
+        .library(
+            name: "SturrelSearch",
+            targets: ["SturrelSearch"]),
+        .library(
+            name: "SturrelThemes",
+            targets: ["SturrelThemes"]),
 //        .library(
 //            name: "SturrelUIInterface",
 //            targets: ["SturrelUIInterface"]),
@@ -36,7 +45,16 @@ let package = Package(
             name: "PinYin"),
         .target(
             name: "SturrelModel",
+            dependencies: ["SturrelTypes"]),
+        .target(
+            name: "SturrelQuiz",
             dependencies: ["SturrelTypes", "PinYin"]),
+        .target(
+            name: "SturrelSearch",
+            dependencies: ["SturrelTypes", "PinYin", "SturrelModel"]),
+        .target(
+            name: "SturrelThemes",
+            dependencies: ["SturrelTypes"]),
 //        .target(
 //            name: "SturrelUIInterface",
 //            dependencies: ["SturrelTypes"], 

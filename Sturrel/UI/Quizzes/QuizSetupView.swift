@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SturrelTypes
+import SturrelQuiz
 import SturrelModel
 
 class QuizSetupManager: ObservableObject {

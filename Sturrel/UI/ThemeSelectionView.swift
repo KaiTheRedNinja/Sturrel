@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import SturrelModel
+import SturrelThemes
 
 struct ThemeSelectionView: View {
     @ObservedObject var themeManager: ThemeManager = .shared
