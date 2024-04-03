@@ -13,7 +13,7 @@ struct DragAndMatchQuiz: View {
 
     @State var loadedQuestions: [Question] = []
 
-    var body: some View {
+    public var body: some View {
         VStack {
             if quizManager.inPlay {
                 VStack {

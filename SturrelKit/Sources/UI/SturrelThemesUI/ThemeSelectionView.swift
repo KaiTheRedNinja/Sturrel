@@ -8,10 +8,10 @@
 import SwiftUI
 import SturrelThemes
 
-struct ThemeSelectionView: View {
+public struct ThemeSelectionView: View {
     @ObservedObject var themeManager: ThemeManager = .shared
 
-    var body: some View {
+    public var body: some View {
         ForEach(themeManager.builtinThemes) { theme in
             Button {
                 themeManager.currentTheme = theme

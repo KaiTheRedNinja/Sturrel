@@ -8,11 +8,16 @@
 import SwiftUI
 import SturrelTypes
 import SturrelVocab
+import SturrelThemesUI
 
-struct VocabDetailsView: View {
-    var vocabID: Vocab.ID
+public struct VocabDetailsView: View {
+    public var vocabID: Vocab.ID
 
-    var body: some View {
+    public init(vocabID: Vocab.ID) {
+        self.vocabID = vocabID
+    }
+
+    public var body: some View {
         ThemedList {
             VocabDetailsContentsView(vocabID: vocabID)
         }

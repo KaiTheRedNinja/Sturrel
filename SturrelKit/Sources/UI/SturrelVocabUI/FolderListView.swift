@@ -10,8 +10,11 @@ import SturrelTypes
 import SturrelQuiz
 import SturrelVocab
 import SturrelSearch
+import SturrelSearchUI
+import SturrelThemesUI
+import SturrelQuizUI
 
-struct FolderListView: View {
+public struct FolderListView: View {
     var folderID: VocabFolder.ID
 
     var isTopLevel: Bool = false
@@ -25,12 +28,12 @@ struct FolderListView: View {
     @ObservedObject var vocabDataManager: VocabDataManager = .shared
     @ObservedObject var searchManager: SearchManager = .shared
 
-    init(folderID: VocabFolder.ID, isTopLevel: Bool = false) {
+    public init(folderID: VocabFolder.ID, isTopLevel: Bool = false) {
         self.folderID = folderID
         self.isTopLevel = isTopLevel
     }
 
-    var body: some View {
+    public var body: some View {
         VStack {
             if searchManager.searchText.isEmpty {
                 if let folder = folderDataManager.getFolder(for: folderID) {

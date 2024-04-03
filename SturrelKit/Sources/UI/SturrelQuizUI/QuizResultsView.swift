@@ -8,23 +8,29 @@
 import SwiftUI
 import SturrelTypes
 import SturrelQuiz
+import SturrelThemesUI
 
-struct QuizResultsView: View {
+public struct QuizResultsView: View {
     @ObservedObject var quizManager: QuizManager
 
     @State var questionSortMode: QuestionSortMode = .all
 
     @Environment(\.presentationMode) var presentationMode
 
-    enum QuestionSortMode: String, CaseIterable, Identifiable {
+    public init(quizManager: QuizManager, questionSortMode: QuestionSortMode = .all) {
+        self.quizManager = quizManager
+        self.questionSortMode = questionSortMode
+    }
+
+    public enum QuestionSortMode: String, CaseIterable, Identifiable {
         case all
         case correct
         case incorrect
 
-        var id: String { self.rawValue }
+        public var id: String { self.rawValue }
     }
 
-    var body: some View {
+    public var body: some View {
         ThemedList {
             let distribution = [Question:[QuestionAttempt]].init(grouping: quizManager.attempts) { $0.question }
 

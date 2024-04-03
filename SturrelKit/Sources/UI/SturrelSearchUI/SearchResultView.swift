@@ -10,17 +10,20 @@ import SturrelTypes
 import SturrelVocab
 import SturrelQuiz
 import SturrelSearch
+import SturrelThemesUI
 
 let loadQueue = DispatchQueue(label: "sturrel.loadQueue")
 
-struct SearchResultView: View {
+public struct SearchResultView: View {
     @EnvironmentObject var searchManager: SearchManager
     @ObservedObject var folderDataManager: FoldersDataManager = .shared
     @ObservedObject var vocabDataManager: VocabDataManager = .shared
 
     @State var results: [SearchResult] = []
 
-    var body: some View {
+    public init() {}
+
+    public var body: some View {
         ThemedList {
             ForEach(results) { result in
                 switch result.result {

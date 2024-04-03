@@ -9,7 +9,7 @@ import SwiftUI
 import SturrelTypes
 import SturrelVocab
 
-struct NewFolderView: View {
+public struct NewFolderView: View {
     var targetFolderID: VocabFolder.ID
     @State var prototypeNewFolderID: VocabFolder.ID!
 
@@ -17,11 +17,11 @@ struct NewFolderView: View {
 
     @Environment(\.presentationMode) var presentationMode
 
-    init(targetFolderID: VocabFolder.ID) {
+    public init(targetFolderID: VocabFolder.ID) {
         self.targetFolderID = targetFolderID
     }
 
-    var body: some View {
+    public var body: some View {
         NavigationStack {
             if let prototypeNewFolderID {
                 FolderListView(folderID: prototypeNewFolderID)

@@ -8,14 +8,17 @@
 import SwiftUI
 import SturrelTypes
 import SturrelVocab
+import SturrelThemesUI
 
-struct StartView: View {
+public struct StartView: View {
     @State var includedFolders: Set<String> = Set(Root.manifest.builtins)
 
     @State var isLoading: Bool = false
     @State var loaded: Int = 0
 
-    var body: some View {
+    public init() {}
+
+    public var body: some View {
         ThemedList {
             Section {
                 HStack {

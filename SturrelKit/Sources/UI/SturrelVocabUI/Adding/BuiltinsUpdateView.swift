@@ -8,11 +8,16 @@
 import SwiftUI
 import SturrelTypes
 import SturrelVocab
+import SturrelThemesUI
 
-struct BuiltinsUpdateView: View {
+public struct BuiltinsUpdateView: View {
     @State var changes: [(ManifestChange, Bool)]
 
-    var body: some View {
+    public init(changes: [(ManifestChange, Bool)]) {
+        self.changes = changes
+    }
+
+    public var body: some View {
         ThemedList {
             Section {
                 HStack {

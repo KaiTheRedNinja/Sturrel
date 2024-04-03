@@ -8,10 +8,14 @@
 import SwiftUI
 import SturrelQuiz
 
-struct QuizInfoView: View {
+public struct QuizInfoView: View {
     @ObservedObject var quizManager: QuizManager
 
-    var body: some View {
+    public init(quizManager: QuizManager) {
+        self.quizManager = quizManager
+    }
+
+    public var body: some View {
         HStack {
             ForEach(QuizStat.allCases) { stat in
                 if quizManager.statsToShow.contains(stat) {

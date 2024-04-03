@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import PinYin
 import SturrelTypes
 import SturrelQuiz
 import SturrelVocab
+import SturrelThemesUI
 
 class QuizSetupManager: ObservableObject {
     @Published var questionType: QAType = .hanzi
@@ -89,7 +91,7 @@ enum QuizExtent: CaseIterable, Hashable, Identifiable {
     var id: String { description }
 }
 
-struct QuizSetupView: View {
+public struct QuizSetupView: View {
     @ObservedObject var setupManager: QuizSetupManager
 
     @Environment(\.presentationMode) var presentationMode
@@ -97,13 +99,13 @@ struct QuizSetupView: View {
     var folder: VocabFolder
     var quiz: Quiz
 
-    init(folder: VocabFolder, quiz: Quiz) {
+    public init(folder: VocabFolder, quiz: Quiz) {
         self.setupManager = .init(folder: folder)
         self.folder = folder
         self.quiz = quiz
     }
 
-    var body: some View {
+    public var body: some View {
         ThemedList {
             Section {
                 HStack {

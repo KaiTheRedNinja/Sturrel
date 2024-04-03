@@ -8,10 +8,12 @@
 import SwiftUI
 import SturrelVocab
 
-struct SettingsView: View {
+public struct SettingsView: View {
     @State var showResetConfirm: Bool = false
 
-    var body: some View {
+    public init() {}
+
+    public var body: some View {
         ThemedList {
             Section {
                 Button("Reset All Vocab", role: .destructive) {

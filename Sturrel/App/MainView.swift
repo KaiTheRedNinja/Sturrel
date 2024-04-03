@@ -8,20 +8,7 @@
 import SwiftUI
 import SturrelTypes
 import SturrelVocab
-
-class StartManager: ObservableObject {
-    static let shared: StartManager = .init()
-
-    private init() {}
-
-    @Published var shown: Bool = false
-    @Published var changes: ManifestChangeReport?
-
-    struct ManifestChangeReport: Identifiable {
-        var id = UUID()
-        var changes: [ManifestChange]
-    }
-}
+import SturrelVocabUI
 
 struct MainView: View {
     var body: some View {

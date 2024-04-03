@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ThemedList<Content: View>: View {
+public struct ThemedList<Content: View>: View {
     var content: () -> Content
 
-    init(@ViewBuilder content: @escaping () -> Content) {
+    public init(@ViewBuilder content: @escaping () -> Content) {
         self.content = content
     }
 
-    var body: some View {
+    public var body: some View {
         List {
             content()
                 .listRowBackground(Color.listItem)

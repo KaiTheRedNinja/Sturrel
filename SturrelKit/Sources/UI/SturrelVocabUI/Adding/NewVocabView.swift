@@ -9,7 +9,7 @@ import SwiftUI
 import SturrelTypes
 import SturrelVocab
 
-struct NewVocabView: View {
+public struct NewVocabView: View {
     var targetFolderID: VocabFolder.ID
     @State var prototypeNewVocabID: Vocab.ID!
 
@@ -17,11 +17,11 @@ struct NewVocabView: View {
 
     @ObservedObject var vocabDataManager: VocabDataManager = .shared
 
-    init(targetFolderID: VocabFolder.ID) {
+    public init(targetFolderID: VocabFolder.ID) {
         self.targetFolderID = targetFolderID
     }
 
-    var body: some View {
+    public var body: some View {
         NavigationStack {
             if let prototypeNewVocabID {
                 VocabDetailsView(vocabID: prototypeNewVocabID)

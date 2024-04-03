@@ -26,25 +26,29 @@ let package = Package(
         .library(
             name: "SturrelThemes",
             targets: ["SturrelThemes"]),
-//        .library(
-//            name: "SturrelUIInterface",
-//            targets: ["SturrelUIInterface"]),
-//        .library(
-//            name: "SturrelUI",
-//            targets: ["SturrelUI"]),
-//        .library(
-//            name: "SturrelUIViewModel",
-//            targets: ["SturrelUIViewModel"]),
+        .library(
+            name: "SturrelVocabUI",
+            targets: ["SturrelVocabUI"]),
+        .library(
+            name: "SturrelQuizUI",
+            targets: ["SturrelQuizUI"]),
+        .library(
+            name: "SturrelThemesUI",
+            targets: ["SturrelThemesUI"]),
+        .library(
+            name: "SturrelSearchUI",
+            targets: ["SturrelSearchUI"])
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
+        // Base
         .target(
             name: "SturrelTypes",
             path: "Sources/Base/SturrelTypes"),
         .target(
             name: "PinYin",
             path: "Sources/Base/PinYin"),
+
+        // Model
         .target(
             name: "SturrelVocab",
             dependencies: ["SturrelTypes"],
@@ -61,18 +65,26 @@ let package = Package(
             name: "SturrelThemes",
             dependencies: ["SturrelTypes"],
             path: "Sources/Model/SturrelThemes"),
-//        .target(
-//            name: "SturrelUIInterface",
-//            dependencies: ["SturrelTypes"], 
-//            path: "UI/SturrelUIInterface"),
-//        .target(
-//            name: "SturrelUI",
-//            dependencies: ["SturrelTypes", "SturrelUIInterface"], 
-//            path: "UI/SturrelUI"),
-//        .target(
-//            name: "SturrelUIViewModels",
-//            dependencies: ["SturrelTypes", "SturrelUIInterface"], 
-//            path: "UI/SturrelUIViewModels"),
+
+        // UI
+        .target(
+            name: "SturrelVocabUI",
+            dependencies: ["SturrelTypes", "SturrelVocab", "SturrelSearchUI", "SturrelQuizUI", "SturrelThemesUI"],
+            path: "Sources/UI/SturrelVocabUI"),
+        .target(
+            name: "SturrelQuizUI",
+            dependencies: ["SturrelTypes", "SturrelQuiz", "SturrelThemesUI"],
+            path: "Sources/UI/SturrelQuizUI"),
+        .target(
+            name: "SturrelThemesUI",
+            dependencies: ["SturrelTypes", "SturrelThemes"],
+            path: "Sources/UI/SturrelThemesUI"),
+        .target(
+            name: "SturrelSearchUI",
+            dependencies: ["SturrelTypes", "SturrelSearch", "SturrelThemesUI"],
+            path: "Sources/UI/SturrelSearchUI"),
+
+        // Tests
         .testTarget(
             name: "SturrelKitTests")
     ]
