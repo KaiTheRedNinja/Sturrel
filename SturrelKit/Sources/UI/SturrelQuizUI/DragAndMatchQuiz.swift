@@ -52,6 +52,17 @@ struct DragAndMatchQuiz: View {
             }
             .padding(.vertical, 5)
             Color.clear
+                .overlay {
+                    VStack {
+                        Image(systemName: "arrow.left")
+                            .font(.title3)
+                        Text("Long hold and drag")
+                            .font(.subheadline)
+                            .multilineTextAlignment(.center)
+                    }
+                    .bold()
+                    .foregroundStyle(Color.gray.opacity(0.5))
+                }
             VStack {
                 ForEach(loadedQuestions.shuffled()) { question in
                     RoundedRectangle(cornerRadius: 25)
