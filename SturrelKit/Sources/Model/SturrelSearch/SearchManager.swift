@@ -10,25 +10,6 @@ import SturrelTypes
 import SturrelVocab
 import PinYin
 
-public struct SearchResult: Identifiable {
-    /// An array representing the steps, where the first item is the direct parent of the result, and
-    /// the last item is a direct child of Root
-    public var steps: [UUID]
-
-    /// The ID of the actual result
-    public var result: FolderOrVocabID
-
-    public var id: UUID {
-        result.id
-    }
-
-    public func adding(parent: UUID) -> SearchResult {
-        var mutableSelf = self
-        mutableSelf.steps.append(parent)
-        return mutableSelf
-    }
-}
-
 public class SearchManager: ObservableObject {
     public static let shared = SearchManager()
 
@@ -81,11 +62,4 @@ public class SearchManager: ObservableObject {
         let pinyin = vocab.word.toPinyin(indicateTone: false)
         return word.contains(search) || pinyin.contains(search)
     }
-}
-
-public enum SearchToken: String, Identifiable, CaseIterable {
-    public var id: String { rawValue }
-
-    case folders = "Folders"
-    case vocab = "Vocab"
 }
