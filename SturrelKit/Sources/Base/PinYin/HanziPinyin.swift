@@ -58,27 +58,17 @@ internal struct HanziPinyin {
     }
 
     func initializeResource() -> [String: String] {
-        let resourceBundle = podResourceBundle ?? Bundle(for: EmptyClass.self)
-        guard let resourcePath = resourceBundle.path(forResource: "unicode_to_hanyu_pinyin", ofType: "txt") else {
-            return [:]
-        }
+        let textComponents = unicode_to_hanyu_pinyin.components(separatedBy: "\n")
 
-        do {
-            let unicodeToPinyinText = try String(contentsOf: URL(fileURLWithPath: resourcePath))
-            let textComponents = unicodeToPinyinText.components(separatedBy: "\r\n")
-
-            var pinyinTable = [String: String]()
-            for pinyin in textComponents {
-                let components = pinyin.components(separatedBy: .whitespaces)
-                guard components.count > 1 else {
-                    continue
-                }
-                pinyinTable.updateValue(components[1], forKey: components[0])
+        var pinyinTable = [String: String]()
+        for pinyin in textComponents {
+            let components = pinyin.components(separatedBy: .whitespaces)
+            guard components.count > 1 else {
+                continue
             }
-
-            return pinyinTable
-        } catch _ {
-            return [:]
+            pinyinTable.updateValue(components[1], forKey: components[0])
         }
+
+        return pinyinTable
     }
 }

@@ -38,7 +38,7 @@ public class ThemeManager: ObservableObject {
             id: UUID(uuidString: "2D7956DF-18C3-43FC-8F9A-5AE329004536")!,
             name: "Forest",
             backgroundColor: .green.opacity(0.2),
-            listItemColor: .green.opacity(0.6),
+            listItemColor: .green.opacity(0.2),
             foregroundColor: .primary,
             detailColor: .brown
         ),
