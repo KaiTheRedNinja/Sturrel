@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import SturrelTypes
+import SturrelModel
 
 let loadQueue = DispatchQueue(label: "sturrel.loadQueue")
 

@@ -6,9 +6,10 @@
 //
 
 import SwiftUI
+import SturrelTypes
 
-final class VocabDataManager: ObservableObject {
-    static var shared: VocabDataManager = .init()
+public final class VocabDataManager: ObservableObject {
+    public static var shared: VocabDataManager = .init()
 
     private init() {
         guard FileSystem.exists(file: .vocabs) else { return }
@@ -17,12 +18,12 @@ final class VocabDataManager: ObservableObject {
 
     @Published private var vocabs: [Vocab.ID: Vocab] = [:]
 
-    func getVocab(for id: Vocab.ID) -> Vocab? {
+    public func getVocab(for id: Vocab.ID) -> Vocab? {
         return vocabs[id]
     }
 
-    var lastCall: Date = .now
-    func saveVocab(_ vocab: Vocab) {
+    public var lastCall: Date = .now
+    public func saveVocab(_ vocab: Vocab) {
         vocabs[vocab.id] = vocab
 
         let now = Date.now
@@ -34,7 +35,7 @@ final class VocabDataManager: ObservableObject {
         }
     }
 
-    func bindingVocab(for id: Vocab.ID) -> Binding<Vocab> {
+    public func bindingVocab(for id: Vocab.ID) -> Binding<Vocab> {
         .init {
             self.getVocab(for: id) ?? .init(id: id, word: "Untitled")
         } set: { newValue in
@@ -42,17 +43,17 @@ final class VocabDataManager: ObservableObject {
         }
     }
 
-    func removeVocab(_ id: Vocab.ID) {
+    public func removeVocab(_ id: Vocab.ID) {
         vocabs.removeValue(forKey: id)
         save()
     }
 
-    func removeAll() {
+    public func removeAll() {
         vocabs = [:]
         save()
     }
 
-    func save() {
+    public func save() {
         FileSystem.write(vocabs, to: .vocabs)
     }
 }

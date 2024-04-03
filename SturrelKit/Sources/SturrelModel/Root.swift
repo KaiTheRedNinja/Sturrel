@@ -6,19 +6,20 @@
 //
 
 import Foundation
+import SturrelTypes
 
-enum Root {
-    static private(set) var id: VocabFolder.ID!
+public enum Root {
+    public static private(set) var id: VocabFolder.ID!
 
-    static var manifest: Manifest = {
+    public static var manifest: Manifest = {
         Self.getManifest()
     }()
 
-    enum RootError: Error {
+    public enum RootError: Error {
         case rootNotFound
     }
 
-    static func load() throws {
+    public static func load() throws {
         if FileSystem.exists(file: .root), let root = FileSystem.read(VocabFolder.self, from: .root) {
             id = root.id
             FoldersDataManager.shared.saveFolder(root)
@@ -30,13 +31,13 @@ enum Root {
         }
     }
 
-    static func save() {
+    public static func save() {
         guard let root = FoldersDataManager.shared.getFolder(for: id) else { return }
         FileSystem.write(root, to: .root)
         FileSystem.write(manifest, to: .manifest)
     }
 
-    static func copyBuiltinFolder(named filename: String) {
+    public static func copyBuiltinFolder(named filename: String) {
         guard var root = FoldersDataManager.shared.getFolder(for: id),
               let builtin = loadDefaultFolder(named: filename)
         else { return }
@@ -71,7 +72,7 @@ enum Root {
     }
 }
 
-struct DefaultFolder: Codable {
+public struct DefaultFolder: Codable {
     var name: String
     var folders: [VocabFolder]
     var vocab: [Vocab]

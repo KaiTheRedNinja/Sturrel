@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import SturrelTypes
+import SturrelModel
 
 struct StartView: View {
     @State var includedFolders: Set<String> = Set(Root.manifest.builtins)

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SturrelTypes
 
 struct VocabAnimationView: View {
     var vocab: Vocab

@@ -6,15 +6,16 @@
 //
 
 import SwiftUI
+import SturrelTypes
 
-final class FoldersDataManager: ObservableObject {
-    static var shared: FoldersDataManager = .init()
+public final class FoldersDataManager: ObservableObject {
+    public static var shared: FoldersDataManager = .init()
 
     private init() {}
 
     @Published private var folders: [VocabFolder.ID: VocabFolder] = [:]
 
-    func getFolder(for id: VocabFolder.ID) -> VocabFolder? {
+    public func getFolder(for id: VocabFolder.ID) -> VocabFolder? {
         if let folder = self.folders[id] {
             return folder
         } else if let folder = self.loadCustomFolder(id: id) {
@@ -26,7 +27,7 @@ final class FoldersDataManager: ObservableObject {
         return nil
     }
 
-    func saveFolder(_ folder: VocabFolder) {
+    public func saveFolder(_ folder: VocabFolder) {
         folders[folder.id] = folder
 
         if folder.id == Root.id {
@@ -36,13 +37,13 @@ final class FoldersDataManager: ObservableObject {
         }
     }
 
-    func removeFolder(_ id: VocabFolder.ID) {
+    public func removeFolder(_ id: VocabFolder.ID) {
         folders.removeValue(forKey: id)
         FileSystem.remove(file: .customFolder(id))
     }
 
     /// Creates a binding to a folder. The binding will create the folder if needed.
-    func bindingFolder(for id: VocabFolder.ID) -> Binding<VocabFolder> {
+    public func bindingFolder(for id: VocabFolder.ID) -> Binding<VocabFolder> {
         return .init {
             self.getFolder(for: id) ?? .init(id: id, name: "Folder", subfolders: [], vocab: [])
         } set: { newValue in
@@ -50,13 +51,13 @@ final class FoldersDataManager: ObservableObject {
         }
     }
 
-    func save() {
+    public func save() {
         for (id, folder) in folders where id != Root.id {
             FileSystem.write(folder, to: .customFolder(id))
         }
     }
 
-    func removeAll() {
+    public func removeAll() {
         for folder in folders.keys {
             removeFolder(folder)
         }

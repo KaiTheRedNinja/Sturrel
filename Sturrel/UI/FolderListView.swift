@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import SturrelTypes
+import SturrelModel
 
 struct FolderListView: View {
     var folderID: VocabFolder.ID

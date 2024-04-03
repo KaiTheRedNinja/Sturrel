@@ -6,39 +6,40 @@
 //
 
 import SwiftUI
+import SturrelTypes
 
-enum Quiz: CaseIterable, Identifiable, Hashable {
+public enum Quiz: CaseIterable, Identifiable, Hashable {
     case dragAndMatch
     //    case memoryCards
     //    case qna
     //    case flashCards
 
-    var description: String {
+    public var description: String {
         switch self {
         case .dragAndMatch:
             "Drag and Match"
         }
     }
 
-    var id: String { description }
+    public var id: String { description }
 }
 
-class QuizManager: ObservableObject {
+public class QuizManager: ObservableObject {
     /// Which stats to show in the stat screen
-    var statsToShow: Set<QuizStat>
+    public var statsToShow: Set<QuizStat>
 
     /// The questions for the quiz view
-    @Published private(set) var questions: [Question]
-    @Published private(set) var questionIndex: Int
+    @Published public private(set) var questions: [Question]
+    @Published public private(set) var questionIndex: Int
 
     /// The attempts to solve the question
     /// From this, you can get the total questions answered, the number of wrong answers, and right answers.
-    @Published private(set) var attempts: [QuestionAttempt] = []
+    @Published public private(set) var attempts: [QuestionAttempt] = []
 
     /// If the game is currently playing
-    @Published var inPlay: Bool = true
+    @Published public var inPlay: Bool = true
 
-    init(
+    public init(
         statsToShow: Set<QuizStat>,
         questions: [Question],
         attempts: [QuestionAttempt] = []
@@ -49,7 +50,7 @@ class QuizManager: ObservableObject {
         self.attempts = attempts
     }
 
-    func nextQuestion() -> Question? {
+    public func nextQuestion() -> Question? {
         guard questions.count > questionIndex else { return nil }
         defer {
             questionIndex += 1
@@ -57,11 +58,11 @@ class QuizManager: ObservableObject {
         return questions[questionIndex]
     }
 
-    func makeAttempt(_ attempt: QuestionAttempt) {
+    public func makeAttempt(_ attempt: QuestionAttempt) {
         attempts.append(attempt)
     }
 
-    subscript (_ stat: QuizStat) -> Int {
+    public subscript (_ stat: QuizStat) -> Int {
         switch stat {
         case .total:
             questions.count
@@ -76,33 +77,46 @@ class QuizManager: ObservableObject {
         }
     }
 
-    func restart() {
+    public func restart() {
         questionIndex = 0
         attempts = []
         inPlay = true
     }
 }
 
-struct Question: Identifiable, Hashable {
-    var id = UUID()
+public struct Question: Identifiable, Hashable {
+    public var id = UUID()
 
-    var associatedVocab: Vocab.ID
-    var question: String
-    var answer: String
-}
+    public var associatedVocab: Vocab.ID
+    public var question: String
+    public var answer: String
 
-struct QuestionAttempt: Identifiable, Hashable {
-    var id = UUID()
-
-    var question: Question
-    var givenAnswer: String
-
-    var isCorrect: Bool {
-        givenAnswer == question.answer
+    public init(id: UUID = UUID(), associatedVocab: Vocab.ID, question: String, answer: String) {
+        self.id = id
+        self.associatedVocab = associatedVocab
+        self.question = question
+        self.answer = answer
     }
 }
 
-enum QuizStat: String, CaseIterable, Identifiable {
+public struct QuestionAttempt: Identifiable, Hashable {
+    public var id = UUID()
+
+    public var question: Question
+    public var givenAnswer: String
+
+    public var isCorrect: Bool {
+        givenAnswer == question.answer
+    }
+
+    public init(id: UUID = UUID(), question: Question, givenAnswer: String) {
+        self.id = id
+        self.question = question
+        self.givenAnswer = givenAnswer
+    }
+}
+
+public enum QuizStat: String, CaseIterable, Identifiable {
     /// The number of questions in the quiz
     case total = "Total"
     /// The number of questions completed in the quiz
@@ -114,10 +128,10 @@ enum QuizStat: String, CaseIterable, Identifiable {
     /// How many correct answers were given
     case correct = "Correct"
 
-    var id: String { self.rawValue }
+    public var id: String { self.rawValue }
 
     /// The colors for each stat, used in the stats view of ``QuizProtocolView``
-    static let colors: [QuizStat: Color] = [
+    public static let colors: [QuizStat: Color] = [
         .total: Color.orange,
         .completed: Color.indigo,
         .remaining: Color.cyan,
@@ -126,7 +140,7 @@ enum QuizStat: String, CaseIterable, Identifiable {
     ]
 
     /// The color for the `Stat`, which redirects to the ``colors`` static property of `Stat`.
-    var color: Color {
+    public var color: Color {
         QuizStat.colors[self] ?? Color.clear
     }
 }

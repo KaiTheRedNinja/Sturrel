@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import SturrelTypes
 
-extension Root {
+public extension Root {
     internal static func getManifest() -> Manifest {
         FileSystem.read(Manifest.self, from: .manifest) ?? .zero
     }
@@ -65,20 +66,20 @@ extension Root {
     // TODO: get the difference between the builtins
 }
 
-struct Manifest: Codable {
-    typealias Version = UInt8
+public struct Manifest: Codable {
+    public typealias Version = UInt8
 
-    var builtins: [String]
-    var entries: [String: Version]
+    public var builtins: [String]
+    public var entries: [String: Version]
 
-    init(builtins: [String], entries: [String : Version]) {
+    public init(builtins: [String], entries: [String : Version]) {
         self.builtins = builtins
         self.entries = entries
         assert(entries.count == builtins.count, "builtins and entries must contain the same number of items")
         assert(Set(entries.keys) == Set(builtins), "all builtins must have entries keys")
     }
 
-    init(from decoder: Decoder) throws {
+    public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.builtins = try container.decode([String].self, forKey: .builtins)
         self.entries = try container.decode([String : Manifest.Version].self, forKey: .entries)
@@ -86,7 +87,7 @@ struct Manifest: Codable {
         assert(Set(entries.keys) == Set(builtins), "all builtins must have entries keys")
     }
 
-    static var zero: Manifest {
+    public static var zero: Manifest {
         let items = ["P1", "P2", "P3", "P4", "P5", "P6", "S1", "S2", "S3"]
         return .init(
             builtins: items,
@@ -95,8 +96,8 @@ struct Manifest: Codable {
     }
 }
 
-enum ManifestChange: Identifiable {
-    var id: String {
+public enum ManifestChange: Identifiable {
+    public var id: String {
         switch self {
         case .added(let string): "added_\(string)"
         case .updated(let string): "updated_\(string)"
@@ -108,7 +109,7 @@ enum ManifestChange: Identifiable {
     case updated(String)
     case removed(String)
 
-    var description: String {
+    public var description: String {
         switch self {
         case .added(let string): "Added: \(string)"
         case .updated(let string): "Updated: \(string)"
@@ -116,7 +117,7 @@ enum ManifestChange: Identifiable {
         }
     }
 
-    var folder: String {
+    public var folder: String {
         switch self {
         case .added(let string): string
         case .updated(let string): string

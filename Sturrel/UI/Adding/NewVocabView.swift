@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import SturrelTypes
+import SturrelModel
 
 struct NewVocabView: View {
     var targetFolderID: VocabFolder.ID

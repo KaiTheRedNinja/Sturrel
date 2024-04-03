@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import SturrelTypes
+import SturrelModel
 
 struct QuizResultsView: View {
     @ObservedObject var quizManager: QuizManager

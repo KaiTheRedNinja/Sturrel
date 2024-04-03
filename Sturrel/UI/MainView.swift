@@ -6,18 +6,8 @@
 //
 
 import SwiftUI
-
-enum FolderOrVocabID: Identifiable, Hashable {
-    case folder(UUID)
-    case vocab(UUID)
-
-    var id: UUID {
-        switch self {
-        case .folder(let uUID): uUID
-        case .vocab(let uUID): uUID
-        }
-    }
-}
+import SturrelTypes
+import SturrelModel
 
 class StartManager: ObservableObject {
     static let shared: StartManager = .init()

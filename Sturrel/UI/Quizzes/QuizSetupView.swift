@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import SturrelTypes
+import SturrelModel
 
 class QuizSetupManager: ObservableObject {
     @Published var questionType: QAType = .hanzi
@@ -191,6 +193,12 @@ struct QuizSetupView: View {
                 }
             }
         }
+    }
+}
+
+extension VocabFolder {
+    public func flatVocab() -> [Vocab.ID] {
+        self.vocab + subfolders.compactMap({ FoldersDataManager.shared.getFolder(for: $0)?.flatVocab() }).flatMap({ $0 })
     }
 }
 

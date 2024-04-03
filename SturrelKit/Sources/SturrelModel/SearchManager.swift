@@ -6,41 +6,43 @@
 //
 
 import SwiftUI
+import SturrelTypes
+import PinYin
 
-struct SearchResult: Identifiable {
+public struct SearchResult: Identifiable {
     /// An array representing the steps, where the first item is the direct parent of the result, and
     /// the last item is a direct child of Root
-    var steps: [UUID]
+    public var steps: [UUID]
 
     /// The ID of the actual result
-    var result: FolderOrVocabID
+    public var result: FolderOrVocabID
 
-    var id: UUID {
+    public var id: UUID {
         result.id
     }
 
-    func adding(parent: UUID) -> SearchResult {
+    public func adding(parent: UUID) -> SearchResult {
         var mutableSelf = self
         mutableSelf.steps.append(parent)
         return mutableSelf
     }
 }
 
-class SearchManager: ObservableObject {
-    static let shared = SearchManager()
+public class SearchManager: ObservableObject {
+    public static let shared = SearchManager()
 
     private init() {}
 
-    @Published var searchTokens: Set<SearchToken> = .init([.folders, .vocab])
-    @Published var searchText: String = ""
-    @Published var showFlat: Bool = false
+    @Published public var searchTokens: Set<SearchToken> = .init([.folders, .vocab])
+    @Published public var searchText: String = ""
+    @Published public var showFlat: Bool = false
 
-    func searchResults() -> [SearchResult] {
+    public func searchResults() -> [SearchResult] {
         guard !searchText.isEmpty else { return [] }
         return searchResultsWithin(folderID: Root.id, for: searchText.lowercased())
     }
 
-    func searchResultsWithin(folderID: VocabFolder.ID, for search: String) -> [SearchResult] {
+    public func searchResultsWithin(folderID: VocabFolder.ID, for search: String) -> [SearchResult] {
         guard let folder = FoldersDataManager.shared.getFolder(for: folderID) else { return [] }
         var results: [SearchResult] = []
 
@@ -80,8 +82,8 @@ class SearchManager: ObservableObject {
     }
 }
 
-enum SearchToken: String, Identifiable, CaseIterable {
-    var id: String { rawValue }
+public enum SearchToken: String, Identifiable, CaseIterable {
+    public var id: String { rawValue }
 
     case folders = "Folders"
     case vocab = "Vocab"

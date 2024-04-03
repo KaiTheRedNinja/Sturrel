@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SturrelModel
 
 struct DragAndMatchQuiz: View {
     @ObservedObject var quizManager: QuizManager

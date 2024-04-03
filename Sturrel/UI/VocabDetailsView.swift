@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import SturrelTypes
+import SturrelModel
 
 struct VocabDetailsView: View {
     var vocabID: Vocab.ID

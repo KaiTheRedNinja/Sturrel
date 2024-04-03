@@ -6,18 +6,19 @@
 //
 
 import SwiftUI
+import SturrelTypes
 
-struct SturrelTheme: Identifiable, Codable, Hashable {
-    var id = UUID()
+public struct SturrelTheme: Identifiable, Codable, Hashable {
+    public var id = UUID()
 
-    var name: String
+    public var name: String
 
-    var backgroundColor: Color
-    var listItemColor: Color
-    var foregroundColor: Color
-    var detailColor: Color
+    public var backgroundColor: Color
+    public var listItemColor: Color
+    public var foregroundColor: Color
+    public var detailColor: Color
 
-    var colors: [Color] {
+    public var colors: [Color] {
         [
             backgroundColor,
             listItemColor,
@@ -27,8 +28,8 @@ struct SturrelTheme: Identifiable, Codable, Hashable {
     }
 }
 
-class ThemeManager: ObservableObject {
-    @Published var currentTheme: SturrelTheme {
+public class ThemeManager: ObservableObject {
+    @Published public var currentTheme: SturrelTheme {
         didSet {
             DispatchQueue.main.async { [weak self] in
                 UserDefaults.standard.setValue(self?.currentTheme.id.uuidString, forKey: "current_theme")
@@ -36,7 +37,7 @@ class ThemeManager: ObservableObject {
         }
     }
 
-    var builtinThemes: [SturrelTheme] = [
+    public var builtinThemes: [SturrelTheme] = [
         .init(
             id: UUID(uuidString: "E7FBE9AA-C413-4AD1-83DE-E19B84C579AA")!,
             name: "iOS Native",
@@ -71,7 +72,7 @@ class ThemeManager: ObservableObject {
         )
     ]
 
-    static let shared: ThemeManager = .init()
+    public static let shared: ThemeManager = .init()
     private init() {
 //        guard let path = Bundle.main.path(forResource: "defaultThemes", ofType: "json") else { fatalError("No themes found") }
 //        do {
@@ -94,8 +95,8 @@ class ThemeManager: ObservableObject {
     }
 }
 
-struct ThemeModifier: ViewModifier {
-    func body(content: Content) -> some View {
+public struct ThemeModifier: ViewModifier {
+    public func body(content: Content) -> some View {
         content
             .background {
                 Color.background
@@ -109,30 +110,30 @@ struct ThemeModifier: ViewModifier {
     }
 }
 
-extension View {
-    func themed() -> some View {
+public extension View {
+    public func themed() -> some View {
         self.modifier(ThemeModifier())
     }
 }
 
-struct ThemeColor: View, ShapeStyle {
-    @ObservedObject var themeManager: ThemeManager = .shared
+public struct ThemeColor: View, ShapeStyle {
+    @ObservedObject public var themeManager: ThemeManager = .shared
 
-    var role: Role
+    public var role: Role
 
-    enum Role {
+    public enum Role {
         case backgroundColor, listItemColor, foregroundColor, detailColor, additionalColor
     }
 
-    var body: Color {
+    public var body: Color {
         color
     }
 
-    func resolve(in environment: EnvironmentValues) -> Color {
+    public func resolve(in environment: EnvironmentValues) -> Color {
         color
     }
 
-    var color: Color {
+    public var color: Color {
         switch role {
         case .backgroundColor:
             themeManager.currentTheme.backgroundColor
@@ -147,14 +148,14 @@ struct ThemeColor: View, ShapeStyle {
         }
     }
 
-    static let background = ThemeColor(role: .backgroundColor)
-    static let listItem = ThemeColor(role: .listItemColor)
-    static let foreground = ThemeColor(role: .foregroundColor)
-    static let detail = ThemeColor(role: .detailColor)
-    static let additional = ThemeColor(role: .additionalColor)
+    public static let background = ThemeColor(role: .backgroundColor)
+    public static let listItem = ThemeColor(role: .listItemColor)
+    public static let foreground = ThemeColor(role: .foregroundColor)
+    public static let detail = ThemeColor(role: .detailColor)
+    public static let additional = ThemeColor(role: .additionalColor)
 }
 
-extension Color {
+public extension Color {
     static let background = ThemeColor.background
     static let listItem = ThemeColor.listItem
     static let foreground = ThemeColor.foreground

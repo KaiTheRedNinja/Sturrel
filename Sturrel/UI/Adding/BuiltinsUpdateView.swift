@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import SturrelTypes
+import SturrelModel
 
 struct BuiltinsUpdateView: View {
     @State var changes: [(ManifestChange, Bool)]
