@@ -7,6 +7,7 @@
 
 import SwiftUI
 import WebKit
+import PinYin
 
 enum CharacterAction {
     case startCharAnimation
@@ -103,17 +104,10 @@ private struct CharacterViewWrapper: UIViewRepresentable {
         }
 
         func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-            guard let js = Bundle.main.url(forResource: "hanzi-writer", withExtension: "js"),
-                  let data = try? Data(contentsOf: js),
-                  let jsString = String(data: data, encoding: .utf8)
-            else {
-                fatalError("JS Not Found")
-            }
-
             let size = parent.size
             let smaller = min(size.width, size.height)
 
-            webView.evaluateJavaScript(jsString) { _, _ in
+            webView.evaluateJavaScript(hanzi_writer) { _, _ in
                 webView.evaluateJavaScript(
 """
 var writer = HanziWriter.create('character-target-div', '\(self.parent.text)', {
