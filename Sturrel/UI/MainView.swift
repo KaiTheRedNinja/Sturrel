@@ -7,7 +7,7 @@
 
 import SwiftUI
 import SturrelTypes
-import SturrelModel
+import SturrelVocab
 
 class StartManager: ObservableObject {
     static let shared: StartManager = .init()

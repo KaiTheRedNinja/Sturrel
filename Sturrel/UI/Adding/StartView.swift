@@ -7,7 +7,7 @@
 
 import SwiftUI
 import SturrelTypes
-import SturrelModel
+import SturrelVocab
 
 struct StartView: View {
     @State var includedFolders: Set<String> = Set(Root.manifest.builtins)

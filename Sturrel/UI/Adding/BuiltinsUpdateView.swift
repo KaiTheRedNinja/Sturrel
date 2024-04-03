@@ -7,7 +7,7 @@
 
 import SwiftUI
 import SturrelTypes
-import SturrelModel
+import SturrelVocab
 
 struct BuiltinsUpdateView: View {
     @State var changes: [(ManifestChange, Bool)]

@@ -38,11 +38,11 @@
 		937BC0362B1EBD2300D90356 /* BuiltinsUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937BC0352B1EBD2300D90356 /* BuiltinsUpdateView.swift */; };
 		93E8419D2B1C30DF00B020D9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 93E8419C2B1C30DF00B020D9 /* manifest.json */; };
 		93E9F9702AEC8FB8006FF515 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E9F96F2AEC8FB8006FF515 /* SettingsView.swift */; };
-		93FC68502BBD3EE200917BFA /* SturrelModel in Frameworks */ = {isa = PBXBuildFile; productRef = 93FC684F2BBD3EE200917BFA /* SturrelModel */; };
-		93FC68522BBD3EE200917BFA /* SturrelTypes in Frameworks */ = {isa = PBXBuildFile; productRef = 93FC68512BBD3EE200917BFA /* SturrelTypes */; };
-		93FC68542BBD427400917BFA /* SturrelQuiz in Frameworks */ = {isa = PBXBuildFile; productRef = 93FC68532BBD427400917BFA /* SturrelQuiz */; };
-		93FC68562BBD427400917BFA /* SturrelSearch in Frameworks */ = {isa = PBXBuildFile; productRef = 93FC68552BBD427400917BFA /* SturrelSearch */; };
-		93FC68582BBD427400917BFA /* SturrelThemes in Frameworks */ = {isa = PBXBuildFile; productRef = 93FC68572BBD427400917BFA /* SturrelThemes */; };
+		93FC685A2BBD44B100917BFA /* SturrelQuiz in Frameworks */ = {isa = PBXBuildFile; productRef = 93FC68592BBD44B100917BFA /* SturrelQuiz */; };
+		93FC685C2BBD44B100917BFA /* SturrelSearch in Frameworks */ = {isa = PBXBuildFile; productRef = 93FC685B2BBD44B100917BFA /* SturrelSearch */; };
+		93FC685E2BBD44B100917BFA /* SturrelThemes in Frameworks */ = {isa = PBXBuildFile; productRef = 93FC685D2BBD44B100917BFA /* SturrelThemes */; };
+		93FC68602BBD44B100917BFA /* SturrelTypes in Frameworks */ = {isa = PBXBuildFile; productRef = 93FC685F2BBD44B100917BFA /* SturrelTypes */; };
+		93FC68622BBD44B100917BFA /* SturrelVocab in Frameworks */ = {isa = PBXBuildFile; productRef = 93FC68612BBD44B100917BFA /* SturrelVocab */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,11 +86,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93FC68582BBD427400917BFA /* SturrelThemes in Frameworks */,
-				93FC68562BBD427400917BFA /* SturrelSearch in Frameworks */,
-				93FC68522BBD3EE200917BFA /* SturrelTypes in Frameworks */,
-				93FC68542BBD427400917BFA /* SturrelQuiz in Frameworks */,
-				93FC68502BBD3EE200917BFA /* SturrelModel in Frameworks */,
+				93FC68622BBD44B100917BFA /* SturrelVocab in Frameworks */,
+				93FC685E2BBD44B100917BFA /* SturrelThemes in Frameworks */,
+				93FC685C2BBD44B100917BFA /* SturrelSearch in Frameworks */,
+				93FC68602BBD44B100917BFA /* SturrelTypes in Frameworks */,
+				93FC685A2BBD44B100917BFA /* SturrelQuiz in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,11 +225,11 @@
 			);
 			name = Sturrel;
 			packageProductDependencies = (
-				93FC684F2BBD3EE200917BFA /* SturrelModel */,
-				93FC68512BBD3EE200917BFA /* SturrelTypes */,
-				93FC68532BBD427400917BFA /* SturrelQuiz */,
-				93FC68552BBD427400917BFA /* SturrelSearch */,
-				93FC68572BBD427400917BFA /* SturrelThemes */,
+				93FC68592BBD44B100917BFA /* SturrelQuiz */,
+				93FC685B2BBD44B100917BFA /* SturrelSearch */,
+				93FC685D2BBD44B100917BFA /* SturrelThemes */,
+				93FC685F2BBD44B100917BFA /* SturrelTypes */,
+				93FC68612BBD44B100917BFA /* SturrelVocab */,
 			);
 			productName = Sturrel;
 			productReference = 933C16992AEBF88000973361 /* Sturrel.app */;
@@ -529,25 +529,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		93FC684F2BBD3EE200917BFA /* SturrelModel */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SturrelModel;
-		};
-		93FC68512BBD3EE200917BFA /* SturrelTypes */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SturrelTypes;
-		};
-		93FC68532BBD427400917BFA /* SturrelQuiz */ = {
+		93FC68592BBD44B100917BFA /* SturrelQuiz */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SturrelQuiz;
 		};
-		93FC68552BBD427400917BFA /* SturrelSearch */ = {
+		93FC685B2BBD44B100917BFA /* SturrelSearch */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SturrelSearch;
 		};
-		93FC68572BBD427400917BFA /* SturrelThemes */ = {
+		93FC685D2BBD44B100917BFA /* SturrelThemes */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SturrelThemes;
+		};
+		93FC685F2BBD44B100917BFA /* SturrelTypes */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SturrelTypes;
+		};
+		93FC68612BBD44B100917BFA /* SturrelVocab */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SturrelVocab;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

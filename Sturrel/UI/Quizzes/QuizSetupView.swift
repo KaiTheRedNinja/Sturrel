@@ -8,7 +8,7 @@
 import SwiftUI
 import SturrelTypes
 import SturrelQuiz
-import SturrelModel
+import SturrelVocab
 
 class QuizSetupManager: ObservableObject {
     @Published var questionType: QAType = .hanzi

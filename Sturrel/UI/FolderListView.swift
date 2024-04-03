@@ -8,7 +8,7 @@
 import SwiftUI
 import SturrelTypes
 import SturrelQuiz
-import SturrelModel
+import SturrelVocab
 import SturrelSearch
 
 struct FolderListView: View {

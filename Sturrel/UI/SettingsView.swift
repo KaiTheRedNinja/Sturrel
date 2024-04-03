@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import SturrelModel
+import SturrelVocab
 
 struct SettingsView: View {
     @State var showResetConfirm: Bool = false

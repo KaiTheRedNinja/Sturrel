@@ -15,8 +15,8 @@ let package = Package(
             name: "SturrelTypes",
             targets: ["SturrelTypes"]),
         .library(
-            name: "SturrelModel",
-            targets: ["SturrelModel"]),
+            name: "SturrelVocab",
+            targets: ["SturrelVocab"]),
         .library(
             name: "SturrelQuiz",
             targets: ["SturrelQuiz"]),
@@ -40,21 +40,27 @@ let package = Package(
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "SturrelTypes"),
+            name: "SturrelTypes",
+            path: "Sources/Base/SturrelTypes"),
         .target(
-            name: "PinYin"),
+            name: "PinYin",
+            path: "Sources/Base/PinYin"),
         .target(
-            name: "SturrelModel",
-            dependencies: ["SturrelTypes"]),
+            name: "SturrelVocab",
+            dependencies: ["SturrelTypes"],
+            path: "Sources/Model/SturrelVocab"),
         .target(
             name: "SturrelQuiz",
-            dependencies: ["SturrelTypes", "PinYin"]),
+            dependencies: ["SturrelTypes", "PinYin"],
+            path: "Sources/Model/SturrelQuiz"),
         .target(
             name: "SturrelSearch",
-            dependencies: ["SturrelTypes", "PinYin", "SturrelModel"]),
+            dependencies: ["SturrelTypes", "PinYin", "SturrelVocab"],
+            path: "Sources/Model/SturrelSearch"),
         .target(
             name: "SturrelThemes",
-            dependencies: ["SturrelTypes"]),
+            dependencies: ["SturrelTypes"],
+            path: "Sources/Model/SturrelThemes"),
 //        .target(
 //            name: "SturrelUIInterface",
 //            dependencies: ["SturrelTypes"], 
