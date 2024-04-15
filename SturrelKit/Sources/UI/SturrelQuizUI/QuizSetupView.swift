@@ -148,13 +148,13 @@ public struct QuizSetupView: View {
 
             Section {
                 NavigationLink("Play") {
-                    switch quiz {
-                    case .dragAndMatch:
-                        DragAndMatchQuiz(
-                            quizManager: .init(statsToShow: [.remaining, .correct, .wrong],
-                                               questions: setupManager.produceQuestions())
-                        )
-                    }
+                    QuizAdaptor(
+                        manager: .init(
+                            statsToShow: [.remaining, .correct, .wrong],
+                            questions: setupManager.produceQuestions()
+                        ),
+                        quizType: quiz
+                    )
                 }
                 .disabled(setupManager.includedVocab.isEmpty)
             }
