@@ -22,5 +22,14 @@ public enum Quiz: CaseIterable, Identifiable, Hashable {
         }
     }
 
+    public var icon: String {
+        switch self {
+        case .dragAndMatch: "square.on.square"
+        case .memoryCards: "square.grid.2x2"
+        case .qna: "bubble.left.and.bubble.right"
+        case .flashCards: "bolt"
+        }
+    }
+
     public var id: String { description }
 }

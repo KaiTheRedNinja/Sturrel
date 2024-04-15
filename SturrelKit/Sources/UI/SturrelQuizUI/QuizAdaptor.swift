@@ -9,7 +9,7 @@ import SwiftUI
 import SturrelQuiz
 
 struct QuizAdaptor: View {
-    var manager: QuizManager
+    @ObservedObject var manager: QuizManager
     var quizType: Quiz
 
     @State var loadedQuestions: [Question] = []
@@ -35,7 +35,13 @@ struct QuizAdaptor: View {
                                 attemptQuestion(attempt: attempt)
                             })
                     case .memoryCards:
-                        Text("Not yet")
+                        MemoryCardsQuiz(
+                            loadedQuestions: loadedQuestions,
+                            questionSet: questionSet,
+                            didAttemptQuestion: { attempt in
+                                attemptQuestion(attempt: attempt)
+                            }
+                        )
                     case .qna:
                         Text("Not yet")
                     case .flashCards:
@@ -61,6 +67,8 @@ struct QuizAdaptor: View {
                         loadedQuestions.append(newQn)
                     }
                 }
+
+                questionSet += 1
             }
         } else {
             QuizResultsView(quizManager: manager)
@@ -87,6 +95,7 @@ struct QuizAdaptor: View {
         }
 
         // add questions
+        var questionSetChange = 0
         switch quizType {
         case .memoryCards:
             guard newQuestions.isEmpty else { break }
@@ -96,6 +105,7 @@ struct QuizAdaptor: View {
                     newQuestions.append(newQn)
                 }
             }
+            questionSetChange = 1
         default:
             // new question
             let newQn = manager.nextQuestion()
@@ -115,7 +125,7 @@ struct QuizAdaptor: View {
             if (endGame) {
                 manager.inPlay = false
             }
-            questionSet += 1
+            questionSet += questionSetChange
         }
     }
 

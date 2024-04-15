@@ -97,12 +97,11 @@ public struct QuizSetupView: View {
     @Environment(\.presentationMode) var presentationMode
 
     var folder: VocabFolder
-    var quiz: Quiz
 
-    public init(folder: VocabFolder, quiz: Quiz) {
+    public init(folder: VocabFolder) {
         self.setupManager = .init(folder: folder)
         self.folder = folder
-        self.quiz = quiz
+
     }
 
     public var body: some View {
@@ -146,17 +145,27 @@ public struct QuizSetupView: View {
                 Toggle("Randomised", isOn: $setupManager.randomised)
             }
 
-            Section {
-                NavigationLink("Play") {
-                    QuizAdaptor(
-                        manager: .init(
-                            statsToShow: [.remaining, .correct, .wrong],
-                            questions: setupManager.produceQuestions()
-                        ),
-                        quizType: quiz
-                    )
+            Section("Play") {
+                ForEach(Quiz.allCases) { quizType in
+                    NavigationLink {
+                        QuizAdaptor(
+                            manager: .init(
+                                statsToShow: [.remaining, .correct, .wrong],
+                                questions: setupManager.produceQuestions()
+                            ),
+                            quizType: quizType
+                        )
+                    } label: {
+                        HStack {
+                            Image(systemName: quizType.icon)
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 25, height: 25)
+                            Text(quizType.description)
+                        }
+                    }
+                    .disabled(setupManager.includedVocab.isEmpty)
                 }
-                .disabled(setupManager.includedVocab.isEmpty)
             }
 
             Section("\(setupManager.includedVocab.count) Words") {
@@ -206,5 +215,5 @@ extension VocabFolder {
 }
 
 #Preview {
-    QuizSetupView(folder: .init(name: "HI", subfolders: [], vocab: []), quiz: .dragAndMatch)
+    QuizSetupView(folder: .init(name: "HI", subfolders: [], vocab: []))
 }

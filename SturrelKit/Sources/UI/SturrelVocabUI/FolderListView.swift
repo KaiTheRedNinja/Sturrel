@@ -22,7 +22,7 @@ public struct FolderListView: View {
     @State var showNewFolder: Bool = false
     @State var showNewVocab: Bool = false
 
-    @State var quiz: Quiz?
+    @State var showQuiz: Bool = false
 
     @ObservedObject var folderDataManager: FoldersDataManager = .shared
     @ObservedObject var vocabDataManager: VocabDataManager = .shared
@@ -53,10 +53,10 @@ public struct FolderListView: View {
 //            text: $searchManager.searchText,
 //            isPresented: $showSearch
 //        )
-        .fullScreenCover(item: $quiz) { quiz in
+        .fullScreenCover(isPresented: $showQuiz) {
             NavigationStack {
                 if let folder = folderDataManager.getFolder(for: folderID) {
-                    QuizSetupView(folder: folder, quiz: quiz)
+                    QuizSetupView(folder: folder)
                 } else {
                     Text("Internal Error")
                 }
@@ -201,14 +201,8 @@ public struct FolderListView: View {
     @ToolbarContentBuilder
     var toolbarContent: some ToolbarContent {
         ToolbarItem(placement: .topBarLeading) {
-//            Menu {
-//                ForEach(Quiz.allCases) { quiz in
-//                    Button(quiz.description) {
-//                        self.quiz = quiz
-//                    }
-//                }
             Button {
-                self.quiz = Quiz.dragAndMatch
+                showQuiz = true
             } label: {
                 Image(systemName: "play")
             }
