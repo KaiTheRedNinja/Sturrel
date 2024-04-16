@@ -49,7 +49,12 @@ struct QuizAdaptor: View {
                             )
                         }
                     case .flashCards:
-                        Text("Not yet")
+                        if let question = loadedQuestions.last {
+                            FlashCardsQuiz(
+                                question: question,
+                                didAttemptQuestion: attemptQuestion
+                            )
+                        }
                     }
                 }
             }
