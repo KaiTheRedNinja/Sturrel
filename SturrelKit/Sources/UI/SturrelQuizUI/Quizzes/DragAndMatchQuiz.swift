@@ -29,8 +29,6 @@ struct DragAndMatchQuiz: View {
             answers = loadedQuestions.shuffled()
         }
         .padding(.horizontal, 16)
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationBarBackButtonHidden()
     }
 
     func verifyAnswer(index: Int, pos: CGPoint) {

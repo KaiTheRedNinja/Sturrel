@@ -31,19 +31,23 @@ struct QuizAdaptor: View {
                     case .dragAndMatch:
                         DragAndMatchQuiz(
                             loadedQuestions: loadedQuestions,
-                            didAttemptQuestion: { attempt in
-                                attemptQuestion(attempt: attempt)
-                            })
+                            didAttemptQuestion: attemptQuestion
+                        )
                     case .memoryCards:
                         MemoryCardsQuiz(
                             loadedQuestions: loadedQuestions,
                             questionSet: questionSet,
-                            didAttemptQuestion: { attempt in
-                                attemptQuestion(attempt: attempt)
-                            }
+                            didAttemptQuestion: attemptQuestion
                         )
                     case .qna:
-                        Text("Not yet")
+                        if let question = loadedQuestions.last {
+                            QuestionAnswerQuiz(
+                                question: question,
+                                answerType: manager.answerType,
+                                questionPool: manager.questions,
+                                didAttemptQuestion: attemptQuestion
+                            )
+                        }
                     case .flashCards:
                         Text("Not yet")
                     }
@@ -70,6 +74,8 @@ struct QuizAdaptor: View {
 
                 questionSet += 1
             }
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarBackButtonHidden()
         } else {
             QuizResultsView(quizManager: manager)
         }

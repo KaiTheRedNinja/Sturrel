@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import SturrelTypes
+import PinYin
 
 public enum Quiz: CaseIterable, Identifiable, Hashable {
     case dragAndMatch
@@ -33,3 +35,34 @@ public enum Quiz: CaseIterable, Identifiable, Hashable {
 
     public var id: String { description }
 }
+
+public enum QAType: CaseIterable, Hashable, Identifiable {
+    case hanzi
+    case pinyin
+    case definition
+
+    public func forVocab(_ vocab: Vocab) -> String {
+        switch self {
+        case .hanzi:
+            vocab.word
+        case .pinyin:
+            vocab.word.toPinyin()
+        case .definition:
+            vocab.englishDefinition
+        }
+    }
+
+    public var description: String {
+        switch self {
+        case .hanzi:
+            "Han Zi"
+        case .pinyin:
+            "Pin Yin"
+        case .definition:
+            "Definition"
+        }
+    }
+
+    public var id: String { description }
+}
+

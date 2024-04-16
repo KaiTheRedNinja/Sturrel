@@ -45,36 +45,6 @@ class QuizSetupManager: ObservableObject {
     }
 }
 
-enum QAType: CaseIterable, Hashable, Identifiable {
-    case hanzi
-    case pinyin
-    case definition
-
-    func forVocab(_ vocab: Vocab) -> String {
-        switch self {
-        case .hanzi:
-            vocab.word
-        case .pinyin:
-            vocab.word.toPinyin()
-        case .definition:
-            vocab.englishDefinition
-        }
-    }
-
-    var description: String {
-        switch self {
-        case .hanzi:
-            "Han Zi"
-        case .pinyin:
-            "Pin Yin"
-        case .definition:
-            "Definition"
-        }
-    }
-
-    var id: String { description }
-}
-
 enum QuizExtent: CaseIterable, Hashable, Identifiable {
     case directVocabOnly
     case allVocab
@@ -151,7 +121,9 @@ public struct QuizSetupView: View {
                         QuizAdaptor(
                             manager: .init(
                                 statsToShow: [.remaining, .correct, .wrong],
-                                questions: setupManager.produceQuestions()
+                                questions: setupManager.produceQuestions(),
+                                questionType: setupManager.questionType,
+                                answerType: setupManager.answerType
                             ),
                             quizType: quizType
                         )

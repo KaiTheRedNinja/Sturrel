@@ -12,6 +12,9 @@ public class QuizManager: ObservableObject {
     /// Which stats to show in the stat screen
     public var statsToShow: Set<QuizStat>
 
+    public var questionType: QAType
+    public var answerType: QAType
+
     /// The questions for the quiz view
     @Published public private(set) var questions: [Question]
     @Published public private(set) var questionIndex: Int
@@ -26,10 +29,14 @@ public class QuizManager: ObservableObject {
     public init(
         statsToShow: Set<QuizStat>,
         questions: [Question],
+        questionType: QAType,
+        answerType: QAType,
         attempts: [QuestionAttempt] = []
     ) {
         self.statsToShow = statsToShow
         self.questions = questions
+        self.questionType = questionType
+        self.answerType = answerType
         self.questionIndex = 0
         self.attempts = attempts
     }
