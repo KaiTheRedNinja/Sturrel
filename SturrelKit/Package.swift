@@ -77,7 +77,7 @@ let package = Package(
             path: "Sources/UI/SturrelQuizUI"),
         .target(
             name: "SturrelThemesUI",
-            dependencies: ["SturrelThemes"],
+            dependencies: ["SturrelThemes", "SturrelVocab"],
             path: "Sources/UI/SturrelThemesUI"),
         .target(
             name: "SturrelSearchUI",
