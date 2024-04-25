@@ -39,10 +39,10 @@ struct DragAndMatchQuiz: View {
         }
 
         // determine which item it was on
-        let boxHeight = rightHeight / CGFloat(loadedQuestions.count)
+        let boxHeight = rightHeight / 5
         let boxNo = Int((pos.y - rightPosition.y) / boxHeight)
 
-        print("Answers: \(answers.map { $0.answer })")
+        print("Answers: \(answers.map { $0.answer }), given: \(boxNo), \(answers[boxNo].answer)")
 
         let attempt = QuestionAttempt(question: item, givenAnswer: answers[boxNo].answer)
 
@@ -81,7 +81,7 @@ struct DragAndMatchQuiz: View {
                     }
                 }
             }
-            .overlay {
+            .background {
                 GeometryReader { geom -> Color in
                     {
                         DispatchQueue.main.async {
